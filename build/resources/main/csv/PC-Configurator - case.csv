@@ -1,351 +1,351 @@
 _id,image,brand,name,price,powerSupplyStandard,maxMotherboardSize,type,sidePanelWindow
-608dd450905ec60bdc069867,/image/case/case.jpg,Cooler Master,Elite 110,383.52,ATX,Mini ITX,Mini ITX Tower,None
-608dd450905ec60bdc069868,/image/case/case.jpg,Cooler Master,Elite 130,317.09,ATX,Mini ITX,Mini ITX Tower,None
-608dd450905ec60bdc069869,/image/case/case.jpg,Fractal Design,Node 304,409.00,ATX,Mini ITX,Mini ITX Tower,None
-608dd450905ec60bdc069870,/image/case/case.jpg,Lian Li,PC-Q08,404.50,ATX,Mini ITX,Mini ITX Tower,None
-608dd450905ec60bdc069871,/image/case/case.jpg,Lian Li,PC-Q21,565.57,ATX,Mini ITX,Mini ITX Tower,None
-608dd450905ec60bdc069872,/image/case/case.jpg,Lian Li,PC-Q30,455.73,ATX,Mini ITX,Mini ITX Tower,None
-608dd450905ec60bdc069873,/image/case/case.jpg,Lian Li,PC-Q36W,1025.57,ATX,Mini ITX,Mini ITX Tower,None
-608dd450905ec60bdc069874,/image/case/case.jpg,Lian Li,PC-Q37,1164.30,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
-608dd450905ec60bdc069875,/image/case/case.jpg,NZXT,H200i,1179.22,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
-608dd450905ec60bdc069876,/image/case/case.jpg,NZXT,H210,399.49,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
-608dd450905ec60bdc069877,/image/case/case.jpg,NZXT,H210i,513.70,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
-608dd450905ec60bdc069878,/image/case/case.jpg,Phanteks,Enthoo EVOLV ITX,376.42,ATX,Mini ITX,Mini ITX Tower,Acrylic
-608dd450905ec60bdc069879,/image/case/case.jpg,Phanteks,Enthoo EVOLV SHIFT,1281.42,ATX,Mini ITX,Mini ITX Tower,Tinted Tempered Glass
-608dd450905ec60bdc069880,/image/case/case.jpg,Phanteks,Enthoo EVOLV SHIFT X,793.02,ATX,Mini ITX,Mini ITX Tower,Tinted Tempered Glass
-608dd450905ec60bdc069881,/image/case/case.jpg,Phanteks,Evolv Shift 2,527.25,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
-608dd450905ec60bdc069882,/image/case/case.jpg,Thermaltake,Core P1,588.82,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
-608dd450905ec60bdc069883,/image/case/case.jpg,Thermaltake,The Tower 100,486.35,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
-608dd450905ec60bdc069884,/image/case/case.jpg,Cooler Master,MasterBox NR200,553.92,ATX,Mini ITX,Mini ITX Desktop,None
-608dd450905ec60bdc069885,/image/case/case.jpg,Cooler Master,MasterBox NR200P,418.10,ATX,Mini ITX,Mini ITX Desktop,Tempered Glass
-608dd450905ec60bdc069886,/image/case/case.jpg,Cooler Master,MasterCase H100,208.62,ATX,Mini ITX,Mini ITX Desktop,None
-608dd450905ec60bdc069887,/image/case/case.jpg,Cooler Master,MasterCase H100 ARGB,271.00,ATX,Mini ITX,Mini ITX Desktop,None
-608dd450905ec60bdc069888,/image/case/case.jpg,Fractal Design,Core 500,304.35,ATX,Mini ITX,Mini ITX Desktop,None
-608dd450905ec60bdc069889,/image/case/case.jpg,Fractal Design,Define Nano S,289.47,ATX,Mini ITX,Mini ITX Desktop,Acrylic
-608dd450905ec60bdc069890,/image/case/case.jpg,Fractal Design,Era ITX,619.66,ATX,Mini ITX,Mini ITX Desktop,Tinted Tempered Glass
-608dd450905ec60bdc069891,/image/case/case.jpg,Lian Li,PC-Q09F,454.77,ATX,Mini ITX,Mini ITX Desktop,None
-608dd450905ec60bdc069892,/image/case/case.jpg,Lian Li,TU150,527.30,ATX,Mini ITX,Mini ITX Desktop,Tempered Glass
-608dd450905ec60bdc069893,/image/case/case.jpg,Phanteks,Enthoo EVOLV ITX TG,533.08,ATX,Mini ITX,Mini ITX Desktop,Tinted Tempered Glass
-608dd450905ec60bdc069894,/image/case/case.jpg,Thermaltake,Core V1,203.84,ATX,Mini ITX,Mini ITX Desktop,None
-608dd450905ec60bdc069895,/image/case/case.jpg,Thermaltake,Suppressor F1,483.35,ATX,Mini ITX,Mini ITX Desktop,Acrylic
-608dd450905ec60bdc069896,/image/case/case.jpg,Cooler Master,MasterBox E300L,227.73,ATX,MircoATX,MicroATX Mini Tower,None
-608dd450905ec60bdc069897,/image/case/case.jpg,Cooler Master,MasterBox Lite 3,215.62,ATX,MircoATX,MicroATX Mini Tower,None
-608dd450905ec60bdc069898,/image/case/case.jpg,Cooler Master,MasterBox MB400L,311.99,ATX,MircoATX,MicroATX Mini Tower,Tempered Glass
-608dd450905ec60bdc069899,/image/case/case.jpg,Cooler Master,MasterBox Q300L,208.80,ATX,MircoATX,MicroATX Mini Tower,Acrylic
-608dd450905ec60bdc069900,/image/case/case.jpg,Cooler Master,MasterBox Q300P,378.47,ATX,MircoATX,MicroATX Mini Tower,Acrylic
-608dd450905ec60bdc069901,/image/case/case.jpg,Cooler Master,MasterCase Pro 3,406.18,ATX,MircoATX,MicroATX Mini Tower,Acrylic
-608dd450905ec60bdc069902,/image/case/case.jpg,Cooler Master,N200,252.71,ATX,MircoATX,MicroATX Mini Tower,None
-608dd450905ec60bdc069903,/image/case/case.jpg,Cooler Master,Silencio S400,390.80,ATX,MircoATX,MicroATX Mini Tower,None
-608dd450905ec60bdc069904,/image/case/case.jpg,Fractal Design,Core 1100,212.85,ATX,MircoATX,MicroATX Mini Tower,None
-608dd450905ec60bdc069905,/image/case/case.jpg,Fractal Design,Focus G Mini,250.20,ATX,MircoATX,MicroATX Mini Tower,Acrylic
-608dd450905ec60bdc069906,/image/case/case.jpg,Fractal Design,Meshify C Mini,422.70,ATX,MircoATX,MicroATX Mini Tower,Tinted Tempered Glass
-608dd450905ec60bdc069907,/image/case/case.jpg,Lian Li,PC-V600F,793.66,ATX,MircoATX,MicroATX Mini Tower,Acrylic
-608dd450905ec60bdc069908,/image/case/case.jpg,Phanteks,Enthoo EVOLV,540.09,ATX,MircoATX,MicroATX Mini Tower,Acrylic
-608dd450905ec60bdc069909,/image/case/case.jpg,Phanteks,Enthoo EVOLV TG,591.05,ATX,MircoATX,MicroATX Mini Tower,Tinted Tempered Glass
-608dd450905ec60bdc069910,/image/case/case.jpg,Thermaltake,ARMOR A30i,359.86,ATX,MircoATX,MicroATX Mini Tower,Acrylic
-608dd450905ec60bdc069911,/image/case/case.jpg,Thermaltake,Core V21,304.76,ATX,MircoATX,MicroATX Mini Tower,Acrylic
-608dd450905ec60bdc069912,/image/case/case.jpg,Thermaltake,S100,274.14,ATX,MircoATX,MicroATX Mini Tower,Tempered Glass
-608dd450905ec60bdc069913,/image/case/case.jpg,Thermaltake,S100 Snow Edition,313.27,ATX,MircoATX,MicroATX Mini Tower,Tempered Glass
-608dd450905ec60bdc069914,/image/case/case.jpg,Thermaltake,Versa H17,285.06,ATX,MircoATX,MicroATX Mini Tower,None
-608dd450905ec60bdc069915,/image/case/case.jpg,Thermaltake,Versa H18,467.01,ATX,MircoATX,MicroATX Mini Tower,Tempered Glass
-608dd450905ec60bdc069916,/image/case/case.jpg,Cooler Master,MasterBox Lite 3.1,217.35,ATX,MircoATX,MicroATX Mid Tower,Acrylic
-608dd450905ec60bdc069917,/image/case/case.jpg,Cooler Master,MasterBox MB311L ARGB,272.95,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069918,/image/case/case.jpg,Cooler Master,MasterBox MB320L ARGB,304.40,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069919,/image/case/case.jpg,Cooler Master,MasterBox NR400 (w/o ODD),312.04,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069920,/image/case/case.jpg,Cooler Master,MasterBox NR400 (w/ODD),271.50,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069921,/image/case/case.jpg,Corsair,350D,396.26,ATX,MircoATX,MicroATX Mid Tower,None
-608dd450905ec60bdc069922,/image/case/case.jpg,Corsair,Crystal 280X,543.63,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069923,/image/case/case.jpg,Corsair,Crystal 280X RGB,725.32,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069924,/image/case/case.jpg,Fractal Design,Core 1000 USB 3.0,268.81,ATX,MircoATX,MicroATX Mid Tower,None
-608dd450905ec60bdc069925,/image/case/case.jpg,Fractal Design,Define Mini C,363.55,ATX,MircoATX,MicroATX Mid Tower,None
-608dd450905ec60bdc069926,/image/case/case.jpg,Fractal Design,Define Mini C TG,440.85,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069927,/image/case/case.jpg,Fractal Design,Node 804,472.02,ATX,MircoATX,MicroATX Mid Tower,Acrylic
-608dd450905ec60bdc069928,/image/case/case.jpg,Lian Li,LANCOOL 205M,254.30,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069929,/image/case/case.jpg,Thermaltake,V150,311.45,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069930,/image/case/case.jpg,Thermaltake,Versa H15,276.32,ATX,MircoATX,MicroATX Mid Tower,None
-608dd450905ec60bdc069931,/image/case/case.jpg,Thermaltake,Level 20 VT,500.45,ATX,MircoATX,MicroATX Desktop,Tempered Glass
-608dd450905ec60bdc069932,/image/case/case.jpg,Lian Li,PC-Q15,537.63,SFX,Mini ITX,HTPC,None
-608dd450905ec60bdc069933,/image/case/case.jpg,be quiet!,Dark Base 700,741.60,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069934,/image/case/case.jpg,be quiet!,Pure Base 500,304.44,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069935,/image/case/case.jpg,be quiet!,Pure Base 500DX,471.70,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069936,/image/case/case.jpg,be quiet!,Pure Base 600,370.32,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069937,/image/case/case.jpg,be quiet!,Silent Base 600,449.95,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069938,/image/case/case.jpg,be quiet!,Silent Base 601,541.45,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069939,/image/case/case.jpg,be quiet!,Silent Base 801,677.95,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069940,/image/case/case.jpg,be quiet!,Silent Base 802,675.68,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069941,/image/case/case.jpg,Cooler Master,CM 590 III,295.52,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069942,/image/case/case.jpg,Cooler Master,Force 500,246.02,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069943,/image/case/case.jpg,Cooler Master,K350,222.22,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069944,/image/case/case.jpg,Cooler Master,MasterBox 5,363.86,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069945,/image/case/case.jpg,Cooler Master,MasterBox 5T,454.50,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069946,/image/case/case.jpg,Cooler Master,MasterBox E500 (w/o ODD),346.62,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069947,/image/case/case.jpg,Cooler Master,MasterBox E500L,201.66,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069948,/image/case/case.jpg,Cooler Master,MASTERBOX E501L,224.45,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069949,/image/case/case.jpg,Cooler Master,MasterBox K500,374.33,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069950,/image/case/case.jpg,Cooler Master,MasterBox K500 ARGB,411.27,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069951,/image/case/case.jpg,Cooler Master,MasterBox Lite 5,389.30,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069952,/image/case/case.jpg,Cooler Master,MasterBox LITE 5 ARGB,432.02,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069953,/image/case/case.jpg,Cooler Master,MasterBox Lite 5 RGB,329.47,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069954,/image/case/case.jpg,Cooler Master,MasterBox MB500,360.50,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069955,/image/case/case.jpg,Cooler Master,MasterBox MB500 ARGB,429.98,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069956,/image/case/case.jpg,Cooler Master,MasterBox MB510L,258.76,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069957,/image/case/case.jpg,Cooler Master,MasterBox MB511,281.74,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069958,/image/case/case.jpg,Cooler Master,MasterBox MB511 ARGB,335.34,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069959,/image/case/case.jpg,Cooler Master,MasterBox MB511 RGB,335.34,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069960,/image/case/case.jpg,Cooler Master,MasterBox MB520 ARGB,340.93,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069961,/image/case/case.jpg,Cooler Master,MasterBox MB520 RGB,340.93,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069962,/image/case/case.jpg,Cooler Master,MasterBox MB530P,527.48,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069963,/image/case/case.jpg,Cooler Master,MasterBox NR600 (w/o ODD),305.21,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069964,/image/case/case.jpg,Cooler Master,MasterBox NR600 (w/ODD),354.81,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069965,/image/case/case.jpg,Cooler Master,MasterBox NR600P,661.75,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069966,/image/case/case.jpg,Cooler Master,MasterBox Q500L,290.06,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069967,/image/case/case.jpg,Cooler Master,MasterBox TD500,494.08,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069968,/image/case/case.jpg,Cooler Master,MasterBox TD500 ARGB,451.41,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069969,/image/case/case.jpg,Cooler Master,MasterBox TD500 Mesh w/ Controller,451.45,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069970,/image/case/case.jpg,Cooler Master,MasterBox TD500 Mesh White w/ Controller,484.44,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069971,/image/case/case.jpg,Cooler Master,MasterCase H500,821.59,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc069972,/image/case/case.jpg,Cooler Master,MasterCase H500 ARGB,543.22,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069973,/image/case/case.jpg,Cooler Master,MasterCase H500M,959.23,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069974,/image/case/case.jpg,Cooler Master,MasterCase H500P Mesh,833.33,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069975,/image/case/case.jpg,Cooler Master,MasterCase H500P Mesh ARGB,693.97,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069976,/image/case/case.jpg,Cooler Master,MasterCase Maker 5,1050.60,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069977,/image/case/case.jpg,Cooler Master,MasterCase MC500,1044.13,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069978,/image/case/case.jpg,Cooler Master,MasterCase SL600M,1022.48,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069979,/image/case/case.jpg,Cooler Master,MasterCase SL600M Black Edition,820.77,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069980,/image/case/case.jpg,Cooler Master,MB600L,279.23,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069981,/image/case/case.jpg,Cooler Master,MB600L ODD,330.92,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069982,/image/case/case.jpg,Cooler Master,N300,240.42,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069983,/image/case/case.jpg,Cooler Master,N400,1178.40,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069984,/image/case/case.jpg,Cooler Master,Silencio 452,385.48,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069985,/image/case/case.jpg,Cooler Master,Silencio S600,413.00,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069986,/image/case/case.jpg,Corsair,100R,227.18,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069987,/image/case/case.jpg,Corsair,110Q,285.92,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069988,/image/case/case.jpg,Corsair,110R,272.55,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069989,/image/case/case.jpg,Corsair,200R,286.42,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069990,/image/case/case.jpg,Corsair,270R,227.45,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069991,/image/case/case.jpg,Corsair,275Q,318.05,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc069992,/image/case/case.jpg,Corsair,275R,370.32,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069993,/image/case/case.jpg,Corsair,275R Airflow,354.45,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069994,/image/case/case.jpg,Corsair,4000D,340.80,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069995,/image/case/case.jpg,Corsair,4000D Airflow,422.70,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc069996,/image/case/case.jpg,Corsair,400C,914.55,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069997,/image/case/case.jpg,Corsair,450D,417.24,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc069998,/image/case/case.jpg,Corsair,5000D,633.91,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc069999,/image/case/case.jpg,Corsair,5000D AIRFLOW,697.06,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070000,/image/case/case.jpg,Corsair,500D Premium,752.52,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070001,/image/case/case.jpg,Corsair,550D,835.97,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070002,/image/case/case.jpg,Corsair,678C,667.94,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070003,/image/case/case.jpg,Corsair,Air 540,568.20,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070004,/image/case/case.jpg,Corsair,Carbide 175R RGB,295.30,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070005,/image/case/case.jpg,Corsair,Crystal 460X RGB,693.83,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070006,/image/case/case.jpg,Corsair,Crystal 570X RGB,885.48,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070007,/image/case/case.jpg,Corsair,Crystal 570X RGB Mirror Black,880.83,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070008,/image/case/case.jpg,Corsair,Crystal 680X RGB,1035.08,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070009,/image/case/case.jpg,Corsair,iCUE 220T RGB,497.32,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070010,/image/case/case.jpg,Corsair,iCUE 220T RGB Airflow,451.82,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070011,/image/case/case.jpg,Corsair,iCUE 4000X RGB,528.62,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070012,/image/case/case.jpg,Corsair,iCUE 465X RGB,578.76,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070013,/image/case/case.jpg,Corsair,iCUE 5000X RGB,857.68,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070014,/image/case/case.jpg,Corsair,Obsidian 500D RGB SE,1187.50,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070015,/image/case/case.jpg,Corsair,SPEC OMEGA,536.45,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070016,/image/case/case.jpg,Corsair,SPEC-01,238.51,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070017,/image/case/case.jpg,Corsair,SPEC-03,791.11,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070018,/image/case/case.jpg,Corsair,SPEC-04,349.85,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070019,/image/case/case.jpg,Corsair,SPEC-05,263.45,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070020,/image/case/case.jpg,Corsair,SPEC-06,1134.27,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070021,/image/case/case.jpg,Corsair,SPEC-ALPHA,508.33,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070022,/image/case/case.jpg,Corsair,SPEC-DELTA RGB,317.59,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070023,/image/case/case.jpg,Corsair,SPEC-OMEGA RGB,725.22,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070024,/image/case/case.jpg,Fractal Design,Core 2300,241.33,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070025,/image/case/case.jpg,Fractal Design,Core 2500,290.70,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070026,/image/case/case.jpg,Fractal Design,Define 7,757.07,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070027,/image/case/case.jpg,Fractal Design,Define 7 Compact,488.62,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070028,/image/case/case.jpg,Fractal Design,Define 7 Dark,761.62,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070029,/image/case/case.jpg,Fractal Design,Define 7 Light,737.15,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070030,/image/case/case.jpg,Fractal Design,Define C,402.17,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070031,/image/case/case.jpg,Fractal Design,Define C TG,447.58,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070032,/image/case/case.jpg,Fractal Design,Define R5,500.05,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070033,/image/case/case.jpg,Fractal Design,Define R6,678.22,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070034,/image/case/case.jpg,Fractal Design,Define R6 USB-C,735.33,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070035,/image/case/case.jpg,Fractal Design,Define R6 USB-C Blackout,727.77,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070036,/image/case/case.jpg,Fractal Design,Define S,427.65,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070037,/image/case/case.jpg,Fractal Design,Define S2,700.25,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070038,/image/case/case.jpg,Fractal Design,Define S2 Blackout,695.60,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070039,/image/case/case.jpg,Fractal Design,Define S2 Vision Blackout,920.69,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070040,/image/case/case.jpg,Fractal Design,Define S2 Vision RGB,1011.19,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070041,/image/case/case.jpg,Fractal Design,Focus G,271.04,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070042,/image/case/case.jpg,Fractal Design,Meshify 2,690.74,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070043,/image/case/case.jpg,Fractal Design,Meshify 2 Compact,443.12,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070044,/image/case/case.jpg,Fractal Design,Meshify 2 Compact TG Dark Tint,386.30,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070045,/image/case/case.jpg,Fractal Design,Meshify 2 Compact TG Light Tint,476.02,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070046,/image/case/case.jpg,Fractal Design,Meshify 2 Compact White TG Clear Tint,732.73,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070047,/image/case/case.jpg,Fractal Design,Meshify C,472.79,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070048,/image/case/case.jpg,Fractal Design,Meshify S2,613.80,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070049,/image/case/case.jpg,Fractal Design,Vector RS,800.35,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070050,/image/case/case.jpg,Fractal Design,Vector RS Blackout,890.75,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070051,/image/case/case.jpg,Lian Li,ALPHA 550X,1282.14,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070052,/image/case/case.jpg,Lian Li,LANCOOL 215,413.55,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070053,/image/case/case.jpg,Lian Li,Lancool II Mesh,527.30,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070054,/image/case/case.jpg,Lian Li,LANCOOL II-X,481.80,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070055,/image/case/case.jpg,Lian Li,LANCOOL ONE,678.45,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070056,/image/case/case.jpg,Lian Li,LANCOOL ONE Digital,647.06,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070057,/image/case/case.jpg,Lian Li,O11 Dynamic Mini,527.30,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070058,/image/case/case.jpg,Lian Li,PC-O10,1118.80,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070059,/image/case/case.jpg,Lian Li,PC-O8X,2100.83,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070060,/image/case/case.jpg,Lian Li,PC-X510,2296.39,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070061,/image/case/case.jpg,NZXT,H510,356.63,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070062,/image/case/case.jpg,NZXT,H510 Elite,677.95,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070063,/image/case/case.jpg,NZXT,H510i,457.78,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070064,/image/case/case.jpg,NZXT,H700,1340.07,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070065,/image/case/case.jpg,NZXT,H700 PUBG,1219.17,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070066,/image/case/case.jpg,NZXT,H710,639.37,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070067,/image/case/case.jpg,NZXT,H710i,777.60,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070068,/image/case/case.jpg,Phanteks,Eclipse P300,299.80,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070069,/image/case/case.jpg,Phanteks,Eclipse P300A Mesh,318.55,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070070,/image/case/case.jpg,Phanteks,Eclipse P350X,341.66,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070071,/image/case/case.jpg,Phanteks,Eclipse P360A,345.30,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070072,/image/case/case.jpg,Phanteks,Eclipse P360X,786.97,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070073,/image/case/case.jpg,Phanteks,Eclipse P400,363.55,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070074,/image/case/case.jpg,Phanteks,Eclipse P400A,390.80,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070075,/image/case/case.jpg,Phanteks,Eclipse P400A Digital,454.55,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070076,/image/case/case.jpg,Phanteks,Eclipse P400S,377.15,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070077,/image/case/case.jpg,Phanteks,Eclipse P500A,577.35,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070078,/image/case/case.jpg,Phanteks,Eclipse P500A D-RGB,713.85,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070079,/image/case/case.jpg,Phanteks,Eclipse P600S,727.55,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070080,/image/case/case.jpg,Phanteks,Enthoo EVOLV ATX,842.61,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070081,/image/case/case.jpg,Phanteks,Enthoo EVOLV ATX TG,842.61,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070082,/image/case/case.jpg,Phanteks,Enthoo Pro M TG,654.34,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070083,/image/case/case.jpg,Phanteks,Evolv X,1000.55,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070084,/image/case/case.jpg,SilentiumPC,Armis AR1,168.26,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070085,/image/case/case.jpg,SilentiumPC,Armis AR5 RGB,359.45,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070086,/image/case/case.jpg,SilentiumPC,Armis AR6,245.61,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070087,/image/case/case.jpg,SilentiumPC,Armis AR6Q EVO ARGB,343.43,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070088,/image/case/case.jpg,SilentiumPC,Armis AR6X EVO ARGB,371.87,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070089,/image/case/case.jpg,SilentiumPC,Armis AR7,340.29,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070090,/image/case/case.jpg,SilentiumPC,Armis AR7X EVO ARGB,531.85,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070091,/image/case/case.jpg,SilentiumPC,Astrum AT6V,438.57,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070092,/image/case/case.jpg,SilentiumPC,Astrum AT6V EVO,463.60,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070093,/image/case/case.jpg,SilentiumPC,Regnum RG4,292.97,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070094,/image/case/case.jpg,SilentiumPC,Regnum RG4T,297.48,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070095,/image/case/case.jpg,SilentiumPC,Regnum RG6V EVO TG ARGB,372.60,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070096,/image/case/case.jpg,SilentiumPC,Regnum RG6V TG,322.55,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070097,/image/case/case.jpg,SilentiumPC,Signum SG1,236.51,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070098,/image/case/case.jpg,SilentiumPC,Signum SG1 TG,250.16,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070099,/image/case/case.jpg,SilentiumPC,Signum SG1M,227.41,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070100,/image/case/case.jpg,SilentiumPC,Signum SG1M TG,283.87,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070101,/image/case/case.jpg,SilentiumPC,Signum SG1Q EVO TG ARGB,304.35,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070102,/image/case/case.jpg,SilentiumPC,Signum SG1V EVO TG ARGB,349.85,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070103,/image/case/case.jpg,SilentiumPC,Signum SG1X EVO TG ARGB,402.17,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070104,/image/case/case.jpg,SilentiumPC,Signum SG1X TG RGB,349.85,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070105,/image/case/case.jpg,SilentiumPC,Signum SG7V EVO TG ARGB,454.77,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070106,/image/case/case.jpg,SilentiumPC,Signum SG7V TG,418.10,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070107,/image/case/case.jpg,Thermaltake,A500,895.85,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070108,/image/case/case.jpg,Thermaltake,Commander C31 TG ARGB,395.35,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070109,/image/case/case.jpg,Thermaltake,Commander C32 TG ARGB,486.35,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070110,/image/case/case.jpg,Thermaltake,Commander C33 TG ARGB,486.35,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070111,/image/case/case.jpg,Thermaltake,Commander C34 TG ARGB,395.35,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070112,/image/case/case.jpg,Thermaltake,Commander C34 TG Snow ARGB,686.19,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070113,/image/case/case.jpg,Thermaltake,Commander C35 TG ARGB,717.22,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070114,/image/case/case.jpg,Thermaltake,Commander C36 TG ARGB,454.55,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070115,/image/case/case.jpg,Thermaltake,Core G21 Tempered Glass Edition,264.49,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070116,/image/case/case.jpg,Thermaltake,Core G3,380.43,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070117,/image/case/case.jpg,Thermaltake,Core P3,889.71,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070118,/image/case/case.jpg,Thermaltake,Core P3 TG Curved,1018.15,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070119,/image/case/case.jpg,Thermaltake,Core P3 TG Snow Edition,760.44,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070120,/image/case/case.jpg,Thermaltake,Core P90,900.90,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
-608dd450905ec60bdc070121,/image/case/case.jpg,Thermaltake,Core X31,810.86,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070122,/image/case/case.jpg,Thermaltake,Core X31 TG,527.35,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070123,/image/case/case.jpg,Thermaltake,H100 TG,322.55,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070124,/image/case/case.jpg,Thermaltake,H200 TG RGB,343.53,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070125,/image/case/case.jpg,Thermaltake,H200 TG Snow RGB,486.35,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070126,/image/case/case.jpg,Thermaltake,H550 TG ARGB,498.59,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070127,/image/case/case.jpg,Thermaltake,Level 20 MT,318.05,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070128,/image/case/case.jpg,Thermaltake,Level 20 RS ARGB,773.05,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070129,/image/case/case.jpg,Thermaltake,S300 Tempered Glass Edition,395.35,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070130,/image/case/case.jpg,Thermaltake,Suppressor F31 TG,702.84,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070131,/image/case/case.jpg,Thermaltake,Urban S31,484.44,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070132,/image/case/case.jpg,Thermaltake,V200,259.26,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070133,/image/case/case.jpg,Thermaltake,V200 RGB,349.85,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070134,/image/case/case.jpg,Thermaltake,V250 TG ARGB,372.60,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070135,/image/case/case.jpg,Thermaltake,Versa C21,322.96,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070136,/image/case/case.jpg,Thermaltake,Versa C22 RGB,309.81,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070137,/image/case/case.jpg,Thermaltake,Versa C22 RGB Snow Edition,363.50,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070138,/image/case/case.jpg,Thermaltake,Versa C23 RGB,436.35,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070139,/image/case/case.jpg,Thermaltake,Versa H21,267.31,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070140,/image/case/case.jpg,Thermaltake,Versa H22,275.09,ATX,ATX,ATX Mid Tower,None
-608dd450905ec60bdc070141,/image/case/case.jpg,Thermaltake,Versa H23,275.91,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070142,/image/case/case.jpg,Thermaltake,Versa H24,313.45,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070143,/image/case/case.jpg,Thermaltake,Versa H25,319.64,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070144,/image/case/case.jpg,Thermaltake,Versa H26,498.86,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070145,/image/case/case.jpg,Thermaltake,Versa H35,437.35,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070146,/image/case/case.jpg,Thermaltake,Versa J21,326.05,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070147,/image/case/case.jpg,Thermaltake,Versa J22,272.55,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070148,/image/case/case.jpg,Thermaltake,Versa J23,289.74,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070149,/image/case/case.jpg,Thermaltake,Versa J23 RGB,410.87,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070150,/image/case/case.jpg,Thermaltake,Versa J24,263.49,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070151,/image/case/case.jpg,Thermaltake,Versa J24 RGB,410.73,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070152,/image/case/case.jpg,Thermaltake,Versa J25,322.32,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070153,/image/case/case.jpg,Thermaltake,Versa J25 RGB,431.75,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070154,/image/case/case.jpg,Thermaltake,Versa N21,310.67,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070155,/image/case/case.jpg,Thermaltake,Versa N24,364.91,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070156,/image/case/case.jpg,Thermaltake,Versa N27,775.46,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070157,/image/case/case.jpg,Thermaltake,Versa T25,267.95,ATX,ATX,ATX Mid Tower,Tempered Glass
-608dd450905ec60bdc070158,/image/case/case.jpg,Thermaltake,View 21 Tempered Glass Edition,299.85,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070159,/image/case/case.jpg,Thermaltake,View 22,406.32,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070160,/image/case/case.jpg,Thermaltake,View 27,364.27,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070161,/image/case/case.jpg,Thermaltake,View 31 TG,691.19,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070162,/image/case/case.jpg,Thermaltake,View 37,721.99,ATX,ATX,ATX Mid Tower,Acrylic
-608dd450905ec60bdc070163,/image/case/case.jpg,be quiet!,Dark Base 900,735.78,ATX,ATX,ATX Full Tower,None
-608dd450905ec60bdc070164,/image/case/case.jpg,be quiet!,Dark Base Pro 900 Rev. 2,998.27,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070165,/image/case/case.jpg,Cooler Master,Cosmos,1939.21,ATX,ATX,ATX Full Tower,None
-608dd450905ec60bdc070166,/image/case/case.jpg,Cooler Master,Cosmos C700M,1960.14,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070167,/image/case/case.jpg,Cooler Master,Cosmos C700P Black Edition,1353.58,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070168,/image/case/case.jpg,Cooler Master,MasterFrame 700,905.22,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070169,/image/case/case.jpg,Cooler Master,Stryker SE,796.80,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070170,/image/case/case.jpg,Corsair,1000D,2660.84,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070171,/image/case/case.jpg,Corsair,750D,657.75,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070172,/image/case/case.jpg,Corsair,760T,816.36,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070173,/image/case/case.jpg,Corsair,780T,884.52,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070174,/image/case/case.jpg,Corsair,Carbide 600Q,723.59,ATX,ATX,ATX Full Tower,None
-608dd450905ec60bdc070175,/image/case/case.jpg,Fractal Design,Define 7 XL,941.35,ATX,ATX,ATX Full Tower,None
-608dd450905ec60bdc070176,/image/case/case.jpg,Fractal Design,Define 7 XL Dark,934.52,ATX,ATX,ATX Full Tower,Tinted Tempered Glass
-608dd450905ec60bdc070177,/image/case/case.jpg,Fractal Design,Define 7 XL Light,943.62,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070178,/image/case/case.jpg,Fractal Design,Define XL R2,449.22,ATX,ATX,ATX Full Tower,None
-608dd450905ec60bdc070179,/image/case/case.jpg,Fractal Design,Meshify 2 XL,829.92,ATX,ATX,ATX Full Tower,Tinted Tempered Glass
-608dd450905ec60bdc070180,/image/case/case.jpg,Lian Li,O11D XL-A,1032.35,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070181,/image/case/case.jpg,Lian Li,O11D XL-W,1160.39,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070182,/image/case/case.jpg,Lian Li,O11D XL-X,1000.55,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070183,/image/case/case.jpg,Lian Li,PC-O11 Air,1114.30,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070184,/image/case/case.jpg,Lian Li,PC-O11 Dynamic,668.35,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070185,/image/case/case.jpg,Lian Li,PC-O11ROG,1528.30,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070186,/image/case/case.jpg,Lian Li,PC-V750,1988.30,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070187,/image/case/case.jpg,Phanteks,Enthoo 719,902.13,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070188,/image/case/case.jpg,Phanteks,Enthoo Primo,2418.55,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070189,/image/case/case.jpg,Phanteks,Enthoo Pro,454.55,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070190,/image/case/case.jpg,Phanteks,Enthoo Pro 2,1089.63,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070191,/image/case/case.jpg,Phanteks,Enthoo Pro Tempered Glass,531.85,ATX,ATX,ATX Full Tower,Tinted Tempered Glass
-608dd450905ec60bdc070192,/image/case/case.jpg,Phanteks,Enthoo Series Primo Aluminum,1091.55,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070193,/image/case/case.jpg,Phanteks,PH-ES614PC_BK,541.04,ATX,ATX,ATX Full Tower,None
-608dd450905ec60bdc070194,/image/case/case.jpg,Thermaltake,A700 TG,1614.80,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070195,/image/case/case.jpg,Thermaltake,AH T600,1282.60,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070196,/image/case/case.jpg,Thermaltake,AH T600 Snow,1269.91,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070197,/image/case/case.jpg,Thermaltake,Core P8 TG,1032.35,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070198,/image/case/case.jpg,Thermaltake,Core V71 TG,946.76,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070199,/image/case/case.jpg,Thermaltake,Core W100,2175.45,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070200,/image/case/case.jpg,Thermaltake,Core X71,727.95,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070201,/image/case/case.jpg,Thermaltake,Level 20,3389.70,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070202,/image/case/case.jpg,Thermaltake,Level 20 GT,713.85,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070203,/image/case/case.jpg,Thermaltake,Level 20 GT RGB Plus,1551.23,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070204,/image/case/case.jpg,Thermaltake,Level 20 HT,982.30,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070205,/image/case/case.jpg,Thermaltake,Level 20 HT Snow Edition,1073.30,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070206,/image/case/case.jpg,Thermaltake,Tower 900,1094.18,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070207,/image/case/case.jpg,Thermaltake,Tower 900 Snow Edition,1159.75,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070208,/image/case/case.jpg,Thermaltake,View 51 ARGB Edition,1000.55,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070209,/image/case/case.jpg,Thermaltake,View 51 Snow ARGB Edition,1032.35,ATX,ATX,ATX Full Tower,Tempered Glass
-608dd450905ec60bdc070210,/image/case/case.jpg,Thermaltake,View 71 TG,782.10,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070211,/image/case/case.jpg,Thermaltake,View 71 TG RGB,941.35,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070212,/image/case/case.jpg,Thermaltake,View 71 TG RGB Plus,1210.25,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070213,/image/case/case.jpg,Thermaltake,View 71 TG Snow,941.35,ATX,ATX,ATX Full Tower,Acrylic
-608dd450905ec60bdc070214,/image/case/case.jpg,Cooler Master,HAF XB,581.17,ATX,ATX,ATX Desktop,None
-608dd450905ec60bdc070215,/image/case/case.jpg,Cooler Master,HAF XB EVO,568.25,ATX,ATX,ATX Desktop,None
-608dd450905ec60bdc070216,/image/case/case.jpg,Thermaltake,Level 20 XT,909.95,ATX,ATX,ATX Desktop,Tempered Glass
+608dd450905ec60bdc069867,/images/case/case.jpg,Cooler Master,Elite 110,383.52,ATX,Mini ITX,Mini ITX Tower,None
+608dd450905ec60bdc069868,/images/case/case.jpg,Cooler Master,Elite 130,317.09,ATX,Mini ITX,Mini ITX Tower,None
+608dd450905ec60bdc069869,/images/case/case.jpg,Fractal Design,Node 304,409.00,ATX,Mini ITX,Mini ITX Tower,None
+608dd450905ec60bdc069870,/images/case/case.jpg,Lian Li,PC-Q08,404.50,ATX,Mini ITX,Mini ITX Tower,None
+608dd450905ec60bdc069871,/images/case/case.jpg,Lian Li,PC-Q21,565.57,ATX,Mini ITX,Mini ITX Tower,None
+608dd450905ec60bdc069872,/images/case/case.jpg,Lian Li,PC-Q30,455.73,ATX,Mini ITX,Mini ITX Tower,None
+608dd450905ec60bdc069873,/images/case/case.jpg,Lian Li,PC-Q36W,1025.57,ATX,Mini ITX,Mini ITX Tower,None
+608dd450905ec60bdc069874,/images/case/case.jpg,Lian Li,PC-Q37,1164.30,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
+608dd450905ec60bdc069875,/images/case/case.jpg,NZXT,H200i,1179.22,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
+608dd450905ec60bdc069876,/images/case/case.jpg,NZXT,H210,399.49,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
+608dd450905ec60bdc069877,/images/case/case.jpg,NZXT,H210i,513.70,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
+608dd450905ec60bdc069878,/images/case/case.jpg,Phanteks,Enthoo EVOLV ITX,376.42,ATX,Mini ITX,Mini ITX Tower,Acrylic
+608dd450905ec60bdc069879,/images/case/case.jpg,Phanteks,Enthoo EVOLV SHIFT,1281.42,ATX,Mini ITX,Mini ITX Tower,Tinted Tempered Glass
+608dd450905ec60bdc069880,/images/case/case.jpg,Phanteks,Enthoo EVOLV SHIFT X,793.02,ATX,Mini ITX,Mini ITX Tower,Tinted Tempered Glass
+608dd450905ec60bdc069881,/images/case/case.jpg,Phanteks,Evolv Shift 2,527.25,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
+608dd450905ec60bdc069882,/images/case/case.jpg,Thermaltake,Core P1,588.82,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
+608dd450905ec60bdc069883,/images/case/case.jpg,Thermaltake,The Tower 100,486.35,ATX,Mini ITX,Mini ITX Tower,Tempered Glass
+608dd450905ec60bdc069884,/images/case/case.jpg,Cooler Master,MasterBox NR200,553.92,ATX,Mini ITX,Mini ITX Desktop,None
+608dd450905ec60bdc069885,/images/case/case.jpg,Cooler Master,MasterBox NR200P,418.10,ATX,Mini ITX,Mini ITX Desktop,Tempered Glass
+608dd450905ec60bdc069886,/images/case/case.jpg,Cooler Master,MasterCase H100,208.62,ATX,Mini ITX,Mini ITX Desktop,None
+608dd450905ec60bdc069887,/images/case/case.jpg,Cooler Master,MasterCase H100 ARGB,271.00,ATX,Mini ITX,Mini ITX Desktop,None
+608dd450905ec60bdc069888,/images/case/case.jpg,Fractal Design,Core 500,304.35,ATX,Mini ITX,Mini ITX Desktop,None
+608dd450905ec60bdc069889,/images/case/case.jpg,Fractal Design,Define Nano S,289.47,ATX,Mini ITX,Mini ITX Desktop,Acrylic
+608dd450905ec60bdc069890,/images/case/case.jpg,Fractal Design,Era ITX,619.66,ATX,Mini ITX,Mini ITX Desktop,Tinted Tempered Glass
+608dd450905ec60bdc069891,/images/case/case.jpg,Lian Li,PC-Q09F,454.77,ATX,Mini ITX,Mini ITX Desktop,None
+608dd450905ec60bdc069892,/images/case/case.jpg,Lian Li,TU150,527.30,ATX,Mini ITX,Mini ITX Desktop,Tempered Glass
+608dd450905ec60bdc069893,/images/case/case.jpg,Phanteks,Enthoo EVOLV ITX TG,533.08,ATX,Mini ITX,Mini ITX Desktop,Tinted Tempered Glass
+608dd450905ec60bdc069894,/images/case/case.jpg,Thermaltake,Core V1,203.84,ATX,Mini ITX,Mini ITX Desktop,None
+608dd450905ec60bdc069895,/images/case/case.jpg,Thermaltake,Suppressor F1,483.35,ATX,Mini ITX,Mini ITX Desktop,Acrylic
+608dd450905ec60bdc069896,/images/case/case.jpg,Cooler Master,MasterBox E300L,227.73,ATX,MircoATX,MicroATX Mini Tower,None
+608dd450905ec60bdc069897,/images/case/case.jpg,Cooler Master,MasterBox Lite 3,215.62,ATX,MircoATX,MicroATX Mini Tower,None
+608dd450905ec60bdc069898,/images/case/case.jpg,Cooler Master,MasterBox MB400L,311.99,ATX,MircoATX,MicroATX Mini Tower,Tempered Glass
+608dd450905ec60bdc069899,/images/case/case.jpg,Cooler Master,MasterBox Q300L,208.80,ATX,MircoATX,MicroATX Mini Tower,Acrylic
+608dd450905ec60bdc069900,/images/case/case.jpg,Cooler Master,MasterBox Q300P,378.47,ATX,MircoATX,MicroATX Mini Tower,Acrylic
+608dd450905ec60bdc069901,/images/case/case.jpg,Cooler Master,MasterCase Pro 3,406.18,ATX,MircoATX,MicroATX Mini Tower,Acrylic
+608dd450905ec60bdc069902,/images/case/case.jpg,Cooler Master,N200,252.71,ATX,MircoATX,MicroATX Mini Tower,None
+608dd450905ec60bdc069903,/images/case/case.jpg,Cooler Master,Silencio S400,390.80,ATX,MircoATX,MicroATX Mini Tower,None
+608dd450905ec60bdc069904,/images/case/case.jpg,Fractal Design,Core 1100,212.85,ATX,MircoATX,MicroATX Mini Tower,None
+608dd450905ec60bdc069905,/images/case/case.jpg,Fractal Design,Focus G Mini,250.20,ATX,MircoATX,MicroATX Mini Tower,Acrylic
+608dd450905ec60bdc069906,/images/case/case.jpg,Fractal Design,Meshify C Mini,422.70,ATX,MircoATX,MicroATX Mini Tower,Tinted Tempered Glass
+608dd450905ec60bdc069907,/images/case/case.jpg,Lian Li,PC-V600F,793.66,ATX,MircoATX,MicroATX Mini Tower,Acrylic
+608dd450905ec60bdc069908,/images/case/case.jpg,Phanteks,Enthoo EVOLV,540.09,ATX,MircoATX,MicroATX Mini Tower,Acrylic
+608dd450905ec60bdc069909,/images/case/case.jpg,Phanteks,Enthoo EVOLV TG,591.05,ATX,MircoATX,MicroATX Mini Tower,Tinted Tempered Glass
+608dd450905ec60bdc069910,/images/case/case.jpg,Thermaltake,ARMOR A30i,359.86,ATX,MircoATX,MicroATX Mini Tower,Acrylic
+608dd450905ec60bdc069911,/images/case/case.jpg,Thermaltake,Core V21,304.76,ATX,MircoATX,MicroATX Mini Tower,Acrylic
+608dd450905ec60bdc069912,/images/case/case.jpg,Thermaltake,S100,274.14,ATX,MircoATX,MicroATX Mini Tower,Tempered Glass
+608dd450905ec60bdc069913,/images/case/case.jpg,Thermaltake,S100 Snow Edition,313.27,ATX,MircoATX,MicroATX Mini Tower,Tempered Glass
+608dd450905ec60bdc069914,/images/case/case.jpg,Thermaltake,Versa H17,285.06,ATX,MircoATX,MicroATX Mini Tower,None
+608dd450905ec60bdc069915,/images/case/case.jpg,Thermaltake,Versa H18,467.01,ATX,MircoATX,MicroATX Mini Tower,Tempered Glass
+608dd450905ec60bdc069916,/images/case/case.jpg,Cooler Master,MasterBox Lite 3.1,217.35,ATX,MircoATX,MicroATX Mid Tower,Acrylic
+608dd450905ec60bdc069917,/images/case/case.jpg,Cooler Master,MasterBox MB311L ARGB,272.95,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069918,/images/case/case.jpg,Cooler Master,MasterBox MB320L ARGB,304.40,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069919,/images/case/case.jpg,Cooler Master,MasterBox NR400 (w/o ODD),312.04,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069920,/images/case/case.jpg,Cooler Master,MasterBox NR400 (w/ODD),271.50,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069921,/images/case/case.jpg,Corsair,350D,396.26,ATX,MircoATX,MicroATX Mid Tower,None
+608dd450905ec60bdc069922,/images/case/case.jpg,Corsair,Crystal 280X,543.63,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069923,/images/case/case.jpg,Corsair,Crystal 280X RGB,725.32,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069924,/images/case/case.jpg,Fractal Design,Core 1000 USB 3.0,268.81,ATX,MircoATX,MicroATX Mid Tower,None
+608dd450905ec60bdc069925,/images/case/case.jpg,Fractal Design,Define Mini C,363.55,ATX,MircoATX,MicroATX Mid Tower,None
+608dd450905ec60bdc069926,/images/case/case.jpg,Fractal Design,Define Mini C TG,440.85,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069927,/images/case/case.jpg,Fractal Design,Node 804,472.02,ATX,MircoATX,MicroATX Mid Tower,Acrylic
+608dd450905ec60bdc069928,/images/case/case.jpg,Lian Li,LANCOOL 205M,254.30,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069929,/images/case/case.jpg,Thermaltake,V150,311.45,ATX,MircoATX,MicroATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069930,/images/case/case.jpg,Thermaltake,Versa H15,276.32,ATX,MircoATX,MicroATX Mid Tower,None
+608dd450905ec60bdc069931,/images/case/case.jpg,Thermaltake,Level 20 VT,500.45,ATX,MircoATX,MicroATX Desktop,Tempered Glass
+608dd450905ec60bdc069932,/images/case/case.jpg,Lian Li,PC-Q15,537.63,SFX,Mini ITX,HTPC,None
+608dd450905ec60bdc069933,/images/case/case.jpg,be quiet!,Dark Base 700,741.60,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069934,/images/case/case.jpg,be quiet!,Pure Base 500,304.44,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069935,/images/case/case.jpg,be quiet!,Pure Base 500DX,471.70,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069936,/images/case/case.jpg,be quiet!,Pure Base 600,370.32,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069937,/images/case/case.jpg,be quiet!,Silent Base 600,449.95,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069938,/images/case/case.jpg,be quiet!,Silent Base 601,541.45,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069939,/images/case/case.jpg,be quiet!,Silent Base 801,677.95,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069940,/images/case/case.jpg,be quiet!,Silent Base 802,675.68,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069941,/images/case/case.jpg,Cooler Master,CM 590 III,295.52,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069942,/images/case/case.jpg,Cooler Master,Force 500,246.02,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069943,/images/case/case.jpg,Cooler Master,K350,222.22,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069944,/images/case/case.jpg,Cooler Master,MasterBox 5,363.86,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069945,/images/case/case.jpg,Cooler Master,MasterBox 5T,454.50,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069946,/images/case/case.jpg,Cooler Master,MasterBox E500 (w/o ODD),346.62,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069947,/images/case/case.jpg,Cooler Master,MasterBox E500L,201.66,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069948,/images/case/case.jpg,Cooler Master,MASTERBOX E501L,224.45,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069949,/images/case/case.jpg,Cooler Master,MasterBox K500,374.33,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069950,/images/case/case.jpg,Cooler Master,MasterBox K500 ARGB,411.27,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069951,/images/case/case.jpg,Cooler Master,MasterBox Lite 5,389.30,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069952,/images/case/case.jpg,Cooler Master,MasterBox LITE 5 ARGB,432.02,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069953,/images/case/case.jpg,Cooler Master,MasterBox Lite 5 RGB,329.47,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069954,/images/case/case.jpg,Cooler Master,MasterBox MB500,360.50,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069955,/images/case/case.jpg,Cooler Master,MasterBox MB500 ARGB,429.98,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069956,/images/case/case.jpg,Cooler Master,MasterBox MB510L,258.76,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069957,/images/case/case.jpg,Cooler Master,MasterBox MB511,281.74,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069958,/images/case/case.jpg,Cooler Master,MasterBox MB511 ARGB,335.34,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069959,/images/case/case.jpg,Cooler Master,MasterBox MB511 RGB,335.34,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069960,/images/case/case.jpg,Cooler Master,MasterBox MB520 ARGB,340.93,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069961,/images/case/case.jpg,Cooler Master,MasterBox MB520 RGB,340.93,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069962,/images/case/case.jpg,Cooler Master,MasterBox MB530P,527.48,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069963,/images/case/case.jpg,Cooler Master,MasterBox NR600 (w/o ODD),305.21,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069964,/images/case/case.jpg,Cooler Master,MasterBox NR600 (w/ODD),354.81,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069965,/images/case/case.jpg,Cooler Master,MasterBox NR600P,661.75,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069966,/images/case/case.jpg,Cooler Master,MasterBox Q500L,290.06,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069967,/images/case/case.jpg,Cooler Master,MasterBox TD500,494.08,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069968,/images/case/case.jpg,Cooler Master,MasterBox TD500 ARGB,451.41,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069969,/images/case/case.jpg,Cooler Master,MasterBox TD500 Mesh w/ Controller,451.45,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069970,/images/case/case.jpg,Cooler Master,MasterBox TD500 Mesh White w/ Controller,484.44,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069971,/images/case/case.jpg,Cooler Master,MasterCase H500,821.59,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc069972,/images/case/case.jpg,Cooler Master,MasterCase H500 ARGB,543.22,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069973,/images/case/case.jpg,Cooler Master,MasterCase H500M,959.23,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069974,/images/case/case.jpg,Cooler Master,MasterCase H500P Mesh,833.33,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069975,/images/case/case.jpg,Cooler Master,MasterCase H500P Mesh ARGB,693.97,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069976,/images/case/case.jpg,Cooler Master,MasterCase Maker 5,1050.60,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069977,/images/case/case.jpg,Cooler Master,MasterCase MC500,1044.13,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069978,/images/case/case.jpg,Cooler Master,MasterCase SL600M,1022.48,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069979,/images/case/case.jpg,Cooler Master,MasterCase SL600M Black Edition,820.77,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069980,/images/case/case.jpg,Cooler Master,MB600L,279.23,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069981,/images/case/case.jpg,Cooler Master,MB600L ODD,330.92,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069982,/images/case/case.jpg,Cooler Master,N300,240.42,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069983,/images/case/case.jpg,Cooler Master,N400,1178.40,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069984,/images/case/case.jpg,Cooler Master,Silencio 452,385.48,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069985,/images/case/case.jpg,Cooler Master,Silencio S600,413.00,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069986,/images/case/case.jpg,Corsair,100R,227.18,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069987,/images/case/case.jpg,Corsair,110Q,285.92,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069988,/images/case/case.jpg,Corsair,110R,272.55,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069989,/images/case/case.jpg,Corsair,200R,286.42,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069990,/images/case/case.jpg,Corsair,270R,227.45,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069991,/images/case/case.jpg,Corsair,275Q,318.05,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc069992,/images/case/case.jpg,Corsair,275R,370.32,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069993,/images/case/case.jpg,Corsair,275R Airflow,354.45,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069994,/images/case/case.jpg,Corsair,4000D,340.80,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069995,/images/case/case.jpg,Corsair,4000D Airflow,422.70,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc069996,/images/case/case.jpg,Corsair,400C,914.55,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069997,/images/case/case.jpg,Corsair,450D,417.24,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc069998,/images/case/case.jpg,Corsair,5000D,633.91,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc069999,/images/case/case.jpg,Corsair,5000D AIRFLOW,697.06,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070000,/images/case/case.jpg,Corsair,500D Premium,752.52,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070001,/images/case/case.jpg,Corsair,550D,835.97,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070002,/images/case/case.jpg,Corsair,678C,667.94,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070003,/images/case/case.jpg,Corsair,Air 540,568.20,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070004,/images/case/case.jpg,Corsair,Carbide 175R RGB,295.30,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070005,/images/case/case.jpg,Corsair,Crystal 460X RGB,693.83,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070006,/images/case/case.jpg,Corsair,Crystal 570X RGB,885.48,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070007,/images/case/case.jpg,Corsair,Crystal 570X RGB Mirror Black,880.83,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070008,/images/case/case.jpg,Corsair,Crystal 680X RGB,1035.08,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070009,/images/case/case.jpg,Corsair,iCUE 220T RGB,497.32,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070010,/images/case/case.jpg,Corsair,iCUE 220T RGB Airflow,451.82,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070011,/images/case/case.jpg,Corsair,iCUE 4000X RGB,528.62,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070012,/images/case/case.jpg,Corsair,iCUE 465X RGB,578.76,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070013,/images/case/case.jpg,Corsair,iCUE 5000X RGB,857.68,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070014,/images/case/case.jpg,Corsair,Obsidian 500D RGB SE,1187.50,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070015,/images/case/case.jpg,Corsair,SPEC OMEGA,536.45,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070016,/images/case/case.jpg,Corsair,SPEC-01,238.51,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070017,/images/case/case.jpg,Corsair,SPEC-03,791.11,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070018,/images/case/case.jpg,Corsair,SPEC-04,349.85,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070019,/images/case/case.jpg,Corsair,SPEC-05,263.45,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070020,/images/case/case.jpg,Corsair,SPEC-06,1134.27,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070021,/images/case/case.jpg,Corsair,SPEC-ALPHA,508.33,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070022,/images/case/case.jpg,Corsair,SPEC-DELTA RGB,317.59,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070023,/images/case/case.jpg,Corsair,SPEC-OMEGA RGB,725.22,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070024,/images/case/case.jpg,Fractal Design,Core 2300,241.33,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070025,/images/case/case.jpg,Fractal Design,Core 2500,290.70,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070026,/images/case/case.jpg,Fractal Design,Define 7,757.07,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070027,/images/case/case.jpg,Fractal Design,Define 7 Compact,488.62,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070028,/images/case/case.jpg,Fractal Design,Define 7 Dark,761.62,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070029,/images/case/case.jpg,Fractal Design,Define 7 Light,737.15,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070030,/images/case/case.jpg,Fractal Design,Define C,402.17,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070031,/images/case/case.jpg,Fractal Design,Define C TG,447.58,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070032,/images/case/case.jpg,Fractal Design,Define R5,500.05,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070033,/images/case/case.jpg,Fractal Design,Define R6,678.22,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070034,/images/case/case.jpg,Fractal Design,Define R6 USB-C,735.33,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070035,/images/case/case.jpg,Fractal Design,Define R6 USB-C Blackout,727.77,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070036,/images/case/case.jpg,Fractal Design,Define S,427.65,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070037,/images/case/case.jpg,Fractal Design,Define S2,700.25,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070038,/images/case/case.jpg,Fractal Design,Define S2 Blackout,695.60,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070039,/images/case/case.jpg,Fractal Design,Define S2 Vision Blackout,920.69,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070040,/images/case/case.jpg,Fractal Design,Define S2 Vision RGB,1011.19,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070041,/images/case/case.jpg,Fractal Design,Focus G,271.04,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070042,/images/case/case.jpg,Fractal Design,Meshify 2,690.74,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070043,/images/case/case.jpg,Fractal Design,Meshify 2 Compact,443.12,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070044,/images/case/case.jpg,Fractal Design,Meshify 2 Compact TG Dark Tint,386.30,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070045,/images/case/case.jpg,Fractal Design,Meshify 2 Compact TG Light Tint,476.02,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070046,/images/case/case.jpg,Fractal Design,Meshify 2 Compact White TG Clear Tint,732.73,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070047,/images/case/case.jpg,Fractal Design,Meshify C,472.79,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070048,/images/case/case.jpg,Fractal Design,Meshify S2,613.80,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070049,/images/case/case.jpg,Fractal Design,Vector RS,800.35,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070050,/images/case/case.jpg,Fractal Design,Vector RS Blackout,890.75,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070051,/images/case/case.jpg,Lian Li,ALPHA 550X,1282.14,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070052,/images/case/case.jpg,Lian Li,LANCOOL 215,413.55,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070053,/images/case/case.jpg,Lian Li,Lancool II Mesh,527.30,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070054,/images/case/case.jpg,Lian Li,LANCOOL II-X,481.80,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070055,/images/case/case.jpg,Lian Li,LANCOOL ONE,678.45,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070056,/images/case/case.jpg,Lian Li,LANCOOL ONE Digital,647.06,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070057,/images/case/case.jpg,Lian Li,O11 Dynamic Mini,527.30,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070058,/images/case/case.jpg,Lian Li,PC-O10,1118.80,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070059,/images/case/case.jpg,Lian Li,PC-O8X,2100.83,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070060,/images/case/case.jpg,Lian Li,PC-X510,2296.39,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070061,/images/case/case.jpg,NZXT,H510,356.63,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070062,/images/case/case.jpg,NZXT,H510 Elite,677.95,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070063,/images/case/case.jpg,NZXT,H510i,457.78,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070064,/images/case/case.jpg,NZXT,H700,1340.07,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070065,/images/case/case.jpg,NZXT,H700 PUBG,1219.17,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070066,/images/case/case.jpg,NZXT,H710,639.37,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070067,/images/case/case.jpg,NZXT,H710i,777.60,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070068,/images/case/case.jpg,Phanteks,Eclipse P300,299.80,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070069,/images/case/case.jpg,Phanteks,Eclipse P300A Mesh,318.55,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070070,/images/case/case.jpg,Phanteks,Eclipse P350X,341.66,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070071,/images/case/case.jpg,Phanteks,Eclipse P360A,345.30,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070072,/images/case/case.jpg,Phanteks,Eclipse P360X,786.97,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070073,/images/case/case.jpg,Phanteks,Eclipse P400,363.55,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070074,/images/case/case.jpg,Phanteks,Eclipse P400A,390.80,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070075,/images/case/case.jpg,Phanteks,Eclipse P400A Digital,454.55,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070076,/images/case/case.jpg,Phanteks,Eclipse P400S,377.15,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070077,/images/case/case.jpg,Phanteks,Eclipse P500A,577.35,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070078,/images/case/case.jpg,Phanteks,Eclipse P500A D-RGB,713.85,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070079,/images/case/case.jpg,Phanteks,Eclipse P600S,727.55,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070080,/images/case/case.jpg,Phanteks,Enthoo EVOLV ATX,842.61,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070081,/images/case/case.jpg,Phanteks,Enthoo EVOLV ATX TG,842.61,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070082,/images/case/case.jpg,Phanteks,Enthoo Pro M TG,654.34,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070083,/images/case/case.jpg,Phanteks,Evolv X,1000.55,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070084,/images/case/case.jpg,SilentiumPC,Armis AR1,168.26,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070085,/images/case/case.jpg,SilentiumPC,Armis AR5 RGB,359.45,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070086,/images/case/case.jpg,SilentiumPC,Armis AR6,245.61,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070087,/images/case/case.jpg,SilentiumPC,Armis AR6Q EVO ARGB,343.43,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070088,/images/case/case.jpg,SilentiumPC,Armis AR6X EVO ARGB,371.87,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070089,/images/case/case.jpg,SilentiumPC,Armis AR7,340.29,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070090,/images/case/case.jpg,SilentiumPC,Armis AR7X EVO ARGB,531.85,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070091,/images/case/case.jpg,SilentiumPC,Astrum AT6V,438.57,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070092,/images/case/case.jpg,SilentiumPC,Astrum AT6V EVO,463.60,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070093,/images/case/case.jpg,SilentiumPC,Regnum RG4,292.97,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070094,/images/case/case.jpg,SilentiumPC,Regnum RG4T,297.48,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070095,/images/case/case.jpg,SilentiumPC,Regnum RG6V EVO TG ARGB,372.60,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070096,/images/case/case.jpg,SilentiumPC,Regnum RG6V TG,322.55,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070097,/images/case/case.jpg,SilentiumPC,Signum SG1,236.51,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070098,/images/case/case.jpg,SilentiumPC,Signum SG1 TG,250.16,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070099,/images/case/case.jpg,SilentiumPC,Signum SG1M,227.41,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070100,/images/case/case.jpg,SilentiumPC,Signum SG1M TG,283.87,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070101,/images/case/case.jpg,SilentiumPC,Signum SG1Q EVO TG ARGB,304.35,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070102,/images/case/case.jpg,SilentiumPC,Signum SG1V EVO TG ARGB,349.85,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070103,/images/case/case.jpg,SilentiumPC,Signum SG1X EVO TG ARGB,402.17,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070104,/images/case/case.jpg,SilentiumPC,Signum SG1X TG RGB,349.85,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070105,/images/case/case.jpg,SilentiumPC,Signum SG7V EVO TG ARGB,454.77,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070106,/images/case/case.jpg,SilentiumPC,Signum SG7V TG,418.10,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070107,/images/case/case.jpg,Thermaltake,A500,895.85,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070108,/images/case/case.jpg,Thermaltake,Commander C31 TG ARGB,395.35,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070109,/images/case/case.jpg,Thermaltake,Commander C32 TG ARGB,486.35,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070110,/images/case/case.jpg,Thermaltake,Commander C33 TG ARGB,486.35,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070111,/images/case/case.jpg,Thermaltake,Commander C34 TG ARGB,395.35,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070112,/images/case/case.jpg,Thermaltake,Commander C34 TG Snow ARGB,686.19,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070113,/images/case/case.jpg,Thermaltake,Commander C35 TG ARGB,717.22,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070114,/images/case/case.jpg,Thermaltake,Commander C36 TG ARGB,454.55,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070115,/images/case/case.jpg,Thermaltake,Core G21 Tempered Glass Edition,264.49,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070116,/images/case/case.jpg,Thermaltake,Core G3,380.43,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070117,/images/case/case.jpg,Thermaltake,Core P3,889.71,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070118,/images/case/case.jpg,Thermaltake,Core P3 TG Curved,1018.15,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070119,/images/case/case.jpg,Thermaltake,Core P3 TG Snow Edition,760.44,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070120,/images/case/case.jpg,Thermaltake,Core P90,900.90,ATX,ATX,ATX Mid Tower,Tinted Tempered Glass
+608dd450905ec60bdc070121,/images/case/case.jpg,Thermaltake,Core X31,810.86,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070122,/images/case/case.jpg,Thermaltake,Core X31 TG,527.35,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070123,/images/case/case.jpg,Thermaltake,H100 TG,322.55,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070124,/images/case/case.jpg,Thermaltake,H200 TG RGB,343.53,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070125,/images/case/case.jpg,Thermaltake,H200 TG Snow RGB,486.35,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070126,/images/case/case.jpg,Thermaltake,H550 TG ARGB,498.59,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070127,/images/case/case.jpg,Thermaltake,Level 20 MT,318.05,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070128,/images/case/case.jpg,Thermaltake,Level 20 RS ARGB,773.05,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070129,/images/case/case.jpg,Thermaltake,S300 Tempered Glass Edition,395.35,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070130,/images/case/case.jpg,Thermaltake,Suppressor F31 TG,702.84,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070131,/images/case/case.jpg,Thermaltake,Urban S31,484.44,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070132,/images/case/case.jpg,Thermaltake,V200,259.26,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070133,/images/case/case.jpg,Thermaltake,V200 RGB,349.85,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070134,/images/case/case.jpg,Thermaltake,V250 TG ARGB,372.60,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070135,/images/case/case.jpg,Thermaltake,Versa C21,322.96,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070136,/images/case/case.jpg,Thermaltake,Versa C22 RGB,309.81,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070137,/images/case/case.jpg,Thermaltake,Versa C22 RGB Snow Edition,363.50,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070138,/images/case/case.jpg,Thermaltake,Versa C23 RGB,436.35,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070139,/images/case/case.jpg,Thermaltake,Versa H21,267.31,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070140,/images/case/case.jpg,Thermaltake,Versa H22,275.09,ATX,ATX,ATX Mid Tower,None
+608dd450905ec60bdc070141,/images/case/case.jpg,Thermaltake,Versa H23,275.91,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070142,/images/case/case.jpg,Thermaltake,Versa H24,313.45,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070143,/images/case/case.jpg,Thermaltake,Versa H25,319.64,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070144,/images/case/case.jpg,Thermaltake,Versa H26,498.86,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070145,/images/case/case.jpg,Thermaltake,Versa H35,437.35,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070146,/images/case/case.jpg,Thermaltake,Versa J21,326.05,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070147,/images/case/case.jpg,Thermaltake,Versa J22,272.55,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070148,/images/case/case.jpg,Thermaltake,Versa J23,289.74,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070149,/images/case/case.jpg,Thermaltake,Versa J23 RGB,410.87,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070150,/images/case/case.jpg,Thermaltake,Versa J24,263.49,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070151,/images/case/case.jpg,Thermaltake,Versa J24 RGB,410.73,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070152,/images/case/case.jpg,Thermaltake,Versa J25,322.32,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070153,/images/case/case.jpg,Thermaltake,Versa J25 RGB,431.75,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070154,/images/case/case.jpg,Thermaltake,Versa N21,310.67,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070155,/images/case/case.jpg,Thermaltake,Versa N24,364.91,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070156,/images/case/case.jpg,Thermaltake,Versa N27,775.46,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070157,/images/case/case.jpg,Thermaltake,Versa T25,267.95,ATX,ATX,ATX Mid Tower,Tempered Glass
+608dd450905ec60bdc070158,/images/case/case.jpg,Thermaltake,View 21 Tempered Glass Edition,299.85,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070159,/images/case/case.jpg,Thermaltake,View 22,406.32,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070160,/images/case/case.jpg,Thermaltake,View 27,364.27,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070161,/images/case/case.jpg,Thermaltake,View 31 TG,691.19,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070162,/images/case/case.jpg,Thermaltake,View 37,721.99,ATX,ATX,ATX Mid Tower,Acrylic
+608dd450905ec60bdc070163,/images/case/case.jpg,be quiet!,Dark Base 900,735.78,ATX,ATX,ATX Full Tower,None
+608dd450905ec60bdc070164,/images/case/case.jpg,be quiet!,Dark Base Pro 900 Rev. 2,998.27,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070165,/images/case/case.jpg,Cooler Master,Cosmos,1939.21,ATX,ATX,ATX Full Tower,None
+608dd450905ec60bdc070166,/images/case/case.jpg,Cooler Master,Cosmos C700M,1960.14,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070167,/images/case/case.jpg,Cooler Master,Cosmos C700P Black Edition,1353.58,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070168,/images/case/case.jpg,Cooler Master,MasterFrame 700,905.22,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070169,/images/case/case.jpg,Cooler Master,Stryker SE,796.80,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070170,/images/case/case.jpg,Corsair,1000D,2660.84,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070171,/images/case/case.jpg,Corsair,750D,657.75,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070172,/images/case/case.jpg,Corsair,760T,816.36,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070173,/images/case/case.jpg,Corsair,780T,884.52,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070174,/images/case/case.jpg,Corsair,Carbide 600Q,723.59,ATX,ATX,ATX Full Tower,None
+608dd450905ec60bdc070175,/images/case/case.jpg,Fractal Design,Define 7 XL,941.35,ATX,ATX,ATX Full Tower,None
+608dd450905ec60bdc070176,/images/case/case.jpg,Fractal Design,Define 7 XL Dark,934.52,ATX,ATX,ATX Full Tower,Tinted Tempered Glass
+608dd450905ec60bdc070177,/images/case/case.jpg,Fractal Design,Define 7 XL Light,943.62,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070178,/images/case/case.jpg,Fractal Design,Define XL R2,449.22,ATX,ATX,ATX Full Tower,None
+608dd450905ec60bdc070179,/images/case/case.jpg,Fractal Design,Meshify 2 XL,829.92,ATX,ATX,ATX Full Tower,Tinted Tempered Glass
+608dd450905ec60bdc070180,/images/case/case.jpg,Lian Li,O11D XL-A,1032.35,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070181,/images/case/case.jpg,Lian Li,O11D XL-W,1160.39,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070182,/images/case/case.jpg,Lian Li,O11D XL-X,1000.55,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070183,/images/case/case.jpg,Lian Li,PC-O11 Air,1114.30,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070184,/images/case/case.jpg,Lian Li,PC-O11 Dynamic,668.35,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070185,/images/case/case.jpg,Lian Li,PC-O11ROG,1528.30,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070186,/images/case/case.jpg,Lian Li,PC-V750,1988.30,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070187,/images/case/case.jpg,Phanteks,Enthoo 719,902.13,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070188,/images/case/case.jpg,Phanteks,Enthoo Primo,2418.55,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070189,/images/case/case.jpg,Phanteks,Enthoo Pro,454.55,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070190,/images/case/case.jpg,Phanteks,Enthoo Pro 2,1089.63,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070191,/images/case/case.jpg,Phanteks,Enthoo Pro Tempered Glass,531.85,ATX,ATX,ATX Full Tower,Tinted Tempered Glass
+608dd450905ec60bdc070192,/images/case/case.jpg,Phanteks,Enthoo Series Primo Aluminum,1091.55,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070193,/images/case/case.jpg,Phanteks,PH-ES614PC_BK,541.04,ATX,ATX,ATX Full Tower,None
+608dd450905ec60bdc070194,/images/case/case.jpg,Thermaltake,A700 TG,1614.80,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070195,/images/case/case.jpg,Thermaltake,AH T600,1282.60,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070196,/images/case/case.jpg,Thermaltake,AH T600 Snow,1269.91,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070197,/images/case/case.jpg,Thermaltake,Core P8 TG,1032.35,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070198,/images/case/case.jpg,Thermaltake,Core V71 TG,946.76,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070199,/images/case/case.jpg,Thermaltake,Core W100,2175.45,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070200,/images/case/case.jpg,Thermaltake,Core X71,727.95,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070201,/images/case/case.jpg,Thermaltake,Level 20,3389.70,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070202,/images/case/case.jpg,Thermaltake,Level 20 GT,713.85,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070203,/images/case/case.jpg,Thermaltake,Level 20 GT RGB Plus,1551.23,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070204,/images/case/case.jpg,Thermaltake,Level 20 HT,982.30,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070205,/images/case/case.jpg,Thermaltake,Level 20 HT Snow Edition,1073.30,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070206,/images/case/case.jpg,Thermaltake,Tower 900,1094.18,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070207,/images/case/case.jpg,Thermaltake,Tower 900 Snow Edition,1159.75,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070208,/images/case/case.jpg,Thermaltake,View 51 ARGB Edition,1000.55,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070209,/images/case/case.jpg,Thermaltake,View 51 Snow ARGB Edition,1032.35,ATX,ATX,ATX Full Tower,Tempered Glass
+608dd450905ec60bdc070210,/images/case/case.jpg,Thermaltake,View 71 TG,782.10,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070211,/images/case/case.jpg,Thermaltake,View 71 TG RGB,941.35,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070212,/images/case/case.jpg,Thermaltake,View 71 TG RGB Plus,1210.25,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070213,/images/case/case.jpg,Thermaltake,View 71 TG Snow,941.35,ATX,ATX,ATX Full Tower,Acrylic
+608dd450905ec60bdc070214,/images/case/case.jpg,Cooler Master,HAF XB,581.17,ATX,ATX,ATX Desktop,None
+608dd450905ec60bdc070215,/images/case/case.jpg,Cooler Master,HAF XB EVO,568.25,ATX,ATX,ATX Desktop,None
+608dd450905ec60bdc070216,/images/case/case.jpg,Thermaltake,Level 20 XT,909.95,ATX,ATX,ATX Desktop,Tempered Glass

@@ -46,7 +46,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pages.CoolerSceneController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.CoolerSceneController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -150,14 +150,30 @@
                               </HBox>
                            </children>
                         </VBox>
-                        <VBox>
+                        <VBox layoutX="20.0" layoutY="434.0" prefHeight="78.0" prefWidth="400.0">
                            <children>
-                              <Label text="Modularity" textAlignment="CENTER">
+                              <Label text="Noise Level (dB)" textAlignment="CENTER">
                                  <font>
                                     <Font size="30.0" />
                                  </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
                               </Label>
-                              <TreeView fx:id="modularityTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                 <children>
+                                    <TextField fx:id="noiseLevelLowerTextField" promptText="From" />
+                                    <Label disable="true" text="-">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="noiseLevelUpperTextField" promptText="To" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </HBox>
                            </children>
                         </VBox>
                         <VBox>
@@ -172,12 +188,12 @@
                         </VBox>
                         <VBox>
                            <children>
-                              <Label text="Purpouse" textAlignment="CENTER">
+                              <Label text="Purpose" textAlignment="CENTER">
                                  <font>
                                     <Font size="30.0" />
                                  </font>
                               </Label>
-                              <TreeView fx:id="coolerPurpouseTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
+                              <TreeView fx:id="coolerPurposeTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
                            </children>
                         </VBox>
                      </children>

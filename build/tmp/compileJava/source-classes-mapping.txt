@@ -1,28 +1,44 @@
-pages/CheckBoxRoot.java
- pages.CheckBoxRoot
-Main.java
- Main
+helpers/DatabaseData.java
+ helpers.DatabaseData
 components/Motherboard.java
  components.Motherboard
 components/Gpu.java
  components.Gpu
-pages/Page.java
- pages.Page
-components/DatabaseData.java
- components.DatabaseData
-pages/CpuSceneController.java
- pages.CpuSceneController
-components/Storage.java
- components.Storage
-components/Cpu.java
- components.Cpu
+scenes/MainSceneController.java
+ scenes.MainSceneController
+components/Ram.java
+ components.Ram
 components/Product.java
  components.Product
+components/Cpu.java
+ components.Cpu
+components/Storage.java
+ components.Storage
+helpers/CheckBoxRoot.java
+ helpers.CheckBoxRoot
 components/Cooler.java
  components.Cooler
 components/Psu.java
  components.Psu
 components/Case.java
  components.Case
-components/Ram.java
- components.Ram
+scenes/Main.java
+ scenes.Main
+scenes/BaseScene.java
+ scenes.BaseScene
+scenes/PsuSceneController.java
+ scenes.PsuSceneController
+scenes/CpuSceneController.java
+ scenes.CpuSceneController
+scenes/StorageSceneController.java
+ scenes.StorageSceneController
+scenes/MotherboardSceneController.java
+ scenes.MotherboardSceneController
+scenes/CaseSceneController.java
+ scenes.CaseSceneController
+scenes/CoolerSceneController.java
+ scenes.CoolerSceneController
+scenes/RamSceneController.java
+ scenes.RamSceneController
+scenes/GpuSceneController.java
+ scenes.GpuSceneController
