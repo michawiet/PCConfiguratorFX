@@ -1,4 +1,4 @@
-package pages;
+package helpers;
 
 import javafx.scene.control.CheckBoxTreeItem;
 import javafx.scene.control.TreeView;

@@ -99,20 +99,6 @@ public class Cpu extends Product {
         this.boostClock = boostClock;
     }
 
-    @JsonIgnore
-    public ImageView getImageView() {
-        if(this.imageView == null) {
-            var image = new Image(getClass().getResource(this.image).toString());
-            this.imageView = new ImageView(image);
-            this.imageView.setSmooth(true);
-            this.imageView.setPreserveRatio(true);
-            this.imageView.setFitWidth(64);
-            this.imageView.setFitHeight(64);
-        }
-
-        return this.imageView;
-    }
-
     public String getSocket() {
         return socket;
     }

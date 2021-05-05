@@ -2,6 +2,7 @@ package components;
 
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.image.ImageView;
 
 import java.util.ArrayList;
 
@@ -13,6 +14,14 @@ public class Cooler extends Product {
 
     public static ArrayList<TableColumn> getColumns() {
         ArrayList<TableColumn> columns = new ArrayList<>();
+
+        //image column
+        columns.add(new TableColumn<Cooler, ImageView>(""));
+        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("imageView"));
+        columns.get(columns.size() - 1).setResizable(false);
+        columns.get(columns.size() - 1).setMinWidth(70);
+        columns.get(columns.size() - 1).setMaxWidth(70);
+        columns.get(columns.size() - 1).setSortable(false);
         //first two columns
         columns.add(new TableColumn<Cooler, String>("Brand"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("brand"));

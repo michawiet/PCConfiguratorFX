@@ -1,3 +1,5 @@
+package scenes;
+
 import com.fasterxml.jackson.core.JsonProcessingException;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,9 +12,16 @@ public class Main extends Application {
         launch(args);
     }
 
+    private static Scene primaryScene;
+
+    public static Scene getPrimaryScene() {
+        return primaryScene;
+    }
+
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("CpuSceneController.fxml"));
+        //Parent root2 = FXMLLoader.load(getClass().getClassLoader().getResource("CpuSceneController.fxml"));
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
 
         //CpuScene page = new CpuScene();
 
@@ -26,8 +35,9 @@ public class Main extends Application {
 //
         //VBox vBox = new VBox(cpuTable, new ScrollPane());
 
-        Scene scene = new Scene(root, 1280, 800);
-        primaryStage.setScene(scene);
+        primaryScene = new Scene(root, 1280, 800);
+        primaryScene.setRoot(root);
+        primaryStage.setScene(primaryScene);
         primaryStage.show();
     }
 }

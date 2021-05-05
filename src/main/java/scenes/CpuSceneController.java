@@ -1,49 +1,26 @@
-package pages;
+package scenes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Cpu;
-import components.DatabaseData;
+import helpers.DatabaseData;
+import helpers.CheckBoxRoot;
 import javafx.collections.FXCollections;
-import javafx.collections.ObservableList;
 import javafx.collections.transformation.FilteredList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.DoubleSummaryStatistics;
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class CpuSceneController {
-
-    //Private class objects
-    private List<Cpu> cpuList;
-    private ObservableList<Cpu> observableList;
-    private FilteredList<Cpu> filteredList;
-
-    @FXML
-    private Button addButton;
-
-    @FXML
-    private Button resetFiltersButton;
-
-    @FXML
-    private Button applyFiltersButton;
-
-    @FXML
-    private TreeView<String> brandTreeView;
-
-    @FXML
-    private TreeView<String> nameTreeView;
-
-    @FXML
-    private TextField priceLowerTextField;
-
-    @FXML
-    private TextField priceUpperTextField;
+public class CpuSceneController extends BaseScene<Cpu> {
 
     @FXML
     private TreeView<String> socketTreeView;
@@ -91,18 +68,15 @@ public class CpuSceneController {
     private TextField boostClockUpperTextField;
 
     @FXML
-    private TableView tableView;
-
-    @FXML
     public void initialize() {
         //initialize the lists
         DatabaseData data = new DatabaseData();
         try {
-            this.cpuList = data.getCpuList();
+            this.productList = data.getCpuList();
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-        this.observableList = FXCollections.observableList(this.cpuList);
+        this.observableList = FXCollections.observableList(this.productList);
         this.filteredList = new FilteredList<>(observableList, cpu -> true);
         //initialize the tableview
         tableView.getColumns().addAll(Cpu.getColumns());
@@ -132,8 +106,9 @@ public class CpuSceneController {
     }
 
     @FXML
-    void AddCpu(ActionEvent event) {
-        //try to change
+    void AddCpu(ActionEvent event) throws IOException {
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
+        Main.getPrimaryScene().setRoot(root);
     }
 
     @FXML
@@ -146,53 +121,39 @@ public class CpuSceneController {
         //reset predicates
     }
 
-    //can be put in abstract page since it is all product
-    private List<String> getDistinctBrands() {
-        //return getDistinctValues(this.cpuList.stream().map(Cpu::getBrand).collect(Collectors.toList()));
-        return new ArrayList(this.cpuList.stream().map(Cpu::getBrand).distinct().collect(Collectors.toList()));
-    }
-
-    private List<String> getDistinctNames() {
-        return new ArrayList(this.cpuList.stream().map(Cpu::getName).distinct().collect(Collectors.toList()));
-    }
-
     private List<String> getDistinctSockets() {
-        return new ArrayList(this.cpuList.stream().map(Cpu::getSocket).distinct().collect(Collectors.toList()));
+        return new ArrayList(this.productList.stream().map(Cpu::getSocket).distinct().collect(Collectors.toList()));
     }
 
     private List<String> getDistinctIgpu() {
-        return new ArrayList(this.cpuList.stream().map(Cpu::getIgpu).distinct().collect(Collectors.toList()));
+        return new ArrayList(this.productList.stream().map(Cpu::getIgpu).distinct().collect(Collectors.toList()));
     }
 
     private List<String> getDistinctSmt() {
-        return new ArrayList(this.cpuList.stream().map(Cpu::getSmt).distinct().collect(Collectors.toList()));
-    }
-
-    private DoubleSummaryStatistics getPriceStatistics() {
-        return this.cpuList.stream().map(Cpu::getPrice).mapToDouble(Double::doubleValue).summaryStatistics();
+        return new ArrayList(this.productList.stream().map(Cpu::getSmt).distinct().collect(Collectors.toList()));
     }
 
     private IntSummaryStatistics getCoresStatistics() {
-        return this.cpuList.stream().map(Cpu::getCores).mapToInt(Integer::intValue).summaryStatistics();
+        return this.productList.stream().map(Cpu::getCores).mapToInt(Integer::intValue).summaryStatistics();
     }
 
     private IntSummaryStatistics getTdpStatistics() {
-        return this.cpuList.stream().map(Cpu::getTdp).mapToInt(Integer::intValue).summaryStatistics();
+        return this.productList.stream().map(Cpu::getTdp).mapToInt(Integer::intValue).summaryStatistics();
     }
 
     private IntSummaryStatistics getStPerformanceStatistics() {
-        return this.cpuList.stream().map(Cpu::getStPerformance).mapToInt(Integer::intValue).summaryStatistics();
+        return this.productList.stream().map(Cpu::getStPerformance).mapToInt(Integer::intValue).summaryStatistics();
     }
 
     private IntSummaryStatistics getMtPerformanceStatistics() {
-        return this.cpuList.stream().map(Cpu::getMtPerformance).mapToInt(Integer::intValue).summaryStatistics();
+        return this.productList.stream().map(Cpu::getMtPerformance).mapToInt(Integer::intValue).summaryStatistics();
     }
 
     private DoubleSummaryStatistics getCoreClockStatistics() {
-        return this.cpuList.stream().map(Cpu::getCoreClock).mapToDouble(Float::doubleValue).summaryStatistics();
+        return this.productList.stream().map(Cpu::getCoreClock).mapToDouble(Float::doubleValue).summaryStatistics();
     }
 
     private DoubleSummaryStatistics getBoostClockStatistics() {
-        return this.cpuList.stream().map(Cpu::getBoostClock).mapToDouble(Float::doubleValue).summaryStatistics();
+        return this.productList.stream().map(Cpu::getBoostClock).mapToDouble(Float::doubleValue).summaryStatistics();
     }
 }

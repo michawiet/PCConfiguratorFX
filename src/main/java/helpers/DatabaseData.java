@@ -1,13 +1,15 @@
-package components;
+package helpers;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mongodb.client.*;
+import components.*;
 import org.bson.Document;
 
 import java.util.ArrayList;
 import java.util.List;
 
+//TODO: add SLF4J or disable the warning
 public class DatabaseData {
     private MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017");
     private MongoDatabase database = mongoClient.getDatabase("PC_Configurator_FX");

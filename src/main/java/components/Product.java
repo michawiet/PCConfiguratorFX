@@ -36,6 +36,20 @@ public abstract class Product {
 
     }
 
+    @JsonIgnore
+    public ImageView getImageView() {
+        if(this.imageView == null) {
+            var image = new Image(getClass().getResource(this.image).toString());
+            this.imageView = new ImageView(image);
+            this.imageView.setSmooth(true);
+            this.imageView.setPreserveRatio(true);
+            this.imageView.setFitWidth(64);
+            this.imageView.setFitHeight(64);
+        }
+
+        return this.imageView;
+    }
+
     // Returns "Yes" for true and "No" for false. Can be non static, since it is only used by the classes that inherit Product
     @JsonIgnore
     protected static String getBooleanStringValue(boolean value) {
@@ -90,5 +104,10 @@ public abstract class Product {
     @JsonProperty
     public void setPrice(Double price) {
         this.price = price;
+    }
+
+    @JsonIgnore
+    public String getComponentName() {
+        return this.brand + " " + this.name;
     }
 }
