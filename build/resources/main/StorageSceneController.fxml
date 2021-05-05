@@ -46,7 +46,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pages.CpuSceneController">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pages.StorageSceneController">
   <children>
     <MenuBar VBox.vgrow="NEVER">
       <menus>
@@ -124,19 +124,9 @@
                               </HBox>
                            </children>
                         </VBox>
-                        <VBox>
-                           <children>
-                              <Label text="Sockets" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                              </Label>
-                              <TreeView fx:id="socketTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
-                           </children>
-                        </VBox>
                         <VBox layoutX="20.0" layoutY="258.0" prefHeight="78.0" prefWidth="400.0">
                            <children>
-                              <Label text="Core count" textAlignment="CENTER">
+                              <Label text="Capacity (GB)" textAlignment="CENTER">
                                  <font>
                                     <Font size="30.0" />
                                  </font>
@@ -146,13 +136,39 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="priceLowerTextField1" promptText="From" />
+                                    <TextField fx:id="capacityLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="priceUpperTextField1" promptText="To" />
+                                    <TextField fx:id="capacityUpperTextField" promptText="To" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="20.0" layoutY="708.0" prefHeight="78.0" prefWidth="400.0">
+                           <children>
+                              <Label text="Tier" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                              </Label>
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                 <children>
+                                    <TextField fx:id="tierLowerTextField" promptText="From" />
+                                    <Label disable="true" text="-">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="tierUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -162,152 +178,32 @@
                         </VBox>
                         <VBox>
                            <children>
-                              <Label text="SMT" textAlignment="CENTER">
+                              <Label text="Type" textAlignment="CENTER">
                                  <font>
                                     <Font size="30.0" />
                                  </font>
                               </Label>
-                              <TreeView fx:id="smtTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
+                              <TreeView fx:id="typeTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
                            </children>
                         </VBox>
                         <VBox>
                            <children>
-                              <Label text="iGPU" textAlignment="CENTER">
+                              <Label text="Form factor" textAlignment="CENTER">
                                  <font>
                                     <Font size="30.0" />
                                  </font>
                               </Label>
-                              <TreeView fx:id="igpuTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
+                              <TreeView fx:id="formFactorTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
                            </children>
                         </VBox>
-                        <VBox layoutX="20.0" layoutY="708.0" prefHeight="78.0" prefWidth="400.0">
+                        <VBox>
                            <children>
-                              <Label text="TDP (Watts)" textAlignment="CENTER">
+                              <Label text="Interface" textAlignment="CENTER">
                                  <font>
                                     <Font size="30.0" />
                                  </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
                               </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="tdpLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="tdpUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
-                           </children>
-                        </VBox>
-                        <VBox layoutX="20.0" layoutY="708.0" prefHeight="78.0" prefWidth="400.0">
-                           <children>
-                              <Label text="ST Performance" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                              </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="stPerformanceLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="stPerformanceUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
-                           </children>
-                        </VBox>
-                        <VBox layoutX="20.0" layoutY="708.0" prefHeight="78.0" prefWidth="400.0">
-                           <children>
-                              <Label text="MT Performance" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                              </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="mtPerformanceLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="mtPerformanceUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
-                           </children>
-                        </VBox>
-                        <VBox layoutX="20.0" layoutY="730.0" prefHeight="78.0" prefWidth="400.0">
-                           <children>
-                              <Label text="Core Clock (GHz)" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                              </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="coreClockLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="coreClockUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
-                           </children>
-                        </VBox>
-                        <VBox layoutX="20.0" layoutY="805.0" prefHeight="78.0" prefWidth="400.0">
-                           <children>
-                              <Label text="Boost Clock (GHz)" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                              </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="boostClockLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="boostClockUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
+                              <TreeView fx:id="interfaceTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
                            </children>
                         </VBox>
                      </children>
