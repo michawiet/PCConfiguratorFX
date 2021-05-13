@@ -1,22 +1,26 @@
 package scenes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import components.Cooler;
 import components.Psu;
 import helpers.CheckBoxRoot;
+import helpers.ComboBoxMinMaxValueController;
 import helpers.DatabaseData;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
+import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class PsuSceneController extends BaseScene<Psu> {
@@ -34,28 +38,47 @@ public class PsuSceneController extends BaseScene<Psu> {
     private TreeView<String> efficiencyRatingTreeView;
 
     @FXML
-    private TextField wattageLowerTextField;
+    private ComboBox<Integer> wattageMinComboBox;
 
     @FXML
-    private TextField wattageUpperTextField;
+    private ComboBox<Integer> wattageMaxComboBox;
 
     @FXML
     private TreeView<String> modularityTreeView;
 
+    private ComboBoxMinMaxValueController wattageController;
+
     @FXML
-    void AddCpu(ActionEvent event) throws IOException {
+    void addAction(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
         Main.getPrimaryScene().setRoot(root);
     }
 
     @FXML
-    void ApplyFilters(ActionEvent event) {
+    void applyFilters(ActionEvent event) {
+        Predicate<Psu> brand = (o) -> getSelectedValues(brandTreeView).contains(o.getBrand());
+        Predicate<Psu> formFactor = (o) -> getSelectedValues(formFactorTreeView).contains(o.getFormFactor());
+        Predicate<Psu> efficiency = (o) -> getSelectedValues(efficiencyRatingTreeView).contains(o.getEfficiencyRating());
+        Predicate<Psu> modularity = (o) -> getSelectedValues(modularityTreeView).contains(o.getModular());
+        Predicate<Psu> wattage = (o) -> (o.getWattage() >= wattageMinComboBox.getValue()) &&
+                (o.getWattage() <= wattageMaxComboBox.getValue());
+
+        this.filteredList.setPredicate(brand.and(formFactor).and(efficiency).and(modularity).and(wattage));
+    }
+
+    @FXML
+    void resetFilters(ActionEvent event) {
 
     }
 
     @FXML
-    void ResetFilters(ActionEvent event) {
+    void wattageMaxComboBoxUpdate(ActionEvent event) {
+        wattageController.maxComboBoxUpdated();
+    }
 
+    @FXML
+    void wattageMinComboBoxUpdate(ActionEvent event) {
+        wattageController.minComboBoxUpdated();
     }
 
     @Override
@@ -67,19 +90,16 @@ public class PsuSceneController extends BaseScene<Psu> {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-        this.observableList = FXCollections.observableList(this.productList);
-        this.filteredList = new FilteredList<>(observableList, cpu -> true);
+        this.filteredList = new FilteredList<>(FXCollections.observableList(this.productList));
+        SortedList<Psu> sortedList = new SortedList<>(filteredList);
+        sortedList.comparatorProperty().bind(tableView.comparatorProperty());
         //initialize the tableview
         tableView.getColumns().addAll(Psu.getColumns());
-        tableView.getItems().addAll(filteredList);
+        tableView.setItems(sortedList);
         //initialize the TreeView Filters
-        CheckBoxRoot nameRoot = new CheckBoxRoot(this.getDistinctBrands());
+        CheckBoxRoot brandRoot = new CheckBoxRoot(this.getDistinctBrands());
         this.brandTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
-        this.brandTreeView.setRoot(nameRoot.getRoot());
-
-        CheckBoxRoot brandRoot = new CheckBoxRoot(this.getDistinctNames());
-        this.nameTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
-        this.nameTreeView.setRoot(brandRoot.getRoot());
+        this.brandTreeView.setRoot(brandRoot.getRoot());
 
         CheckBoxRoot formFactorRoot = new CheckBoxRoot(this.getDistinctFormFactors());
         this.formFactorTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
@@ -94,17 +114,22 @@ public class PsuSceneController extends BaseScene<Psu> {
         this.efficiencyRatingTreeView.setRoot(efficiencyRatingRoot.getRoot());
 
         //initialize the TextFields filters
+        wattageController = new ComboBoxMinMaxValueController(getDistinctWattage(), wattageMinComboBox, wattageMaxComboBox);
+    }
+
+    private List<Integer> getDistinctWattage() {
+        return this.productList.stream().map(Psu::getWattage).sorted().distinct().collect(Collectors.toList());
     }
 
     private List<String> getDistinctEfficiencyRating() {
-        return new ArrayList(this.productList.stream().map(Psu::getEfficiencyRating).distinct().collect(Collectors.toList()));
+        return this.productList.stream().map(Psu::getEfficiencyRating).distinct().collect(Collectors.toList());
     }
 
     private List<String> getDistinctModularity() {
-        return new ArrayList(this.productList.stream().map(Psu::getModular).distinct().collect(Collectors.toList()));
+        return this.productList.stream().map(Psu::getModular).distinct().collect(Collectors.toList());
     }
 
     private List<String> getDistinctFormFactors() {
-        return new ArrayList(this.productList.stream().map(Psu::getFormFactor).distinct().collect(Collectors.toList()));
+        return this.productList.stream().map(Psu::getFormFactor).distinct().collect(Collectors.toList());
     }
 }

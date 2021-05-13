@@ -39,8 +39,10 @@
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.control.TreeView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
@@ -64,116 +66,167 @@
     </MenuBar>
       <HBox prefHeight="805.0" prefWidth="1280.0">
          <children>
-            <ScrollPane fitToHeight="true" fitToWidth="true" prefWidth="300.0">
-               <content>
-                  <VBox alignment="CENTER" prefHeight="775.0" prefWidth="400.0" spacing="5.0">
-                     <children>
-                        <HBox alignment="CENTER" prefHeight="27.0" prefWidth="251.0" spacing="5.0">
-                           <children>
-                              <Button fx:id="addButton" mnemonicParsing="false" onAction="#AddCpu" prefWidth="90.0" text="Add" />
-                            <Button fx:id="resetFiltersButton" mnemonicParsing="false" onAction="#ResetFilters" prefWidth="90.0" text="Reset" />
-                              <Button fx:id="applyFiltersButton" mnemonicParsing="false" onAction="#ApplyFilters" prefWidth="90.0" text="Apply" />
-                           </children>
-                           <padding>
-                              <Insets bottom="5.0" top="5.0" />
-                           </padding>
-                        </HBox>
-                        <VBox>
-                           <children>
-                              <Label text="Brands" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                              </Label>
-                              <TreeView fx:id="brandTreeView" minHeight="71.0" minWidth="71.0" prefHeight="100.0" prefWidth="100.0" />
-                           </children>
-                        </VBox>
-                        <VBox>
-                           <children>
-                              <Label text="Names" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                              </Label>
-                              <TreeView fx:id="nameTreeView" minHeight="117.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="78.0" prefWidth="400.0">
-                           <children>
-                              <Label text="Price" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                              </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="priceLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="priceUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
-                           </children>
-                        </VBox>
-                        <VBox>
-                           <children>
-                              <Label text="PSU Standard" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                              </Label>
-                              <TreeView fx:id="powerSupplyStandardTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
-                           </children>
-                        </VBox>
-                        <VBox>
-                           <children>
-                              <Label text="Max MB size" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                              </Label>
-                              <TreeView fx:id="maxMotherboardSizeTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
-                           </children>
-                        </VBox>
-                        <VBox>
-                           <children>
-                              <Label text="Type" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                              </Label>
-                              <TreeView fx:id="typeTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
-                           </children>
-                        </VBox>
-                        <VBox layoutX="20.0" layoutY="661.0">
-                           <children>
-                              <Label text="Side panel window" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                              </Label>
-                              <TreeView fx:id="sidePanelWindowTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
-                           </children>
-                        </VBox>
-                     </children>
-                     <padding>
-                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
-                     </padding>
-                  </VBox>
-               </content>
+            <VBox>
                <HBox.margin>
                   <Insets />
                </HBox.margin>
-            </ScrollPane>
+               <children>
+                  <HBox alignment="TOP_CENTER">
+                     <children>
+                        <Button fx:id="addButton" mnemonicParsing="false" onAction="#addAction" prefHeight="44.0" prefWidth="280.0" text="Add selected case">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Separator opacity="0.65" prefWidth="200.0" />
+                  <HBox alignment="CENTER" prefHeight="27.0" prefWidth="251.0" spacing="10.0">
+                     <children>
+                        <Button fx:id="resetFiltersButton" mnemonicParsing="false" onAction="#resetFilters" prefHeight="25.0" prefWidth="135.0" text="Reset filters" />
+                        <Button fx:id="applyFiltersButton" mnemonicParsing="false" onAction="#applyFilters" prefHeight="25.0" prefWidth="135.0" text="Apply filters">
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" wrapText="true" text="Applies the filters" />
+                           </tooltip></Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" top="5.0" />
+                     </padding>
+                  </HBox>
+                  <ScrollPane fitToHeight="true" fitToWidth="true" prefWidth="300.0">
+                     <content>
+                        <VBox alignment="TOP_CENTER" prefHeight="775.0" prefWidth="400.0" spacing="5.0">
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Label text="Brands" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <TreeView fx:id="brandTreeView" minHeight="71.0" minWidth="71.0" prefHeight="100.0" prefWidth="100.0" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="78.0" prefWidth="400.0">
+                                 <children>
+                                    <Label text="Price" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Empty Tooltip">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                       <children>
+                                          <TextField fx:id="priceLowerTextField" promptText="From" />
+                                          <Label disable="true" text="-">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField fx:id="priceUpperTextField" promptText="To" />
+                                       </children>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <VBox>
+                                 <children>
+                                    <Label text="PSU Standard" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Standard of the PSU must be matched to the case.">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <TreeView fx:id="powerSupplyStandardTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
+                                 </children>
+                              </VBox>
+                              <VBox>
+                                 <children>
+                                    <Label text="Motherboard Size" textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="As long as your case is compatible with your motherboard size, and you’re happy with both, you should usually be good to go.">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <TreeView fx:id="maxMotherboardSizeTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
+                                 </children>
+                              </VBox>
+                              <VBox>
+                                 <children>
+                                    <Label text="Type" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="It is essentially the form factor of the case.">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <TreeView fx:id="typeTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="20.0" layoutY="661.0">
+                                 <children>
+                                    <Label text="Side panel window" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Side panel window allows you to see your components.">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <TreeView fx:id="sidePanelWindowTreeView" minHeight="71.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
             <TableView fx:id="tableView" prefHeight="775.0" prefWidth="980.0" />
          </children>
       </HBox>

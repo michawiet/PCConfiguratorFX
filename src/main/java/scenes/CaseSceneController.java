@@ -2,10 +2,12 @@ package scenes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Case;
+import components.Cooler;
 import helpers.CheckBoxRoot;
 import helpers.DatabaseData;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
+import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -14,8 +16,8 @@ import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class CaseSceneController extends BaseScene<Case> {
@@ -33,18 +35,24 @@ public class CaseSceneController extends BaseScene<Case> {
     private TreeView<String> sidePanelWindowTreeView;
     
     @FXML
-    void AddCpu(ActionEvent event) throws IOException {
+    void addAction(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
         Main.getPrimaryScene().setRoot(root);
     }
 
     @FXML
-    void ApplyFilters(ActionEvent event) {
+    void applyFilters(ActionEvent event) {
+        Predicate<Case> brand = (o) -> getSelectedValues(brandTreeView).contains(o.getBrand());
+        Predicate<Case> standard = (o) -> getSelectedValues(powerSupplyStandardTreeView).contains(o.getPowerSupplyStandard());
+        Predicate<Case> mbSize = (o) -> getSelectedValues(maxMotherboardSizeTreeView).contains(o.getMaxMotherboardSize());
+        Predicate<Case> type = (o) -> getSelectedValues(typeTreeView).contains(o.getType());
+        Predicate<Case> window = (o) -> getSelectedValues(sidePanelWindowTreeView).contains(o.getSidePanelWindow());
 
+        this.filteredList.setPredicate(brand.and(type).and(standard).and(mbSize).and(window));
     }
 
     @FXML
-    void ResetFilters(ActionEvent event) {
+    void resetFilters(ActionEvent event) {
 
     }
 
@@ -57,19 +65,16 @@ public class CaseSceneController extends BaseScene<Case> {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-        this.observableList = FXCollections.observableList(this.productList);
-        this.filteredList = new FilteredList<>(observableList, cpu -> true);
+        this.filteredList = new FilteredList<>(FXCollections.observableList(this.productList));
+        SortedList<Case> sortedList = new SortedList<>(filteredList);
+        sortedList.comparatorProperty().bind(tableView.comparatorProperty());
         //initialize the tableview
         tableView.getColumns().addAll(Case.getColumns());
-        tableView.getItems().addAll(filteredList);
+        tableView.setItems(sortedList);
         //initialize the TreeView Filters
-        CheckBoxRoot nameRoot = new CheckBoxRoot(this.getDistinctBrands());
+        CheckBoxRoot brandRoot = new CheckBoxRoot(this.getDistinctBrands());
         this.brandTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
-        this.brandTreeView.setRoot(nameRoot.getRoot());
-
-        CheckBoxRoot brandRoot = new CheckBoxRoot(this.getDistinctNames());
-        this.nameTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
-        this.nameTreeView.setRoot(brandRoot.getRoot());
+        this.brandTreeView.setRoot(brandRoot.getRoot());
 
         CheckBoxRoot standardRoot = new CheckBoxRoot(this.getDistinctStandards());
         this.powerSupplyStandardTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
@@ -90,18 +95,18 @@ public class CaseSceneController extends BaseScene<Case> {
     }
 
     private List<String> getDistinctSidePanelWindows() {
-        return new ArrayList(this.productList.stream().map(Case::getSidePanelWindow).distinct().collect(Collectors.toList()));
+        return this.productList.stream().map(Case::getSidePanelWindow).distinct().collect(Collectors.toList());
     }
 
     private List<String> getDistinctTypes() {
-        return new ArrayList(this.productList.stream().map(Case::getType).distinct().collect(Collectors.toList()));
+        return this.productList.stream().map(Case::getType).distinct().collect(Collectors.toList());
     }
 
     private List<String> getDistinctMaxMotherboardSizes() {
-        return new ArrayList(this.productList.stream().map(Case::getMaxMotherboardSize).distinct().collect(Collectors.toList()));
+        return this.productList.stream().map(Case::getMaxMotherboardSize).distinct().collect(Collectors.toList());
     }
 
     private List<String> getDistinctStandards() {
-        return new ArrayList(this.productList.stream().map(Case::getPowerSupplyStandard).distinct().collect(Collectors.toList()));
+        return this.productList.stream().map(Case::getPowerSupplyStandard).distinct().collect(Collectors.toList());
     }
 }

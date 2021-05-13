@@ -11,7 +11,7 @@ public class Ram extends Product {
     private int modulesCount;
     private int moduleCapacityGb;
     private float firstWordLatencyNs;
-    private float casLatency;
+    private int casLatency;
 
     public static ArrayList<TableColumn> getColumns() {
         ArrayList<TableColumn> columns = new ArrayList<>();
@@ -38,7 +38,7 @@ public class Ram extends Product {
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("moduleCapacityGb"));
         columns.add(new TableColumn<Ram, Float>("First word latency"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("firstWordLatencyNs"));
-        columns.add(new TableColumn<Ram, Float>("CAS latency"));
+        columns.add(new TableColumn<Ram, Integer>("CAS latency"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("casLatency"));
         //last columns
         columns.add(new TableColumn<Ram, Double>("Price"));
@@ -51,7 +51,7 @@ public class Ram extends Product {
 
     }
 
-    public Ram(String _id, String image, String brand, String name, Double price, int speed, int modulesCount, int moduleCapacityGb, float firstWordLatencyNs, float casLatency) {
+    public Ram(String _id, String image, String brand, String name, Double price, int speed, int modulesCount, int moduleCapacityGb, float firstWordLatencyNs, int casLatency) {
         super(_id, image, brand, name, price);
         this.speed = speed;
         this.modulesCount = modulesCount;
@@ -92,11 +92,11 @@ public class Ram extends Product {
         this.firstWordLatencyNs = firstWordLatencyNs;
     }
 
-    public float getCasLatency() {
+    public int getCasLatency() {
         return casLatency;
     }
 
-    public void setCasLatency(float casLatency) {
+    public void setCasLatency(int casLatency) {
         this.casLatency = casLatency;
     }
 }

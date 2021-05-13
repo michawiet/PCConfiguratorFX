@@ -80,7 +80,7 @@ public class Cooler extends Product {
     }
 
     public String isForWorkstation() {
-        return getBooleanStringValue(this.forWorkstation);
+        return this.forWorkstation ? "Workstation" : "Standard";
     }
 
     public void setForWorkstation(boolean forWorkstation) {

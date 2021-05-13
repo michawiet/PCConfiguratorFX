@@ -34,13 +34,16 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.control.TreeView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
@@ -64,206 +67,320 @@
     </MenuBar>
       <HBox prefHeight="805.0" prefWidth="1280.0">
          <children>
-            <ScrollPane fitToHeight="true" fitToWidth="true" prefWidth="300.0">
-               <content>
-                  <VBox alignment="CENTER" prefHeight="775.0" prefWidth="400.0" spacing="5.0">
-                     <children>
-                        <HBox alignment="CENTER" prefHeight="27.0" prefWidth="251.0" spacing="5.0">
-                           <children>
-                              <Button fx:id="addButton" mnemonicParsing="false" onAction="#AddCpu" prefWidth="90.0" text="Add" />
-                            <Button fx:id="resetFiltersButton" mnemonicParsing="false" onAction="#ResetFilters" prefWidth="90.0" text="Reset" />
-                              <Button fx:id="applyFiltersButton" mnemonicParsing="false" onAction="#ApplyFilters" prefWidth="90.0" text="Apply" />
-                           </children>
-                           <padding>
-                              <Insets bottom="5.0" top="5.0" />
-                           </padding>
-                        </HBox>
-                        <VBox>
-                           <children>
-                              <Label text="Brands" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                              </Label>
-                              <TreeView fx:id="brandTreeView" minHeight="117.0" minWidth="71.0" prefHeight="100.0" prefWidth="100.0" />
-                           </children>
-                        </VBox>
-                        <VBox>
-                           <children>
-                              <Label text="Names" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                              </Label>
-                              <TreeView fx:id="nameTreeView" minHeight="117.0" minWidth="10.0" prefHeight="100.0" prefWidth="100.0" />
-                           </children>
-                        </VBox>
-                        <VBox prefHeight="78.0" prefWidth="400.0">
-                           <children>
-                              <Label text="Price" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                              </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="priceLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="priceUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
-                           </children>
-                        </VBox>
-                        <VBox layoutX="20.0" layoutY="708.0" prefHeight="78.0" prefWidth="400.0">
-                           <children>
-                              <Label text="Speed (MT/s)" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                              </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="speedLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="speedUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
-                           </children>
-                        </VBox>
-                        <VBox layoutX="20.0" layoutY="258.0" prefHeight="78.0" prefWidth="400.0">
-                           <children>
-                              <Label text="Modules count" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                              </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="modulesCountLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="modulesCountUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
-                           </children>
-                        </VBox>
-                        <VBox layoutX="20.0" layoutY="708.0" prefHeight="78.0" prefWidth="400.0">
-                           <children>
-                              <Label text="Modules capacity" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                              </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="modulesCapacityLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="modulesCapacityUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
-                           </children>
-                        </VBox>
-                        <VBox layoutX="20.0" layoutY="708.0" prefHeight="78.0" prefWidth="400.0">
-                           <children>
-                              <Label text="First Word Latency" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                              </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="firstWordLatencyLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="firstWordLatencyUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
-                           </children>
-                        </VBox>
-                        <VBox layoutX="20.0" layoutY="730.0" prefHeight="78.0" prefWidth="400.0">
-                           <children>
-                              <Label text="CAS Latency" textAlignment="CENTER">
-                                 <font>
-                                    <Font size="30.0" />
-                                 </font>
-                                 <VBox.margin>
-                                    <Insets />
-                                 </VBox.margin>
-                              </Label>
-                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                 <children>
-                                    <TextField fx:id="casLatencyLowerTextField" promptText="From" />
-                                    <Label disable="true" text="-">
-                                       <font>
-                                          <Font size="16.0" />
-                                       </font>
-                                    </Label>
-                                    <TextField fx:id="casLatencyUpperTextField" promptText="To" />
-                                 </children>
-                                 <opaqueInsets>
-                                    <Insets />
-                                 </opaqueInsets>
-                              </HBox>
-                           </children>
-                        </VBox>
-                     </children>
-                     <padding>
-                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
-                     </padding>
-                  </VBox>
-               </content>
+            <VBox>
                <HBox.margin>
                   <Insets />
                </HBox.margin>
-            </ScrollPane>
+               <children>
+                  <HBox alignment="TOP_CENTER">
+                     <children>
+                        <Button fx:id="addButton" mnemonicParsing="false" onAction="#addAction" prefHeight="44.0" prefWidth="280.0" text="Add selected memory">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets bottom="5.0" top="5.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+                  <Separator opacity="0.65" prefWidth="200.0" />
+                  <HBox alignment="CENTER" prefHeight="27.0" prefWidth="251.0" spacing="10.0">
+                     <children>
+                        <Button fx:id="resetFiltersButton" mnemonicParsing="false" onAction="#resetFilters" prefHeight="25.0" prefWidth="135.0" text="Reset filters" />
+                        <Button fx:id="applyFiltersButton" mnemonicParsing="false" onAction="#applyFilters" prefHeight="25.0" prefWidth="135.0" text="Apply filters">
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" wrapText="true" text="Applies the filters" />
+                           </tooltip></Button>
+                     </children>
+                     <padding>
+                        <Insets bottom="5.0" top="5.0" />
+                     </padding>
+                  </HBox>
+                  <ScrollPane fitToHeight="true" fitToWidth="true" prefWidth="300.0">
+                     <content>
+                        <VBox alignment="TOP_CENTER" prefHeight="775.0" prefWidth="400.0" spacing="5.0">
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <Label text="Brands" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <TreeView fx:id="brandTreeView" minHeight="117.0" minWidth="71.0" prefHeight="100.0" prefWidth="100.0" />
+                                 </children>
+                              </VBox>
+                              <VBox prefHeight="78.0" prefWidth="400.0">
+                                 <children>
+                                    <Label text="Price" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Price of the memory in PLN.">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                       <children>
+                                          <TextField fx:id="priceLowerTextField" promptText="From" />
+                                          <Label disable="true" text="-">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField fx:id="priceUpperTextField" promptText="To" />
+                                       </children>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="20.0" layoutY="708.0" prefHeight="78.0" prefWidth="400.0">
+                                 <children>
+                                    <Label text="Speed (MT/s)" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Speed of the memory - the faster the better with 3200 MT/s - 3600 MT/s being the sweet spot">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                       <children>
+                                          <ComboBox fx:id="speedMinComboBox" onAction="#speedMinComboBoxUpdate" prefWidth="150.0" promptText="From">
+                                             <tooltip>
+                                                <Tooltip maxWidth="400.0" wrapText="true" text="Minimum speed value.">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Tooltip>
+                                             </tooltip></ComboBox>
+                                          <Label disable="true" text="-">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <ComboBox fx:id="speedMaxComboBox" layoutX="10.0" layoutY="14.0" onAction="#speedMaxComboBoxUpdate" prefWidth="150.0" promptText="To">
+                                             <tooltip>
+                                                <Tooltip maxWidth="400.0" wrapText="true" text="Maximum speed value.">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Tooltip>
+                                             </tooltip></ComboBox>
+                                       </children>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="20.0" layoutY="258.0" prefHeight="78.0" prefWidth="400.0">
+                                 <children>
+                                    <Label text="Modules count" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Number of memory modules in a pack. It is recommended to use even number of modules for the best performance.">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                       <children>
+                                          <ComboBox fx:id="modulesCountMinComboBox" onAction="#modulesCountMnComboBoxUpdate" prefWidth="150.0" promptText="From">
+                                             <tooltip>
+                                                <Tooltip maxWidth="400.0" wrapText="true" text="Minimum number of memory modules.">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Tooltip>
+                                             </tooltip></ComboBox>
+                                          <Label disable="true" text="-">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <ComboBox fx:id="modulesCountMaxComboBox" onAction="#modulesCountMaxComboBoxUpdate" prefWidth="150.0" promptText="To">
+                                             <tooltip>
+                                                <Tooltip maxWidth="400.0" wrapText="true" text="Maximum number of memory modules.">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Tooltip>
+                                             </tooltip></ComboBox>
+                                       </children>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="20.0" layoutY="708.0" prefHeight="78.0" prefWidth="400.0">
+                                 <children>
+                                    <Label text="Modules capacity" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Capacity of singular module in GB.">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                       <children>
+                                          <ComboBox fx:id="modulesCapacityMinComboBox" onAction="#modulesCapacityMinComboBoxUpdate" prefWidth="150.0" promptText="From">
+                                             <tooltip>
+                                                <Tooltip maxWidth="400.0" wrapText="true" text="Minimum capacity.">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Tooltip>
+                                             </tooltip></ComboBox>
+                                          <Label disable="true" text="-">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <ComboBox fx:id="modulesCapacityMaxComboBox" layoutX="10.0" layoutY="14.0" onAction="#modulesCapacityMaxComboBoxUpdate" prefWidth="150.0" promptText="To">
+                                             <tooltip>
+                                                <Tooltip maxWidth="400.0" wrapText="true" text="Maximum capacity.">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Tooltip>
+                                             </tooltip></ComboBox>
+                                       </children>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="20.0" layoutY="708.0" prefHeight="78.0" prefWidth="400.0">
+                                 <children>
+                                    <Label text="First Word Latency" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Comparable latency value of memory access in nanoseconds.">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                       <children>
+                                          <TextField fx:id="firstWordLatencyLowerTextField" promptText="From" />
+                                          <Label disable="true" text="-">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <TextField fx:id="firstWordLatencyUpperTextField" promptText="To" />
+                                       </children>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                              <VBox layoutX="20.0" layoutY="730.0" prefHeight="78.0" prefWidth="400.0">
+                                 <children>
+                                    <Label text="CAS Latency" textAlignment="CENTER">
+                                       <font>
+                                          <Font size="30.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets />
+                                       </VBox.margin>
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="If you tell someone to “duck!”, CAS latency would be the delay between when you command them to duck and when the other person reacts. Cannot be directly compared if the modules have different speed.">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip>
+                                    </Label>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                       <children>
+                                          <ComboBox fx:id="casMinComboBox" onAction="#casMinComboBoxUpdate" prefWidth="150.0" promptText="From">
+                                             <tooltip>
+                                                <Tooltip maxWidth="400.0" wrapText="true" text="Minimum CAS Latency value.">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Tooltip>
+                                             </tooltip></ComboBox>
+                                          <Label disable="true" text="-">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Label>
+                                          <ComboBox fx:id="casMaxComboBox" layoutX="10.0" layoutY="14.0" onAction="#casMaxComboBoxUpdate" prefWidth="150.0" promptText="To">
+                                             <tooltip>
+                                                <Tooltip maxWidth="400.0" wrapText="true" text="Maximum CAS Latency value.">
+                                                   <font>
+                                                      <Font size="16.0" />
+                                                   </font>
+                                                </Tooltip>
+                                             </tooltip></ComboBox>
+                                       </children>
+                                       <opaqueInsets>
+                                          <Insets />
+                                       </opaqueInsets>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                           <padding>
+                              <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+               </children>
+            </VBox>
             <TableView fx:id="tableView" prefHeight="775.0" prefWidth="980.0" />
          </children>
       </HBox>

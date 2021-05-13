@@ -6,6 +6,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import org.kordamp.bootstrapfx.BootstrapFX;
 
 public class Main extends Application {
     public static void main(String[] args) throws JsonProcessingException {
@@ -20,21 +21,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        //Parent root2 = FXMLLoader.load(getClass().getClassLoader().getResource("CpuSceneController.fxml"));
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
-
-        //CpuScene page = new CpuScene();
-
-        //TableView cpuTable = new TableView();
-        //cpuTable.getColumns().addAll(Cpu.getColumns());
-        //DatabaseData data = new DatabaseData();
-        //ObservableList<Cpu> observableList = FXCollections.observableList(data.getCpuList());
-        //FilteredList<Cpu> filteredList = new FilteredList<>(observableList, cpu -> cpu.getIgpu() != "No");
-        //cpuTable.getItems().addAll(filteredList);
-        ////TableFilter filter = new TableFilter(cpuTable);
-//
-        //VBox vBox = new VBox(cpuTable, new ScrollPane());
-
         primaryScene = new Scene(root, 1280, 800);
         primaryScene.setRoot(root);
         primaryStage.setScene(primaryScene);

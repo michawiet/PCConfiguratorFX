@@ -10,7 +10,7 @@ public class Psu extends Product {
     private float tier;
     private String formFactor;
     private String efficiencyRating;
-    private String wattage;
+    private Integer wattage;
     private String modular;
 
     //TODO: public static explanation
@@ -36,7 +36,7 @@ public class Psu extends Product {
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("formFactor"));
         columns.add(new TableColumn<Psu, String>("Eff. Rating"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("efficiencyRating"));
-        columns.add(new TableColumn<Psu, String>("Wattage"));
+        columns.add(new TableColumn<Psu, Integer>("Wattage"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("wattage"));
         columns.add(new TableColumn<Psu, String>("Modularity"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("modular"));
@@ -51,7 +51,7 @@ public class Psu extends Product {
 
     }
 
-    public Psu(String _id, String image, String brand, String name, Double price, float tier, String formFactor, String efficiencyRating, String wattage, String modular) {
+    public Psu(String _id, String image, String brand, String name, Double price, float tier, String formFactor, String efficiencyRating, Integer wattage, String modular) {
         super(_id, image, brand, name, price);
         this.tier = tier;
         this.formFactor = formFactor;
@@ -84,11 +84,11 @@ public class Psu extends Product {
         this.efficiencyRating = efficiencyRating;
     }
 
-    public String getWattage() {
+    public Integer getWattage() {
         return wattage;
     }
 
-    public void setWattage(String wattage) {
+    public void setWattage(Integer wattage) {
         this.wattage = wattage;
     }
 

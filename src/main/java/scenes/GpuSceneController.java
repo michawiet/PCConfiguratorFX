@@ -3,13 +3,16 @@ package scenes;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Gpu;
 import helpers.CheckBoxRoot;
+import helpers.ComboBoxMinMaxValueController;
 import helpers.DatabaseData;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
+import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
@@ -17,6 +20,7 @@ import javafx.scene.control.cell.CheckBoxTreeCell;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class GpuSceneController extends BaseScene<Gpu> {
@@ -25,10 +29,10 @@ public class GpuSceneController extends BaseScene<Gpu> {
     private TreeView<String> chipsetTreeView;
 
     @FXML
-    private TextField memoryLowerTextField;
+    ComboBox<Integer> memoryMinComboBox;
 
     @FXML
-    private TextField memoryUpperTextField;
+    ComboBox<Integer> memoryMaxComboBox;
 
     @FXML
     private TextField coreClockLowerTextField;
@@ -49,10 +53,10 @@ public class GpuSceneController extends BaseScene<Gpu> {
     private TextField lengthPerformanceUpperTextField;
 
     @FXML
-    private TextField tdpLowerTextField;
+    private ComboBox<Integer> tdpMinComboBox;
 
     @FXML
-    private TextField tdpUpperTextField;
+    private ComboBox<Integer> tdpMaxComboBox;
 
     @FXML
     private TextField recommendedPsuWattsLowerTextField;
@@ -66,20 +70,50 @@ public class GpuSceneController extends BaseScene<Gpu> {
     @FXML
     private TextField performanceUpperTextField;
 
+    private ComboBoxMinMaxValueController memoryController;
+    private ComboBoxMinMaxValueController tdpController;
+
     @FXML
-    void AddCpu(ActionEvent event) throws IOException {
+    void addAction(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
         Main.getPrimaryScene().setRoot(root);
     }
 
     @FXML
-    void ApplyFilters(ActionEvent event) {
+    void applyFilters(ActionEvent event) {
+        Predicate<Gpu> brand = (o) -> getSelectedValues(brandTreeView).contains(o.getBrand());
+        Predicate<Gpu> chipset = (o) -> getSelectedValues(chipsetTreeView).contains(o.getChipset());
+        Predicate<Gpu> memory = (o) -> (o.getMemoryGb() >= memoryMinComboBox.getValue()) &&
+                (o.getMemoryGb() <= memoryMaxComboBox.getValue());
+        Predicate<Gpu> tdp = (o) -> (o.getTdpW() >= tdpMinComboBox.getValue()) &&
+                (o.getTdpW() <= tdpMaxComboBox.getValue());
+
+        this.filteredList.setPredicate(brand.and(chipset).and(tdp).and(memory));
+    }
+
+    @FXML
+    void memoryMaxComboBoxUpdate(ActionEvent event) {
+        memoryController.maxComboBoxUpdated();
+    }
+
+    @FXML
+    void memoryMinComboBoxUpdate(ActionEvent event) {
+        memoryController.minComboBoxUpdated();
+    }
+
+    @FXML
+    void resetFilters(ActionEvent event) {
 
     }
 
     @FXML
-    void ResetFilters(ActionEvent event) {
+    void tdpMaxComboBoxUpdate(ActionEvent event) {
+        tdpController.maxComboBoxUpdated();
+    }
 
+    @FXML
+    void tdpMinComboBoxUpdate(ActionEvent event) {
+        tdpController.minComboBoxUpdated();
     }
 
     @Override
@@ -91,28 +125,35 @@ public class GpuSceneController extends BaseScene<Gpu> {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-        this.observableList = FXCollections.observableList(this.productList);
-        this.filteredList = new FilteredList<>(observableList, cpu -> true);
+        this.filteredList = new FilteredList<>(FXCollections.observableList(this.productList));
+        SortedList<Gpu> sortedList = new SortedList<>(filteredList);
+        sortedList.comparatorProperty().bind(tableView.comparatorProperty());
         //initialize the tableview
         tableView.getColumns().addAll(Gpu.getColumns());
-        tableView.getItems().addAll(filteredList);
+        tableView.setItems(sortedList);
         //initialize the TreeView Filters
-        CheckBoxRoot nameRoot = new CheckBoxRoot(this.getDistinctBrands());
+        CheckBoxRoot brandRoot = new CheckBoxRoot(this.getDistinctBrands());
         this.brandTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
-        this.brandTreeView.setRoot(nameRoot.getRoot());
-
-        CheckBoxRoot brandRoot = new CheckBoxRoot(this.getDistinctNames());
-        this.nameTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
-        this.nameTreeView.setRoot(brandRoot.getRoot());
+        this.brandTreeView.setRoot(brandRoot.getRoot());
 
         CheckBoxRoot chipsetRoot = new CheckBoxRoot(this.getDistinctChipsets());
         this.chipsetTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
         this.chipsetTreeView.setRoot(chipsetRoot.getRoot());
 
         //initialize the TextFields filters
+        memoryController = new ComboBoxMinMaxValueController(getDistinctMemoryCapacity(), memoryMinComboBox, memoryMaxComboBox);
+        tdpController = new ComboBoxMinMaxValueController(getDistinctTdp(), tdpMinComboBox, tdpMaxComboBox);
+    }
+
+    private List<Integer> getDistinctTdp() {
+        return this.productList.stream().map(Gpu::getTdpW).sorted().distinct().collect(Collectors.toList());
+    }
+
+    private List<Integer> getDistinctMemoryCapacity() {
+        return this.productList.stream().map(Gpu::getMemoryGb).sorted().distinct().collect(Collectors.toList());
     }
 
     private List<String> getDistinctChipsets() {
-        return new ArrayList(this.productList.stream().map(Gpu::getChipset).distinct().collect(Collectors.toList()));
+        return this.productList.stream().map(Gpu::getChipset).distinct().collect(Collectors.toList());
     }
 }

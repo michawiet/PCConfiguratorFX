@@ -37,6 +37,7 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -87,8 +88,15 @@
                      <children>
                         <Label layoutX="100.0" layoutY="26.0" text="CPU" AnchorPane.rightAnchor="10.0">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold Italic" size="30.0" />
                            </font>
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="A Central Processing Unit (CPU) is the brain of the computer. This is what runs all your programs, calculations, and operations." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
                         </Label>
                      </children>
                   </AnchorPane>
@@ -96,8 +104,15 @@
                      <children>
                         <Label layoutX="84.0" layoutY="26.0" text="Cooler" AnchorPane.rightAnchor="10.0">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold Italic" size="30.0" />
                            </font>
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="A heatsink and fan (HSF), also known as a CPU Cooler, sits atop the CPU to draw heat away from the CPU and disperse it, because CPUs produce heat while operating." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
                         </Label>
                      </children>
                   </AnchorPane>
@@ -105,8 +120,15 @@
                      <children>
                         <Label layoutX="40.0" layoutY="26.0" text="Motherboard" AnchorPane.rightAnchor="10.0">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold Italic" size="30.0" />
                            </font>
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="The motherboard electronically connects all of your PC’s parts. It also takes power from the PSU and provides it to many of your other components." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
                         </Label>
                      </children>
                   </AnchorPane>
@@ -114,8 +136,15 @@
                      <children>
                         <Label layoutX="92.0" layoutY="24.0" text="RAM" AnchorPane.rightAnchor="10.0">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold Italic" size="30.0" />
                            </font>
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="Random Access Memory can store a small amount of data, but with extremely high data transfer speeds. RAM is volatile, meaning it loses all the data stored in it when the power goes off." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
                         </Label>
                      </children>
                   </AnchorPane>
@@ -123,8 +152,15 @@
                      <children>
                         <Label layoutX="77.0" layoutY="26.0" text="Storage" AnchorPane.rightAnchor="10.0">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold Italic" size="30.0" />
                            </font>
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="A hard disk drive (HDD) is one of two options for storing your data, along with solid state drives (SSD). Both options can be used to install your operating system and applications, as well as any files." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
                         </Label>
                      </children>
                   </AnchorPane>
@@ -132,8 +168,15 @@
                      <children>
                         <Label layoutX="99.0" layoutY="26.0" text="GPU" AnchorPane.rightAnchor="10.0">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold Italic" size="30.0" />
                            </font>
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="The graphics card (also known as the ‘video card’) is a piece of hardware containing the Graphics Processing Unit (GPU), the memory, cooling, and controlling hardware for that GPU." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
                         </Label>
                      </children>
                   </AnchorPane>
@@ -141,8 +184,15 @@
                      <children>
                         <Label layoutX="97.0" layoutY="26.0" text="Case" AnchorPane.rightAnchor="10.0">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold Italic" size="30.0" />
                            </font>
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="A case is a large box that holds all your components together securely. Case choices are subjective: the same case can be called ugly or beautiful depending on the viewer's taste." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
                         </Label>
                      </children>
                   </AnchorPane>
@@ -150,8 +200,15 @@
                      <children>
                         <Label layoutX="38.0" layoutY="26.0" text="Power Supply" AnchorPane.rightAnchor="10.0">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold Italic" size="30.0" />
                            </font>
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="A power supply unit (PSU) takes AC power from an outlet and converts it to clean DC power, usable by your PC." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
                         </Label>
                      </children>
                   </AnchorPane>
@@ -371,11 +428,11 @@
                         </Label>
                      </children>
                   </AnchorPane>
-                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4">
+                  <AnchorPane prefHeight="200.0" prefWidth="227.0" GridPane.columnIndex="4">
                      <children>
                         <Button fx:id="cpuSelectButton" layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadCpuSelectionScene" text="Select">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold" size="30.0" />
                            </font>
                         </Button>
                      </children>
@@ -384,7 +441,7 @@
                      <children>
                         <Button fx:id="coolerSelectButton" layoutX="60.0" layoutY="12.0" mnemonicParsing="false" onAction="#loadCoolerSelectionScene" text="Select">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold" size="30.0" />
                            </font>
                         </Button>
                      </children>
@@ -393,7 +450,7 @@
                      <children>
                         <Button fx:id="motherboardSelectButton" layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadMotherboardSelectionScene" text="Select">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold" size="30.0" />
                            </font>
                         </Button>
                      </children>
@@ -402,7 +459,7 @@
                      <children>
                         <Button fx:id="ramSelectButton" layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadRamSelectionScene" text="Select">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold" size="30.0" />
                            </font>
                         </Button>
                      </children>
@@ -411,7 +468,7 @@
                      <children>
                         <Button fx:id="storageSelectButton" layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadStorageSelectionScene" text="Select">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold" size="30.0" />
                            </font>
                         </Button>
                      </children>
@@ -420,7 +477,7 @@
                      <children>
                         <Button fx:id="gpuSelectButton" layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadGpuSelectionScene" text="Select">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold" size="30.0" />
                            </font>
                         </Button>
                      </children>
@@ -429,7 +486,7 @@
                      <children>
                         <Button fx:id="caseSelectButton" layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadCaseSelectionScene" text="Select">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold" size="30.0" />
                            </font>
                         </Button>
                      </children>
@@ -438,12 +495,11 @@
                      <children>
                         <Button fx:id="psuSelectButton" layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadPsuSelectionScene" text="Select">
                            <font>
-                              <Font size="30.0" />
+                              <Font name="System Bold" size="30.0" />
                            </font>
                         </Button>
                      </children>
                   </AnchorPane>
-                  <AnchorPane layoutX="810.0" layoutY="10.0" prefHeight="200.0" prefWidth="200.0" />
                </children>
             </GridPane>
          </children>

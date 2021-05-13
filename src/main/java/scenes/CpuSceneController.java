@@ -2,10 +2,12 @@ package scenes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Cpu;
+import helpers.ComboBoxMinMaxValueController;
 import helpers.DatabaseData;
 import helpers.CheckBoxRoot;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
+import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -18,6 +20,7 @@ import java.util.ArrayList;
 import java.util.DoubleSummaryStatistics;
 import java.util.IntSummaryStatistics;
 import java.util.List;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class CpuSceneController extends BaseScene<Cpu> {
@@ -26,10 +29,10 @@ public class CpuSceneController extends BaseScene<Cpu> {
     private TreeView<String> socketTreeView;
 
     @FXML
-    private TextField coreCountLowerSpinner;
+    private ComboBox<Integer> coreCountMinComboBox;
 
     @FXML
-    private TextField coreCountUpperSpinner;
+    private ComboBox<Integer> coreCountMaxComboBox;
 
     @FXML
     private TreeView<String> smtTreeView;
@@ -38,10 +41,10 @@ public class CpuSceneController extends BaseScene<Cpu> {
     private TreeView<String> igpuTreeView;
 
     @FXML
-    private TextField tdpLowerTextField;
+    private ComboBox<Integer> tdpMinComboBox;
 
     @FXML
-    private TextField tdpUpperTextField;
+    private ComboBox<Integer> tdpMaxComboBox;
 
     @FXML
     private TextField stPerformanceLowerTextField;
@@ -67,6 +70,9 @@ public class CpuSceneController extends BaseScene<Cpu> {
     @FXML
     private TextField boostClockUpperTextField;
 
+    private ComboBoxMinMaxValueController tdpController;
+    private ComboBoxMinMaxValueController coresController;
+
     @FXML
     public void initialize() {
         //initialize the lists
@@ -76,19 +82,18 @@ public class CpuSceneController extends BaseScene<Cpu> {
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
-        this.observableList = FXCollections.observableList(this.productList);
-        this.filteredList = new FilteredList<>(observableList, cpu -> true);
+
+        this.filteredList = new FilteredList<>(FXCollections.observableList(this.productList));
+        SortedList<Cpu> sortedList = new SortedList<>(filteredList);
+        sortedList.comparatorProperty().bind(tableView.comparatorProperty());
         //initialize the tableview
         tableView.getColumns().addAll(Cpu.getColumns());
-        tableView.getItems().addAll(filteredList);
-        //initialize the TreeView Filters
-        CheckBoxRoot nameRoot = new CheckBoxRoot(this.getDistinctBrands());
-        this.brandTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
-        this.brandTreeView.setRoot(nameRoot.getRoot());
+        tableView.setItems(sortedList);
 
-        CheckBoxRoot brandRoot = new CheckBoxRoot(this.getDistinctNames());
-        this.nameTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
-        this.nameTreeView.setRoot(brandRoot.getRoot());
+        //initialize the TreeView Filters
+        CheckBoxRoot brandRoot = new CheckBoxRoot(this.getDistinctBrands());
+        this.brandTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
+        this.brandTreeView.setRoot(brandRoot.getRoot());
 
         CheckBoxRoot socketRoot = new CheckBoxRoot(this.getDistinctSockets());
         this.socketTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
@@ -103,22 +108,56 @@ public class CpuSceneController extends BaseScene<Cpu> {
         this.igpuTreeView.setRoot(igpuRoot.getRoot());
 
         //initialize the TextFields filters
+        this.coresController = new ComboBoxMinMaxValueController(this.getDistinctCoreCount(), coreCountMinComboBox, coreCountMaxComboBox);
+        this.tdpController = new ComboBoxMinMaxValueController(this.getDistinctTdp(), tdpMinComboBox, tdpMaxComboBox);
     }
 
     @FXML
-    void AddCpu(ActionEvent event) throws IOException {
+    void addAction(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
         Main.getPrimaryScene().setRoot(root);
     }
 
     @FXML
-    void ApplyFilters(ActionEvent event) {
+    void applyFilters(ActionEvent event) {
         //Update the predicates and apply to the filtered/observable list
+        Predicate<Cpu> brand = (cpu) -> getSelectedValues(brandTreeView).contains(cpu.getBrand());
+        Predicate<Cpu> socket = (cpu) -> getSelectedValues(socketTreeView).contains(cpu.getSocket());
+        Predicate<Cpu> smt = (cpu) -> getSelectedValues(smtTreeView).contains(cpu.getSmt());
+        Predicate<Cpu> igpu = (cpu) -> getSelectedValues(igpuTreeView).contains(cpu.getIgpu());
+
+        //Predicate<Cpu> price
+        Predicate<Cpu> coreCount = (cpu) -> (cpu.getCores() >= coreCountMinComboBox.getValue()) &&
+                (cpu.getCores() <= coreCountMaxComboBox.getValue());
+        Predicate<Cpu> tdp = (cpu) -> (cpu.getTdp() >= tdpMinComboBox.getValue()) &&
+                (cpu.getTdp() <= tdpMaxComboBox.getValue());
+
+        this.filteredList.setPredicate(brand.and(socket).and(smt).and(igpu).and(coreCount).and(tdp));
     }
 
     @FXML
-    void ResetFilters(ActionEvent event) {
+    void resetFilters(ActionEvent event) {
         //reset predicates
+    }
+
+    @FXML
+    void coreCountMaxComboBoxUpdated(ActionEvent event) {
+        this.coresController.maxComboBoxUpdated();
+    }
+
+    @FXML
+    void coreCountMinComboBoxUpdated(ActionEvent event) {
+        this.coresController.minComboBoxUpdated();
+    }
+
+    @FXML
+    void tdpMaxComboBoxUpdated(ActionEvent event) {
+        this.tdpController.maxComboBoxUpdated();
+    }
+
+    @FXML
+    void tdpMinComboBoxUpdated(ActionEvent event) {
+        this.tdpController.minComboBoxUpdated();
     }
 
     private List<String> getDistinctSockets() {
@@ -126,11 +165,19 @@ public class CpuSceneController extends BaseScene<Cpu> {
     }
 
     private List<String> getDistinctIgpu() {
-        return new ArrayList(this.productList.stream().map(Cpu::getIgpu).distinct().collect(Collectors.toList()));
+        return this.productList.stream().map(Cpu::getIgpu).distinct().collect(Collectors.toList());
     }
 
     private List<String> getDistinctSmt() {
-        return new ArrayList(this.productList.stream().map(Cpu::getSmt).distinct().collect(Collectors.toList()));
+        return this.productList.stream().map(Cpu::getSmt).distinct().collect(Collectors.toList());
+    }
+
+    private List<Integer> getDistinctCoreCount() {
+        return this.productList.stream().map(Cpu::getCores).sorted().distinct().collect(Collectors.toList());
+    }
+
+    private List<Integer> getDistinctTdp() {
+        return this.productList.stream().map(Cpu::getTdp).sorted().distinct().collect(Collectors.toList());
     }
 
     private IntSummaryStatistics getCoresStatistics() {
