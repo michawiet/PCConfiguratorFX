@@ -4,43 +4,45 @@ components/Motherboard.java
  components.Motherboard
 components/Gpu.java
  components.Gpu
-components/Cooler.java
- components.Cooler
-components/Product.java
- components.Product
-components/Cpu.java
- components.Cpu
-scenes/BaseScene.java
- scenes.BaseScene
-components/Storage.java
- components.Storage
-helpers/CheckBoxRoot.java
- helpers.CheckBoxRoot
-components/Ram.java
- components.Ram
-helpers/ComboBoxMinMaxValueController.java
- helpers.ComboBoxMinMaxValueController
-components/Psu.java
- components.Psu
-components/Case.java
- components.Case
 scenes/StorageSceneController.java
  scenes.StorageSceneController
-scenes/MainSceneController.java
- scenes.MainSceneController
 scenes/MotherboardSceneController.java
  scenes.MotherboardSceneController
 scenes/CaseSceneController.java
  scenes.CaseSceneController
 scenes/PsuSceneController.java
  scenes.PsuSceneController
+components/Storage.java
+ components.Storage
+helpers/CheckBoxRoot.java
+ helpers.CheckBoxRoot
+scenes/GpuSceneController.java
+ scenes.GpuSceneController
+scenes/HelpSceneController.java
+ scenes.HelpSceneController
+helpers/ComboBoxMinMaxValueController.java
+ helpers.ComboBoxMinMaxValueController
+components/Psu.java
+ components.Psu
+components/Case.java
+ components.Case
+scenes/Main.java
+ scenes.Main
+components/Ram.java
+ components.Ram
+scenes/MainSceneController.java
+ scenes.MainSceneController
 scenes/CpuSceneController.java
  scenes.CpuSceneController
 scenes/CoolerSceneController.java
  scenes.CoolerSceneController
 scenes/RamSceneController.java
  scenes.RamSceneController
-scenes/GpuSceneController.java
- scenes.GpuSceneController
-scenes/Main.java
- scenes.Main
+components/Cpu.java
+ components.Cpu
+components/Product.java
+ components.Product
+scenes/BaseScene.java
+ scenes.BaseScene
+components/Cooler.java
+ components.Cooler

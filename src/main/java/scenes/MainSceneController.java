@@ -36,7 +36,7 @@ public class MainSceneController {
 
     @FXML
     void loadCaseSelectionScene(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("CaseSceneController.fxml"));
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("HelpSceneController.fxml"));
         Main.getPrimaryScene().setRoot(root);
     }
 
