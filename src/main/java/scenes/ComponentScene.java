@@ -1,7 +1,9 @@
 package scenes;
 
 import components.Product;
+import helpers.SceneHubSingleton;
 import javafx.collections.transformation.FilteredList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
@@ -9,7 +11,7 @@ import javafx.scene.control.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
-public abstract class BaseScene<T extends Product> {
+public abstract class ComponentScene<T extends Product> {
 
     //TODO: move here the methods and fields commonly used in scenes
     protected List<T> productList;
@@ -41,6 +43,18 @@ public abstract class BaseScene<T extends Product> {
 
     @FXML
     public abstract void initialize();
+
+    protected void addTableViewListener() {
+        tableView.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
+            addButton.setDisable(newSelection != null ? false : true);
+        });
+    }
+
+    @FXML
+    protected void addAction(ActionEvent event) {
+        Product product = (Product) tableView.getSelectionModel().getSelectedItem();
+        SceneHubSingleton.getInstance().addSelectedProductAndSwitch(product);
+    }
 
     protected List<String> getDistinctBrands() {
         return this.productList.stream().map(T::getBrand).distinct().collect(Collectors.toList());

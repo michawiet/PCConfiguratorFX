@@ -2,7 +2,7 @@ package scenes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Cpu;
-import helpers.ComboBoxMinMaxValueController;
+import helpers.ComboBoxRangeValueController;
 import helpers.DatabaseData;
 import helpers.CheckBoxRoot;
 import javafx.collections.FXCollections;
@@ -10,12 +10,9 @@ import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.DoubleSummaryStatistics;
 import java.util.IntSummaryStatistics;
@@ -23,7 +20,7 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class CpuSceneController extends BaseScene<Cpu> {
+public class CpuSceneController extends ComponentScene<Cpu> {
 
     @FXML
     private TreeView<String> socketTreeView;
@@ -70,15 +67,14 @@ public class CpuSceneController extends BaseScene<Cpu> {
     @FXML
     private TextField boostClockUpperTextField;
 
-    private ComboBoxMinMaxValueController tdpController;
-    private ComboBoxMinMaxValueController coresController;
+    private ComboBoxRangeValueController tdpController;
+    private ComboBoxRangeValueController coresController;
 
     @FXML
     public void initialize() {
         //initialize the lists
-        DatabaseData data = new DatabaseData();
         try {
-            this.productList = data.getCpuList();
+            this.productList = DatabaseData.getInstance().getCpuList();
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
@@ -108,14 +104,10 @@ public class CpuSceneController extends BaseScene<Cpu> {
         this.igpuTreeView.setRoot(igpuRoot.getRoot());
 
         //initialize the TextFields filters
-        this.coresController = new ComboBoxMinMaxValueController(this.getDistinctCoreCount(), coreCountMinComboBox, coreCountMaxComboBox);
-        this.tdpController = new ComboBoxMinMaxValueController(this.getDistinctTdp(), tdpMinComboBox, tdpMaxComboBox);
-    }
+        this.coresController = new ComboBoxRangeValueController(this.getDistinctCoreCount(), coreCountMinComboBox, coreCountMaxComboBox);
+        this.tdpController = new ComboBoxRangeValueController(this.getDistinctTdp(), tdpMinComboBox, tdpMaxComboBox);
 
-    @FXML
-    void addAction(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
-        Main.getPrimaryScene().setRoot(root);
+        this.addTableViewListener();
     }
 
     @FXML

@@ -60,6 +60,11 @@ public class Gpu extends Product {
 
     }
 
+    @Override
+    public ProductType getProductType() {
+        return ProductType.Gpu;
+    }
+
     public Gpu(String _id, String image, String brand, String name, Double price, String chipset, int memoryGb, int coreClockMhz, int boostClockMhz, int lengthMillimeters, int tdpW, int recommendedPsuWatts, int performance) {
         super(_id, image, brand, name, price);
         this.chipset = chipset;

@@ -50,6 +50,11 @@ public class Storage extends Product {
 
     }
 
+    @Override
+    public ProductType getProductType() {
+        return ProductType.Storage;
+    }
+
     public Storage(String _id, String image, String brand, String name, Double price, int capacityGb, int tier, String type, String formFactor, String connectionInterface) {
         super(_id, image, brand, name, price);
         this.capacityGb = capacityGb;

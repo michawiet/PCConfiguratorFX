@@ -44,6 +44,12 @@ public class Case extends Product {
     }
 
     public Case() {
+
+    }
+
+    @Override
+    public ProductType getProductType() {
+        return ProductType.Case;
     }
 
     public Case(String _id, String image, String brand, String name, Double price, String powerSupplyStandard, String maxMotherboardSize, String type, String sidePanelWindow) {

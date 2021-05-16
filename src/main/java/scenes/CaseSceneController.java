@@ -2,7 +2,6 @@ package scenes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Case;
-import components.Cooler;
 import helpers.CheckBoxRoot;
 import helpers.DatabaseData;
 import javafx.collections.FXCollections;
@@ -10,17 +9,14 @@ import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class CaseSceneController extends BaseScene<Case> {
+public class CaseSceneController extends ComponentScene<Case> {
 
     @FXML
     private TreeView<String> powerSupplyStandardTreeView;
@@ -33,12 +29,6 @@ public class CaseSceneController extends BaseScene<Case> {
 
     @FXML
     private TreeView<String> sidePanelWindowTreeView;
-    
-    @FXML
-    void addAction(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
-        Main.getPrimaryScene().setRoot(root);
-    }
 
     @FXML
     void applyFilters(ActionEvent event) {
@@ -59,9 +49,8 @@ public class CaseSceneController extends BaseScene<Case> {
     @Override
     public void initialize() {
         //initialize the lists
-        DatabaseData data = new DatabaseData();
         try {
-            this.productList = data.getCaseList();
+            this.productList = DatabaseData.getInstance().getCaseList();
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
@@ -92,6 +81,8 @@ public class CaseSceneController extends BaseScene<Case> {
         this.sidePanelWindowTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
         this.sidePanelWindowTreeView.setRoot(sidePanelWindowRoot.getRoot());
         //initialize the TextFields filters
+
+        this.addTableViewListener();
     }
 
     private List<String> getDistinctSidePanelWindows() {

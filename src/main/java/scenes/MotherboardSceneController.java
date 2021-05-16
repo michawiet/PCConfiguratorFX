@@ -3,26 +3,22 @@ package scenes;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Motherboard;
 import helpers.CheckBoxRoot;
-import helpers.ComboBoxMinMaxValueController;
+import helpers.ComboBoxRangeValueController;
 import helpers.DatabaseData;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.control.ComboBox;
-import javafx.scene.control.TextField;
 import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class MotherboardSceneController extends BaseScene<Motherboard> {
+public class MotherboardSceneController extends ComponentScene<Motherboard> {
 
     @FXML
     private TreeView<String> chipsetTreeView;
@@ -51,15 +47,9 @@ public class MotherboardSceneController extends BaseScene<Motherboard> {
     @FXML
     private ComboBox<Integer> memoryMaxComboBox;
 
-    ComboBoxMinMaxValueController tierController;
-    ComboBoxMinMaxValueController slotsController;
-    ComboBoxMinMaxValueController memoryMaxController;
-
-    @FXML
-    void addAction(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
-        Main.getPrimaryScene().setRoot(root);
-    }
+    ComboBoxRangeValueController tierController;
+    ComboBoxRangeValueController slotsController;
+    ComboBoxRangeValueController memoryMaxController;
 
     @FXML
     void applyFilters(ActionEvent event) {
@@ -113,9 +103,8 @@ public class MotherboardSceneController extends BaseScene<Motherboard> {
     @Override
     public void initialize() {
         //initialize the lists
-        DatabaseData data = new DatabaseData();
         try {
-            this.productList = data.getMotherboardList();
+            this.productList = DatabaseData.getInstance().getMotherboardList();
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
@@ -143,9 +132,11 @@ public class MotherboardSceneController extends BaseScene<Motherboard> {
         this.formFactorTreeView.setRoot(formFactorRoot.getRoot());
 
         //initialize the TextFields filters
-        //tierController = new ComboBoxMinMaxValueController()
-        slotsController = new ComboBoxMinMaxValueController(getDistinctSlots(), slotsMinComboBox, slotsMaxComboBox);
-        memoryMaxController = new ComboBoxMinMaxValueController(getDistinctMemory(), memoryMinComboBox, memoryMaxComboBox);
+        //tierController = new ComboBoxRangeValueController(getDistinctTier(), tierMinComboBox, tierMaxComboBox);
+        slotsController = new ComboBoxRangeValueController(getDistinctSlots(), slotsMinComboBox, slotsMaxComboBox);
+        memoryMaxController = new ComboBoxRangeValueController(getDistinctMemory(), memoryMinComboBox, memoryMaxComboBox);
+
+        this.addTableViewListener();
     }
 
     private List<Integer> getDistinctMemory() {

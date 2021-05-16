@@ -3,27 +3,23 @@ package scenes;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Gpu;
 import helpers.CheckBoxRoot;
-import helpers.ComboBoxMinMaxValueController;
+import helpers.ComboBoxRangeValueController;
 import helpers.DatabaseData;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
-import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class GpuSceneController extends BaseScene<Gpu> {
+public class GpuSceneController extends ComponentScene<Gpu> {
 
     @FXML
     private TreeView<String> chipsetTreeView;
@@ -70,14 +66,8 @@ public class GpuSceneController extends BaseScene<Gpu> {
     @FXML
     private TextField performanceUpperTextField;
 
-    private ComboBoxMinMaxValueController memoryController;
-    private ComboBoxMinMaxValueController tdpController;
-
-    @FXML
-    void addAction(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
-        Main.getPrimaryScene().setRoot(root);
-    }
+    private ComboBoxRangeValueController memoryController;
+    private ComboBoxRangeValueController tdpController;
 
     @FXML
     void applyFilters(ActionEvent event) {
@@ -119,9 +109,8 @@ public class GpuSceneController extends BaseScene<Gpu> {
     @Override
     public void initialize() {
         //initialize the lists
-        DatabaseData data = new DatabaseData();
         try {
-            this.productList = data.getGpuList();
+            this.productList = DatabaseData.getInstance().getGpuList();
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
@@ -141,8 +130,10 @@ public class GpuSceneController extends BaseScene<Gpu> {
         this.chipsetTreeView.setRoot(chipsetRoot.getRoot());
 
         //initialize the TextFields filters
-        memoryController = new ComboBoxMinMaxValueController(getDistinctMemoryCapacity(), memoryMinComboBox, memoryMaxComboBox);
-        tdpController = new ComboBoxMinMaxValueController(getDistinctTdp(), tdpMinComboBox, tdpMaxComboBox);
+        memoryController = new ComboBoxRangeValueController(getDistinctMemoryCapacity(), memoryMinComboBox, memoryMaxComboBox);
+        tdpController = new ComboBoxRangeValueController(getDistinctTdp(), tdpMinComboBox, tdpMaxComboBox);
+
+        this.addTableViewListener();
     }
 
     private List<Integer> getDistinctTdp() {

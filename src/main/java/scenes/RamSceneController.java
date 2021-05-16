@@ -1,28 +1,24 @@
 package scenes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import components.Gpu;
 import components.Ram;
 import helpers.CheckBoxRoot;
-import helpers.ComboBoxMinMaxValueController;
+import helpers.ComboBoxRangeValueController;
 import helpers.DatabaseData;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
-import java.io.IOException;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class RamSceneController extends BaseScene<Ram> {
+public class RamSceneController extends ComponentScene<Ram> {
 
     @FXML
     private ComboBox<Integer> speedMinComboBox;
@@ -55,16 +51,10 @@ public class RamSceneController extends BaseScene<Ram> {
     @FXML
     private ComboBox<Integer> casMaxComboBox;
 
-    ComboBoxMinMaxValueController speedController;
-    ComboBoxMinMaxValueController modulesCountController;
-    ComboBoxMinMaxValueController modulesCapacityController;
-    ComboBoxMinMaxValueController casLatencyController;
-
-    @FXML
-    void addAction(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
-        Main.getPrimaryScene().setRoot(root);
-    }
+    ComboBoxRangeValueController speedController;
+    ComboBoxRangeValueController modulesCountController;
+    ComboBoxRangeValueController modulesCapacityController;
+    ComboBoxRangeValueController casLatencyController;
 
     @FXML
     void applyFilters(ActionEvent event) {
@@ -129,9 +119,8 @@ public class RamSceneController extends BaseScene<Ram> {
     @Override
     public void initialize() {
         //initialize the lists
-        DatabaseData data = new DatabaseData();
         try {
-            this.productList = data.getRamList();
+            this.productList = DatabaseData.getInstance().getRamList();
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
@@ -145,11 +134,14 @@ public class RamSceneController extends BaseScene<Ram> {
         CheckBoxRoot brandRoot = new CheckBoxRoot(this.getDistinctBrands());
         this.brandTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
         this.brandTreeView.setRoot(brandRoot.getRoot());
+        //initialize combobox filters
+        speedController = new ComboBoxRangeValueController(getDistinctSpeed(), speedMinComboBox, speedMaxComboBox);
+        modulesCountController = new ComboBoxRangeValueController(getDistinctModulesCount(), modulesCountMinComboBox, modulesCountMaxComboBox);
+        modulesCapacityController = new ComboBoxRangeValueController(getDistinctModuleCapacity(), modulesCapacityMinComboBox, modulesCapacityMaxComboBox);
+        casLatencyController = new ComboBoxRangeValueController(getDistinctCasLatency(), casMinComboBox, casMaxComboBox);
         //initialize the TextFields filters
-        speedController = new ComboBoxMinMaxValueController(getDistinctSpeed(), speedMinComboBox, speedMaxComboBox);
-        modulesCountController = new ComboBoxMinMaxValueController(getDistinctModulesCount(), modulesCountMinComboBox, modulesCountMaxComboBox);
-        modulesCapacityController = new ComboBoxMinMaxValueController(getDistinctModuleCapacity(), modulesCapacityMinComboBox, modulesCapacityMaxComboBox);
-        casLatencyController = new ComboBoxMinMaxValueController(getDistinctCasLatency(), casMinComboBox, casMaxComboBox);
+
+        this.addTableViewListener();
     }
 
     private List<Integer> getDistinctSpeed() {

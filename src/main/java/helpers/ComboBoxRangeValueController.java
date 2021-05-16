@@ -5,9 +5,8 @@ import javafx.collections.transformation.FilteredList;
 import javafx.scene.control.ComboBox;
 
 import java.util.List;
-import java.util.function.Predicate;
 
-public class ComboBoxMinMaxValueController {
+public class ComboBoxRangeValueController {
     private boolean minUpdated = false;
     private boolean maxUpdated = false;
 
@@ -17,7 +16,7 @@ public class ComboBoxMinMaxValueController {
     private ComboBox<Integer> minComboBox;
     private ComboBox<Integer> maxComboBox;
 
-    public ComboBoxMinMaxValueController(List<Integer> valueList, ComboBox<Integer> minComboBox, ComboBox<Integer> maxComboBox) {
+    public ComboBoxRangeValueController(List<Integer> valueList, ComboBox<Integer> minComboBox, ComboBox<Integer> maxComboBox) {
         this.minComboBox = minComboBox;
         this.maxComboBox = maxComboBox;
 

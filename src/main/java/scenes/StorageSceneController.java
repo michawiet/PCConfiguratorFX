@@ -1,11 +1,12 @@
 package scenes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import components.Cpu;
+import components.Product;
 import components.Storage;
 import helpers.CheckBoxRoot;
-import helpers.ComboBoxMinMaxValueController;
+import helpers.ComboBoxRangeValueController;
 import helpers.DatabaseData;
+import helpers.SceneHubSingleton;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
@@ -13,6 +14,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TreeView;
@@ -23,7 +25,7 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class StorageSceneController extends BaseScene<Storage> {
+public class StorageSceneController extends ComponentScene<Storage> {
 
     @FXML
     private TextField capacityLowerTextField;
@@ -52,16 +54,15 @@ public class StorageSceneController extends BaseScene<Storage> {
     @FXML
     private TreeView<String> interfaceTreeView;
 
-    ComboBoxMinMaxValueController tierController;
+    ComboBoxRangeValueController tierController;
+
+    //@FXML
+    //private void addAction(ActionEvent event) throws IOException {
+    //    SceneHubSingleton.getInstance().addSelectedProductAndSwitch((Product) tableView.getSelectionModel().getSelectedItem());
+    //}
 
     @FXML
-    void addAction(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
-        Main.getPrimaryScene().setRoot(root);
-    }
-
-    @FXML
-    void applyFilters(ActionEvent event) {
+    private void applyFilters(ActionEvent event) {
         //Update the predicates and apply to the filtered/observable list
         Predicate<Storage> brand = (o) -> getSelectedValues(brandTreeView).contains(o.getBrand());
         Predicate<Storage> type = (o) -> getSelectedValues(typeTreeView).contains(o.getType());
@@ -75,7 +76,7 @@ public class StorageSceneController extends BaseScene<Storage> {
     }
 
     @FXML
-    void resetFilters(ActionEvent event) {
+    private void resetFilters(ActionEvent event) {
 
     }
 
@@ -92,9 +93,8 @@ public class StorageSceneController extends BaseScene<Storage> {
     @Override
     public void initialize() {
         //initialize the lists
-        DatabaseData data = new DatabaseData();
         try {
-            this.productList = data.getStorageList();
+            this.productList = DatabaseData.getInstance().getStorageList();
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
@@ -122,7 +122,9 @@ public class StorageSceneController extends BaseScene<Storage> {
         this.interfaceTreeView.setRoot(interfaceRoot.getRoot());
 
         //initialize the TextFields filters
-        tierController = new ComboBoxMinMaxValueController(this.getDistinctTier(), tierMinComboBox, tierMaxComboBox);
+        tierController = new ComboBoxRangeValueController(this.getDistinctTier(), tierMinComboBox, tierMaxComboBox);
+
+        this.addTableViewListener();
     }
 
     private List<Integer> getDistinctTier() {

@@ -86,6 +86,11 @@ public class Cpu extends Product {
 
     }
 
+    @Override
+    public ProductType getProductType() {
+        return ProductType.Cpu;
+    }
+
     public Cpu(String _id, String image, String brand, String name, Double price, String socket, int cores, boolean smt, boolean igpu, int tdp, int stPerformance, int mtPerformance, float coreClock, float boostClock) {
         super(_id, image, brand, name, price);
         this.socket = socket;

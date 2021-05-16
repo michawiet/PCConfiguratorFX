@@ -6,6 +6,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 public abstract class Product {
+
     @JsonIgnore
     protected ImageView imageView;
 
@@ -35,6 +36,9 @@ public abstract class Product {
     public Product() {
 
     }
+
+    @JsonIgnore
+    public abstract ProductType getProductType();
 
     @JsonIgnore
     public ImageView getImageView() {

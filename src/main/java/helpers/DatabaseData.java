@@ -11,10 +11,19 @@ import java.util.List;
 
 //TODO: add SLF4J or disable the warning
 public class DatabaseData {
+    private static DatabaseData instance;
+
     private MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017");
     private MongoDatabase database = mongoClient.getDatabase("PC_Configurator_FX");
 
-    public DatabaseData() {
+    public static DatabaseData getInstance() {
+        if(instance == null) {
+            instance = new DatabaseData();
+        }
+        return instance;
+    }
+
+    private DatabaseData() {
     }
 
     private List<String> getJsonData(String collectionName) {

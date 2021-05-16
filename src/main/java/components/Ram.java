@@ -51,6 +51,11 @@ public class Ram extends Product {
 
     }
 
+    @Override
+    public ProductType getProductType() {
+        return ProductType.Ram;
+    }
+
     public Ram(String _id, String image, String brand, String name, Double price, int speed, int modulesCount, int moduleCapacityGb, float firstWordLatencyNs, int casLatency) {
         super(_id, image, brand, name, price);
         this.speed = speed;

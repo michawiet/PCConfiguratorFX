@@ -53,6 +53,11 @@ public class Motherboard extends Product {
 
     }
 
+    @Override
+    public ProductType getProductType() {
+        return ProductType.Motherboard;
+    }
+
     public Motherboard(String _id, String image, String brand, String name, Double price, float tier, String chipset, String socket, String formFactor, int memorySlots, int memoryMaxGb) {
         super(_id, image, brand, name, price);
         this.tier = tier;

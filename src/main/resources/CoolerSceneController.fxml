@@ -49,233 +49,215 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.CoolerSceneController">
-  <children>
-    <MenuBar VBox.vgrow="NEVER">
-      <menus>
-        <Menu mnemonicParsing="false" text="File">
-          <items>
-            <MenuItem mnemonicParsing="false" text="Quit" />
-          </items>
-        </Menu>
-        <Menu mnemonicParsing="false" text="Help">
-          <items>
-            <MenuItem mnemonicParsing="false" text="About PC Configurator" />
-          </items>
-        </Menu>
-      </menus>
-    </MenuBar>
-      <HBox prefHeight="805.0" prefWidth="1280.0">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="775.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.CoolerSceneController">
+   <children>
+      <VBox>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
          <children>
-            <VBox>
-               <HBox.margin>
-                  <Insets />
-               </HBox.margin>
+            <HBox alignment="TOP_CENTER">
                <children>
-                  <HBox alignment="TOP_CENTER">
+                  <Button fx:id="addButton" disable="true" mnemonicParsing="false" onAction="#addAction" prefHeight="44.0" prefWidth="280.0" text="Add selected cooler">
+                     <font>
+                        <Font name="System Bold" size="20.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets bottom="5.0" top="5.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <Separator opacity="0.65" prefWidth="200.0" />
+            <HBox alignment="CENTER" prefHeight="27.0" prefWidth="251.0" spacing="10.0">
+               <children>
+                  <Button fx:id="resetFiltersButton" mnemonicParsing="false" onAction="#resetFilters" prefHeight="25.0" prefWidth="135.0" text="Reset filters" />
+                  <Button fx:id="applyFiltersButton" mnemonicParsing="false" onAction="#applyFilters" prefHeight="25.0" prefWidth="135.0" text="Apply filters">
+                     <tooltip>
+                        <Tooltip maxWidth="400.0" wrapText="true" text="Applies the filters" />
+                     </tooltip></Button>
+               </children>
+               <padding>
+                  <Insets bottom="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <ScrollPane fitToHeight="true" fitToWidth="true" prefWidth="300.0">
+               <content>
+                  <VBox alignment="TOP_CENTER" prefHeight="775.0" prefWidth="400.0" spacing="5.0">
                      <children>
-                        <Button fx:id="addButton" mnemonicParsing="false" onAction="#addAction" prefHeight="44.0" prefWidth="280.0" text="Add selected cooler">
-                           <font>
-                              <Font name="System Bold" size="20.0" />
-                           </font>
-                           <HBox.margin>
-                              <Insets bottom="5.0" top="5.0" />
-                           </HBox.margin>
-                        </Button>
-                     </children>
-                  </HBox>
-                  <Separator opacity="0.65" prefWidth="200.0" />
-                  <HBox alignment="CENTER" prefHeight="27.0" prefWidth="251.0" spacing="10.0">
-                     <children>
-                        <Button fx:id="resetFiltersButton" mnemonicParsing="false" onAction="#resetFilters" prefHeight="25.0" prefWidth="135.0" text="Reset filters" />
-                        <Button fx:id="applyFiltersButton" mnemonicParsing="false" onAction="#applyFilters" prefHeight="25.0" prefWidth="135.0" text="Apply filters">
-                           <tooltip>
-                              <Tooltip maxWidth="400.0" wrapText="true" text="Applies the filters" />
-                           </tooltip></Button>
+                        <VBox>
+                           <children>
+                              <Label text="Brands" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                                 <tooltip>
+                                    <Tooltip maxWidth="400.0" wrapText="true" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Tooltip>
+                                 </tooltip>
+                              </Label>
+                              <TreeView fx:id="brandTreeView" maxHeight="186.0" minHeight="71.0" minWidth="71.0" prefHeight="200.0" prefWidth="100.0" />
+                           </children>
+                        </VBox>
+                        <VBox prefHeight="78.0" prefWidth="400.0">
+                           <children>
+                              <Label text="Price" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <tooltip>
+                                    <Tooltip maxWidth="400.0" wrapText="true" text="Price of the product in PLN.">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Tooltip>
+                                 </tooltip>
+                              </Label>
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                 <children>
+                                    <TextField fx:id="priceLowerTextField" promptText="From" />
+                                    <Label disable="true" text="-">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="priceUpperTextField" promptText="To" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="20.0" layoutY="258.0" prefHeight="78.0" prefWidth="400.0">
+                           <children>
+                              <Label text="Tier" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <tooltip>
+                                    <Tooltip maxWidth="400.0" wrapText="true" text="Approximated cooling efficiency of the cooler. The lower the tier, the better.">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Tooltip>
+                                 </tooltip>
+                              </Label>
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                 <children>
+                                    <ComboBox fx:id="tierMinComboBox" onAction="#tierMinComboBoxUpdate" prefWidth="150.0" promptText="From" visibleRowCount="4">
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Minimum tier">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip></ComboBox>
+                                    <Label disable="true" text="-">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <ComboBox fx:id="tierMaxComboBox" layoutX="10.0" layoutY="14.0" onAction="#tierMaxComboBoxUpdate" prefWidth="150.0" promptText="To" visibleRowCount="4">
+                                       <tooltip>
+                                          <Tooltip maxWidth="400.0" wrapText="true" text="Maximum tier">
+                                             <font>
+                                                <Font size="16.0" />
+                                             </font>
+                                          </Tooltip>
+                                       </tooltip></ComboBox>
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="20.0" layoutY="434.0" prefHeight="78.0" prefWidth="400.0">
+                           <children>
+                              <Label text="Noise Level (dB)" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets />
+                                 </VBox.margin>
+                                 <tooltip>
+                                    <Tooltip maxWidth="400.0" wrapText="true" text="How much noise the cooler produces under the max load.">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Tooltip>
+                                 </tooltip>
+                              </Label>
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+                                 <children>
+                                    <TextField fx:id="noiseLevelLowerTextField" promptText="From" />
+                                    <Label disable="true" text="-">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Label>
+                                    <TextField fx:id="noiseLevelUpperTextField" promptText="To" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                              </HBox>
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Label text="Cooler type" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                                 <tooltip>
+                                    <Tooltip maxWidth="400.0" wrapText="true" text="Type of the cooler. Done properly, water cooling can give you better cooling with less noise than the best air cooling.">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Tooltip>
+                                 </tooltip>
+                              </Label>
+                              <TreeView fx:id="coolerTypeTreeView" maxHeight="71.0" minHeight="71.0" minWidth="10.0" prefHeight="71.0" prefWidth="100.0" />
+                           </children>
+                        </VBox>
+                        <VBox>
+                           <children>
+                              <Label text="Purpose" textAlignment="CENTER">
+                                 <font>
+                                    <Font size="30.0" />
+                                 </font>
+                                 <tooltip>
+                                    <Tooltip maxWidth="400.0" wrapText="true" text="Platform of choice. Workstation CPU's (socket 2066, sTRX4) have bigger area, that needs to be cooled.">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                    </Tooltip>
+                                 </tooltip>
+                              </Label>
+                              <TreeView fx:id="coolerPurposeTreeView" maxHeight="71.0" minHeight="71.0" minWidth="10.0" prefHeight="71.0" prefWidth="100.0" />
+                           </children>
+                        </VBox>
                      </children>
                      <padding>
-                        <Insets bottom="5.0" top="5.0" />
+                        <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
                      </padding>
-                  </HBox>
-                  <ScrollPane fitToHeight="true" fitToWidth="true" prefWidth="300.0">
-                     <content>
-                        <VBox alignment="TOP_CENTER" prefHeight="775.0" prefWidth="400.0" spacing="5.0">
-                           <children>
-                              <VBox>
-                                 <children>
-                                    <Label text="Brands" textAlignment="CENTER">
-                                       <font>
-                                          <Font size="30.0" />
-                                       </font>
-                                       <tooltip>
-                                          <Tooltip maxWidth="400.0" wrapText="true" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Tooltip>
-                                       </tooltip>
-                                    </Label>
-                                    <TreeView fx:id="brandTreeView" maxHeight="186.0" minHeight="71.0" minWidth="71.0" prefHeight="200.0" prefWidth="100.0" />
-                                 </children>
-                              </VBox>
-                              <VBox prefHeight="78.0" prefWidth="400.0">
-                                 <children>
-                                    <Label text="Price" textAlignment="CENTER">
-                                       <font>
-                                          <Font size="30.0" />
-                                       </font>
-                                       <VBox.margin>
-                                          <Insets />
-                                       </VBox.margin>
-                                       <tooltip>
-                                          <Tooltip maxWidth="400.0" wrapText="true" text="Price of the product in PLN.">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Tooltip>
-                                       </tooltip>
-                                    </Label>
-                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                       <children>
-                                          <TextField fx:id="priceLowerTextField" promptText="From" />
-                                          <Label disable="true" text="-">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <TextField fx:id="priceUpperTextField" promptText="To" />
-                                       </children>
-                                       <opaqueInsets>
-                                          <Insets />
-                                       </opaqueInsets>
-                                    </HBox>
-                                 </children>
-                              </VBox>
-                              <VBox layoutX="20.0" layoutY="258.0" prefHeight="78.0" prefWidth="400.0">
-                                 <children>
-                                    <Label text="Tier" textAlignment="CENTER">
-                                       <font>
-                                          <Font size="30.0" />
-                                       </font>
-                                       <VBox.margin>
-                                          <Insets />
-                                       </VBox.margin>
-                                       <tooltip>
-                                          <Tooltip maxWidth="400.0" wrapText="true" text="Approximated cooling efficiency of the cooler. The lower the tier, the better.">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Tooltip>
-                                       </tooltip>
-                                    </Label>
-                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                       <children>
-                                          <ComboBox fx:id="tierMinComboBox" onAction="#tierMinComboBoxUpdate" prefWidth="150.0" promptText="From" visibleRowCount="4">
-                                             <tooltip>
-                                                <Tooltip maxWidth="400.0" wrapText="true" text="Minimum tier">
-                                                   <font>
-                                                      <Font size="16.0" />
-                                                   </font>
-                                                </Tooltip>
-                                             </tooltip></ComboBox>
-                                          <Label disable="true" text="-">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <ComboBox fx:id="tierMaxComboBox" layoutX="10.0" layoutY="14.0" onAction="#tierMaxComboBoxUpdate" prefWidth="150.0" promptText="To" visibleRowCount="4">
-                                             <tooltip>
-                                                <Tooltip maxWidth="400.0" wrapText="true" text="Maximum tier">
-                                                   <font>
-                                                      <Font size="16.0" />
-                                                   </font>
-                                                </Tooltip>
-                                             </tooltip></ComboBox>
-                                       </children>
-                                       <opaqueInsets>
-                                          <Insets />
-                                       </opaqueInsets>
-                                    </HBox>
-                                 </children>
-                              </VBox>
-                              <VBox layoutX="20.0" layoutY="434.0" prefHeight="78.0" prefWidth="400.0">
-                                 <children>
-                                    <Label text="Noise Level (dB)" textAlignment="CENTER">
-                                       <font>
-                                          <Font size="30.0" />
-                                       </font>
-                                       <VBox.margin>
-                                          <Insets />
-                                       </VBox.margin>
-                                       <tooltip>
-                                          <Tooltip maxWidth="400.0" wrapText="true" text="How much noise the cooler produces under the max load.">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Tooltip>
-                                       </tooltip>
-                                    </Label>
-                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
-                                       <children>
-                                          <TextField fx:id="noiseLevelLowerTextField" promptText="From" />
-                                          <Label disable="true" text="-">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Label>
-                                          <TextField fx:id="noiseLevelUpperTextField" promptText="To" />
-                                       </children>
-                                       <opaqueInsets>
-                                          <Insets />
-                                       </opaqueInsets>
-                                    </HBox>
-                                 </children>
-                              </VBox>
-                              <VBox>
-                                 <children>
-                                    <Label text="Cooler type" textAlignment="CENTER">
-                                       <font>
-                                          <Font size="30.0" />
-                                       </font>
-                                       <tooltip>
-                                          <Tooltip maxWidth="400.0" wrapText="true" text="Type of the cooler. Done properly, water cooling can give you better cooling with less noise than the best air cooling.">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Tooltip>
-                                       </tooltip>
-                                    </Label>
-                                    <TreeView fx:id="coolerTypeTreeView" maxHeight="71.0" minHeight="71.0" minWidth="10.0" prefHeight="71.0" prefWidth="100.0" />
-                                 </children>
-                              </VBox>
-                              <VBox>
-                                 <children>
-                                    <Label text="Purpose" textAlignment="CENTER">
-                                       <font>
-                                          <Font size="30.0" />
-                                       </font>
-                                       <tooltip>
-                                          <Tooltip maxWidth="400.0" wrapText="true" text="Platform of choice. Workstation CPU's (socket 2066, sTRX4) have bigger area, that needs to be cooled.">
-                                             <font>
-                                                <Font size="16.0" />
-                                             </font>
-                                          </Tooltip>
-                                       </tooltip>
-                                    </Label>
-                                    <TreeView fx:id="coolerPurposeTreeView" maxHeight="71.0" minHeight="71.0" minWidth="10.0" prefHeight="71.0" prefWidth="100.0" />
-                                 </children>
-                              </VBox>
-                           </children>
-                           <padding>
-                              <Insets bottom="5.0" left="10.0" right="10.0" top="5.0" />
-                           </padding>
-                        </VBox>
-                     </content>
-                  </ScrollPane>
-               </children>
-            </VBox>
-            <TableView fx:id="tableView" prefHeight="775.0" prefWidth="980.0" />
+                  </VBox>
+               </content>
+            </ScrollPane>
          </children>
-      </HBox>
-  </children>
-</VBox>
+      </VBox>
+      <TableView fx:id="tableView" prefHeight="775.0" prefWidth="980.0" />
+   </children>
+</HBox>

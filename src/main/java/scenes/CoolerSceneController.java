@@ -3,7 +3,7 @@ package scenes;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Cooler;
 import helpers.CheckBoxRoot;
-import helpers.ComboBoxMinMaxValueController;
+import helpers.ComboBoxRangeValueController;
 import helpers.DatabaseData;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-public class CoolerSceneController extends BaseScene<Cooler> {
+public class CoolerSceneController extends ComponentScene<Cooler> {
 
     @FXML
     private ComboBox<Integer> tierMinComboBox;
@@ -42,14 +42,13 @@ public class CoolerSceneController extends BaseScene<Cooler> {
     @FXML
     private TreeView<String> coolerPurposeTreeView;
 
-    private ComboBoxMinMaxValueController tierController;
+    private ComboBoxRangeValueController tierController;
 
     @Override
     public void initialize() {
         //initialize the lists
-        DatabaseData data = new DatabaseData();
         try {
-            this.productList = data.getCoolerList();
+            this.productList = DatabaseData.getInstance().getCoolerList();
         } catch (JsonProcessingException e) {
             e.printStackTrace();
         }
@@ -73,14 +72,16 @@ public class CoolerSceneController extends BaseScene<Cooler> {
         this.coolerPurposeTreeView.setRoot(purposeRoot.getRoot());
 
         //initialize the TextFields filters
-        this.tierController = new ComboBoxMinMaxValueController(this.getDistinctTiers(), this.tierMinComboBox, this.tierMaxComboBox);
+        this.tierController = new ComboBoxRangeValueController(this.getDistinctTiers(), this.tierMinComboBox, this.tierMaxComboBox);
+
+        this.addTableViewListener();
     }
 
-    @FXML
-    void addAction(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MainSceneController.fxml"));
-        Main.getPrimaryScene().setRoot(root);
-    }
+    //@FXML
+    //void addAction(ActionEvent event) throws IOException {
+    //    Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("SelectedPartsSummaryController.fxml"));
+    //    //Main.getPrimaryScene().setRoot(root);
+    //}
 
     @FXML
     void applyFilters(ActionEvent event) {

@@ -47,6 +47,11 @@ public class Cooler extends Product {
 
     }
 
+    @Override
+    public ProductType getProductType() {
+        return ProductType.Cooler;
+    }
+
     public Cooler(String _id, String image, String brand, String name, Double price, int tier, float noiseLevelDb, boolean isAirCooler, boolean forWorkstation) {
         super(_id, image, brand, name, price);
         this.tier = tier;
