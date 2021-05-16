@@ -56,6 +56,7 @@ public class SceneHubSingleton {
         selectedPartsSummaryController.addSelectedProduct(product);
         try {
             basicSceneController.switchToScene(selectedPartsSummaryRoot);
+            this.setTitle(SelectedPartsSummaryController.getTitle());
         } catch (NullPointerException e) {
             System.err.println("selectedPartsSummaryRoot was most likely not set");
         }

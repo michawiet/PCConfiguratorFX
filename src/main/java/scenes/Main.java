@@ -25,6 +25,6 @@ public class Main extends Application {
 
         primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/images/icons/main_program.png")));
         SceneHubSingleton.getInstance().setPrimaryStage(primaryStage)
-            .setTitle("Part Selection Summary");;
+            .setTitle(SelectedPartsSummaryController.getTitle());
     }
 }

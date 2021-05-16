@@ -86,6 +86,9 @@ public class SelectedPartsSummaryController {
     @FXML
     private Label psuPriceLabel;
 
+    public static String getTitle() {
+        return "Part Selection Summary";
+    }
 
     @FXML
     private void loadCaseSelectionScene(ActionEvent event) throws IOException {
@@ -144,7 +147,7 @@ public class SelectedPartsSummaryController {
     }
 
     public void addSelectedProduct(Product product) {
-        System.out.println(product.getBrand() + " " + product.getName());
+        //TODO: add the product to some container, which can be used for db storage
 
         ImageView imageView;
         Label nameLabel;
