@@ -71,7 +71,7 @@
                   <Button fx:id="resetFiltersButton" mnemonicParsing="false" onAction="#resetFilters" prefHeight="25.0" prefWidth="135.0" text="Reset filters" />
                   <Button fx:id="applyFiltersButton" mnemonicParsing="false" onAction="#applyFilters" prefHeight="25.0" prefWidth="135.0" text="Apply filters">
                      <tooltip>
-                        <Tooltip text="Applies the filters" />
+                        <Tooltip wrapText="true" maxWidth="400.0" text="Applies the filters" />
                      </tooltip></Button>
                </children>
                <padding>
@@ -89,7 +89,7 @@
                                     <Font size="30.0" />
                                  </font>
                                  <tooltip>
-                                    <Tooltip text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
+                                    <Tooltip wrapText="true" maxWidth="400.0" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -108,7 +108,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip text="Price of the CPU in PLN">
+                                    <Tooltip wrapText="true" maxWidth="400.0" text="Price of the CPU in PLN">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -137,7 +137,7 @@
                                     <Font size="30.0" />
                                  </font>
                                  <tooltip>
-                                    <Tooltip style="fx-font-size: 16;" text="Socket is a type of electrical connection between a CPU and motherboard. Naturally the socket type must be the same on both motherboard and CPU.">
+                                    <Tooltip wrapText="true" maxWidth="400.0" style="fx-font-size: 16;" text="Socket is a type of electrical connection between a CPU and motherboard. Naturally the socket type must be the same on both motherboard and CPU.">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -156,7 +156,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip text="Physical count of a processor cores">
+                                    <Tooltip wrapText="true" maxWidth="400.0" text="Physical count of a processor cores">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -166,7 +166,7 @@
                                  <children>
                                     <ComboBox fx:id="coreCountMinComboBox" onAction="#coreCountMinComboBoxUpdated" prefWidth="150.0" promptText="From" visibleRowCount="4">
                                        <tooltip>
-                                          <Tooltip text="Minimum core count">
+                                          <Tooltip wrapText="true" maxWidth="400.0" text="Minimum core count">
                                              <font>
                                                 <Font size="16.0" />
                                              </font></Tooltip>
@@ -178,7 +178,7 @@
                                     </Label>
                                     <ComboBox fx:id="coreCountMaxComboBox" layoutX="96.0" layoutY="10.0" onAction="#coreCountMaxComboBoxUpdated" prefWidth="150.0" promptText="To" visibleRowCount="4">
                                        <tooltip>
-                                          <Tooltip text="Maximum core count">
+                                          <Tooltip wrapText="true" maxWidth="400.0" text="Maximum core count">
                                              <font>
                                                 <Font size="16.0" />
                                              </font></Tooltip>
@@ -197,7 +197,7 @@
                                     <Font size="30.0" />
                                  </font>
                                  <tooltip>
-                                    <Tooltip text="Simultaneous multithreading (SMT) - technique used in processors that allows for a greater paralelization of computation by spliting one core into two threads">
+                                    <Tooltip wrapText="true" maxWidth="400.0" text="Simultaneous multithreading (SMT) - technique used in processors that allows for a greater paralelization of computation by spliting one core into two threads">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -213,7 +213,7 @@
                                     <Font size="30.0" />
                                  </font>
                                  <tooltip>
-                                    <Tooltip text="iGPU is a GPU that is integrated into the CPU. Uses some of computer's RAM memory.">
+                                    <Tooltip wrapText="true" maxWidth="400.0" text="iGPU is a GPU that is integrated into the CPU. Uses some of computer's RAM memory.">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -232,7 +232,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip text="TDP is a maximum amount of heat generated by a CPU. Can be exceeded for some amount of time in proper conditions.">
+                                    <Tooltip wrapText="true" maxWidth="400.0" text="TDP is a maximum amount of heat generated by a CPU. Can be exceeded for some amount of time in proper conditions.">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -264,7 +264,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip text="Single Threaded performance is a approx. metric for describing how fast one core/thread of a CPU is - important in gaming, but not deterministic.">
+                                    <Tooltip wrapText="true" maxWidth="400.0" text="Single Threaded performance is a approx. metric for describing how fast one core/thread of a CPU is - important in gaming, but not deterministic.">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -296,7 +296,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip text="Multithreaded performance is a cumulative performance of cpu in parallelized computing.">
+                                    <Tooltip wrapText="true" maxWidth="400.0" text="Multithreaded performance is a cumulative performance of cpu in parallelized computing.">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -328,7 +328,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip text="The actual speed at which CPU operates in provided TDP spec; can be lower in idle or small utilization.">
+                                    <Tooltip wrapText="true" maxWidth="400.0" text="The actual speed at which CPU operates in provided TDP spec; can be lower in idle or small utilization.">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -360,7 +360,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip text="Maximum speed of the cpu (if not oc'ed); usually availbile for limited amount of time.">
+                                    <Tooltip wrapText="true" maxWidth="400.0" text="Maximum speed of the cpu (if not oc'ed); usually availbile for limited amount of time.">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
