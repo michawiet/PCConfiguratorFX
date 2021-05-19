@@ -1,0 +1,3501 @@
+[{
+  "_id": "608dd450905ec60bdc069867",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "Elite 110",
+  "price": 383.52,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069868",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "Elite 130",
+  "price": 317.09,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069869",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Node 304",
+  "price": 409,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069870",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-Q08",
+  "price": 404.5,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069871",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-Q21",
+  "price": 565.57,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069872",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-Q30",
+  "price": 455.73,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069873",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-Q36W",
+  "price": 1025.57,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069874",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-Q37",
+  "price": 1164.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069875",
+  "image": "/images/case/case.jpg",
+  "brand": "NZXT",
+  "name": "H200i",
+  "price": 1179.22,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069876",
+  "image": "/images/case/case.jpg",
+  "brand": "NZXT",
+  "name": "H210",
+  "price": 399.49,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069877",
+  "image": "/images/case/case.jpg",
+  "brand": "NZXT",
+  "name": "H210i",
+  "price": 513.7,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069878",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo EVOLV ITX",
+  "price": 376.42,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069879",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo EVOLV SHIFT",
+  "price": 1281.42,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069880",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo EVOLV SHIFT X",
+  "price": 793.02,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069881",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Evolv Shift 2",
+  "price": 527.25,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069882",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core P1",
+  "price": 588.82,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069883",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "The Tower 100",
+  "price": 486.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069884",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox NR200",
+  "price": 553.92,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069885",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox NR200P",
+  "price": 418.1,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069886",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase H100",
+  "price": 208.62,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069887",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase H100 ARGB",
+  "price": 271,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069888",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Core 500",
+  "price": 304.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069889",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define Nano S",
+  "price": 289.47,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069890",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Era ITX",
+  "price": 619.66,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069891",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-Q09F",
+  "price": 454.77,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069892",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "TU150",
+  "price": 527.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069893",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo EVOLV ITX TG",
+  "price": 533.08,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069894",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core V1",
+  "price": 203.84,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069895",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Suppressor F1",
+  "price": 483.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "Mini ITX Desktop",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069896",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox E300L",
+  "price": 227.73,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069897",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox Lite 3",
+  "price": 215.62,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069898",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB400L",
+  "price": 311.99,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069899",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox Q300L",
+  "price": 208.8,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069900",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox Q300P",
+  "price": 378.47,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069901",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase Pro 3",
+  "price": 406.18,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069902",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "N200",
+  "price": 252.71,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069903",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "Silencio S400",
+  "price": 390.8,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069904",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Core 1100",
+  "price": 212.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069905",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Focus G Mini",
+  "price": 250.2,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069906",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Meshify C Mini",
+  "price": 422.7,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069907",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-V600F",
+  "price": 793.66,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069908",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo EVOLV",
+  "price": 540.09,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069909",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo EVOLV TG",
+  "price": 591.05,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069910",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "ARMOR A30i",
+  "price": 359.86,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069911",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core V21",
+  "price": 304.76,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069912",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "S100",
+  "price": 274.14,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069913",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "S100 Snow Edition",
+  "price": 313.27,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069914",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa H17",
+  "price": 285.06,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069915",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa H18",
+  "price": 467.01,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mini Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069916",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox Lite 3.1",
+  "price": 217.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069917",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB311L ARGB",
+  "price": 272.95,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069918",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB320L ARGB",
+  "price": 304.4,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069919",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox NR400 (w/o ODD)",
+  "price": 312.04,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069920",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox NR400 (w/ODD)",
+  "price": 271.5,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069921",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "350D",
+  "price": 396.26,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069922",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "Crystal 280X",
+  "price": 543.63,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069923",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "Crystal 280X RGB",
+  "price": 725.32,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069924",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Core 1000 USB 3.0",
+  "price": 268.81,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069925",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define Mini C",
+  "price": 363.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069926",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define Mini C TG",
+  "price": 440.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069927",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Node 804",
+  "price": 472.02,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069928",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "LANCOOL 205M",
+  "price": 254.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069929",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "V150",
+  "price": 311.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069930",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa H15",
+  "price": 276.32,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069931",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Level 20 VT",
+  "price": 500.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "MircoATX",
+  "type": "MicroATX Desktop",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069932",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-Q15",
+  "price": 537.63,
+  "powerSupplyStandard": "SFX",
+  "maxMotherboardSize": "Mini ITX",
+  "type": "HTPC",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069933",
+  "image": "/images/case/case.jpg",
+  "brand": "be quiet!",
+  "name": "Dark Base 700",
+  "price": 741.6,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069934",
+  "image": "/images/case/case.jpg",
+  "brand": "be quiet!",
+  "name": "Pure Base 500",
+  "price": 304.44,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069935",
+  "image": "/images/case/case.jpg",
+  "brand": "be quiet!",
+  "name": "Pure Base 500DX",
+  "price": 471.7,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069936",
+  "image": "/images/case/case.jpg",
+  "brand": "be quiet!",
+  "name": "Pure Base 600",
+  "price": 370.32,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069937",
+  "image": "/images/case/case.jpg",
+  "brand": "be quiet!",
+  "name": "Silent Base 600",
+  "price": 449.95,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069938",
+  "image": "/images/case/case.jpg",
+  "brand": "be quiet!",
+  "name": "Silent Base 601",
+  "price": 541.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069939",
+  "image": "/images/case/case.jpg",
+  "brand": "be quiet!",
+  "name": "Silent Base 801",
+  "price": 677.95,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069940",
+  "image": "/images/case/case.jpg",
+  "brand": "be quiet!",
+  "name": "Silent Base 802",
+  "price": 675.68,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069941",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "CM 590 III",
+  "price": 295.52,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069942",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "Force 500",
+  "price": 246.02,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069943",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "K350",
+  "price": 222.22,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069944",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox 5",
+  "price": 363.86,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069945",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox 5T",
+  "price": 454.5,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069946",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox E500 (w/o ODD)",
+  "price": 346.62,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069947",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox E500L",
+  "price": 201.66,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069948",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MASTERBOX E501L",
+  "price": 224.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069949",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox K500",
+  "price": 374.33,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069950",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox K500 ARGB",
+  "price": 411.27,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069951",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox Lite 5",
+  "price": 389.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069952",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox LITE 5 ARGB",
+  "price": 432.02,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069953",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox Lite 5 RGB",
+  "price": 329.47,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069954",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB500",
+  "price": 360.5,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069955",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB500 ARGB",
+  "price": 429.98,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069956",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB510L",
+  "price": 258.76,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069957",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB511",
+  "price": 281.74,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069958",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB511 ARGB",
+  "price": 335.34,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069959",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB511 RGB",
+  "price": 335.34,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069960",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB520 ARGB",
+  "price": 340.93,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069961",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB520 RGB",
+  "price": 340.93,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069962",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox MB530P",
+  "price": 527.48,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069963",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox NR600 (w/o ODD)",
+  "price": 305.21,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069964",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox NR600 (w/ODD)",
+  "price": 354.81,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069965",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox NR600P",
+  "price": 661.75,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069966",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox Q500L",
+  "price": 290.06,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069967",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox TD500",
+  "price": 494.08,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069968",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox TD500 ARGB",
+  "price": 451.41,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069969",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox TD500 Mesh w/ Controller",
+  "price": 451.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069970",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterBox TD500 Mesh White w/ Controller",
+  "price": 484.44,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069971",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase H500",
+  "price": 821.59,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069972",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase H500 ARGB",
+  "price": 543.22,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069973",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase H500M",
+  "price": 959.23,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069974",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase H500P Mesh",
+  "price": 833.33,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069975",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase H500P Mesh ARGB",
+  "price": 693.97,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069976",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase Maker 5",
+  "price": 1050.6,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069977",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase MC500",
+  "price": 1044.13,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069978",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase SL600M",
+  "price": 1022.48,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069979",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterCase SL600M Black Edition",
+  "price": 820.77,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069980",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MB600L",
+  "price": 279.23,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069981",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MB600L ODD",
+  "price": 330.92,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069982",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "N300",
+  "price": 240.42,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069983",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "N400",
+  "price": 1178.4,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069984",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "Silencio 452",
+  "price": 385.48,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069985",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "Silencio S600",
+  "price": 413,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069986",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "100R",
+  "price": 227.18,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069987",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "110Q",
+  "price": 285.92,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069988",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "110R",
+  "price": 272.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069989",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "200R",
+  "price": 286.42,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069990",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "270R",
+  "price": 227.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069991",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "275Q",
+  "price": 318.05,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc069992",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "275R",
+  "price": 370.32,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069993",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "275R Airflow",
+  "price": 354.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069994",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "4000D",
+  "price": 340.8,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069995",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "4000D Airflow",
+  "price": 422.7,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069996",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "400C",
+  "price": 914.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069997",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "450D",
+  "price": 417.24,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc069998",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "5000D",
+  "price": 633.91,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc069999",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "5000D AIRFLOW",
+  "price": 697.06,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070000",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "500D Premium",
+  "price": 752.52,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070001",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "550D",
+  "price": 835.97,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070002",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "678C",
+  "price": 667.94,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070003",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "Air 540",
+  "price": 568.2,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070004",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "Carbide 175R RGB",
+  "price": 295.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070005",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "Crystal 460X RGB",
+  "price": 693.83,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070006",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "Crystal 570X RGB",
+  "price": 885.48,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070007",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "Crystal 570X RGB Mirror Black",
+  "price": 880.83,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070008",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "Crystal 680X RGB",
+  "price": 1035.08,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070009",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "iCUE 220T RGB",
+  "price": 497.32,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070010",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "iCUE 220T RGB Airflow",
+  "price": 451.82,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070011",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "iCUE 4000X RGB",
+  "price": 528.62,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070012",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "iCUE 465X RGB",
+  "price": 578.76,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070013",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "iCUE 5000X RGB",
+  "price": 857.68,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070014",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "Obsidian 500D RGB SE",
+  "price": 1187.5,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070015",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "SPEC OMEGA",
+  "price": 536.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070016",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "SPEC-01",
+  "price": 238.51,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070017",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "SPEC-03",
+  "price": 791.11,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070018",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "SPEC-04",
+  "price": 349.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070019",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "SPEC-05",
+  "price": 263.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070020",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "SPEC-06",
+  "price": 1134.27,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070021",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "SPEC-ALPHA",
+  "price": 508.33,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070022",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "SPEC-DELTA RGB",
+  "price": 317.59,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070023",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "SPEC-OMEGA RGB",
+  "price": 725.22,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070024",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Core 2300",
+  "price": 241.33,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070025",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Core 2500",
+  "price": 290.7,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070026",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define 7",
+  "price": 757.07,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070027",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define 7 Compact",
+  "price": 488.62,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070028",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define 7 Dark",
+  "price": 761.62,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070029",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define 7 Light",
+  "price": 737.15,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070030",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define C",
+  "price": 402.17,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070031",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define C TG",
+  "price": 447.58,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070032",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define R5",
+  "price": 500.05,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070033",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define R6",
+  "price": 678.22,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070034",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define R6 USB-C",
+  "price": 735.33,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070035",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define R6 USB-C Blackout",
+  "price": 727.77,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070036",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define S",
+  "price": 427.65,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070037",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define S2",
+  "price": 700.25,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070038",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define S2 Blackout",
+  "price": 695.6,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070039",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define S2 Vision Blackout",
+  "price": 920.69,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070040",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define S2 Vision RGB",
+  "price": 1011.19,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070041",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Focus G",
+  "price": 271.04,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070042",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Meshify 2",
+  "price": 690.74,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070043",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Meshify 2 Compact",
+  "price": 443.12,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070044",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Meshify 2 Compact TG Dark Tint",
+  "price": 386.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070045",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Meshify 2 Compact TG Light Tint",
+  "price": 476.02,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070046",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Meshify 2 Compact White TG Clear Tint",
+  "price": 732.73,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070047",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Meshify C",
+  "price": 472.79,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070048",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Meshify S2",
+  "price": 613.8,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070049",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Vector RS",
+  "price": 800.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070050",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Vector RS Blackout",
+  "price": 890.75,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070051",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "ALPHA 550X",
+  "price": 1282.14,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070052",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "LANCOOL 215",
+  "price": 413.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070053",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "Lancool II Mesh",
+  "price": 527.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070054",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "LANCOOL II-X",
+  "price": 481.8,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070055",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "LANCOOL ONE",
+  "price": 678.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070056",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "LANCOOL ONE Digital",
+  "price": 647.06,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070057",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "O11 Dynamic Mini",
+  "price": 527.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070058",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-O10",
+  "price": 1118.8,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070059",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-O8X",
+  "price": 2100.83,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070060",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-X510",
+  "price": 2296.39,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070061",
+  "image": "/images/case/case.jpg",
+  "brand": "NZXT",
+  "name": "H510",
+  "price": 356.63,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070062",
+  "image": "/images/case/case.jpg",
+  "brand": "NZXT",
+  "name": "H510 Elite",
+  "price": 677.95,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070063",
+  "image": "/images/case/case.jpg",
+  "brand": "NZXT",
+  "name": "H510i",
+  "price": 457.78,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070064",
+  "image": "/images/case/case.jpg",
+  "brand": "NZXT",
+  "name": "H700",
+  "price": 1340.07,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070065",
+  "image": "/images/case/case.jpg",
+  "brand": "NZXT",
+  "name": "H700 PUBG",
+  "price": 1219.17,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070066",
+  "image": "/images/case/case.jpg",
+  "brand": "NZXT",
+  "name": "H710",
+  "price": 639.37,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070067",
+  "image": "/images/case/case.jpg",
+  "brand": "NZXT",
+  "name": "H710i",
+  "price": 777.6,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070068",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P300",
+  "price": 299.8,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070069",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P300A Mesh",
+  "price": 318.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070070",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P350X",
+  "price": 341.66,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070071",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P360A",
+  "price": 345.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070072",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P360X",
+  "price": 786.97,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070073",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P400",
+  "price": 363.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070074",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P400A",
+  "price": 390.8,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070075",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P400A Digital",
+  "price": 454.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070076",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P400S",
+  "price": 377.15,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070077",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P500A",
+  "price": 577.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070078",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P500A D-RGB",
+  "price": 713.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070079",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Eclipse P600S",
+  "price": 727.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070080",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo EVOLV ATX",
+  "price": 842.61,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070081",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo EVOLV ATX TG",
+  "price": 842.61,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070082",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo Pro M TG",
+  "price": 654.34,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070083",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Evolv X",
+  "price": 1000.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070084",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Armis AR1",
+  "price": 168.26,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070085",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Armis AR5 RGB",
+  "price": 359.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070086",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Armis AR6",
+  "price": 245.61,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070087",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Armis AR6Q EVO ARGB",
+  "price": 343.43,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070088",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Armis AR6X EVO ARGB",
+  "price": 371.87,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070089",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Armis AR7",
+  "price": 340.29,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070090",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Armis AR7X EVO ARGB",
+  "price": 531.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070091",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Astrum AT6V",
+  "price": 438.57,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070092",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Astrum AT6V EVO",
+  "price": 463.6,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070093",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Regnum RG4",
+  "price": 292.97,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070094",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Regnum RG4T",
+  "price": 297.48,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070095",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Regnum RG6V EVO TG ARGB",
+  "price": 372.6,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070096",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Regnum RG6V TG",
+  "price": 322.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070097",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Signum SG1",
+  "price": 236.51,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070098",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Signum SG1 TG",
+  "price": 250.16,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070099",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Signum SG1M",
+  "price": 227.41,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070100",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Signum SG1M TG",
+  "price": 283.87,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070101",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Signum SG1Q EVO TG ARGB",
+  "price": 304.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070102",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Signum SG1V EVO TG ARGB",
+  "price": 349.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070103",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Signum SG1X EVO TG ARGB",
+  "price": 402.17,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070104",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Signum SG1X TG RGB",
+  "price": 349.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070105",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Signum SG7V EVO TG ARGB",
+  "price": 454.77,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070106",
+  "image": "/images/case/case.jpg",
+  "brand": "SilentiumPC",
+  "name": "Signum SG7V TG",
+  "price": 418.1,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070107",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "A500",
+  "price": 895.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070108",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Commander C31 TG ARGB",
+  "price": 395.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070109",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Commander C32 TG ARGB",
+  "price": 486.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070110",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Commander C33 TG ARGB",
+  "price": 486.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070111",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Commander C34 TG ARGB",
+  "price": 395.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070112",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Commander C34 TG Snow ARGB",
+  "price": 686.19,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070113",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Commander C35 TG ARGB",
+  "price": 717.22,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070114",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Commander C36 TG ARGB",
+  "price": 454.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070115",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core G21 Tempered Glass Edition",
+  "price": 264.49,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070116",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core G3",
+  "price": 380.43,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070117",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core P3",
+  "price": 889.71,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070118",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core P3 TG Curved",
+  "price": 1018.15,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070119",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core P3 TG Snow Edition",
+  "price": 760.44,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070120",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core P90",
+  "price": 900.9,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070121",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core X31",
+  "price": 810.86,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070122",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core X31 TG",
+  "price": 527.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070123",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "H100 TG",
+  "price": 322.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070124",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "H200 TG RGB",
+  "price": 343.53,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070125",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "H200 TG Snow RGB",
+  "price": 486.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070126",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "H550 TG ARGB",
+  "price": 498.59,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070127",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Level 20 MT",
+  "price": 318.05,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070128",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Level 20 RS ARGB",
+  "price": 773.05,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070129",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "S300 Tempered Glass Edition",
+  "price": 395.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070130",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Suppressor F31 TG",
+  "price": 702.84,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070131",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Urban S31",
+  "price": 484.44,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070132",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "V200",
+  "price": 259.26,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070133",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "V200 RGB",
+  "price": 349.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070134",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "V250 TG ARGB",
+  "price": 372.6,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070135",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa C21",
+  "price": 322.96,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070136",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa C22 RGB",
+  "price": 309.81,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070137",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa C22 RGB Snow Edition",
+  "price": 363.5,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070138",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa C23 RGB",
+  "price": 436.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070139",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa H21",
+  "price": 267.31,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070140",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa H22",
+  "price": 275.09,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070141",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa H23",
+  "price": 275.91,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070142",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa H24",
+  "price": 313.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070143",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa H25",
+  "price": 319.64,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070144",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa H26",
+  "price": 498.86,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070145",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa H35",
+  "price": 437.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070146",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa J21",
+  "price": 326.05,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070147",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa J22",
+  "price": 272.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070148",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa J23",
+  "price": 289.74,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070149",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa J23 RGB",
+  "price": 410.87,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070150",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa J24",
+  "price": 263.49,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070151",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa J24 RGB",
+  "price": 410.73,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070152",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa J25",
+  "price": 322.32,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070153",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa J25 RGB",
+  "price": 431.75,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070154",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa N21",
+  "price": 310.67,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070155",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa N24",
+  "price": 364.91,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070156",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa N27",
+  "price": 775.46,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070157",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Versa T25",
+  "price": 267.95,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070158",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "View 21 Tempered Glass Edition",
+  "price": 299.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070159",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "View 22",
+  "price": 406.32,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070160",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "View 27",
+  "price": 364.27,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070161",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "View 31 TG",
+  "price": 691.19,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070162",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "View 37",
+  "price": 721.99,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Mid Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070163",
+  "image": "/images/case/case.jpg",
+  "brand": "be quiet!",
+  "name": "Dark Base 900",
+  "price": 735.78,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070164",
+  "image": "/images/case/case.jpg",
+  "brand": "be quiet!",
+  "name": "Dark Base Pro 900 Rev. 2",
+  "price": 998.27,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070165",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "Cosmos",
+  "price": 1939.21,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070166",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "Cosmos C700M",
+  "price": 1960.14,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070167",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "Cosmos C700P Black Edition",
+  "price": 1353.58,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070168",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "MasterFrame 700",
+  "price": 905.22,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070169",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "Stryker SE",
+  "price": 796.8,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070170",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "1000D",
+  "price": 2660.84,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070171",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "750D",
+  "price": 657.75,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070172",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "760T",
+  "price": 816.36,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070173",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "780T",
+  "price": 884.52,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070174",
+  "image": "/images/case/case.jpg",
+  "brand": "Corsair",
+  "name": "Carbide 600Q",
+  "price": 723.59,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070175",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define 7 XL",
+  "price": 941.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070176",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define 7 XL Dark",
+  "price": 934.52,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070177",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define 7 XL Light",
+  "price": 943.62,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070178",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Define XL R2",
+  "price": 449.22,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070179",
+  "image": "/images/case/case.jpg",
+  "brand": "Fractal Design",
+  "name": "Meshify 2 XL",
+  "price": 829.92,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070180",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "O11D XL-A",
+  "price": 1032.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070181",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "O11D XL-W",
+  "price": 1160.39,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070182",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "O11D XL-X",
+  "price": 1000.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070183",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-O11 Air",
+  "price": 1114.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070184",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-O11 Dynamic",
+  "price": 668.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070185",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-O11ROG",
+  "price": 1528.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070186",
+  "image": "/images/case/case.jpg",
+  "brand": "Lian Li",
+  "name": "PC-V750",
+  "price": 1988.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070187",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo 719",
+  "price": 902.13,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070188",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo Primo",
+  "price": 2418.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070189",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo Pro",
+  "price": 454.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070190",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo Pro 2",
+  "price": 1089.63,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070191",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo Pro Tempered Glass",
+  "price": 531.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tinted Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070192",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "Enthoo Series Primo Aluminum",
+  "price": 1091.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070193",
+  "image": "/images/case/case.jpg",
+  "brand": "Phanteks",
+  "name": "PH-ES614PC_BK",
+  "price": 541.04,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070194",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "A700 TG",
+  "price": 1614.8,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070195",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "AH T600",
+  "price": 1282.6,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070196",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "AH T600 Snow",
+  "price": 1269.91,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070197",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core P8 TG",
+  "price": 1032.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070198",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core V71 TG",
+  "price": 946.76,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070199",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core W100",
+  "price": 2175.45,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070200",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Core X71",
+  "price": 727.95,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070201",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Level 20",
+  "price": 3389.7,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070202",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Level 20 GT",
+  "price": 713.85,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070203",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Level 20 GT RGB Plus",
+  "price": 1551.23,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070204",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Level 20 HT",
+  "price": 982.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070205",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Level 20 HT Snow Edition",
+  "price": 1073.3,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070206",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Tower 900",
+  "price": 1094.18,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070207",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Tower 900 Snow Edition",
+  "price": 1159.75,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070208",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "View 51 ARGB Edition",
+  "price": 1000.55,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070209",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "View 51 Snow ARGB Edition",
+  "price": 1032.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Tempered Glass"
+},{
+  "_id": "608dd450905ec60bdc070210",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "View 71 TG",
+  "price": 782.1,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070211",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "View 71 TG RGB",
+  "price": 941.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070212",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "View 71 TG RGB Plus",
+  "price": 1210.25,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070213",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "View 71 TG Snow",
+  "price": 941.35,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Full Tower",
+  "sidePanelWindow": "Acrylic"
+},{
+  "_id": "608dd450905ec60bdc070214",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "HAF XB",
+  "price": 581.17,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Desktop",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070215",
+  "image": "/images/case/case.jpg",
+  "brand": "Cooler Master",
+  "name": "HAF XB EVO",
+  "price": 568.25,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Desktop",
+  "sidePanelWindow": "None"
+},{
+  "_id": "608dd450905ec60bdc070216",
+  "image": "/images/case/case.jpg",
+  "brand": "Thermaltake",
+  "name": "Level 20 XT",
+  "price": 909.95,
+  "powerSupplyStandard": "ATX",
+  "maxMotherboardSize": "ATX",
+  "type": "ATX Desktop",
+  "sidePanelWindow": "Tempered Glass"
+}]
