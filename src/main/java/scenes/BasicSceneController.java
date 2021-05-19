@@ -31,7 +31,7 @@ public class BasicSceneController {
                 .setSelectedPartsSummaryRoot(root);
     }
 
-    private void loadHelpController(String helpHtmlFileName) throws IOException {
+    private void loadHelpController(String helpHtmlFileName, String title) throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getClassLoader().getResource("HelpSceneController.fxml"));
         Parent root = loader.load();
         HelpSceneController controller = loader.getController();
@@ -39,8 +39,7 @@ public class BasicSceneController {
         Stage stage = new Stage();
         stage.getIcons().add(new Image(getClass().getResourceAsStream("/images/icons/help.png")));
         stage.setResizable(false);
-        stage.setTitle("PC Configurator - FAQ & Terminology");
-        stage.initModality(Modality.APPLICATION_MODAL);
+        stage.setTitle("PC Configurator - " + title);
         stage.setScene(new Scene(root));
         stage.showAndWait();
     }
@@ -49,11 +48,11 @@ public class BasicSceneController {
     }
 
     public void howToAction(ActionEvent actionEvent) throws IOException {
-        //loadHelpController("/help/index.html");
+        loadHelpController("/help/help.html", "How to use");
     }
 
     public void faqAction(ActionEvent actionEvent) throws IOException {
-        loadHelpController("/help/index.html");
+        loadHelpController("/help/index.html", "FAQ & Terminology");
     }
 
     public void aboutAction(ActionEvent actionEvent) throws IOException {
