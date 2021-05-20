@@ -10,20 +10,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 //TODO: add SLF4J or disable the warning
-public class DatabaseData {
-    private static DatabaseData instance;
+public class DatabaseDataGetter {
+    private static DatabaseDataGetter instance;
 
     private MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017");
     private MongoDatabase database = mongoClient.getDatabase("PC_Configurator_FX");
 
-    public static DatabaseData getInstance() {
+    public static DatabaseDataGetter getInstance() {
         if(instance == null) {
-            instance = new DatabaseData();
+            instance = new DatabaseDataGetter();
         }
         return instance;
     }
 
-    private DatabaseData() {
+    private DatabaseDataGetter() {
     }
 
     private List<String> getJsonData(String collectionName) {
