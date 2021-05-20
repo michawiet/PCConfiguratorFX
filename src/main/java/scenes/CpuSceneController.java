@@ -3,8 +3,8 @@ package scenes;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Cpu;
 import helpers.ComboBoxRangeValueController;
-import helpers.DatabaseData;
 import helpers.CheckBoxRoot;
+import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
@@ -13,6 +13,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.DoubleSummaryStatistics;
 import java.util.IntSummaryStatistics;
@@ -74,8 +75,8 @@ public class CpuSceneController extends ComponentScene<Cpu> {
     public void initialize() {
         //initialize the lists
         try {
-            this.productList = DatabaseData.getInstance().getCpuList();
-        } catch (JsonProcessingException e) {
+            this.productList = JsonDataGetter.getInstance().getCpuList();
+        } catch (IOException e) {
             e.printStackTrace();
         }
 

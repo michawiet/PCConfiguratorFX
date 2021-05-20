@@ -4,7 +4,8 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Motherboard;
 import helpers.CheckBoxRoot;
 import helpers.ComboBoxRangeValueController;
-import helpers.DatabaseData;
+import helpers.DatabaseDataGetter;
+import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
@@ -14,6 +15,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -104,8 +106,8 @@ public class MotherboardSceneController extends ComponentScene<Motherboard> {
     public void initialize() {
         //initialize the lists
         try {
-            this.productList = DatabaseData.getInstance().getMotherboardList();
-        } catch (JsonProcessingException e) {
+            this.productList = JsonDataGetter.getInstance().getMotherboardList();
+        } catch (IOException e) {
             e.printStackTrace();
         }
         this.filteredList = new FilteredList<>(FXCollections.observableList(this.productList));

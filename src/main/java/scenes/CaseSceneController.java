@@ -3,7 +3,8 @@ package scenes;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Case;
 import helpers.CheckBoxRoot;
-import helpers.DatabaseData;
+import helpers.DatabaseDataGetter;
+import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
@@ -12,6 +13,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
+import java.io.IOException;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -50,8 +52,8 @@ public class CaseSceneController extends ComponentScene<Case> {
     public void initialize() {
         //initialize the lists
         try {
-            this.productList = DatabaseData.getInstance().getCaseList();
-        } catch (JsonProcessingException e) {
+            this.productList = JsonDataGetter.getInstance().getCaseList();
+        } catch (IOException e) {
             e.printStackTrace();
         }
         this.filteredList = new FilteredList<>(FXCollections.observableList(this.productList));

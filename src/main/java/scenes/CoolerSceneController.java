@@ -4,14 +4,13 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Cooler;
 import helpers.CheckBoxRoot;
 import helpers.ComboBoxRangeValueController;
-import helpers.DatabaseData;
+import helpers.DatabaseDataGetter;
+import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TreeView;
@@ -48,8 +47,8 @@ public class CoolerSceneController extends ComponentScene<Cooler> {
     public void initialize() {
         //initialize the lists
         try {
-            this.productList = DatabaseData.getInstance().getCoolerList();
-        } catch (JsonProcessingException e) {
+            this.productList = JsonDataGetter.getInstance().getCoolerList();
+        } catch (IOException e) {
             e.printStackTrace();
         }
         this.filteredList = new FilteredList<>(FXCollections.observableList(this.productList));

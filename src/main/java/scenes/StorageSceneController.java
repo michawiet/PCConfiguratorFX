@@ -1,20 +1,16 @@
 package scenes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import components.Product;
 import components.Storage;
 import helpers.CheckBoxRoot;
 import helpers.ComboBoxRangeValueController;
-import helpers.DatabaseData;
-import helpers.SceneHubSingleton;
+import helpers.DatabaseDataGetter;
+import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
-import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TreeView;
@@ -56,11 +52,6 @@ public class StorageSceneController extends ComponentScene<Storage> {
 
     ComboBoxRangeValueController tierController;
 
-    //@FXML
-    //private void addAction(ActionEvent event) throws IOException {
-    //    SceneHubSingleton.getInstance().addSelectedProductAndSwitch((Product) tableView.getSelectionModel().getSelectedItem());
-    //}
-
     @FXML
     private void applyFilters(ActionEvent event) {
         //Update the predicates and apply to the filtered/observable list
@@ -94,8 +85,8 @@ public class StorageSceneController extends ComponentScene<Storage> {
     public void initialize() {
         //initialize the lists
         try {
-            this.productList = DatabaseData.getInstance().getStorageList();
-        } catch (JsonProcessingException e) {
+            this.productList = JsonDataGetter.getInstance().getStorageList();
+        } catch (IOException e) {
             e.printStackTrace();
         }
         this.filteredList = new FilteredList<>(FXCollections.observableList(this.productList));
