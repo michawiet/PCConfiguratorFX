@@ -1,6 +1,7 @@
 package scenes;
 
 import helpers.SceneHubSingleton;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -44,6 +45,7 @@ public class BasicSceneController {
     }
 
     public void exitAction(ActionEvent actionEvent) {
+        Platform.exit();
     }
 
     public void howToAction(ActionEvent actionEvent) throws IOException {
@@ -54,14 +56,9 @@ public class BasicSceneController {
         loadHelpController("/help/index.html", "FAQ & Terminology");
     }
 
-    public void aboutAction(ActionEvent actionEvent) throws IOException {
-        //loadHelpController("/help/index.html");
-    }
-
     public void switchToScene(Parent newScene) {
         if(sceneContentPane != null) {
             if(sceneContentPane.getChildren() != null) {
-                //sceneContentPane.getChildren().clear();
                 sceneContentPane.getChildren().setAll(newScene);
             }
         }

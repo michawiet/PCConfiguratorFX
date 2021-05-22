@@ -19,7 +19,6 @@
                     <items>
                         <MenuItem mnemonicParsing="false" onAction="#howToAction" text="How to use" />
                         <MenuItem mnemonicParsing="false" onAction="#faqAction" text="FAQ and Terminologies" />
-                        <MenuItem mnemonicParsing="false" onAction="#aboutAction" text="About PC Configurator" />
                     </items>
                 </Menu>
             </menus>
