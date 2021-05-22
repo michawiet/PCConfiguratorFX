@@ -1,9 +1,7 @@
 package scenes;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Case;
 import helpers.CheckBoxRoot;
-import helpers.DatabaseDataGetter;
 import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
