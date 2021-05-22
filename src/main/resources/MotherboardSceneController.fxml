@@ -86,7 +86,7 @@
                            <children>
                               <Label text="Brands" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
@@ -103,7 +103,7 @@
                            <children>
                               <Label text="Price" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -136,7 +136,7 @@
                            <children>
                               <Label text="Tier" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -183,7 +183,7 @@
                            <children>
                               <Label text="Chipsets" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="Chipsets differ by the offered features (e.g. PCIe lanes, overclocking capabilities and such...).">
@@ -200,7 +200,7 @@
                            <children>
                               <Label text="Sockets" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="Your motherboard socket needs to match your CPU socket (1151, AM4, etc).">
@@ -217,7 +217,7 @@
                            <children>
                               <Label text="Form factor" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="The motherboard needs to fit in your case. Normal sizes, from small to large, are mini ITX, micro ATX (µATX, uATX, or mATX), ATX, and Extended ATX (E-ATX). A smaller motherboard will fit in a larger case, but not vice-versa.">
@@ -234,7 +234,7 @@
                            <children>
                               <Label text="Memory slots" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -281,7 +281,7 @@
                            <children>
                               <Label text="Memory max" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />

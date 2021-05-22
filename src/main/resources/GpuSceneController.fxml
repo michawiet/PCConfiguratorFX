@@ -48,14 +48,14 @@
 
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="775.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.GpuSceneController">
    <children>
-      <VBox>
+      <VBox prefHeight="775.0" prefWidth="279.0">
          <HBox.margin>
             <Insets />
          </HBox.margin>
          <children>
             <HBox alignment="TOP_CENTER">
                <children>
-                  <Button fx:id="addButton" disable="true" mnemonicParsing="false" onAction="#addAction" prefHeight="44.0" prefWidth="280.0" text="Add selected GPU">
+                  <Button fx:id="addButton" disable="true" mnemonicParsing="false" onAction="#addAction" prefHeight="44.0" prefWidth="262.0" text="Add selected GPU">
                      <font>
                         <Font name="System Bold" size="20.0" />
                      </font>
@@ -68,10 +68,10 @@
             <Separator opacity="0.65" prefWidth="200.0" />
             <HBox alignment="CENTER" prefHeight="27.0" prefWidth="251.0" spacing="10.0">
                <children>
-                  <Button fx:id="resetFiltersButton" mnemonicParsing="false" onAction="#resetFilters" prefHeight="25.0" prefWidth="135.0" text="Reset filters" />
-                  <Button fx:id="applyFiltersButton" mnemonicParsing="false" onAction="#applyFilters" prefHeight="25.0" prefWidth="135.0" text="Apply filters">
+                  <Button fx:id="resetFiltersButton" mnemonicParsing="false" onAction="#resetFilters" prefHeight="25.0" prefWidth="126.0" text="Reset filters" />
+                  <Button fx:id="applyFiltersButton" mnemonicParsing="false" onAction="#applyFilters" prefHeight="25.0" prefWidth="126.0" text="Apply filters">
                      <tooltip>
-                        <Tooltip maxWidth="400.0" wrapText="true" text="Applies the filters" />
+                        <Tooltip maxWidth="400.0" text="Applies the filters" wrapText="true" />
                      </tooltip></Button>
                </children>
                <padding>
@@ -86,10 +86,10 @@
                            <children>
                               <Label text="Brands" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
-                                    <Tooltip maxWidth="400.0" wrapText="true" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
+                                    <Tooltip maxWidth="400.0" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!" wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
@@ -103,13 +103,13 @@
                            <children>
                               <Label text="Price" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip maxWidth="400.0" wrapText="true" text="Price of the GPU in PLN.">
+                                    <Tooltip maxWidth="400.0" text="Price of the GPU in PLN." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
@@ -136,10 +136,10 @@
                            <children>
                               <Label text="Chipset" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
-                                    <Tooltip maxWidth="400.0" wrapText="true" text="Exact chipset of the GPU.">
+                                    <Tooltip maxWidth="400.0" text="Exact chipset of the GPU." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
@@ -153,13 +153,13 @@
                            <children>
                               <Label text="Memory (GB)" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip maxWidth="400.0" wrapText="true" text="Size of the GPU's memory.">
+                                    <Tooltip maxWidth="400.0" text="Size of the GPU's memory." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
@@ -170,7 +170,7 @@
                                  <children>
                                     <ComboBox fx:id="memoryMinComboBox" onAction="#memoryMinComboBoxUpdate" prefWidth="150.0" promptText="From" visibleRowCount="4">
                                        <tooltip>
-                                          <Tooltip maxWidth="400.0" wrapText="true" text="Minimum memory in GB">
+                                          <Tooltip maxWidth="400.0" text="Minimum memory in GB" wrapText="true">
                                              <font>
                                                 <Font size="16.0" />
                                              </font>
@@ -183,7 +183,7 @@
                                     </Label>
                                     <ComboBox fx:id="memoryMaxComboBox" layoutX="10.0" layoutY="10.0" onAction="#memoryMaxComboBoxUpdate" prefWidth="150.0" promptText="To" visibleRowCount="4">
                                        <tooltip>
-                                          <Tooltip maxWidth="400.0" wrapText="true" text="Maximum memory in GB">
+                                          <Tooltip maxWidth="400.0" text="Maximum memory in GB" wrapText="true">
                                              <font>
                                                 <Font size="16.0" />
                                              </font>
@@ -200,13 +200,13 @@
                            <children>
                               <Label text="Core Clock (MHz)" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip maxWidth="400.0" wrapText="true" text="Actual speed of the GPU in the normal working conditions.">
+                                    <Tooltip maxWidth="400.0" text="Actual speed of the GPU in the normal working conditions." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
@@ -233,13 +233,13 @@
                            <children>
                               <Label text="Boost Clock (MHz)" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip maxWidth="400.0" wrapText="true" text="The Boost Clock is the frequency that the card will boost up to when it is running at a suitable temperature. It is basically like a small overclock when available.">
+                                    <Tooltip maxWidth="400.0" text="The Boost Clock is the frequency that the card will boost up to when it is running at a suitable temperature. It is basically like a small overclock when available." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
@@ -266,13 +266,13 @@
                            <children>
                               <Label text="Length (mm)" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip maxWidth="400.0" wrapText="true" text="Length of the card in millimeters.">
+                                    <Tooltip maxWidth="400.0" text="Length of the card in millimeters." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
@@ -299,13 +299,13 @@
                            <children>
                               <Label text="TDP (Watts)" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip maxWidth="400.0" wrapText="true" text="TDP is a maximum amount of heat generated by a GPU.">
+                                    <Tooltip maxWidth="400.0" text="TDP is a maximum amount of heat generated by a GPU." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
@@ -316,7 +316,7 @@
                                  <children>
                                     <ComboBox fx:id="tdpMinComboBox" onAction="#tdpMinComboBoxUpdate" prefWidth="150.0" promptText="From">
                                        <tooltip>
-                                          <Tooltip maxWidth="400.0" wrapText="true" text="Minimum TDP value">
+                                          <Tooltip maxWidth="400.0" text="Minimum TDP value" wrapText="true">
                                              <font>
                                                 <Font size="16.0" />
                                              </font>
@@ -329,7 +329,7 @@
                                     </Label>
                                     <ComboBox fx:id="tdpMaxComboBox" onAction="#tdpMaxComboBoxUpdate" prefWidth="150.0" promptText="To">
                                        <tooltip>
-                                          <Tooltip maxWidth="400.0" wrapText="true" text="Maximum TDP value">
+                                          <Tooltip maxWidth="400.0" text="Maximum TDP value" wrapText="true">
                                              <font>
                                                 <Font size="16.0" />
                                              </font>
@@ -346,13 +346,13 @@
                            <children>
                               <Label text="Recomm. PSU (W)" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip maxWidth="400.0" wrapText="true" text="Minimum wattage of the PSU that is recommended for the card.">
+                                    <Tooltip maxWidth="400.0" text="Minimum wattage of the PSU that is recommended for the card." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
@@ -379,13 +379,13 @@
                            <children>
                               <Label text="Performance" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip maxWidth="400.0" wrapText="true" text="Relative performance of the GPU.">
+                                    <Tooltip maxWidth="400.0" text="Relative performance of the GPU." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
@@ -417,6 +417,6 @@
             </ScrollPane>
          </children>
       </VBox>
-      <TableView fx:id="tableView" prefHeight="775.0" prefWidth="980.0" />
+      <TableView fx:id="tableView" prefHeight="775.0" prefWidth="1001.0" />
    </children>
 </HBox>

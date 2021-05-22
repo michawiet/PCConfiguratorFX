@@ -86,7 +86,7 @@
                            <children>
                               <Label text="Brands" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
@@ -103,7 +103,7 @@
                            <children>
                               <Label text="Price" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -136,7 +136,7 @@
                            <children>
                               <Label text="Tier" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -169,7 +169,7 @@
                            <children>
                               <Label text="Form factor" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="Size of the power supply - must match with the case specification.">
@@ -186,7 +186,7 @@
                            <children>
                               <Label text="Efficiency rating" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="The higher the rating (in order of least efficient: Plus, Bronze, Silver, Gold, Platinum, Titanium), the more efficient the PSU, and the less power wasted.">
@@ -203,7 +203,7 @@
                            <children>
                               <Label text="Wattage" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -250,7 +250,7 @@
                            <children>
                               <Label text="Modularity" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="Normal PSUs have all (or most) of the power cords fixed in place and not removable. Modular PSUs allow you to add or remove cords for less clutter and improved airflow, but usually come with a premium price tag.">

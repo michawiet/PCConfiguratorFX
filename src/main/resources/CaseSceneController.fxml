@@ -85,7 +85,7 @@
                            <children>
                               <Label text="Brands" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
@@ -102,7 +102,7 @@
                            <children>
                               <Label text="Price" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -135,7 +135,7 @@
                            <children>
                               <Label text="PSU Standard" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="Standard of the PSU must be matched to the case.">
@@ -152,7 +152,7 @@
                            <children>
                               <Label text="Motherboard Size" textAlignment="CENTER" wrapText="true">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="As long as your case is compatible with your motherboard size, and you’re happy with both, you should usually be good to go.">
@@ -169,7 +169,7 @@
                            <children>
                               <Label text="Type" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="It is essentially the form factor of the case.">
@@ -186,7 +186,7 @@
                            <children>
                               <Label text="Side panel window" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip maxWidth="400.0" wrapText="true" text="Side panel window allows you to see your components.">

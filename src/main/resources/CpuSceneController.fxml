@@ -86,7 +86,7 @@
                            <children>
                               <Label text="Brands" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip wrapText="true" maxWidth="400.0" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
@@ -102,7 +102,7 @@
                            <children>
                               <Label text="Price" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -134,7 +134,7 @@
                            <children>
                               <Label text="Sockets" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip wrapText="true" maxWidth="400.0" style="fx-font-size: 16;" text="Socket is a type of electrical connection between a CPU and motherboard. Naturally the socket type must be the same on both motherboard and CPU.">
@@ -150,7 +150,7 @@
                            <children>
                               <Label text="Core count" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -194,7 +194,7 @@
                            <children>
                               <Label text="SMT" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip wrapText="true" maxWidth="400.0" text="Simultaneous multithreading (SMT) - technique used in processors that allows for a greater paralelization of computation by spliting one core into two threads">
@@ -210,7 +210,7 @@
                            <children>
                               <Label text="iGPU" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <tooltip>
                                     <Tooltip wrapText="true" maxWidth="400.0" text="iGPU is a GPU that is integrated into the CPU. Uses some of computer's RAM memory.">
@@ -226,7 +226,7 @@
                            <children>
                               <Label text="TDP (Watts)" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -258,7 +258,7 @@
                            <children>
                               <Label text="ST Performance" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -290,7 +290,7 @@
                            <children>
                               <Label text="MT Performance" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -322,7 +322,7 @@
                            <children>
                               <Label text="Core Clock (GHz)" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
@@ -354,7 +354,7 @@
                            <children>
                               <Label text="Boost Clock (GHz)" textAlignment="CENTER">
                                  <font>
-                                    <Font size="30.0" />
+                                    <Font size="20.0" />
                                  </font>
                                  <VBox.margin>
                                     <Insets />
