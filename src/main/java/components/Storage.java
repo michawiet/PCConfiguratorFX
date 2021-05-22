@@ -25,8 +25,7 @@ public class Storage extends Product {
         columns.add(new TableColumn<Storage, String>("Interface"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("connectionInterface"));
         //last columns
-        columns.add(new TableColumn<Storage, Double>("Price"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("price"));
+        columns.add(getPriceColumn());
 
         return columns;
     }

@@ -26,8 +26,7 @@ public class Ram extends Product {
         columns.add(new TableColumn<Ram, Integer>("CAS latency"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("casLatency"));
         //last columns
-        columns.add(new TableColumn<Ram, Double>("Price"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("price"));
+        columns.add(getPriceColumn());
 
         return columns;
     }

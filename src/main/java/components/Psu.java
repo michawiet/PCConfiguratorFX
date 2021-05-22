@@ -25,8 +25,7 @@ public class Psu extends Product {
         columns.add(new TableColumn<Psu, String>("Modularity"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("modular"));
         //last columns
-        columns.add(new TableColumn<Psu, Double>("Price"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("price"));
+        columns.add(getPriceColumn());
 
         return columns;
     }

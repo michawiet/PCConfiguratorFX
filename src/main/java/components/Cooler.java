@@ -22,8 +22,7 @@ public class Cooler extends Product {
         columns.add(new TableColumn<Cooler, String>("For workstations"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("forWorkstation"));
         //last columns
-        columns.add(new TableColumn<Cooler, Double>("Price"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("price"));
+        columns.add(getPriceColumn());
 
         return columns;
     }

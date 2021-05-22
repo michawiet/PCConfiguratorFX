@@ -1,15 +1,10 @@
 package components;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import javafx.scene.control.CheckBox;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
-import javafx.scene.control.Tooltip;
-import javafx.scene.control.cell.CheckBoxTableCell;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.image.ImageView;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Cpu extends Product {
@@ -79,8 +74,7 @@ public class Cpu extends Product {
         columns.add(new TableColumn<Cpu, Float>("Boost"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("boostClock"));
         //last columns
-        columns.add(new TableColumn<Cpu, Double>("Price"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("price"));
+        columns.add(getPriceColumn());
 
         return columns;
     }

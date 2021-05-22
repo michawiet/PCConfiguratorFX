@@ -22,8 +22,7 @@ public class Case extends Product {
         columns.add(new TableColumn<Case, String>("Side panel window"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("sidePanelWindow"));
         //last columns
-        columns.add(new TableColumn<Case, Double>("Price"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("price"));
+        columns.add(getPriceColumn());
 
         return columns;
     }

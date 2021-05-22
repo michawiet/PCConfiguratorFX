@@ -35,8 +35,7 @@ public class Gpu extends Product {
         columns.add(new TableColumn<Gpu, Integer>("Performance"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("performance"));
         //last columns
-        columns.add(new TableColumn<Gpu, Double>("Price"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("price"));
+        columns.add(getPriceColumn());
 
         return columns;
     }

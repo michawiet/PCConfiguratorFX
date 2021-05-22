@@ -2,6 +2,7 @@ package components;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import javafx.scene.control.Tab;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.Tooltip;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -44,6 +45,22 @@ public abstract class Product {
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("name"));
 
         return columns;
+    }
+
+    @JsonIgnore
+    protected static TableColumn getPriceColumn() {
+        TableColumn<Product, Double> priceColumn = new TableColumn<>("Price");
+        priceColumn.setCellValueFactory(new PropertyValueFactory<>("price"));
+        priceColumn.setCellFactory((column) -> new TableCell<>() {
+            @Override
+            protected void updateItem(Double item, boolean empty) {
+                super.updateItem(item, empty);
+                if(item != null) {
+                    this.setText(String.format("%.2f PLN", item));
+                }
+            }
+        });
+        return priceColumn;
     }
 
     // Returns "Yes" for true and "No" for false. Can be non static, since it is only used by the classes that inherit Product

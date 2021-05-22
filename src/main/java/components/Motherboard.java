@@ -28,8 +28,7 @@ public class Motherboard extends Product {
         columns.add(new TableColumn<Motherboard, Integer>("Max memory"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("memoryMaxGb"));
         //last columns
-        columns.add(new TableColumn<Motherboard, Double>("Price"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("price"));
+        columns.add(getPriceColumn());
 
         return columns;
     }
