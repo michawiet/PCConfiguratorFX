@@ -30,7 +30,7 @@ public abstract class Product {
             protected void updateItem(ImageView item, boolean empty) {
                 super.updateItem(item, empty);
                 this.setGraphic(item);
-                if(item != null) {
+                if(!empty) {
                     Tooltip tooltip = new Tooltip();
                     tooltip.setGraphic(new ImageView(item.getImage()));
                     setTooltip(tooltip);
@@ -54,7 +54,7 @@ public abstract class Product {
             @Override
             protected void updateItem(Double item, boolean empty) {
                 super.updateItem(item, empty);
-                if(item != null) {
+                if(!empty) {
                     this.setText(String.format("%.2f PLN", item));
                 }
             }
@@ -67,7 +67,7 @@ public abstract class Product {
             @Override
             protected void updateItem(Integer item, boolean empty) {
                 super.updateItem(item, empty);
-                if(item != null) {
+                if(!empty) {
                     this.setText(String.format("%d %s", item, toAddAfterValue));
                 }
             }
@@ -79,7 +79,7 @@ public abstract class Product {
             @Override
             protected void updateItem(Float item, boolean empty) {
                 super.updateItem(item, empty);
-                if(item != null) {
+                if(!empty) {
                     this.setText(String.format("%.1f GHz", item));
                 }
             }

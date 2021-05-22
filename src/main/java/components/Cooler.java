@@ -22,7 +22,7 @@ public class Cooler extends Product {
             @Override
             protected void updateItem(Float item, boolean empty) {
                 super.updateItem(item, empty);
-                if(!empty){
+                if (!empty) {
                     this.setText(String.format("%.1f dB", item));
                 }
             }
