@@ -45,25 +45,9 @@ public class Gpu extends Product {
         return columns;
     }
 
-    public Gpu() {
-
-    }
-
     @Override
     public ProductType getProductType() {
         return ProductType.Gpu;
-    }
-
-    public Gpu(String _id, String image, String brand, String name, Double price, String chipset, int memoryGb, int coreClockMhz, int boostClockMhz, int lengthMillimeters, int tdpW, int recommendedPsuWatts, int performance) {
-        super(_id, image, brand, name, price);
-        this.chipset = chipset;
-        this.memoryGb = memoryGb;
-        this.coreClockMhz = coreClockMhz;
-        this.boostClockMhz = boostClockMhz;
-        this.lengthMillimeters = lengthMillimeters;
-        this.tdpW = tdpW;
-        this.recommendedPsuWatts = recommendedPsuWatts;
-        this.performance = performance;
     }
 
     public String getChipset() {

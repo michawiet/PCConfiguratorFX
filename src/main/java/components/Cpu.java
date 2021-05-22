@@ -70,26 +70,9 @@ public class Cpu extends Product {
         return columns;
     }
 
-    public Cpu() {
-
-    }
-
     @Override
     public ProductType getProductType() {
         return ProductType.Cpu;
-    }
-
-    public Cpu(String _id, String image, String brand, String name, Double price, String socket, int cores, boolean smt, boolean igpu, int tdp, int stPerformance, int mtPerformance, float coreClock, float boostClock) {
-        super(_id, image, brand, name, price);
-        this.socket = socket;
-        this.cores = cores;
-        this.smt = smt;
-        this.igpu = igpu;
-        this.tdp = tdp;
-        this.stPerformance = stPerformance;
-        this.mtPerformance = mtPerformance;
-        this.coreClock = coreClock;
-        this.boostClock = boostClock;
     }
 
     public String getSocket() {

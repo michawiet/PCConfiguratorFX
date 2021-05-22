@@ -27,21 +27,9 @@ public class Case extends Product {
         return columns;
     }
 
-    public Case() {
-
-    }
-
     @Override
     public ProductType getProductType() {
         return ProductType.Case;
-    }
-
-    public Case(String _id, String image, String brand, String name, Double price, String powerSupplyStandard, String maxMotherboardSize, String type, String sidePanelWindow) {
-        super(_id, image, brand, name, price);
-        this.powerSupplyStandard = powerSupplyStandard;
-        this.maxMotherboardSize = maxMotherboardSize;
-        this.type = type;
-        this.sidePanelWindow = sidePanelWindow;
     }
 
     public String getPowerSupplyStandard() {

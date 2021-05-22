@@ -31,22 +31,9 @@ public class Psu extends Product {
         return columns;
     }
 
-    public Psu() {
-
-    }
-
     @Override
     public ProductType getProductType() {
         return ProductType.Psu;
-    }
-
-    public Psu(String _id, String image, String brand, String name, Double price, float tier, String formFactor, String efficiencyRating, Integer wattage, String modular) {
-        super(_id, image, brand, name, price);
-        this.tier = tier;
-        this.formFactor = formFactor;
-        this.efficiencyRating = efficiencyRating;
-        this.wattage = wattage;
-        this.modular = modular;
     }
 
     public float getTier() {

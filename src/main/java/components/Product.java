@@ -110,18 +110,6 @@ public abstract class Product {
     @JsonProperty
     protected Double price;
 
-    public Product(String _id, String image, String brand, String name, Double price) {
-        this._id = _id;
-        this.image = image;
-        this.brand = brand;
-        this.name = name;
-        this.price = price;
-    }
-
-    public Product() {
-
-    }
-
     @JsonIgnore
     public abstract ProductType getProductType();
 

@@ -37,21 +37,9 @@ public class Cooler extends Product {
         return columns;
     }
 
-    public Cooler() {
-
-    }
-
     @Override
     public ProductType getProductType() {
         return ProductType.Cooler;
-    }
-
-    public Cooler(String _id, String image, String brand, String name, Double price, int tier, float noiseLevelDb, boolean isAirCooler, boolean forWorkstation) {
-        super(_id, image, brand, name, price);
-        this.tier = tier;
-        this.noiseLevelDb = noiseLevelDb;
-        this.isAirCooler = isAirCooler;
-        this.forWorkstation = forWorkstation;
     }
 
     public int getTier() {

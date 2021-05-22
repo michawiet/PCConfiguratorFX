@@ -60,22 +60,9 @@ public class Ram extends Product {
         return columns;
     }
 
-    public Ram() {
-
-    }
-
     @Override
     public ProductType getProductType() {
         return ProductType.Ram;
-    }
-
-    public Ram(String _id, String image, String brand, String name, Double price, int speed, int modulesCount, int moduleCapacityGb, float firstWordLatencyNs, int casLatency) {
-        super(_id, image, brand, name, price);
-        this.speed = speed;
-        this.modulesCount = modulesCount;
-        this.moduleCapacityGb = moduleCapacityGb;
-        this.firstWordLatencyNs = firstWordLatencyNs;
-        this.casLatency = casLatency;
     }
 
     public int getSpeed() {
