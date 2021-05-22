@@ -22,6 +22,7 @@ public class Main extends Application {
         primaryScene.setRoot(root);
         primaryStage.setScene(primaryScene);
         primaryStage.show();
+        primaryStage.setResizable(false);
 
         primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/images/icons/main_program.png")));
         SceneHubSingleton.getInstance().setPrimaryStage(primaryStage)
