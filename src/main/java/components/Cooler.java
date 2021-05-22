@@ -93,7 +93,7 @@ public class Cooler extends Product {
                 + name
                 + " "
                 + (isAirCooler ? "Air" : "Liquid")
-                + " Cpu Cooler"
+                + " CPU Cooler"
                 ;
     }
 }
