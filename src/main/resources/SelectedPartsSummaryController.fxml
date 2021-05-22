@@ -203,7 +203,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
                      <children>
-                        <ImageView fx:id="cpuImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false" AnchorPane.topAnchor="0.0">
+                        <ImageView fx:id="cpuImageView" fitHeight="48.0" fitWidth="48.0" layoutX="25.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" smooth="false" AnchorPane.topAnchor="2.0">
                            <image>
                               <Image url="@images/cpu/placeholder.png" />
                            </image>
@@ -212,7 +212,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <children>
-                        <ImageView fx:id="coolerImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                        <ImageView fx:id="coolerImageView" fitHeight="48.0" fitWidth="48.0" layoutX="25.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                            <image>
                               <Image url="@images/cooler/placeholder.png" />
                            </image>
@@ -221,7 +221,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <children>
-                        <ImageView fx:id="motherboardImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                        <ImageView fx:id="motherboardImageView" fitHeight="48.0" fitWidth="48.0" layoutX="25.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                            <image>
                               <Image url="@images/motherboard/placeholder.png" />
                            </image>
@@ -230,7 +230,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <children>
-                        <ImageView fx:id="ramImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                        <ImageView fx:id="ramImageView" fitHeight="48.0" fitWidth="48.0" layoutX="25.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                            <image>
                               <Image url="@images/ram/placeholder.png" />
                            </image>
@@ -239,7 +239,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <children>
-                        <ImageView fx:id="storageImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                        <ImageView fx:id="storageImageView" fitHeight="48.0" fitWidth="48.0" layoutX="25.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                            <image>
                               <Image url="@images/storage/placeholder.png" />
                            </image>
@@ -248,7 +248,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
                      <children>
-                        <ImageView fx:id="gpuImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                        <ImageView fx:id="gpuImageView" fitHeight="48.0" fitWidth="48.0" layoutX="25.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                            <image>
                               <Image url="@images/gpu/placeholder.png" />
                            </image>
@@ -257,7 +257,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
                      <children>
-                        <ImageView fx:id="caseImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                        <ImageView fx:id="caseImageView" fitHeight="48.0" fitWidth="48.0" layoutX="25.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                            <image>
                               <Image url="@images/case/placeholder.png" />
                            </image>
@@ -266,7 +266,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
                      <children>
-                        <ImageView fx:id="psuImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                        <ImageView fx:id="psuImageView" fitHeight="48.0" fitWidth="48.0" layoutX="25.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" smooth="false">
                            <image>
                               <Image url="@images/psu/placeholder.png" />
                            </image>
@@ -275,7 +275,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                      <children>
-                        <Label fx:id="cpuNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="CPU not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="cpuNameLabel" disable="true" layoutX="14.0" layoutY="11.0" prefWidth="620.0" text="CPU not selected" wrapText="true" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -284,7 +284,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <children>
-                        <Label fx:id="coolerNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="Cooler not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="coolerNameLabel" disable="true" layoutX="14.0" layoutY="11.0" prefHeight="30.0" prefWidth="620.0" text="Cooler not selected" wrapText="true" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -293,7 +293,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <children>
-                        <Label fx:id="motherboardNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="Motherboard not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="motherboardNameLabel" disable="true" layoutX="14.0" layoutY="11.0" prefWidth="620.0" text="Motherboard not selected" wrapText="true" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -302,7 +302,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <children>
-                        <Label fx:id="ramNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="RAM not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="ramNameLabel" disable="true" layoutX="14.0" layoutY="11.0" prefWidth="620.0" text="RAM not selected" wrapText="true" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -311,7 +311,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <children>
-                        <Label fx:id="storageNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="Storage not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="storageNameLabel" disable="true" layoutX="14.0" layoutY="11.0" prefWidth="620.0" text="Storage not selected" wrapText="true" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -320,7 +320,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
                      <children>
-                        <Label fx:id="gpuNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="GPU not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="gpuNameLabel" disable="true" layoutX="14.0" layoutY="11.0" prefWidth="620.0" text="GPU not selected" wrapText="true" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -329,7 +329,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
                      <children>
-                        <Label fx:id="caseNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="Case not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="caseNameLabel" disable="true" layoutX="14.0" layoutY="11.0" prefWidth="620.0" text="Case not selected" wrapText="true" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -338,7 +338,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
                      <children>
-                        <Label fx:id="psuNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="PSU not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="psuNameLabel" disable="true" layoutX="14.0" layoutY="11.0" prefWidth="620.0" text="PSU not selected" wrapText="true" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -347,7 +347,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3">
                      <children>
-                        <Label fx:id="cpuPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                        <Label fx:id="cpuPriceLabel" disable="true" layoutX="10.0" layoutY="11.0" text="-">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -356,7 +356,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
                      <children>
-                        <Label fx:id="coolerPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                        <Label fx:id="coolerPriceLabel" disable="true" layoutX="10.0" layoutY="11.0" text="-">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -365,7 +365,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
                      <children>
-                        <Label fx:id="motherboardPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                        <Label fx:id="motherboardPriceLabel" disable="true" layoutX="10.0" layoutY="11.0" text="-">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -374,7 +374,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
                      <children>
-                        <Label fx:id="ramPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                        <Label fx:id="ramPriceLabel" disable="true" layoutX="10.0" layoutY="11.0" text="-">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -383,7 +383,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
                      <children>
-                        <Label fx:id="storagePriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                        <Label fx:id="storagePriceLabel" disable="true" layoutX="10.0" layoutY="11.0" text="-">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -392,7 +392,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
                      <children>
-                        <Label fx:id="gpuPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                        <Label fx:id="gpuPriceLabel" disable="true" layoutX="10.0" layoutY="11.0" text="-">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -401,7 +401,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
                      <children>
-                        <Label fx:id="casePriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                        <Label fx:id="casePriceLabel" disable="true" layoutX="10.0" layoutY="11.0" text="-">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -410,7 +410,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
                      <children>
-                        <Label fx:id="psuPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                        <Label fx:id="psuPriceLabel" disable="true" layoutX="10.0" layoutY="11.0" text="-">
                            <font>
                               <Font size="20.0" />
                            </font>
