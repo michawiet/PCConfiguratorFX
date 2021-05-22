@@ -16,7 +16,6 @@ import javafx.scene.image.ImageView;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class SelectedPartsSummaryController {
 
@@ -125,6 +124,12 @@ public class SelectedPartsSummaryController {
                     this.costPieChartData.removeIf(r -> r.getName() == it.getProductType().toString());
                 }
             }
+            //update the total price
+            double tmp = c.getList().stream().map(Product::getPrice).mapToDouble(Double::doubleValue).sum();
+            this.totalPriceLabel.setText(
+                    String.format("%.2f", tmp)
+                    + " PLN"
+            );
         });
     }
 
@@ -243,7 +248,7 @@ public class SelectedPartsSummaryController {
         imageView.setImage(product.getImageView().getImage());
         nameLabel.setText(product.getBrand() + " " + product.getName());
         nameLabel.setDisable(false);
-        priceLabel.setText(product.getPrice() + " PLN");
+        priceLabel.setText(String.format("%.2f" ,product.getPrice()) + " PLN");
         priceLabel.setDisable(false);
     }
 }
