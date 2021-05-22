@@ -1,5 +1,6 @@
 package components;
 
+import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
 import java.util.List;
@@ -16,6 +17,15 @@ public class Storage extends Product {
         //class specific columns
         columns.add(new TableColumn<Storage, Integer>("Capacity"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("capacityGb"));
+        columns.get(columns.size() - 1).setCellFactory((column) -> new TableCell<Storage, Integer>() {
+            @Override
+            protected void updateItem(Integer item, boolean empty) {
+                super.updateItem(item, empty);
+                if (!empty) {
+                    this.setText(formatAsMemoryCapacity(item));
+                }
+            }
+        });
         columns.add(new TableColumn<Storage, Integer>("Tier"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("tier"));
         columns.add(new TableColumn<Storage, String>("Type"));
@@ -37,10 +47,10 @@ public class Storage extends Product {
 
         float newVal = capacity / 1000.f;
         if(newVal == (long)newVal) {
-            return (long)newVal + "TB";
+            return (long)newVal + " TB";
         }
 
-        return newVal + "TB";
+        return newVal + " TB";
     }
 
     @Override
