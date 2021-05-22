@@ -1,16 +1,17 @@
 package scenes;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Cpu;
-import helpers.ComboBoxRangeValueController;
 import helpers.CheckBoxRoot;
+import helpers.ComboBoxRangeValueController;
 import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.*;
+import javafx.scene.control.ComboBox;
+import javafx.scene.control.TextField;
+import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
 import java.io.IOException;
