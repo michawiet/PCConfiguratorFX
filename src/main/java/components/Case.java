@@ -75,4 +75,14 @@ public class Case extends Product {
     public void setSidePanelWindow(String sidePanelWindow) {
         this.sidePanelWindow = sidePanelWindow;
     }
+
+    @Override
+    public String toString() {
+        return brand
+                + " "
+                + name
+                + " "
+                + type
+                + " Case";
+    }
 }

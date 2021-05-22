@@ -88,4 +88,20 @@ public class Psu extends Product {
     public void setModular(String modular) {
         this.modular = modular;
     }
+
+    @Override
+    public String toString() {
+        return brand
+                + " "
+                + name
+                + " "
+                + wattage
+                + " W "
+                + efficiencyRating
+                + " "
+                + modular
+                + " "
+                + formFactor
+                + " Power Supply";
+    }
 }

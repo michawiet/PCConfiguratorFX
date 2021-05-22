@@ -100,4 +100,17 @@ public class Motherboard extends Product {
     public void setMemoryMaxGb(int memoryMaxGb) {
         this.memoryMaxGb = memoryMaxGb;
     }
+
+    @Override
+    public String toString() {
+        return brand
+                + " "
+                + name
+                + " "
+                + formFactor
+                + " "
+                + socket
+                + " Motherboard"
+                ;
+    }
 }

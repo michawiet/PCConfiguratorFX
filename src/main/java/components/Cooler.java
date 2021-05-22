@@ -85,4 +85,15 @@ public class Cooler extends Product {
     public void setForWorkstation(boolean forWorkstation) {
         this.forWorkstation = forWorkstation;
     }
+
+    @Override
+    public String toString() {
+        return brand
+                + " "
+                + name
+                + " "
+                + (isAirCooler ? "Air" : "Liquid")
+                + " Cpu Cooler"
+                ;
+    }
 }

@@ -44,7 +44,16 @@ public class Ram extends Product {
         });
         columns.add(new TableColumn<Ram, Integer>("CAS latency"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("casLatency"));
-        columns.get(columns.size() - 1).setCellFactory((column) -> getIntegerTableCell("CL"));
+        columns.get(columns.size() - 1).setCellFactory((column) -> new TableCell<Ram, Integer>() {
+            @Override
+            protected void updateItem(Integer item, boolean empty) {
+                super.updateItem(item, empty);
+                if(item != null) {
+                    this.setText("CL" + item);
+
+                }
+            }
+        });
         //last columns
         columns.add(getPriceColumn());
 
@@ -111,5 +120,24 @@ public class Ram extends Product {
 
     public int getTotalCapacity() {
         return this.moduleCapacityGb * this.modulesCount;
+    }
+
+    @Override
+    public String toString() {
+        return brand
+                + " "
+                + name
+                + " "
+                + getTotalCapacity()
+                + " ("
+                + modulesCount
+                + " x "
+                + moduleCapacityGb
+                + " GB) "
+                + speed
+                + " MHz CL"
+                + casLatency
+                + " Memory"
+                ;
     }
 }

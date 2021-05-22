@@ -172,4 +172,15 @@ public class Cpu extends Product {
     public void setBoostClock(float boostClock) {
         this.boostClock = boostClock;
     }
+
+    @Override
+    public String toString() {
+        return brand
+                + " "
+                + name
+                + " "
+                + cores
+                + "-Core Processor"
+                ;
+    }
 }

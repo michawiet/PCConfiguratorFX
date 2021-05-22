@@ -30,6 +30,19 @@ public class Storage extends Product {
         return columns;
     }
 
+    public static String formatAsMemoryCapacity(int capacity) {
+        if(capacity < 1000) {
+            return (capacity + " GB");
+        }
+
+        float newVal = capacity / 1000.f;
+        if(newVal == (long)newVal) {
+            return (long)newVal + "TB";
+        }
+
+        return newVal + "TB";
+    }
+
     public Storage() {
 
     }
@@ -86,5 +99,18 @@ public class Storage extends Product {
 
     public void setConnectionInterface(String connectionInterface) {
         this.connectionInterface = connectionInterface;
+    }
+
+    @Override
+    public String toString() {
+        return brand
+                + " "
+                + name
+                + " "
+                + formatAsMemoryCapacity(capacityGb)
+                + " "
+                + formFactor
+                + " "
+                + type;
     }
 }

@@ -129,4 +129,15 @@ public class Gpu extends Product {
     public void setPerformance(int performance) {
         this.performance = performance;
     }
+
+    @Override
+    public String toString() {
+        return brand
+                + " "
+                + chipset
+                + " "
+                + memoryGb
+                + " GB "
+                + name;
+    }
 }
