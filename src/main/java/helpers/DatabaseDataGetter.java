@@ -13,8 +13,8 @@ import java.util.List;
 public class DatabaseDataGetter {
     private static DatabaseDataGetter instance;
 
-    private MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017");
-    private MongoDatabase database = mongoClient.getDatabase("PC_Configurator_FX");
+    private final MongoClient mongoClient = MongoClients.create("mongodb://localhost:27017");
+    private final MongoDatabase database = mongoClient.getDatabase("PC_Configurator_FX");
 
     public static DatabaseDataGetter getInstance() {
         if(instance == null) {
