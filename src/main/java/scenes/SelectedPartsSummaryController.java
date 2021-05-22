@@ -243,7 +243,7 @@ public class SelectedPartsSummaryController {
         tooltip.setGraphic(new ImageView(product.getImage()));
         Tooltip.install(imageView, tooltip);
         imageView.setImage(product.getImageView().getImage());
-        nameLabel.setText(product.getBrand() + " " + product.getName());
+        nameLabel.setText(product.toString());
         nameLabel.setDisable(false);
         priceLabel.setText(String.format("%.2f PLN" ,product.getPrice()));
         priceLabel.setDisable(false);
