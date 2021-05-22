@@ -75,7 +75,7 @@
                <children>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0">
                      <children>
-                        <Label layoutX="165.0" text="CPU" AnchorPane.rightAnchor="0.0">
+                        <Label layoutX="177.0" layoutY="8.0" text="CPU" AnchorPane.rightAnchor="0.0">
                            <font>
                               <Font name="System Bold Italic" size="24.0" />
                            </font>
@@ -91,7 +91,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
                      <children>
-                        <Label layoutX="66.0" text="CPU Cooler" AnchorPane.rightAnchor="0.0">
+                        <Label layoutX="98.0" layoutY="8.0" text="CPU Cooler" AnchorPane.rightAnchor="0.0">
                            <font>
                               <Font name="System Bold Italic" size="24.0" />
                            </font>
@@ -107,7 +107,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
                      <children>
-                        <Label layoutX="42.0" text="Motherboard" AnchorPane.rightAnchor="0.0">
+                        <Label layoutX="78.0" layoutY="8.0" text="Motherboard" AnchorPane.rightAnchor="0.0">
                            <font>
                               <Font name="System Bold Italic" size="24.0" />
                            </font>
@@ -123,7 +123,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
                      <children>
-                        <Label layoutX="158.0" text="RAM" AnchorPane.rightAnchor="0.0">
+                        <Label layoutX="171.0" layoutY="8.0" text="RAM" AnchorPane.rightAnchor="0.0">
                            <font>
                               <Font name="System Bold Italic" size="24.0" />
                            </font>
@@ -139,7 +139,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4">
                      <children>
-                        <Label layoutX="117.0" text="Storage" AnchorPane.rightAnchor="0.0">
+                        <Label layoutX="138.0" layoutY="8.0" text="Storage" AnchorPane.rightAnchor="0.0">
                            <font>
                               <Font name="System Bold Italic" size="24.0" />
                            </font>
@@ -155,7 +155,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="5">
                      <children>
-                        <Label layoutX="163.0" text="GPU" AnchorPane.rightAnchor="0.0">
+                        <Label layoutX="175.0" layoutY="8.0" text="GPU" AnchorPane.rightAnchor="0.0">
                            <font>
                               <Font name="System Bold Italic" size="24.0" />
                            </font>
@@ -171,7 +171,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="6">
                      <children>
-                        <Label layoutX="159.0" text="Case" AnchorPane.rightAnchor="0.0">
+                        <Label layoutX="172.0" layoutY="8.0" text="Case" AnchorPane.rightAnchor="0.0">
                            <font>
                               <Font name="System Bold Italic" size="24.0" />
                            </font>
@@ -187,7 +187,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="221.0" GridPane.rowIndex="7">
                      <children>
-                        <Label layoutX="33.0" text="Power Supply" AnchorPane.rightAnchor="0.0">
+                        <Label layoutX="72.0" layoutY="8.0" text="Power Supply" AnchorPane.rightAnchor="0.0">
                            <font>
                               <Font name="System Bold Italic" size="24.0" />
                            </font>
@@ -275,7 +275,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
                      <children>
-                        <Label fx:id="cpuNameLabel" disable="true" layoutX="14.0" text="CPU not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="cpuNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="CPU not selected" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -284,7 +284,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <children>
-                        <Label fx:id="coolerNameLabel" disable="true" layoutX="14.0" text="Cooler not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="coolerNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="Cooler not selected" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -293,7 +293,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <children>
-                        <Label fx:id="motherboardNameLabel" disable="true" layoutX="14.0" text="Motherboard not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="motherboardNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="Motherboard not selected" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -302,7 +302,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <children>
-                        <Label fx:id="ramNameLabel" disable="true" layoutX="14.0" text="RAM not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="ramNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="RAM not selected" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -311,7 +311,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <children>
-                        <Label fx:id="storageNameLabel" disable="true" layoutX="14.0" text="Storage not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="storageNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="Storage not selected" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -320,7 +320,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
                      <children>
-                        <Label fx:id="gpuNameLabel" disable="true" layoutX="14.0" text="GPU not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="gpuNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="GPU not selected" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -329,7 +329,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
                      <children>
-                        <Label fx:id="caseNameLabel" disable="true" layoutX="14.0" text="Case not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="caseNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="Case not selected" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -338,7 +338,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
                      <children>
-                        <Label fx:id="psuNameLabel" disable="true" layoutX="14.0" text="PSU not selected" AnchorPane.leftAnchor="14.0">
+                        <Label fx:id="psuNameLabel" disable="true" layoutX="14.0" layoutY="11.0" text="PSU not selected" AnchorPane.leftAnchor="14.0">
                            <font>
                               <Font size="20.0" />
                            </font>
@@ -419,7 +419,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="227.0" GridPane.columnIndex="4">
                      <children>
-                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadCpuSelectionScene" text="Select">
+                        <Button layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#loadCpuSelectionScene" text="Select">
                            <font>
                               <Font name="System Bold" size="20.0" />
                            </font>
@@ -428,7 +428,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
                      <children>
-                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadCoolerSelectionScene" text="Select">
+                        <Button layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#loadCoolerSelectionScene" text="Select">
                            <font>
                               <Font name="System Bold" size="20.0" />
                            </font>
@@ -437,7 +437,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
                      <children>
-                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadMotherboardSelectionScene" text="Select">
+                        <Button layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#loadMotherboardSelectionScene" text="Select">
                            <font>
                               <Font name="System Bold" size="20.0" />
                            </font>
@@ -446,7 +446,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
                      <children>
-                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadRamSelectionScene" text="Select">
+                        <Button layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#loadRamSelectionScene" text="Select">
                            <font>
                               <Font name="System Bold" size="20.0" />
                            </font>
@@ -455,7 +455,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
                      <children>
-                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadStorageSelectionScene" text="Select">
+                        <Button layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#loadStorageSelectionScene" text="Select">
                            <font>
                               <Font name="System Bold" size="20.0" />
                            </font>
@@ -464,7 +464,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
                      <children>
-                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadGpuSelectionScene" text="Select">
+                        <Button layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#loadGpuSelectionScene" text="Select">
                            <font>
                               <Font name="System Bold" size="20.0" />
                            </font>
@@ -473,7 +473,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
                      <children>
-                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadCaseSelectionScene" text="Select">
+                        <Button layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#loadCaseSelectionScene" text="Select">
                            <font>
                               <Font name="System Bold" size="20.0" />
                            </font>
@@ -482,7 +482,7 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
                      <children>
-                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadPsuSelectionScene" text="Select">
+                        <Button layoutX="14.0" layoutY="4.0" mnemonicParsing="false" onAction="#loadPsuSelectionScene" text="Select">
                            <font>
                               <Font name="System Bold" size="20.0" />
                            </font>
@@ -491,9 +491,9 @@
                   </AnchorPane>
                   <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
                      <children>
-                        <Label layoutX="306.0" layoutY="3.0" text="Total price:">
+                        <Label layoutX="352.0" layoutY="8.0" text="Total price:">
                            <font>
-                              <Font name="System Bold" size="30.0" />
+                              <Font name="System Bold" size="24.0" />
                            </font>
                         </Label>
                      </children>
