@@ -2,15 +2,21 @@ package scenes;
 
 import components.Product;
 import helpers.SceneHubSingleton;
+import javafx.collections.FXCollections;
+import javafx.collections.ListChangeListener;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
+import javafx.scene.chart.PieChart;
 import javafx.scene.control.Label;
 import javafx.scene.control.Tooltip;
 import javafx.scene.image.ImageView;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 public class SelectedPartsSummaryController {
 
@@ -86,8 +92,40 @@ public class SelectedPartsSummaryController {
     @FXML
     private Label psuPriceLabel;
 
+    @FXML
+    private Label totalPriceLabel;
+
+    @FXML
+    private PieChart costPieChart;
+
+    private ObservableList<PieChart.Data> costPieChartData;
+
+    private ObservableList<Product> selectedProducts;
+
     public static String getTitle() {
         return "Part Selection Summary";
+    }
+
+    @FXML
+    public void initialize() {
+        this.costPieChartData = FXCollections.observableList(new ArrayList<>());
+        this.costPieChartData.setAll(costPieChartData);
+        this.costPieChart.setData(costPieChartData);
+
+        selectedProducts = FXCollections.observableList(new ArrayList<>());
+        selectedProducts.addListener((ListChangeListener<Product>) c -> {
+            c.next();
+            if(c.wasAdded()) {
+                for(var it : c.getAddedSubList()) {
+                    this.costPieChartData.add(new PieChart.Data(it.getProductType().toString(), it.getPrice()));
+                }
+            }
+            if(c.wasRemoved()) {
+                for(var it : c.getRemoved()) {
+                    this.costPieChartData.removeIf(r -> r.getName() == it.getProductType().toString());
+                }
+            }
+        });
     }
 
     @FXML
@@ -148,6 +186,8 @@ public class SelectedPartsSummaryController {
 
     public void addSelectedProduct(Product product) {
         //TODO: add the product to some container, which can be used for db storage
+        this.selectedProducts.removeIf(p -> p.getProductType() == product.getProductType());
+        this.selectedProducts.add(product);
 
         ImageView imageView;
         Label nameLabel;
@@ -206,5 +246,4 @@ public class SelectedPartsSummaryController {
         priceLabel.setText(product.getPrice() + " PLN");
         priceLabel.setDisable(false);
     }
-
 }

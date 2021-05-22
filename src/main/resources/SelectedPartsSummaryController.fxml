@@ -32,6 +32,10 @@
   OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 -->
 
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.chart.PieChart?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Tooltip?>
@@ -40,447 +44,485 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="775.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenes.SelectedPartsSummaryController">
    <children>
-      <GridPane layoutX="350.0" layoutY="288.0" prefHeight="775.0" prefWidth="1280.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
-         <columnConstraints>
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="200.0" prefWidth="200.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="100.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="500.0" minWidth="500.0" prefWidth="500.0" />
-            <ColumnConstraints hgrow="SOMETIMES" maxWidth="200.0" minWidth="100.0" prefWidth="200.0" />
-            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="150.0" />
-         </columnConstraints>
-         <rowConstraints>
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-         </rowConstraints>
+      <VBox layoutX="20.0" layoutY="18.0" prefHeight="735.0" prefWidth="1247.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="13.0" AnchorPane.topAnchor="20.0">
          <children>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+            <GridPane prefHeight="459.0" prefWidth="1226.0">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="225.0" minWidth="200.0" prefWidth="225.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="100.0" minWidth="10.0" prefWidth="96.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="500.0" minWidth="479.0" prefWidth="479.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="308.0" minWidth="100.0" prefWidth="308.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="210.0" minWidth="10.0" prefWidth="107.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
                <children>
-                  <Label layoutX="100.0" layoutY="26.0" text="CPU" AnchorPane.rightAnchor="10.0">
-                     <font>
-                        <Font name="System Bold Italic" size="30.0" />
-                     </font>
-                     <tooltip>
-                        <Tooltip maxWidth="400.0" text="A Central Processing Unit (CPU) is the brain of the computer. This is what runs all your programs, calculations, and operations." wrapText="true">
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                        <Label layoutX="165.0" text="CPU" AnchorPane.rightAnchor="0.0">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold Italic" size="24.0" />
                            </font>
-                        </Tooltip>
-                     </tooltip>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
-               <children>
-                  <Label layoutX="84.0" layoutY="26.0" text="CPU Cooler" AnchorPane.rightAnchor="10.0">
-                     <font>
-                        <Font name="System Bold Italic" size="30.0" />
-                     </font>
-                     <tooltip>
-                        <Tooltip maxWidth="400.0" text="A heatsink and fan (HSF), also known as a CPU Cooler, sits atop the CPU to draw heat away from the CPU and disperse it, because CPUs produce heat while operating." wrapText="true">
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="A Central Processing Unit (CPU) is the brain of the computer. This is what runs all your programs, calculations, and operations." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                     <children>
+                        <Label layoutX="66.0" text="CPU Cooler" AnchorPane.rightAnchor="0.0">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold Italic" size="24.0" />
                            </font>
-                        </Tooltip>
-                     </tooltip>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
-               <children>
-                  <Label layoutX="40.0" layoutY="26.0" text="Motherboard" AnchorPane.rightAnchor="10.0">
-                     <font>
-                        <Font name="System Bold Italic" size="30.0" />
-                     </font>
-                     <tooltip>
-                        <Tooltip maxWidth="400.0" text="The motherboard electronically connects all of your PC’s parts. It also takes power from the PSU and provides it to many of your other components." wrapText="true">
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="A heatsink and fan (HSF), also known as a CPU Cooler, sits atop the CPU to draw heat away from the CPU and disperse it, because CPUs produce heat while operating." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="2">
+                     <children>
+                        <Label layoutX="42.0" text="Motherboard" AnchorPane.rightAnchor="0.0">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold Italic" size="24.0" />
                            </font>
-                        </Tooltip>
-                     </tooltip>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
-               <children>
-                  <Label layoutX="92.0" layoutY="24.0" text="RAM" AnchorPane.rightAnchor="10.0">
-                     <font>
-                        <Font name="System Bold Italic" size="30.0" />
-                     </font>
-                     <tooltip>
-                        <Tooltip maxWidth="400.0" text="Random Access Memory can store a small amount of data, but with extremely high data transfer speeds. RAM is volatile, meaning it loses all the data stored in it when the power goes off." wrapText="true">
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="The motherboard electronically connects all of your PC’s parts. It also takes power from the PSU and provides it to many of your other components." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="3">
+                     <children>
+                        <Label layoutX="158.0" text="RAM" AnchorPane.rightAnchor="0.0">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold Italic" size="24.0" />
                            </font>
-                        </Tooltip>
-                     </tooltip>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4">
-               <children>
-                  <Label layoutX="77.0" layoutY="26.0" text="Storage" AnchorPane.rightAnchor="10.0">
-                     <font>
-                        <Font name="System Bold Italic" size="30.0" />
-                     </font>
-                     <tooltip>
-                        <Tooltip maxWidth="400.0" text="A hard disk drive (HDD) is one of two options for storing your data, along with solid state drives (SSD). Both options can be used to install your operating system and applications, as well as any files." wrapText="true">
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="Random Access Memory can store a small amount of data, but with extremely high data transfer speeds. RAM is volatile, meaning it loses all the data stored in it when the power goes off." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="4">
+                     <children>
+                        <Label layoutX="117.0" text="Storage" AnchorPane.rightAnchor="0.0">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold Italic" size="24.0" />
                            </font>
-                        </Tooltip>
-                     </tooltip>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="5">
-               <children>
-                  <Label layoutX="99.0" layoutY="26.0" text="GPU" AnchorPane.rightAnchor="10.0">
-                     <font>
-                        <Font name="System Bold Italic" size="30.0" />
-                     </font>
-                     <tooltip>
-                        <Tooltip maxWidth="400.0" text="The graphics card (also known as the ‘video card’) is a piece of hardware containing the Graphics Processing Unit (GPU), the memory, cooling, and controlling hardware for that GPU." wrapText="true">
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="A hard disk drive (HDD) is one of two options for storing your data, along with solid state drives (SSD). Both options can be used to install your operating system and applications, as well as any files." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="5">
+                     <children>
+                        <Label layoutX="163.0" text="GPU" AnchorPane.rightAnchor="0.0">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold Italic" size="24.0" />
                            </font>
-                        </Tooltip>
-                     </tooltip>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="6">
-               <children>
-                  <Label layoutX="97.0" layoutY="26.0" text="Case" AnchorPane.rightAnchor="10.0">
-                     <font>
-                        <Font name="System Bold Italic" size="30.0" />
-                     </font>
-                     <tooltip>
-                        <Tooltip maxWidth="400.0" text="A case is a large box that holds all your components together securely. Case choices are subjective: the same case can be called ugly or beautiful depending on the viewer's taste." wrapText="true">
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="The graphics card (also known as the ‘video card’) is a piece of hardware containing the Graphics Processing Unit (GPU), the memory, cooling, and controlling hardware for that GPU." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="6">
+                     <children>
+                        <Label layoutX="159.0" text="Case" AnchorPane.rightAnchor="0.0">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold Italic" size="24.0" />
                            </font>
-                        </Tooltip>
-                     </tooltip>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="7">
-               <children>
-                  <Label layoutX="38.0" layoutY="26.0" text="Power Supply" AnchorPane.rightAnchor="10.0">
-                     <font>
-                        <Font name="System Bold Italic" size="30.0" />
-                     </font>
-                     <tooltip>
-                        <Tooltip maxWidth="400.0" text="A power supply unit (PSU) takes AC power from an outlet and converts it to clean DC power, usable by your PC." wrapText="true">
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="A case is a large box that holds all your components together securely. Case choices are subjective: the same case can be called ugly or beautiful depending on the viewer's taste." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="221.0" GridPane.rowIndex="7">
+                     <children>
+                        <Label layoutX="33.0" text="Power Supply" AnchorPane.rightAnchor="0.0">
                            <font>
-                              <Font size="16.0" />
+                              <Font name="System Bold Italic" size="24.0" />
                            </font>
-                        </Tooltip>
-                     </tooltip>
-                  </Label>
+                           <tooltip>
+                              <Tooltip maxWidth="400.0" text="A power supply unit (PSU) takes AC power from an outlet and converts it to clean DC power, usable by your PC." wrapText="true">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Tooltip>
+                           </tooltip>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                     <children>
+                        <ImageView fx:id="cpuImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false" AnchorPane.topAnchor="0.0">
+                           <image>
+                              <Image url="@images/cpu/placeholder.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <ImageView fx:id="coolerImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@images/cooler/placeholder.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <children>
+                        <ImageView fx:id="motherboardImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@images/motherboard/placeholder.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <children>
+                        <ImageView fx:id="ramImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@images/ram/placeholder.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <children>
+                        <ImageView fx:id="storageImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@images/storage/placeholder.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <children>
+                        <ImageView fx:id="gpuImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@images/gpu/placeholder.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <children>
+                        <ImageView fx:id="caseImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@images/case/placeholder.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <children>
+                        <ImageView fx:id="psuImageView" fitHeight="48.0" fitWidth="48.0" layoutX="24.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+                           <image>
+                              <Image url="@images/psu/placeholder.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
+                     <children>
+                        <Label fx:id="cpuNameLabel" disable="true" layoutX="14.0" text="CPU not selected" AnchorPane.leftAnchor="14.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <children>
+                        <Label fx:id="coolerNameLabel" disable="true" layoutX="14.0" text="Cooler not selected" AnchorPane.leftAnchor="14.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <children>
+                        <Label fx:id="motherboardNameLabel" disable="true" layoutX="14.0" text="Motherboard not selected" AnchorPane.leftAnchor="14.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <children>
+                        <Label fx:id="ramNameLabel" disable="true" layoutX="14.0" text="RAM not selected" AnchorPane.leftAnchor="14.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <children>
+                        <Label fx:id="storageNameLabel" disable="true" layoutX="14.0" text="Storage not selected" AnchorPane.leftAnchor="14.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <children>
+                        <Label fx:id="gpuNameLabel" disable="true" layoutX="14.0" text="GPU not selected" AnchorPane.leftAnchor="14.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <children>
+                        <Label fx:id="caseNameLabel" disable="true" layoutX="14.0" text="Case not selected" AnchorPane.leftAnchor="14.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <children>
+                        <Label fx:id="psuNameLabel" disable="true" layoutX="14.0" text="PSU not selected" AnchorPane.leftAnchor="14.0">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3">
+                     <children>
+                        <Label fx:id="cpuPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <children>
+                        <Label fx:id="coolerPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <children>
+                        <Label fx:id="motherboardPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <children>
+                        <Label fx:id="ramPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <children>
+                        <Label fx:id="storagePriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <children>
+                        <Label fx:id="gpuPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <children>
+                        <Label fx:id="casePriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                     <children>
+                        <Label fx:id="psuPriceLabel" disable="true" layoutX="8.0" layoutY="3.0" text="-">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="227.0" GridPane.columnIndex="4">
+                     <children>
+                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadCpuSelectionScene" text="Select">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <children>
+                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadCoolerSelectionScene" text="Select">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <children>
+                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadMotherboardSelectionScene" text="Select">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <children>
+                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadRamSelectionScene" text="Select">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <children>
+                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadStorageSelectionScene" text="Select">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                     <children>
+                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadGpuSelectionScene" text="Select">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                     <children>
+                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadCaseSelectionScene" text="Select">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                     <children>
+                        <Button layoutX="13.0" mnemonicParsing="false" onAction="#loadPsuSelectionScene" text="Select">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+                     <children>
+                        <Label layoutX="306.0" layoutY="3.0" text="Total price:">
+                           <font>
+                              <Font name="System Bold" size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+                     <children>
+                        <Label fx:id="totalPriceLabel" layoutX="8.0" layoutY="3.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </AnchorPane>
                </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+            </GridPane>
+            <HBox prefHeight="277.0" prefWidth="1247.0">
                <children>
-                  <ImageView fx:id="cpuImageView" fitHeight="64.0" fitWidth="64.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@images/cpu/placeholder.png" />
-                     </image>
-                  </ImageView>
+                  <PieChart fx:id="costPieChart" labelsVisible="false" legendSide="LEFT" title="Cost of the configured PC" />
+                  <BarChart fx:id="performanceIndexBarChart" legendSide="RIGHT" prefHeight="277.0" prefWidth="747.0" title="Performance Index">
+                    <xAxis>
+                      <CategoryAxis side="BOTTOM" />
+                    </xAxis>
+                    <yAxis>
+                      <NumberAxis side="LEFT" />
+                    </yAxis>
+                  </BarChart>
                </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
-               <children>
-                  <ImageView fx:id="coolerImageView" fitHeight="64.0" fitWidth="64.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@images/cooler/placeholder.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
-               <children>
-                  <ImageView fx:id="motherboardImageView" fitHeight="64.0" fitWidth="64.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@images/motherboard/placeholder.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
-               <children>
-                  <ImageView fx:id="ramImageView" fitHeight="64.0" fitWidth="64.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@images/ram/placeholder.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
-               <children>
-                  <ImageView fx:id="storageImageView" fitHeight="64.0" fitWidth="64.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@images/storage/placeholder.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="5">
-               <children>
-                  <ImageView fx:id="gpuImageView" fitHeight="64.0" fitWidth="64.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@images/gpu/placeholder.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="6">
-               <children>
-                  <ImageView fx:id="caseImageView" fitHeight="64.0" fitWidth="64.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@images/case/placeholder.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
-               <children>
-                  <ImageView fx:id="psuImageView" fitHeight="64.0" fitWidth="64.0" layoutX="18.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@images/psu/placeholder.png" />
-                     </image>
-                  </ImageView>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2">
-               <children>
-                  <Label fx:id="cpuNameLabel" disable="true" layoutX="137.0" layoutY="24.0" text="CPU not selected" AnchorPane.leftAnchor="30.0">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
-               <children>
-                  <Label fx:id="coolerNameLabel" disable="true" layoutX="121.0" layoutY="24.0" text="Cooler not selected" AnchorPane.leftAnchor="30.0">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
-               <children>
-                  <Label fx:id="motherboardNameLabel" disable="true" layoutX="77.0" layoutY="24.0" text="Motherboard not selected" AnchorPane.leftAnchor="30.0">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
-               <children>
-                  <Label fx:id="ramNameLabel" disable="true" layoutX="137.0" layoutY="24.0" text="RAM not selected" AnchorPane.leftAnchor="30.0">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="4">
-               <children>
-                  <Label fx:id="storageNameLabel" disable="true" layoutX="114.0" layoutY="24.0" text="Storage not selected" AnchorPane.leftAnchor="30.0">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="5">
-               <children>
-                  <Label fx:id="gpuNameLabel" disable="true" layoutX="136.0" layoutY="24.0" text="GPU not selected" AnchorPane.leftAnchor="30.0">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="6">
-               <children>
-                  <Label fx:id="caseNameLabel" disable="true" layoutX="137.0" layoutY="24.0" text="Case not selected" AnchorPane.leftAnchor="30.0">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="7">
-               <children>
-                  <Label fx:id="psuNameLabel" disable="true" layoutX="138.0" layoutY="24.0" text="PSU not selected" AnchorPane.leftAnchor="30.0">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3">
-               <children>
-                  <Label fx:id="cpuPriceLabel" disable="true" layoutX="94.0" layoutY="24.0" text="-">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="1">
-               <children>
-                  <Label fx:id="coolerPriceLabel" disable="true" layoutX="94.0" layoutY="24.0" text="-">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
-               <children>
-                  <Label fx:id="motherboardPriceLabel" disable="true" layoutX="94.0" layoutY="24.0" text="-">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
-               <children>
-                  <Label fx:id="ramPriceLabel" disable="true" layoutX="94.0" layoutY="24.0" text="-">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="4">
-               <children>
-                  <Label fx:id="storagePriceLabel" disable="true" layoutX="94.0" layoutY="24.0" text="-">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="5">
-               <children>
-                  <Label fx:id="gpuPriceLabel" disable="true" layoutX="94.0" layoutY="24.0" text="-">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="6">
-               <children>
-                  <Label fx:id="casePriceLabel" disable="true" layoutX="94.0" layoutY="24.0" text="-">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
-               <children>
-                  <Label fx:id="psuPriceLabel" disable="true" layoutX="94.0" layoutY="24.0" text="-">
-                     <font>
-                        <Font size="30.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="227.0" GridPane.columnIndex="4">
-               <children>
-                  <Button layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadCpuSelectionScene" text="Select">
-                     <font>
-                        <Font name="System Bold" size="30.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
-               <children>
-                  <Button layoutX="60.0" layoutY="12.0" mnemonicParsing="false" onAction="#loadCoolerSelectionScene" text="Select">
-                     <font>
-                        <Font name="System Bold" size="30.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
-               <children>
-                  <Button layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadMotherboardSelectionScene" text="Select">
-                     <font>
-                        <Font name="System Bold" size="30.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
-               <children>
-                  <Button layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadRamSelectionScene" text="Select">
-                     <font>
-                        <Font name="System Bold" size="30.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
-               <children>
-                  <Button layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadStorageSelectionScene" text="Select">
-                     <font>
-                        <Font name="System Bold" size="30.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="5">
-               <children>
-                  <Button layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadGpuSelectionScene" text="Select">
-                     <font>
-                        <Font name="System Bold" size="30.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="6">
-               <children>
-                  <Button layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadCaseSelectionScene" text="Select">
-                     <font>
-                        <Font name="System Bold" size="30.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
-            <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="7">
-               <children>
-                  <Button layoutX="61.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadPsuSelectionScene" text="Select">
-                     <font>
-                        <Font name="System Bold" size="30.0" />
-                     </font>
-                  </Button>
-               </children>
-            </AnchorPane>
+            </HBox>
          </children>
-      </GridPane>
+      </VBox>
    </children>
 </AnchorPane>
