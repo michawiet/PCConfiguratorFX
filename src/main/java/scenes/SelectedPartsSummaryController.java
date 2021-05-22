@@ -126,10 +126,7 @@ public class SelectedPartsSummaryController {
             }
             //update the total price
             double tmp = c.getList().stream().map(Product::getPrice).mapToDouble(Double::doubleValue).sum();
-            this.totalPriceLabel.setText(
-                    String.format("%.2f", tmp)
-                    + " PLN"
-            );
+            this.totalPriceLabel.setText(String.format("%.2f PLN", tmp));
         });
     }
 
@@ -248,7 +245,7 @@ public class SelectedPartsSummaryController {
         imageView.setImage(product.getImageView().getImage());
         nameLabel.setText(product.getBrand() + " " + product.getName());
         nameLabel.setDisable(false);
-        priceLabel.setText(String.format("%.2f" ,product.getPrice()) + " PLN");
+        priceLabel.setText(String.format("%.2f PLN" ,product.getPrice()));
         priceLabel.setDisable(false);
     }
 }
