@@ -1,5 +1,24 @@
 package components;
 
 public enum ProductType {
-    Unknown, Case, Cooler, Cpu, Gpu, Motherboard, Psu, Ram, Storage
+    Unknown("UNDEFINED"),
+    Case("Case"),
+    Cooler("CPU Cooler"),
+    Cpu("Processor (CPU)"),
+    Gpu("Graphics Card (GPU)"),
+    Motherboard("Motherboard"),
+    Psu("Power Supply"),
+    Ram ("Memory (RAM)"),
+    Storage("Storage");
+
+    private String name;
+
+    ProductType(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }
