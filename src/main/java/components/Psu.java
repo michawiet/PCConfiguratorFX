@@ -2,9 +2,7 @@ package components;
 
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.image.ImageView;
-
-import java.util.ArrayList;
+import java.util.List;
 
 public class Psu extends Product {
     private float tier;
@@ -13,22 +11,8 @@ public class Psu extends Product {
     private Integer wattage;
     private String modular;
 
-    //TODO: public static explanation
-    public static ArrayList<TableColumn> getColumns() {
-        ArrayList<TableColumn> columns = new ArrayList<>();
-
-        //image column
-        columns.add(new TableColumn<Psu, ImageView>(""));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("imageView"));
-        columns.get(columns.size() - 1).setResizable(false);
-        columns.get(columns.size() - 1).setMinWidth(70);
-        columns.get(columns.size() - 1).setMaxWidth(70);
-        columns.get(columns.size() - 1).setSortable(false);
-        //first two columns
-        columns.add(new TableColumn<Psu, String>("Brand"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("brand"));
-        columns.add(new TableColumn<Psu, String>("Name"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("name"));
+    public static List<TableColumn> getColumns() {
+        List<TableColumn> columns = Product.getBasicColumns();
         //class specific columns
         columns.add(new TableColumn<Psu, Float>("Tier"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("tier"));

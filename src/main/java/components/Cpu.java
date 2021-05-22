@@ -2,12 +2,15 @@ package components;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import javafx.scene.control.CheckBox;
+import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
+import javafx.scene.control.Tooltip;
 import javafx.scene.control.cell.CheckBoxTableCell;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.ImageView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Cpu extends Product {
 
@@ -39,21 +42,8 @@ public class Cpu extends Product {
     private float boostClock;
 
     //creates a arrayList of columns compatible with this class
-    public static ArrayList<TableColumn> getColumns() {
-        ArrayList<TableColumn> columns = new ArrayList<>();
-
-        //image column
-        columns.add(new TableColumn<Cpu, ImageView>(""));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("imageView"));
-        columns.get(columns.size() - 1).setResizable(false);
-        columns.get(columns.size() - 1).setMinWidth(70);
-        columns.get(columns.size() - 1).setMaxWidth(70);
-        columns.get(columns.size() - 1).setSortable(false);
-        //first two columns
-        columns.add(new TableColumn<Cpu, String>("Brand"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("brand"));
-        columns.add(new TableColumn<Cpu, String>("Name"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("name"));
+    public static List<TableColumn> getColumns() {
+        List<TableColumn> columns = Product.getBasicColumns();
         //class specific columns
         columns.add(new TableColumn<Cpu, String>("Socket"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("socket"));
@@ -65,6 +55,19 @@ public class Cpu extends Product {
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("igpu"));
         columns.add(new TableColumn<Cpu, Integer>("TDP"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("tdp"));
+        columns.get(columns.size() - 1).setCellFactory((column) -> new TableCell<Cpu, Integer>() {
+            @Override
+            protected void updateItem(Integer item, boolean empty) {
+                super.updateItem(item, empty);
+
+                this.setText(null);
+                this.setGraphic(null);
+
+                if(!empty){
+                    this.setText(item + " W");
+                }
+            }
+        });
         //Merged column with the title "Performance"
         columns.add(new TableColumn<Cpu, Integer>("ST"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("stPerformance"));

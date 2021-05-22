@@ -2,9 +2,7 @@ package components;
 
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.image.ImageView;
-
-import java.util.ArrayList;
+import java.util.List;
 
 public class Gpu extends Product {
     private String chipset;
@@ -16,21 +14,8 @@ public class Gpu extends Product {
     private int recommendedPsuWatts;
     private int performance;
 
-    public static ArrayList<TableColumn> getColumns() {
-        ArrayList<TableColumn> columns = new ArrayList<>();
-
-        //image column
-        columns.add(new TableColumn<Gpu, ImageView>(""));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("imageView"));
-        columns.get(columns.size() - 1).setResizable(false);
-        columns.get(columns.size() - 1).setMinWidth(70);
-        columns.get(columns.size() - 1).setMaxWidth(70);
-        columns.get(columns.size() - 1).setSortable(false);
-        //first two columns
-        columns.add(new TableColumn<Gpu, String>("Brand"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("brand"));
-        columns.add(new TableColumn<Gpu, String>("Name"));
-        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("name"));
+    public static List<TableColumn> getColumns() {
+        List<TableColumn> columns = Product.getBasicColumns();
         //class specific columns
         columns.add(new TableColumn<Gpu, String>("Chipset"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("chipset"));

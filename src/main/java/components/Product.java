@@ -2,10 +2,55 @@ package components;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import javafx.scene.control.TableCell;
+import javafx.scene.control.Tooltip;
+import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.control.TableColumn;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public abstract class Product {
+
+    @JsonIgnore
+    protected static List<TableColumn> getBasicColumns() {
+        List<TableColumn> columns = new ArrayList<>();
+
+        //image column
+        columns.add(new javafx.scene.control.TableColumn<Product, ImageView>(""));
+        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("imageView"));
+        columns.get(columns.size() - 1).setResizable(false);
+        columns.get(columns.size() - 1).setMinWidth(70);
+        columns.get(columns.size() - 1).setMaxWidth(70);
+        columns.get(columns.size() - 1).setSortable(false);
+        columns.get(columns.size() - 1).setCellFactory((column) -> new TableCell<Cpu, ImageView>() {
+            @Override
+            protected void updateItem(ImageView item, boolean empty) {
+                super.updateItem(item, empty);
+                this.setGraphic(item);
+                if(item != null) {
+                    Tooltip tooltip = new Tooltip();
+                    tooltip.setGraphic(new ImageView(item.getImage()));
+                    setTooltip(tooltip);
+                }
+            }
+        });
+        //first two columns
+        columns.add(new javafx.scene.control.TableColumn<Product, String>("Brand"));
+        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("brand"));
+        columns.add(new javafx.scene.control.TableColumn<Product, String>("Name"));
+        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("name"));
+
+        return columns;
+    }
+
+    // Returns "Yes" for true and "No" for false. Can be non static, since it is only used by the classes that inherit Product
+    @JsonIgnore
+    protected static String getBooleanStringValue(boolean value) {
+        return (value ? "Yes" : "No");
+    }
 
     @JsonIgnore
     protected ImageView imageView;
@@ -52,12 +97,6 @@ public abstract class Product {
         }
 
         return this.imageView;
-    }
-
-    // Returns "Yes" for true and "No" for false. Can be non static, since it is only used by the classes that inherit Product
-    @JsonIgnore
-    protected static String getBooleanStringValue(boolean value) {
-        return (value ? "Yes" : "No");
     }
 
     @JsonProperty
