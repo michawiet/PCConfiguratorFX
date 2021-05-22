@@ -2,13 +2,13 @@ package components;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import javafx.scene.control.Tab;
 import javafx.scene.control.TableCell;
+import javafx.scene.control.TableColumn;
 import javafx.scene.control.Tooltip;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.control.TableColumn;
+import javafx.util.Callback;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -61,6 +61,18 @@ public abstract class Product {
             }
         });
         return priceColumn;
+    }
+
+    protected static <S> TableCell<S, Integer> getWattageTableCell() {
+        return new TableCell<>() {
+            @Override
+            protected void updateItem(Integer item, boolean empty) {
+                super.updateItem(item, empty);
+                if(item != null) {
+                    this.setText(String.format("%d W", item));
+                }
+            }
+        };
     }
 
     // Returns "Yes" for true and "No" for false. Can be non static, since it is only used by the classes that inherit Product
