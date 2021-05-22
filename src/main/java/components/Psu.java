@@ -22,7 +22,7 @@ public class Psu extends Product {
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("efficiencyRating"));
         columns.add(new TableColumn<Psu, Integer>("Wattage"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("wattage"));
-        columns.get(columns.size() - 1).setCellFactory((column) -> getWattageTableCell());
+        columns.get(columns.size() - 1).setCellFactory((column) -> getIntegerTableCell("W"));
         columns.add(new TableColumn<Psu, String>("Modularity"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("modular"));
         //last columns

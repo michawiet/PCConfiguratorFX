@@ -8,7 +8,6 @@ import javafx.scene.control.Tooltip;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.util.Callback;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,13 +62,25 @@ public abstract class Product {
         return priceColumn;
     }
 
-    protected static <S> TableCell<S, Integer> getWattageTableCell() {
+    protected static <S> TableCell<S, Integer> getIntegerTableCell(String toAddAfterValue) {
         return new TableCell<>() {
             @Override
             protected void updateItem(Integer item, boolean empty) {
                 super.updateItem(item, empty);
                 if(item != null) {
-                    this.setText(String.format("%d W", item));
+                    this.setText(String.format("%d %s", item, toAddAfterValue));
+                }
+            }
+        };
+    }
+
+    protected static <S> TableCell<S, Float> getGHzFrequencyTableCell() {
+        return new TableCell<>() {
+            @Override
+            protected void updateItem(Float item, boolean empty) {
+                super.updateItem(item, empty);
+                if(item != null) {
+                    this.setText(String.format("%.1f GHz", item));
                 }
             }
         };

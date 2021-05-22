@@ -50,7 +50,7 @@ public class Cpu extends Product {
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("igpu"));
         columns.add(new TableColumn<Cpu, Integer>("TDP"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("tdp"));
-        columns.get(columns.size() - 1).setCellFactory((column) -> getWattageTableCell());
+        columns.get(columns.size() - 1).setCellFactory((column) -> getIntegerTableCell("W"));
         //Merged column with the title "Performance"
         columns.add(new TableColumn<Cpu, Integer>("ST"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("stPerformance"));
@@ -59,8 +59,11 @@ public class Cpu extends Product {
         //Merged column with the title "Clock"
         columns.add(new TableColumn<Cpu, Float>("Core"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("coreClock"));
+        columns.get(columns.size() - 1).setCellFactory((column) -> getGHzFrequencyTableCell());
         columns.add(new TableColumn<Cpu, Float>("Boost"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("boostClock"));
+        columns.get(columns.size() - 1).setCellFactory(new PropertyValueFactory<>("boostClock"));
+        columns.get(columns.size() - 1).setCellFactory((column) -> getGHzFrequencyTableCell());
         //last columns
         columns.add(getPriceColumn());
 

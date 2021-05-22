@@ -1,5 +1,6 @@
 package components;
 
+import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
 import java.util.List;
@@ -14,17 +15,36 @@ public class Ram extends Product {
     public static List<TableColumn> getColumns() {
         List<TableColumn> columns = Product.getBasicColumns();
         //class specific columns
-        columns.add(new TableColumn<Ram, Integer>("MT/s"));
+        columns.add(new TableColumn<Ram, Integer>("Speed"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("speed"));
+        columns.get(columns.size() - 1).setCellFactory((column) -> getIntegerTableCell("MHz"));
         //Merge "Count" and "Capacity" under name modules
         columns.add(new TableColumn<Ram, Integer>("Modules count"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("modulesCount"));
         columns.add(new TableColumn<Ram, Integer>("Module capacity"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("moduleCapacityGb"));
+        columns.get(columns.size() - 1).setCellFactory((column) -> getIntegerTableCell("GB"));
+        columns.add(new TableColumn<Ram, Integer>("Total capacity"));
+        columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("totalCapacity"));
+        columns.get(columns.size() - 1).setCellFactory((column) -> getIntegerTableCell("GB"));
         columns.add(new TableColumn<Ram, Float>("First word latency"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("firstWordLatencyNs"));
+        columns.get(columns.size() - 1).setCellFactory((column) -> new TableCell<Ram, Float>() {
+            @Override
+            protected void updateItem(Float item, boolean empty) {
+                super.updateItem(item, empty);
+                if(item != null) {
+                    if(item != item.longValue())
+                        this.setText(item + " ns");
+                    else
+                        this.setText(item.longValue() + " ns");
+
+                }
+            }
+        });
         columns.add(new TableColumn<Ram, Integer>("CAS latency"));
         columns.get(columns.size() - 1).setCellValueFactory(new PropertyValueFactory<>("casLatency"));
+        columns.get(columns.size() - 1).setCellFactory((column) -> getIntegerTableCell("CL"));
         //last columns
         columns.add(getPriceColumn());
 
@@ -87,5 +107,9 @@ public class Ram extends Product {
 
     public void setCasLatency(int casLatency) {
         this.casLatency = casLatency;
+    }
+
+    public int getTotalCapacity() {
+        return this.moduleCapacityGb * this.modulesCount;
     }
 }

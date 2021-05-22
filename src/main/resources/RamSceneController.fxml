@@ -134,7 +134,7 @@
                         </VBox>
                         <VBox layoutX="20.0" layoutY="708.0" prefHeight="78.0" prefWidth="400.0">
                            <children>
-                              <Label text="Speed (MT/s)" textAlignment="CENTER">
+                              <Label text="Speed (MHz)" textAlignment="CENTER">
                                  <font>
                                     <Font size="30.0" />
                                  </font>
@@ -142,7 +142,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip maxWidth="400.0" wrapText="true" text="Speed of the memory - the faster the better with 3200 MT/s - 3600 MT/s being the sweet spot">
+                                    <Tooltip maxWidth="400.0" wrapText="true" text="Speed of the memory - the faster the better with 3200 MHz - 3600 MHz being the sweet spot">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
