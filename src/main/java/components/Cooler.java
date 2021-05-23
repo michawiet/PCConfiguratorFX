@@ -48,25 +48,25 @@ public class Cooler extends Product {
     @Override
     public void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues) {
         for(var value : performanceValues) {
-            float tier = (float) (9.f / getTier() * (price / 10.f));
+            float tier = (9.f / getTier()) * noiseLevelDb;
             switch (WorkloadType.toEnum(value.getYValue())) {
                 case Gaming:
-                    tier *= 8;
+                    tier /= 8;
                     break;
                 case Office:
-                    tier *= 2;
+                    tier /= 2;
                     break;
                 case PhotoEditing:
-                    tier *= 4;
+                    tier /= 4;
                     break;
                 case VideoEditing:
-                    tier *= 7;
+                    tier /= 7;
                     break;
                 case Rendering3D:
-                    tier *= 10;
+                    tier /= 10;
                     break;
             }
-            value.setXValue(1 / tier * 1000);
+            value.setXValue(tier);
         }
     }
 
