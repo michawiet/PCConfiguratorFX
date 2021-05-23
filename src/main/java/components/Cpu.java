@@ -1,40 +1,15 @@
 package components;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import javafx.scene.control.TableCell;
+import helpers.WorkloadType;
+import javafx.collections.ObservableList;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
 
 import java.util.List;
 
 public class Cpu extends Product {
-
-    @JsonProperty
-    private String socket;
-
-    @JsonProperty
-    private int cores;
-
-    @JsonProperty
-    private boolean smt;
-
-    @JsonProperty
-    private boolean igpu;
-
-    @JsonProperty
-    private int tdp;
-
-    @JsonProperty
-    private int stPerformance;
-
-    @JsonProperty
-    private int mtPerformance;
-
-    @JsonProperty
-    private float coreClock;
-
-    @JsonProperty
-    private float boostClock;
 
     //creates a arrayList of columns compatible with this class
     public static List<TableColumn> getColumns() {
@@ -70,9 +45,64 @@ public class Cpu extends Product {
         return columns;
     }
 
+    @JsonProperty
+    private String socket;
+
+    @JsonProperty
+    private int cores;
+
+    @JsonProperty
+    private boolean smt;
+
+    @JsonProperty
+    private boolean igpu;
+
+    @JsonProperty
+    private int tdp;
+
+    @JsonProperty
+    private int stPerformance;
+
+    @JsonProperty
+    private int mtPerformance;
+
+    @JsonProperty
+    private float coreClock;
+
+    @JsonProperty
+    private float boostClock;
+    
     @Override
     public ProductType getProductType() {
         return ProductType.Cpu;
+    }
+
+    @Override
+    public void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues) {
+        for(var value : performanceValues) {
+            float st = stPerformance;
+            float mt = mtPerformance;
+            switch (WorkloadType.toEnum(value.getYValue())) {
+                case Gaming:
+                    mt *= 0.3f;
+                    break;
+                case Office:
+                    mt *= 0.1f;
+                    break;
+                case PhotoEditing:
+                    st *= 1.2f;
+                    mt *= 0.2f;
+                    break;
+                case VideoEditing:
+                    mt *= 2;
+                    st = 0;
+                    break;
+                case Rendering3D:
+                    mt *= 1.5f;
+                    break;
+            }
+            value.setXValue((st + mt) / 10.f);
+        }
     }
 
     public String getSocket() {

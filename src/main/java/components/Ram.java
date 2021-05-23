@@ -1,5 +1,8 @@
 package components;
 
+import helpers.WorkloadType;
+import javafx.collections.ObservableList;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -63,6 +66,32 @@ public class Ram extends Product {
     @Override
     public ProductType getProductType() {
         return ProductType.Ram;
+    }
+
+    @Override
+    public void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues) {
+        for(var value : performanceValues) {
+            float speed = getSpeed();
+            float latency;
+            switch (WorkloadType.toEnum(value.getYValue())) {
+                case Gaming:
+
+                    break;
+                case Office:
+
+                    break;
+                case PhotoEditing:
+
+                    break;
+                case VideoEditing:
+
+                    break;
+                case Rendering3D:
+
+                    break;
+            }
+            value.setXValue(1 * 1000);
+        }
     }
 
     public int getSpeed() {

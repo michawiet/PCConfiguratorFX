@@ -2,6 +2,8 @@ package components;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import javafx.collections.ObservableList;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.Tooltip;
@@ -178,7 +180,5 @@ public abstract class Product {
     }
 
     @JsonIgnore
-    public String getComponentName() {
-        return this.brand + " " + this.name;
-    }
+    public abstract void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues);
 }

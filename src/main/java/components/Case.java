@@ -1,5 +1,7 @@
 package components;
 
+import javafx.collections.ObservableList;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
 import java.util.List;
@@ -30,6 +32,11 @@ public class Case extends Product {
     @Override
     public ProductType getProductType() {
         return ProductType.Case;
+    }
+
+    @Override
+    public void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues) {
+        //none
     }
 
     public String getPowerSupplyStandard() {

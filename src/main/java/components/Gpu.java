@@ -1,5 +1,8 @@
 package components;
 
+import helpers.WorkloadType;
+import javafx.collections.ObservableList;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
 import java.util.List;
@@ -48,6 +51,31 @@ public class Gpu extends Product {
     @Override
     public ProductType getProductType() {
         return ProductType.Gpu;
+    }
+
+    @Override
+    public void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues) {
+        for(var value : performanceValues) {
+            float performance = getPerformance();
+            switch (WorkloadType.toEnum(value.getYValue())) {
+                case Gaming:
+                    performance *= 1.2f;
+                    break;
+                case Office:
+                    performance *= 0.2f;
+                    break;
+                case PhotoEditing:
+                    performance *= 0.4f;
+                    break;
+                case VideoEditing:
+                    performance *= 0.7f;
+                    break;
+                case Rendering3D:
+                    performance *= 1.3f;
+                    break;
+            }
+            value.setXValue(performance * 10.f);
+        }
     }
 
     public String getChipset() {

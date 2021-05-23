@@ -11,7 +11,7 @@ public enum ProductType {
     Ram ("Memory (RAM)"),
     Storage("Storage");
 
-    private String name;
+    private final String name;
 
     ProductType(String name) {
         this.name = name;

@@ -1,5 +1,8 @@
 package components;
 
+import helpers.WorkloadType;
+import javafx.collections.ObservableList;
+import javafx.scene.chart.XYChart;
 import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -56,6 +59,31 @@ public class Storage extends Product {
     @Override
     public ProductType getProductType() {
         return ProductType.Storage;
+    }
+
+    @Override
+    public void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues) {
+        for(var value : performanceValues) {
+            float tier = (float) (9.f / getTier() * (price / 10.f));
+            switch (WorkloadType.toEnum(value.getYValue())) {
+                case Gaming:
+                    tier *= 8;
+                    break;
+                case Office:
+                    tier *= 2;
+                    break;
+                case PhotoEditing:
+                    tier *= 4;
+                    break;
+                case VideoEditing:
+                    tier *= 7;
+                    break;
+                case Rendering3D:
+                    tier *= 10;
+                    break;
+            }
+            value.setXValue(1 / tier * 1000);
+        }
     }
 
     public int getCapacityGb() {

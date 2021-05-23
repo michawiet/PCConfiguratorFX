@@ -1,7 +1,9 @@
 package scenes;
 
 import components.Product;
+import components.ProductType;
 import helpers.SceneHubSingleton;
+import helpers.WorkloadType;
 import javafx.collections.FXCollections;
 import javafx.collections.ListChangeListener;
 import javafx.collections.ObservableList;
@@ -9,13 +11,14 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
-import javafx.scene.chart.PieChart;
+import javafx.scene.chart.*;
 import javafx.scene.control.Label;
 import javafx.scene.control.Tooltip;
 import javafx.scene.image.ImageView;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.EnumMap;
 
 public class SelectedPartsSummaryController {
 
@@ -97,6 +100,19 @@ public class SelectedPartsSummaryController {
     @FXML
     private PieChart costPieChart;
 
+    @FXML
+    private StackedBarChart<Number, String> performanceChart;
+
+    @FXML
+    private CategoryAxis yPerformanceAxis;
+
+    @FXML
+    private NumberAxis xPerformanceAxis;
+
+    private EnumMap<ProductType, XYChart.Series<Number, String>> productTypeSeriesMap = new EnumMap<>(ProductType.class);
+    //Performance data used for performanceChart (StackedBarChart)
+    private EnumMap<ProductType, ObservableList<XYChart.Data<Number, String>>> performanceData = new EnumMap<>(ProductType.class);
+
     private ObservableList<PieChart.Data> costPieChartData;
 
     private ObservableList<Product> selectedProducts;
@@ -111,23 +127,61 @@ public class SelectedPartsSummaryController {
         this.costPieChartData.setAll(costPieChartData);
         this.costPieChart.setData(costPieChartData);
 
+        //series and data initialization
+        for (var e : ProductType.values()) {
+            if (!(e.equals(ProductType.Unknown) || e.equals(ProductType.Case) || e.equals(ProductType.Psu))) {
+                var list = FXCollections.observableList(new ArrayList<XYChart.Data<Number, String>>());
+                for(var type : WorkloadType.values()) {
+                    list.add(new XYChart.Data<>(0, type.toString()));
+                    list.get(list.size() - 1);
+                }
+                performanceData.put(e, list);
+                XYChart.Series<Number, String> series = new XYChart.Series<>();
+                series.setName(e.toString());
+                series.setData(list);
+                this.productTypeSeriesMap.put(e, series);
+            }
+        }
+
+        //LISTENERS for selectedProducts
         selectedProducts = FXCollections.observableList(new ArrayList<>());
+        //Pie chart listener
         selectedProducts.addListener((ListChangeListener<Product>) c -> {
             c.next();
-            if(c.wasAdded()) {
-                for(var it : c.getAddedSubList()) {
+            if (c.wasAdded()) {
+                for (var it : c.getAddedSubList()) {
                     this.costPieChartData.add(new PieChart.Data(it.getProductType().toString(), it.getPrice()));
                 }
             }
-            if(c.wasRemoved()) {
-                for(var it : c.getRemoved()) {
+            if (c.wasRemoved()) {
+                for (var it : c.getRemoved()) {
                     this.costPieChartData.removeIf(r -> r.getName() == it.getProductType().toString());
                 }
             }
-            //update the total price
+        });
+        //Total price listener
+        selectedProducts.addListener((ListChangeListener<Product>) c -> {
             double tmp = c.getList().stream().map(Product::getPrice).mapToDouble(Double::doubleValue).sum();
             this.totalPriceLabel.setText(String.format("%.2f PLN", tmp));
         });
+
+        selectedProducts.addListener((ListChangeListener<Product>) c -> {
+            c.next();
+            if(c.wasAdded()) {
+                for(var product : c.getAddedSubList()) {
+                    if(this.performanceData.containsKey(product.getProductType()))
+                        product.setPerformanceValues(this.performanceData.get(product.getProductType()));
+                }
+            } else if(c.wasRemoved()) {
+                for(var product : c.getRemoved()) {
+                    for(var data : performanceData.get(product.getProductType())) {
+                        data.setXValue(0);
+                    }
+                }
+            }
+        });
+
+        performanceChart.getData().setAll(productTypeSeriesMap.values());
     }
 
     @FXML
