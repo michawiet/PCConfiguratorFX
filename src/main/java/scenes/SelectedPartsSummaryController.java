@@ -18,7 +18,9 @@ import javafx.scene.image.ImageView;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.EnumMap;
+import java.util.stream.Collectors;
 
 public class SelectedPartsSummaryController {
 
@@ -124,7 +126,11 @@ public class SelectedPartsSummaryController {
     @FXML
     public void initialize() {
         this.costPieChartData = FXCollections.observableList(new ArrayList<>());
-        this.costPieChartData.setAll(costPieChartData);
+        for(var p : ProductType.values()) {
+            if (p != ProductType.Unknown)
+                costPieChartData.add(new PieChart.Data(p.toString(), 0));
+        }
+
         this.costPieChart.setData(costPieChartData);
 
         //series and data initialization
@@ -133,7 +139,6 @@ public class SelectedPartsSummaryController {
                 var list = FXCollections.observableList(new ArrayList<XYChart.Data<Number, String>>());
                 for(var type : WorkloadType.values()) {
                     list.add(new XYChart.Data<>(0, type.toString()));
-                    list.get(list.size() - 1);
                 }
                 performanceData.put(e, list);
                 XYChart.Series<Number, String> series = new XYChart.Series<>();
@@ -150,12 +155,12 @@ public class SelectedPartsSummaryController {
             c.next();
             if (c.wasAdded()) {
                 for (var it : c.getAddedSubList()) {
-                    this.costPieChartData.add(new PieChart.Data(it.getProductType().toString(), it.getPrice()));
+                    this.costPieChartData.stream().filter(p -> p.getName() == it.getProductType().toString()).findFirst().get().setPieValue(it.getPrice());
                 }
             }
             if (c.wasRemoved()) {
                 for (var it : c.getRemoved()) {
-                    this.costPieChartData.removeIf(r -> r.getName() == it.getProductType().toString());
+                    this.costPieChartData.stream().filter(p -> p.getName() == it.getProductType().toString()).findFirst().get().setPieValue(0);
                 }
             }
         });
@@ -164,7 +169,7 @@ public class SelectedPartsSummaryController {
             double tmp = c.getList().stream().map(Product::getPrice).mapToDouble(Double::doubleValue).sum();
             this.totalPriceLabel.setText(String.format("%.2f PLN", tmp));
         });
-        //performance data listener
+        //Performance data listener
         selectedProducts.addListener((ListChangeListener<Product>) c -> {
             c.next();
             if(c.wasAdded()) {
