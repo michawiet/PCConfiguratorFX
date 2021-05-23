@@ -45,25 +45,25 @@ public class Motherboard extends Product {
     @Override
     public void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues) {
         for(var value : performanceValues) {
-            float tier = (float) (9.f / getTier() * (price / 10.f));
+            float tier = 9.f / getTier();
             switch (WorkloadType.toEnum(value.getYValue())) {
                 case Gaming:
-                    tier *= 8;
+                    tier *= 0.5f;
                     break;
                 case Office:
-                    tier *= 2;
+                    tier *= 1.1f;
                     break;
                 case PhotoEditing:
-                    tier *= 4;
+                    tier *= 0.85f;
                     break;
                 case VideoEditing:
-                    tier *= 7;
+                    tier *= 0.7f;
                     break;
                 case Rendering3D:
-                    tier *= 10;
+                    tier *= 0.6f;
                     break;
             }
-            value.setXValue(1 / tier * 1000);
+            value.setXValue(tier * 10.f);
         }
     }
 

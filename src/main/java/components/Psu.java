@@ -1,5 +1,6 @@
 package components;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import helpers.WorkloadType;
 import javafx.collections.ObservableList;
 import javafx.scene.chart.XYChart;
@@ -42,25 +43,25 @@ public class Psu extends Product {
     @Override
     public void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues) {
         for(var value : performanceValues) {
-            float tier = (float) (9.f / getTier() * (price / 10.f));
+            float tier = 9.f / getTier();
             switch (WorkloadType.toEnum(value.getYValue())) {
                 case Gaming:
-                    tier *= 8;
+                    tier *= 0.7f;
                     break;
                 case Office:
-                    tier *= 2;
+                    tier *= 1.1f;
                     break;
                 case PhotoEditing:
-                    tier *= 4;
+                    tier *= 0.8f;
                     break;
                 case VideoEditing:
-                    tier *= 7;
+                    tier *= 0.65f;
                     break;
                 case Rendering3D:
-                    tier *= 10;
+                    tier *= 0.6f;
                     break;
             }
-            value.setXValue(1 / tier * 1000);
+            value.setXValue(tier * 3);
         }
     }
 
@@ -100,6 +101,15 @@ public class Psu extends Product {
         return modular;
     }
 
+    @JsonIgnore
+    private String getModularityFormatted() {
+        if(modular.equals("No"))
+            return "Non modular";
+        if(modular.equals("Semi"))
+            return "Semi modular";
+        return "Fully modular";
+    }
+
     public void setModular(String modular) {
         this.modular = modular;
     }
@@ -114,7 +124,7 @@ public class Psu extends Product {
                 + " W "
                 + efficiencyRating
                 + " "
-                + modular
+                + getModularityFormatted()
                 + " "
                 + formFactor
                 + " Power Supply";

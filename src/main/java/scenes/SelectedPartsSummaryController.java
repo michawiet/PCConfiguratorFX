@@ -129,7 +129,7 @@ public class SelectedPartsSummaryController {
 
         //series and data initialization
         for (var e : ProductType.values()) {
-            if (!(e.equals(ProductType.Unknown) || e.equals(ProductType.Case) || e.equals(ProductType.Psu))) {
+            if (!(e.equals(ProductType.Unknown) || e.equals(ProductType.Case))) {
                 var list = FXCollections.observableList(new ArrayList<XYChart.Data<Number, String>>());
                 for(var type : WorkloadType.values()) {
                     list.add(new XYChart.Data<>(0, type.toString()));
@@ -164,7 +164,7 @@ public class SelectedPartsSummaryController {
             double tmp = c.getList().stream().map(Product::getPrice).mapToDouble(Double::doubleValue).sum();
             this.totalPriceLabel.setText(String.format("%.2f PLN", tmp));
         });
-
+        //performance data listener
         selectedProducts.addListener((ListChangeListener<Product>) c -> {
             c.next();
             if(c.wasAdded()) {
@@ -174,9 +174,9 @@ public class SelectedPartsSummaryController {
                 }
             } else if(c.wasRemoved()) {
                 for(var product : c.getRemoved()) {
-                    for(var data : performanceData.get(product.getProductType())) {
-                        data.setXValue(0);
-                    }
+                    if(this.performanceData.containsKey(product.getProductType()))
+                        for(var data : performanceData.get(product.getProductType()))
+                            data.setXValue(0);
                 }
             }
         });

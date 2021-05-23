@@ -64,25 +64,25 @@ public class Storage extends Product {
     @Override
     public void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues) {
         for(var value : performanceValues) {
-            float tier = (float) (9.f / getTier() * (price / 10.f));
+            float tier = (9.f / (getTier() == 8 ? 15 : getTier()));
             switch (WorkloadType.toEnum(value.getYValue())) {
                 case Gaming:
-                    tier *= 8;
+                    tier *= 0.8f;
                     break;
                 case Office:
-                    tier *= 2;
+                    tier *= 1.f;
                     break;
                 case PhotoEditing:
-                    tier *= 4;
+                    tier *= 0.75f;
                     break;
                 case VideoEditing:
-                    tier *= 7;
+                    tier *= 0.6f;
                     break;
                 case Rendering3D:
-                    tier *= 10;
+                    tier *= 0.7f;
                     break;
             }
-            value.setXValue(1 / tier * 1000);
+            value.setXValue(tier * 10);
         }
     }
 

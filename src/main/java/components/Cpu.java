@@ -84,24 +84,25 @@ public class Cpu extends Product {
             float mt = mtPerformance;
             switch (WorkloadType.toEnum(value.getYValue())) {
                 case Gaming:
-                    mt *= 0.3f;
+                    st *= 0.6f;
+                    mt *= 0.7f;
                     break;
                 case Office:
-                    mt *= 0.1f;
+                    st *= 1.2f;
                     break;
                 case PhotoEditing:
-                    st *= 1.2f;
-                    mt *= 0.2f;
+                    st *= 0.6f;
+                    mt *= 0.9f;
                     break;
                 case VideoEditing:
-                    mt *= 2;
-                    st = 0;
+                    st *= 0.9f;
+                    mt *= 0.4f;
                     break;
                 case Rendering3D:
-                    mt *= 1.5f;
+                    mt *= 0.4f;
                     break;
             }
-            value.setXValue((st + mt) / 10.f);
+            value.setXValue((st + mt) / 40.f);
         }
     }
 

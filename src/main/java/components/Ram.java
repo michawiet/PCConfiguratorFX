@@ -71,26 +71,25 @@ public class Ram extends Product {
     @Override
     public void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues) {
         for(var value : performanceValues) {
-            float speed = getSpeed();
-            float latency;
+            float performance = getSpeed() * (modulesCount > 1 ? 1.f : 0.6f);
             switch (WorkloadType.toEnum(value.getYValue())) {
                 case Gaming:
-
+                    performance *= Math.log(getTotalCapacity()) * 0.7f / getFirstWordLatencyNs() * 10.f;
                     break;
                 case Office:
-
+                    performance *= Math.log10(getTotalCapacity()) * 2.5f;
                     break;
                 case PhotoEditing:
-
+                    performance *= Math.log(getTotalCapacity()) * 0.7f;
                     break;
                 case VideoEditing:
-
+                    performance *= Math.log10(getTotalCapacity()) * 0.4f;
                     break;
                 case Rendering3D:
-
+                    performance *= Math.log(getTotalCapacity()) * 0.55f;
                     break;
             }
-            value.setXValue(1 * 1000);
+            value.setXValue(performance / 100.f);
         }
     }
 
@@ -143,8 +142,6 @@ public class Ram extends Product {
         return brand
                 + " "
                 + name
-                + " "
-                + getTotalCapacity()
                 + " ("
                 + modulesCount
                 + " x "

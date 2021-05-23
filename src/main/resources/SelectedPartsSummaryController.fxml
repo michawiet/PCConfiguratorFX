@@ -512,7 +512,7 @@
             <HBox prefHeight="277.0" prefWidth="1247.0">
                <children>
                   <PieChart fx:id="costPieChart" labelsVisible="false" legendSide="LEFT" title="Cost of the configured PC" />
-                  <StackedBarChart fx:id="performanceChart" legendSide="LEFT" prefHeight="277.0" prefWidth="747.0" title="Estimated performance in different workloads">
+                  <StackedBarChart fx:id="performanceChart" legendSide="LEFT" prefHeight="277.0" prefWidth="747.0" title="Estimated quality and performance in different workloads">
                     <xAxis>
                       <NumberAxis side="BOTTOM" fx:id="xPerformanceAxis" />
                     </xAxis>

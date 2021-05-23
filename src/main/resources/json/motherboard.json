@@ -4516,7 +4516,7 @@
     "brand": "NZXT",
     "name": "N7 Z490",
     "price": 1020.56,
-    "tier": "",
+    "tier": 6,
     "chipset": "Z490",
     "socket": "LGA1200",
     "formFactor": "ATX",

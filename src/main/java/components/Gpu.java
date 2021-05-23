@@ -59,22 +59,22 @@ public class Gpu extends Product {
             float performance = getPerformance();
             switch (WorkloadType.toEnum(value.getYValue())) {
                 case Gaming:
-                    performance *= 1.2f;
+                    performance *= 0.5f;
                     break;
                 case Office:
-                    performance *= 0.2f;
+                    performance *= 1.1f;
                     break;
                 case PhotoEditing:
-                    performance *= 0.4f;
+                    performance *= 0.72f;
                     break;
                 case VideoEditing:
-                    performance *= 0.7f;
+                    performance *= 0.65f;
                     break;
                 case Rendering3D:
-                    performance *= 1.3f;
+                    performance *= 0.45f;
                     break;
             }
-            value.setXValue(performance * 10.f);
+            value.setXValue(performance / 3.f);
         }
     }
 
