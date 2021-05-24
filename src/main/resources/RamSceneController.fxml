@@ -118,13 +118,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="priceLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="priceLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="priceUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="priceUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -292,13 +292,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="firstWordLatencyLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="firstWordLatencyLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="firstWordLatencyUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="firstWordLatencyUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />

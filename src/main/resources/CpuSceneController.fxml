@@ -71,7 +71,7 @@
                   <Button fx:id="resetFiltersButton" mnemonicParsing="false" onAction="#resetFilters" prefHeight="25.0" prefWidth="135.0" text="Reset filters" />
                   <Button fx:id="applyFiltersButton" mnemonicParsing="false" onAction="#applyFilters" prefHeight="25.0" prefWidth="135.0" text="Apply filters">
                      <tooltip>
-                        <Tooltip wrapText="true" maxWidth="400.0" text="Applies the filters" />
+                        <Tooltip maxWidth="400.0" text="Applies the filters" wrapText="true" />
                      </tooltip></Button>
                </children>
                <padding>
@@ -89,7 +89,7 @@
                                     <Font size="20.0" />
                                  </font>
                                  <tooltip>
-                                    <Tooltip wrapText="true" maxWidth="400.0" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!">
+                                    <Tooltip maxWidth="400.0" text="Manufacturers of the product. Simply choose the brands of the products that you are interested in!" wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -108,7 +108,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip wrapText="true" maxWidth="400.0" text="Price of the CPU in PLN">
+                                    <Tooltip maxWidth="400.0" text="Price of the CPU in PLN" wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -116,13 +116,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="priceLowerTextField" editable="false" promptText="From" />
+                                    <TextField editable="false" fx:id="priceLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="priceUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="priceUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -137,7 +137,7 @@
                                     <Font size="20.0" />
                                  </font>
                                  <tooltip>
-                                    <Tooltip wrapText="true" maxWidth="400.0" style="fx-font-size: 16;" text="Socket is a type of electrical connection between a CPU and motherboard. Naturally the socket type must be the same on both motherboard and CPU.">
+                                    <Tooltip maxWidth="400.0" style="fx-font-size: 16;" text="Socket is a type of electrical connection between a CPU and motherboard. Naturally the socket type must be the same on both motherboard and CPU." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -156,7 +156,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip wrapText="true" maxWidth="400.0" text="Physical count of a processor cores">
+                                    <Tooltip maxWidth="400.0" text="Physical count of a processor cores" wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -166,7 +166,7 @@
                                  <children>
                                     <ComboBox fx:id="coreCountMinComboBox" onAction="#coreCountMinComboBoxUpdated" prefWidth="150.0" promptText="From" visibleRowCount="4">
                                        <tooltip>
-                                          <Tooltip wrapText="true" maxWidth="400.0" text="Minimum core count">
+                                          <Tooltip maxWidth="400.0" text="Minimum core count" wrapText="true">
                                              <font>
                                                 <Font size="16.0" />
                                              </font></Tooltip>
@@ -178,7 +178,7 @@
                                     </Label>
                                     <ComboBox fx:id="coreCountMaxComboBox" layoutX="96.0" layoutY="10.0" onAction="#coreCountMaxComboBoxUpdated" prefWidth="150.0" promptText="To" visibleRowCount="4">
                                        <tooltip>
-                                          <Tooltip wrapText="true" maxWidth="400.0" text="Maximum core count">
+                                          <Tooltip maxWidth="400.0" text="Maximum core count" wrapText="true">
                                              <font>
                                                 <Font size="16.0" />
                                              </font></Tooltip>
@@ -197,7 +197,7 @@
                                     <Font size="20.0" />
                                  </font>
                                  <tooltip>
-                                    <Tooltip wrapText="true" maxWidth="400.0" text="Simultaneous multithreading (SMT) - technique used in processors that allows for a greater paralelization of computation by spliting one core into two threads">
+                                    <Tooltip maxWidth="400.0" text="Simultaneous multithreading (SMT) - technique used in processors that allows for a greater paralelization of computation by spliting one core into two threads" wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -213,7 +213,7 @@
                                     <Font size="20.0" />
                                  </font>
                                  <tooltip>
-                                    <Tooltip wrapText="true" maxWidth="400.0" text="iGPU is a GPU that is integrated into the CPU. Uses some of computer's RAM memory.">
+                                    <Tooltip maxWidth="400.0" text="iGPU is a GPU that is integrated into the CPU. Uses some of computer's RAM memory." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -232,7 +232,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip wrapText="true" maxWidth="400.0" text="TDP is a maximum amount of heat generated by a CPU. Can be exceeded for some amount of time in proper conditions.">
+                                    <Tooltip maxWidth="400.0" text="TDP is a maximum amount of heat generated by a CPU. Can be exceeded for some amount of time in proper conditions." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -264,7 +264,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip wrapText="true" maxWidth="400.0" text="Single Threaded performance is a approx. metric for describing how fast one core/thread of a CPU is - important in gaming, but not deterministic.">
+                                    <Tooltip maxWidth="400.0" text="Single Threaded performance is a approx. metric for describing how fast one core/thread of a CPU is - important in gaming, but not deterministic." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -272,13 +272,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="stPerformanceLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="stPerformanceLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="stPerformanceUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="stPerformanceUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -296,7 +296,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip wrapText="true" maxWidth="400.0" text="Multithreaded performance is a cumulative performance of cpu in parallelized computing.">
+                                    <Tooltip maxWidth="400.0" text="Multithreaded performance is a cumulative performance of cpu in parallelized computing." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -304,13 +304,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="mtPerformanceLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="mtPerformanceLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="mtPerformanceUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="mtPerformanceUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -328,7 +328,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip wrapText="true" maxWidth="400.0" text="The actual speed at which CPU operates in provided TDP spec; can be lower in idle or small utilization.">
+                                    <Tooltip maxWidth="400.0" text="The actual speed at which CPU operates in provided TDP spec; can be lower in idle or small utilization." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -336,13 +336,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="coreClockLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="coreClockLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="coreClockUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="coreClockUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -360,7 +360,7 @@
                                     <Insets />
                                  </VBox.margin>
                                  <tooltip>
-                                    <Tooltip wrapText="true" maxWidth="400.0" text="Maximum speed of the cpu (if not oc'ed); usually availbile for limited amount of time.">
+                                    <Tooltip maxWidth="400.0" text="Maximum speed of the cpu (if not oc'ed); usually availbile for limited amount of time." wrapText="true">
                                        <font>
                                           <Font size="16.0" />
                                        </font></Tooltip>
@@ -368,13 +368,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="boostClockLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="boostClockLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="boostClockUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="boostClockUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />

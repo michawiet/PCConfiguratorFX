@@ -118,13 +118,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="priceLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="priceLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="priceUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="priceUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -215,13 +215,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="coreClockLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="coreClockLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="coreClockUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="coreClockUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -248,13 +248,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="boostClockLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="boostClockLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="boostClockUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="boostClockUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -281,13 +281,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="lengthPerformanceLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="lengthPerformanceLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="lengthPerformanceUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="lengthPerformanceUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -361,13 +361,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="recommendedPsuWattsLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="recommendedPsuWattsLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="recommendedPsuWattsUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="recommendedPsuWattsUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -394,13 +394,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField fx:id="performanceLowerTextField" promptText="From" />
+                                    <TextField editable="false" fx:id="performanceLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField fx:id="performanceUpperTextField" promptText="To" />
+                                    <TextField editable="false" fx:id="performanceUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
