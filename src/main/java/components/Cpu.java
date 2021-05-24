@@ -80,29 +80,25 @@ public class Cpu extends Product {
     @Override
     public void setPerformanceValues(ObservableList<XYChart.Data<Number, String>> performanceValues) {
         for(var value : performanceValues) {
-            float st = stPerformance;
-            float mt = mtPerformance;
+            float performance = 0.0f;
             switch (WorkloadType.toEnum(value.getYValue())) {
                 case Gaming:
-                    st *= 0.6f;
-                    mt *= 0.7f;
+                    performance = (float) (getStPerformance() * 0.8f * (Math.log(Math.log(getCores() - 0.25f)) * 4 + 4));
                     break;
                 case Office:
-                    st *= 1.2f;
+                    performance = (float) (getStPerformance() * 3.5f + Math.log(getMtPerformance() - 1500) * 200 - 300);
                     break;
                 case PhotoEditing:
-                    st *= 0.6f;
-                    mt *= 0.9f;
+                    performance = getStPerformance() * 0.8f + getMtPerformance() * 0.3f;
                     break;
                 case VideoEditing:
-                    st *= 0.9f;
-                    mt *= 0.4f;
+                    performance = getStPerformance() * 0.9f + getMtPerformance() * 0.4f;
                     break;
                 case Rendering3D:
-                    mt *= 0.4f;
+                    performance = getStPerformance() + getMtPerformance() * 0.4f;
                     break;
             }
-            value.setXValue((st + mt) / 40.f);
+            value.setXValue((performance) / 40.f);
         }
     }
 
