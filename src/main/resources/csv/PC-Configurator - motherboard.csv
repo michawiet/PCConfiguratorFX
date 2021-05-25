@@ -1,352 +1,352 @@
 _id,image,brand,name,price,tier,chipset,socket,formFactor,memorySlots,memoryMaxGb
-608dd537905ec60bdc069000,/images/motherboard/motherboard.jpg,Asus,ROG Crosshair VIII Dark Hero,2179.76,1,X570,AM4,ATX,4,128
-608dd537905ec60bdc069001,/images/motherboard/motherboard.jpg,Asus,ROG Crosshair VIII Formula,2556.41,1,X570,AM4,ATX,4,128
-608dd537905ec60bdc069002,/images/motherboard/motherboard.jpg,Asus,ROG Crosshair VIII Hero,1912.5,1,X570,AM4,ATX,4,128
-608dd537905ec60bdc069003,/images/motherboard/motherboard.jpg,Asus,ROG Crosshair VIII Hero (WI-FI),1961.51,1,X570,AM4,ATX,4,128
-608dd537905ec60bdc069004,/images/motherboard/motherboard.jpg,Gigabyte,X570 AORUS MASTER,1488.87,1.7,X570,AM4,ATX,4,128
-608dd537905ec60bdc069005,/images/motherboard/motherboard.jpg,MSI,MAG X570 TOMAHAWK WIFI,956.21,1.7,X570,AM4,ATX,4,128
-608dd537905ec60bdc069006,/images/motherboard/motherboard.jpg,ASRock,X570 CREATOR,2194.43,2,X570,AM4,ATX,4,128
-608dd537905ec60bdc069007,/images/motherboard/motherboard.jpg,Asus,ROG Strix X570-E Gaming,1362.96,2,X570,AM4,ATX,4,128
-608dd537905ec60bdc069008,/images/motherboard/motherboard.jpg,MSI,MEG X570 ACE,1563.39,2,X570,AM4,ATX,4,128
-608dd537905ec60bdc069009,/images/motherboard/motherboard.jpg,MSI,MEG X570 UNIFY,1315.76,2,X570,AM4,ATX,4,128
-608dd537905ec60bdc069010,/images/motherboard/motherboard.jpg,ASRock,X570 Phantom Gaming X,1554.03,2.3,X570,AM4,ATX,4,128
-608dd537905ec60bdc069011,/images/motherboard/motherboard.jpg,ASRock,X570 Taichi,1276.02,2.3,X570,AM4,ATX,4,128
-608dd537905ec60bdc069012,/images/motherboard/motherboard.jpg,Asus,ROG Strix X570-F Gaming,1048.59,2.7,X570,AM4,ATX,4,128
-608dd537905ec60bdc069013,/images/motherboard/motherboard.jpg,Asus,TUF GAMING X570-PLUS,881.73,2.7,X570,AM4,ATX,4,128
-608dd537905ec60bdc069014,/images/motherboard/motherboard.jpg,Asus,TUF GAMING X570-PLUS (WI-FI),913.59,2.7,X570,AM4,ATX,4,128
-608dd537905ec60bdc069015,/images/motherboard/motherboard.jpg,Asus,PRIME X570-P,706.59,3,X570,AM4,ATX,4,128
-608dd537905ec60bdc069016,/images/motherboard/motherboard.jpg,Gigabyte,X570 AORUS PRO,923.99,3,X570,AM4,ATX,4,128
-608dd537905ec60bdc069017,/images/motherboard/motherboard.jpg,Gigabyte,X570 AORUS ULTRA,1241.73,3,X570,AM4,ATX,4,128
-608dd537905ec60bdc069018,/images/motherboard/motherboard.jpg,ASRock,X570 PHANTOM GAMING-ITX/TB3,1031.18,3,X570,AM4,Mini ITX,2,64
-608dd537905ec60bdc069019,/images/motherboard/motherboard.jpg,Asus,ROG Strix X570-I Gaming,1255.5,3,X570,AM4,Mini ITX,2,64
-608dd537905ec60bdc069020,/images/motherboard/motherboard.jpg,Asus,TUF B450M-PRO GAMING,407.88,3,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069021,/images/motherboard/motherboard.jpg,ASRock,X570 Steel Legend,951.03,3.3,X570,AM4,ATX,4,128
-608dd537905ec60bdc069022,/images/motherboard/motherboard.jpg,ASRock,X470 Taichi,1310.4,3.3,X470,AM4,ATX,4,64
-608dd537905ec60bdc069023,/images/motherboard/motherboard.jpg,ASRock,X470 Taichi Ultimate,1633.64,3.3,X470,AM4,ATX,4,64
-608dd537905ec60bdc069024,/images/motherboard/motherboard.jpg,Gigabyte,X570 AORUS ELITE,818.96,3.7,X570,AM4,ATX,4,128
-608dd537905ec60bdc069025,/images/motherboard/motherboard.jpg,Gigabyte,X570 AORUS ELITE WIFI,1102.86,3.7,X570,AM4,ATX,4,128
-608dd537905ec60bdc069026,/images/motherboard/motherboard.jpg,MSI,X470 GAMING M7 AC,1225.76,3.7,X470,AM4,ATX,4,64
-608dd537905ec60bdc069027,/images/motherboard/motherboard.jpg,ASRock,X570 Extreme4,1084.23,4,X570,AM4,ATX,4,128
-608dd537905ec60bdc069028,/images/motherboard/motherboard.jpg,Gigabyte,X570 I AORUS PRO WIFI,899.96,4,X570,AM4,Mini ITX,2,64
-608dd537905ec60bdc069029,/images/motherboard/motherboard.jpg,ASRock,X570 Pro4,652.46,4.3,X570,AM4,ATX,4,128
-608dd537905ec60bdc069030,/images/motherboard/motherboard.jpg,ASRock,X570M Pro4,804.96,4.3,X570,AM4,Micro ATX,4,128
-608dd537905ec60bdc069031,/images/motherboard/motherboard.jpg,Gigabyte,X570 GAMING X,688.05,5,X570,AM4,ATX,4,128
-608dd537905ec60bdc069032,/images/motherboard/motherboard.jpg,Gigabyte,X570 UD,843.84,5,X570,AM4,ATX,4,128
-608dd537905ec60bdc069033,/images/motherboard/motherboard.jpg,MSI,B450 GAMING PRO CARBON AC,1165.5,5,B450,AM4,ATX,4,64
-608dd537905ec60bdc069034,/images/motherboard/motherboard.jpg,MSI,B450 GAMING PRO CARBON MAX WIFI,584.55,5,B450,AM4,ATX,4,128
-608dd537905ec60bdc069035,/images/motherboard/motherboard.jpg,MSI,B450 TOMAHAWK,355.5,5,B450,AM4,ATX,4,64
-608dd537905ec60bdc069036,/images/motherboard/motherboard.jpg,MSI,B450 TOMAHAWK MAX,400.5,5,B450,AM4,ATX,4,64
-608dd537905ec60bdc069037,/images/motherboard/motherboard.jpg,MSI,B450 TOMAHAWK MAX II,440.96,5,B450,AM4,ATX,4,128
-608dd537905ec60bdc069038,/images/motherboard/motherboard.jpg,MSI,B450M BAZOOKA MAX WIFI,528.57,5,B450,AM4,Micro ATX,4,128
-608dd537905ec60bdc069039,/images/motherboard/motherboard.jpg,MSI,B450M MORTAR,415.67,5,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069040,/images/motherboard/motherboard.jpg,ASRock,B550 PG Velocita,861.71,3.3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069041,/images/motherboard/motherboard.jpg,ASRock,B550 Phantom Gaming 4,472.59,5.3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069042,/images/motherboard/motherboard.jpg,ASRock,B550 Phantom Gaming 4/ac,524.7,5.3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069043,/images/motherboard/motherboard.jpg,ASRock,B550 Phantom Gaming-ITX/ax,888.71,4,B550,AM4,Mini ITX,2,64
-608dd537905ec60bdc069044,/images/motherboard/motherboard.jpg,ASRock,B550 Pro4,581.18,5.3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069045,/images/motherboard/motherboard.jpg,ASRock,B550 Steel Legend,785.52,3.3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069046,/images/motherboard/motherboard.jpg,ASRock,B550 Taichi,1248.98,2,B550,AM4,ATX,4,128
-608dd537905ec60bdc069047,/images/motherboard/motherboard.jpg,ASRock,B550M Phantom Gaming 4,416.84,5.3,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069048,/images/motherboard/motherboard.jpg,ASRock,B550M Pro4,472.32,5.3,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069049,/images/motherboard/motherboard.jpg,ASRock,B550M Steel Legend,594.36,4.3,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069050,/images/motherboard/motherboard.jpg,ASRock,B550M-ITX/ac,581.49,8,B550,AM4,Mini ITX,2,64
-608dd537905ec60bdc069051,/images/motherboard/motherboard.jpg,Asus,PRIME B550-PLUS,607.05,8,B550,AM4,ATX,4,128
-608dd537905ec60bdc069052,/images/motherboard/motherboard.jpg,Asus,PRIME B550M-A,479.61,8,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069053,/images/motherboard/motherboard.jpg,Asus,PRIME B550M-A (WI-FI),562.05,8,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069054,/images/motherboard/motherboard.jpg,Asus,PRIME B550M-A/CSM,552.96,8,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069055,/images/motherboard/motherboard.jpg,Asus,PRIME B550M-K,450,8,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069056,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B550-A GAMING,706.59,2.7,B550,AM4,ATX,4,128
-608dd537905ec60bdc069057,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B550-E GAMING,981,1.7,B550,AM4,ATX,4,128
-608dd537905ec60bdc069058,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B550-F GAMING,778.23,2.7,B550,AM4,ATX,4,128
-608dd537905ec60bdc069059,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B550-F GAMING (WI-FI),812.66,2.7,B550,AM4,ATX,4,128
-608dd537905ec60bdc069060,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B550-I GAMING,899.55,4,B550,AM4,Mini ITX,2,64
-608dd537905ec60bdc069061,/images/motherboard/motherboard.jpg,Asus,TUF GAMING B550-PLUS,621.09,3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069062,/images/motherboard/motherboard.jpg,Asus,TUF GAMING B550-PLUS (WI-FI),670.59,3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069063,/images/motherboard/motherboard.jpg,Asus,TUF GAMING B550M-PLUS,592.61,3,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069064,/images/motherboard/motherboard.jpg,Asus,TUF GAMING B550M-PLUS (WI-FI),665.55,3,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069065,/images/motherboard/motherboard.jpg,Gigabyte,B550 AORUS ELITE,662.22,3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069066,/images/motherboard/motherboard.jpg,Gigabyte,B550 AORUS ELITE AX,748.67,3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069067,/images/motherboard/motherboard.jpg,Gigabyte,B550 AORUS ELITE AX V2,748.67,3.3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069068,/images/motherboard/motherboard.jpg,Gigabyte,B550 AORUS ELITE V2,634.23,3.3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069069,/images/motherboard/motherboard.jpg,Gigabyte,B550 AORUS MASTER,1192.46,1,B550,AM4,ATX,4,128
-608dd537905ec60bdc069070,/images/motherboard/motherboard.jpg,Gigabyte,B550 AORUS PRO,809.55,2,B550,AM4,ATX,4,128
-608dd537905ec60bdc069071,/images/motherboard/motherboard.jpg,Gigabyte,B550 AORUS PRO AC,814.05,2,B550,AM4,ATX,4,128
-608dd537905ec60bdc069072,/images/motherboard/motherboard.jpg,Gigabyte,B550 AORUS PRO AX,946.76,2,B550,AM4,ATX,4,128
-608dd537905ec60bdc069073,/images/motherboard/motherboard.jpg,Gigabyte,B550 AORUS PRO V2,775.94,2.3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069074,/images/motherboard/motherboard.jpg,Gigabyte,B550 GAMING X,589.05,5.3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069075,/images/motherboard/motherboard.jpg,Gigabyte,B550 VISION D,1196.96,2,B550,AM4,ATX,4,128
-608dd537905ec60bdc069076,/images/motherboard/motherboard.jpg,Gigabyte,B550 VISION D-P,1445.13,2,B550,AM4,ATX,4,128
-608dd537905ec60bdc069077,/images/motherboard/motherboard.jpg,Gigabyte,B550I AORUS PRO AX,787.01,6,B550,AM4,Mini ITX,2,64
-608dd537905ec60bdc069078,/images/motherboard/motherboard.jpg,Gigabyte,B550M AORUS ELITE,449.55,5.7,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069079,/images/motherboard/motherboard.jpg,Gigabyte,B550M DS3H,375.26,6,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069080,/images/motherboard/motherboard.jpg,Gigabyte,B550M GAMING,559.98,5.7,B550,AM4,Micro ATX,2,64
-608dd537905ec60bdc069081,/images/motherboard/motherboard.jpg,MSI,B550-A PRO,535.5,3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069082,/images/motherboard/motherboard.jpg,MSI,B550M PRO-VDH WIFI,522.09,5,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069083,/images/motherboard/motherboard.jpg,MSI,MAG B550 TOMAHAWK,706.68,2.3,B550,AM4,ATX,4,128
-608dd537905ec60bdc069084,/images/motherboard/motherboard.jpg,MSI,MAG B550M BAZOOKA,486.09,4.7,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069085,/images/motherboard/motherboard.jpg,MSI,MAG B550M MORTAR,611.33,2.7,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069086,/images/motherboard/motherboard.jpg,ASRock,B365 Phantom Gaming 4,481.01,5,B365,LGA1151,ATX,4,128
-608dd537905ec60bdc069087,/images/motherboard/motherboard.jpg,ASRock,B365 Pro4,406.58,5,B365,LGA1151,ATX,4,64
-608dd537905ec60bdc069088,/images/motherboard/motherboard.jpg,ASRock,Z390 Extreme4,1043.73,3,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069089,/images/motherboard/motherboard.jpg,ASRock,Z390 Phantom Gaming 4,674.37,4,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069090,/images/motherboard/motherboard.jpg,ASRock,Z390 Pro4,482.36,4,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069091,/images/motherboard/motherboard.jpg,ASRock,Z390 Taichi,1484.19,2,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069092,/images/motherboard/motherboard.jpg,Asus,PRIME B365M-A,328.59,5,B365,LGA1151,Micro ATX,4,64
-608dd537905ec60bdc069093,/images/motherboard/motherboard.jpg,Asus,PRIME B365M-K,359.55,5,B365,LGA1151,Micro ATX,2,32
-608dd537905ec60bdc069094,/images/motherboard/motherboard.jpg,Asus,TUF B365M-PLUS GAMING,382.59,5,B365,LGA1151,Micro ATX,4,64
-608dd537905ec60bdc069095,/images/motherboard/motherboard.jpg,Asus,PRIME Z390-A,764.96,3,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069096,/images/motherboard/motherboard.jpg,Asus,PRIME Z390-P,535.59,3,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069097,/images/motherboard/motherboard.jpg,Gigabyte,B365 HD3,586.94,5,B365,LGA1151,ATX,4,64
-608dd537905ec60bdc069098,/images/motherboard/motherboard.jpg,Gigabyte,B365 M AORUS ELITE,442.35,4,B365,LGA1151,Micro ATX,4,64
-608dd537905ec60bdc069099,/images/motherboard/motherboard.jpg,Gigabyte,B365M D2V,396.14,5,B365,LGA1151,Micro ATX,2,32
-608dd537905ec60bdc069100,/images/motherboard/motherboard.jpg,Gigabyte,B365M DS3H,340.52,5,B365,LGA1151,Micro ATX,4,64
-608dd537905ec60bdc069101,/images/motherboard/motherboard.jpg,Gigabyte,GA-B365M-D3H,370.04,5,B365,LGA1151,Micro ATX,4,64
-608dd537905ec60bdc069102,/images/motherboard/motherboard.jpg,Gigabyte,GA-B365M-H,309.83,5,B365,LGA1151,Micro ATX,2,32
-608dd537905ec60bdc069103,/images/motherboard/motherboard.jpg,Gigabyte,Z390 AORUS ELITE,884.66,2,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069104,/images/motherboard/motherboard.jpg,Gigabyte,Z390 AORUS MASTER,1374.26,2,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069105,/images/motherboard/motherboard.jpg,MSI,MPG Z390 GAMING EDGE AC,1368.09,3,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069106,/images/motherboard/motherboard.jpg,MSI,MPG Z390 GAMING PLUS,551.75,4,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069107,/images/motherboard/motherboard.jpg,MSI,MPG Z390 GAMING PRO CARBON,760.59,3,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069108,/images/motherboard/motherboard.jpg,MSI,Z390-A PRO,528.17,5,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069109,/images/motherboard/motherboard.jpg,ASRock,B460 Phantom Gaming 4,574.38,7,B460,LGA1200,ATX,4,128
-608dd537905ec60bdc069110,/images/motherboard/motherboard.jpg,ASRock,B460 Pro4,445.5,7,B460,LGA1200,ATX,4,128
-608dd537905ec60bdc069111,/images/motherboard/motherboard.jpg,ASRock,B460 Steel Legend,563.18,7,B460,LGA1200,ATX,4,128
-608dd537905ec60bdc069112,/images/motherboard/motherboard.jpg,ASRock,B560 Pro4,571.01,7,B560,LGA1200,ATX,4,128
-608dd537905ec60bdc069113,/images/motherboard/motherboard.jpg,ASRock,B560 Steel Legend,625.5,7,B560,LGA1200,ATX,4,128
-608dd537905ec60bdc069114,/images/motherboard/motherboard.jpg,ASRock,H470 Phantom Gaming 4,548.64,7,H470,LGA1200,ATX,4,128
-608dd537905ec60bdc069115,/images/motherboard/motherboard.jpg,ASRock,H470 Steel Legend,647.06,7,H470,LGA1200,ATX,4,128
-608dd537905ec60bdc069116,/images/motherboard/motherboard.jpg,ASRock,H570 Phantom Gaming 4,539.55,7,H570,LGA1200,ATX,4,128
-608dd537905ec60bdc069117,/images/motherboard/motherboard.jpg,ASRock,H570 Steel Legend,680.81,7,H570,LGA1200,ATX,4,128
-608dd537905ec60bdc069118,/images/motherboard/motherboard.jpg,ASRock,Z490 Extreme4,791.55,8,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069119,/images/motherboard/motherboard.jpg,ASRock,Z490 PG Velocita,1068.71,6,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069120,/images/motherboard/motherboard.jpg,ASRock,Z490 Phantom Gaming 4,538.2,8,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069121,/images/motherboard/motherboard.jpg,ASRock,Z490 Phantom Gaming 4/ac,725.22,8,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069122,/images/motherboard/motherboard.jpg,ASRock,Z490 Phantom Gaming-ITX/TB3,1194.66,7,Z490,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069123,/images/motherboard/motherboard.jpg,ASRock,Z490 Pro4,689.85,8,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069124,/images/motherboard/motherboard.jpg,ASRock,Z490 Steel Legend,663.71,8,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069125,/images/motherboard/motherboard.jpg,ASRock,Z590 Extreme,964.94,4,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069126,/images/motherboard/motherboard.jpg,ASRock,Z590 PG Velocita,1377.5,5,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069127,/images/motherboard/motherboard.jpg,ASRock,Z590 PRO4,814.01,7,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069128,/images/motherboard/motherboard.jpg,ASRock,Z590 Taichi,1988.15,5,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069129,/images/motherboard/motherboard.jpg,Asus,PRIME B460-PLUS,525.74,7,B460,LGA1200,ATX,4,128
-608dd537905ec60bdc069130,/images/motherboard/motherboard.jpg,Asus,PRIME H470-PLUS,672.48,7,H470,LGA1200,ATX,4,128
-608dd537905ec60bdc069131,/images/motherboard/motherboard.jpg,Asus,PRIME H570-PLUS,629.55,7,H570,LGA1200,ATX,4,128
-608dd537905ec60bdc069132,/images/motherboard/motherboard.jpg,ASRock,Z490 Taichi,1805.4,3,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069133,/images/motherboard/motherboard.jpg,ASRock,Z490M Pro4,766.53,8,Z490,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069134,/images/motherboard/motherboard.jpg,ASRock,Z490M-ITX/ac,1149.08,7,Z490,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069135,/images/motherboard/motherboard.jpg,Asus,PRIME Z490-A,944.96,4,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069136,/images/motherboard/motherboard.jpg,Asus,PRIME Z490-P,711.09,5,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069137,/images/motherboard/motherboard.jpg,Asus,PRIME Z490M-PLUS,835.97,5,Z490,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069138,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B460-F GAMING,688.59,7,B460,LGA1200,ATX,4,128
-608dd537905ec60bdc069139,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B460-H GAMING,647.78,7,B460,LGA1200,ATX,4,128
-608dd537905ec60bdc069140,/images/motherboard/motherboard.jpg,Asus,ProART Z490-CREATOR 10G,1403.69,4,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069141,/images/motherboard/motherboard.jpg,Asus,ROG MAXIMUS XII APEX,2188.76,1,Z490,LGA1200,ATX,2,64
-608dd537905ec60bdc069142,/images/motherboard/motherboard.jpg,Asus,ROG MAXIMUS XII FORMULA,2038.68,1,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069143,/images/motherboard/motherboard.jpg,Asus,ROG MAXIMUS XII HERO (WI-FI),1750.05,1,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069144,/images/motherboard/motherboard.jpg,Asus,TUF GAMING B460-PLUS,499.05,7,B460,LGA1200,ATX,4,128
-608dd537905ec60bdc069145,/images/motherboard/motherboard.jpg,Asus,TUF GAMING B460-PRO (WI-FI),623.12,7,B460,LGA1200,ATX,4,128
-608dd537905ec60bdc069146,/images/motherboard/motherboard.jpg,Asus,TUF GAMING H470-PRO (WI-FI),813.42,7,H470,LGA1200,ATX,4,128
-608dd537905ec60bdc069147,/images/motherboard/motherboard.jpg,Asus,ROG STRIX Z490-A GAMING,1106.51,3.7,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069148,/images/motherboard/motherboard.jpg,Asus,ROG STRIX Z490-E GAMING,1341.27,3,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069149,/images/motherboard/motherboard.jpg,Asus,PRIME Z590-A,1124.55,6,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069150,/images/motherboard/motherboard.jpg,Asus,PRIME Z590M-PLUS,796.59,5,Z590,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069151,/images/motherboard/motherboard.jpg,Gigabyte,B460 HD3,467.28,7,B460,LGA1200,ATX,4,128
-608dd537905ec60bdc069152,/images/motherboard/motherboard.jpg,Asus,ROG STRIX Z490-F GAMING,1120.28,3.7,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069153,/images/motherboard/motherboard.jpg,Asus,ROG STRIX Z490-G GAMING,994.59,4,Z490,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069154,/images/motherboard/motherboard.jpg,Asus,ROG STRIX Z490-G GAMING (WI-FI),972,4,Z490,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069155,/images/motherboard/motherboard.jpg,Asus,ROG STRIX Z490-H GAMING,1039.59,3.7,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069156,/images/motherboard/motherboard.jpg,Asus,ROG STRIX Z490-I GAMING,1237.01,4.3,Z490,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069157,/images/motherboard/motherboard.jpg,Asus,TUF GAMING Z490-PLUS,901.8,4,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069158,/images/motherboard/motherboard.jpg,Asus,TUF GAMING Z490-PLUS (WI-FI),976.05,4,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069159,/images/motherboard/motherboard.jpg,Gigabyte,Z490 AORUS ELITE,2114.6,3,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069160,/images/motherboard/motherboard.jpg,Gigabyte,Z490 AORUS ELITE AC,1061.51,3,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069161,/images/motherboard/motherboard.jpg,Asus,ROG MAXIMUS XIII HERO,2110.5,1,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069162,/images/motherboard/motherboard.jpg,Asus,ROG STRIX Z590-E GAMING WIFI,1574.55,2,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069163,/images/motherboard/motherboard.jpg,Asus,ROG STRIX Z590-I GAMING WIFI,1617.75,3,Z590,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069164,/images/motherboard/motherboard.jpg,Asus,TUF GAMING Z590-PLUS,1118.34,4,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069165,/images/motherboard/motherboard.jpg,Asus,TUF Gaming Z590-PLUS WIFI,1044.09,4,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069166,/images/motherboard/motherboard.jpg,Gigabyte,Z590 AORUS ELITE,1064.34,5,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069167,/images/motherboard/motherboard.jpg,Gigabyte,Z590 AORUS ELITE AX,1210.28,5,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069168,/images/motherboard/motherboard.jpg,Gigabyte,Z590 AORUS MASTER,1997.96,2,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069169,/images/motherboard/motherboard.jpg,Gigabyte,Z590 AORUS PRO AX,1509.08,4,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069170,/images/motherboard/motherboard.jpg,MSI,MAG B460 TOMAHAWK,678.11,7,B460,LGA1200,ATX,4,128
-608dd537905ec60bdc069171,/images/motherboard/motherboard.jpg,MSI,MAG B460 TORPEDO,482.4,7,B460,LGA1200,ATX,4,128
-608dd537905ec60bdc069172,/images/motherboard/motherboard.jpg,MSI,MAG B560 TOMAHAWK WIFI,850.5,6,B560,LGA1200,ATX,4,128
-608dd537905ec60bdc069173,/images/motherboard/motherboard.jpg,MSI,MAG B560 TORPEDO,864.72,7,B560,LGA1200,ATX,4,128
-608dd537905ec60bdc069174,/images/motherboard/motherboard.jpg,Gigabyte,Z490 AORUS MASTER,1648.58,1,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069175,/images/motherboard/motherboard.jpg,Gigabyte,Z590 AORUS ULTRA,1601.96,3,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069176,/images/motherboard/motherboard.jpg,Gigabyte,Z590 GAMING X,886.01,6,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069177,/images/motherboard/motherboard.jpg,Gigabyte,Z490 AORUS PRO AX,1178.96,4,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069178,/images/motherboard/motherboard.jpg,Gigabyte,Z490 AORUS ULTRA,1597.28,3,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069179,/images/motherboard/motherboard.jpg,Gigabyte,Z590 UD AC,796.73,6,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069180,/images/motherboard/motherboard.jpg,Gigabyte,Z490 AORUS ULTRA G2,1348.47,2.7,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069181,/images/motherboard/motherboard.jpg,Gigabyte,Z490 GAMING X,904.28,4,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069182,/images/motherboard/motherboard.jpg,Gigabyte,Z490 UD,637.34,6.3,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069183,/images/motherboard/motherboard.jpg,Gigabyte,Z490 VISION G,1004.58,4,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069184,/images/motherboard/motherboard.jpg,Gigabyte,Z590 VISION D,1484.78,3,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069185,/images/motherboard/motherboard.jpg,Gigabyte,Z590 VISION G,1151.96,3,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069186,/images/motherboard/motherboard.jpg,Gigabyte,Z590I AORUS ULTRA,1232.96,4,Z590,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069187,/images/motherboard/motherboard.jpg,Gigabyte,Z590I VISION D,1408.28,3,Z590,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069188,/images/motherboard/motherboard.jpg,MSI,MAG Z590 TOMAHAWK WIFI,1028.16,4,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069189,/images/motherboard/motherboard.jpg,Gigabyte,Z490M,645.26,8,Z490,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069190,/images/motherboard/motherboard.jpg,ASRock,Fatal1ty X299 Professional Gaming i9,2087.55,2,X299,LGA2066,ATX,8,128
-608dd537905ec60bdc069191,/images/motherboard/motherboard.jpg,ASRock,X299 Extreme4,1239.84,2,X299,LGA2066,ATX,8,128
-608dd537905ec60bdc069192,/images/motherboard/motherboard.jpg,ASRock,X299 Taichi CLX,1786.46,2,X299,LGA2066,ATX,8,256
-608dd537905ec60bdc069193,/images/motherboard/motherboard.jpg,Asus,PRIME X299-DELUXE,3163.46,3,X299,LGA2066,ATX,8,128
-608dd537905ec60bdc069194,/images/motherboard/motherboard.jpg,Asus,Prime X299-Deluxe II,2242.35,3,X299,LGA2066,ATX,8,128
-608dd537905ec60bdc069195,/images/motherboard/motherboard.jpg,Asus,ROG Strix X299-E Gaming II,1826.51,3,X299,LGA2066,ATX,8,256
-608dd537905ec60bdc069196,/images/motherboard/motherboard.jpg,Asus,TUF X299 MARK 1,1457.37,3,X299,LGA2066,ATX,8,128
-608dd537905ec60bdc069197,/images/motherboard/motherboard.jpg,Asus,WS X299 PRO,2245.5,3,X299,LGA2066,ATX,8,128
-608dd537905ec60bdc069198,/images/motherboard/motherboard.jpg,EVGA,X299 MICRO ATX 2,1452.96,2,X299,LGA2066,Micro ATX,4,64
-608dd537905ec60bdc069199,/images/motherboard/motherboard.jpg,Gigabyte,X299 UD4 Pro,1079.51,4,X299,LGA2066,ATX,8,128
-608dd537905ec60bdc069200,/images/motherboard/motherboard.jpg,MSI,X299 PRO,1210.5,3,X299,LGA2066,ATX,8,256
-608dd537905ec60bdc069201,/images/motherboard/motherboard.jpg,ASRock,TRX40 Creator,1956.87,3.7,TRX40,sTRX4,ATX,8,256
-608dd537905ec60bdc069202,/images/motherboard/motherboard.jpg,ASRock,TRX40 TAICHI,2179.98,3,TRX40,sTRX4,ATX,8,256
-608dd537905ec60bdc069203,/images/motherboard/motherboard.jpg,Asus,Prime TRX40-Pro,2159.55,4.3,TRX40,sTRX4,ATX,8,256
-608dd537905ec60bdc069204,/images/motherboard/motherboard.jpg,Asus,ROG Strix TRX40-E Gaming,2196.18,1.7,TRX40,sTRX4,ATX,8,256
-608dd537905ec60bdc069205,/images/motherboard/motherboard.jpg,Asus,ROG STRIX TRX40-XE GAMING,2485.49,1.7,TRX40,sTRX4,ATX,8,256
-608dd537905ec60bdc069206,/images/motherboard/motherboard.jpg,Gigabyte,TRX40 AORUS PRO WIFI,1857.38,3,TRX40,sTRX4,ATX,8,256
-608dd537905ec60bdc069207,/images/motherboard/motherboard.jpg,MSI,TRX40 PRO 10G,2278.76,3,TRX40,sTRX4,ATX,8,256
-608dd537905ec60bdc069208,/images/motherboard/motherboard.jpg,MSI,TRX40 PRO WIFI,1781.64,3,TRX40,sTRX4,ATX,8,256
-608dd537905ec60bdc069209,/images/motherboard/motherboard.jpg,MSI,MAG B550M MORTAR WIFI,702.86,2.7,B550,AM4,Micro ATX,4,128
-608dd537905ec60bdc069210,/images/motherboard/motherboard.jpg,MSI,MPG B550 GAMING CARBON WIFI,859.23,2,B550,AM4,ATX,4,128
-608dd537905ec60bdc069211,/images/motherboard/motherboard.jpg,MSI,MPG B550 GAMING PLUS,589.59,2.7,B550,AM4,ATX,4,128
-608dd537905ec60bdc069212,/images/motherboard/motherboard.jpg,MSI,B450M MORTAR MAX,402.98,5,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069213,/images/motherboard/motherboard.jpg,MSI,B450M MORTAR TITANIUM,443.25,5,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069214,/images/motherboard/motherboard.jpg,MSI,X470 GAMING PLUS,562.05,5.3,X470,AM4,ATX,4,64
-608dd537905ec60bdc069215,/images/motherboard/motherboard.jpg,MSI,X470 GAMING PLUS MAX,449.73,5.3,X470,AM4,ATX,4,64
-608dd537905ec60bdc069216,/images/motherboard/motherboard.jpg,MSI,B450 Gaming Plus,521.55,5.3,B450,AM4,ATX,4,64
-608dd537905ec60bdc069217,/images/motherboard/motherboard.jpg,MSI,B450 Gaming Plus MAX,384.75,5.3,B450,AM4,ATX,4,64
-608dd537905ec60bdc069218,/images/motherboard/motherboard.jpg,MSI,B450-A PRO,517.05,5.3,B450,AM4,ATX,4,64
-608dd537905ec60bdc069219,/images/motherboard/motherboard.jpg,MSI,B450-A PRO MAX,341.55,5.3,B450,AM4,ATX,4,64
-608dd537905ec60bdc069220,/images/motherboard/motherboard.jpg,MSI,B450I GAMING PLUS AC,619.56,5.3,B450,AM4,Mini ITX,2,64
-608dd537905ec60bdc069221,/images/motherboard/motherboard.jpg,MSI,B450I GAMING PLUS MAX WIFI,555.03,5.3,B450,AM4,Mini ITX,2,64
-608dd537905ec60bdc069222,/images/motherboard/motherboard.jpg,MSI,B450M GAMING PLUS,363.87,5.3,B450,AM4,Micro ATX,2,32
-608dd537905ec60bdc069223,/images/motherboard/motherboard.jpg,MSI,MPG X570 GAMING EDGE WIFI,805.5,5.7,X570,AM4,ATX,4,128
-608dd537905ec60bdc069224,/images/motherboard/motherboard.jpg,MSI,MPG X570 GAMING PLUS,692.55,6,X570,AM4,ATX,4,128
-608dd537905ec60bdc069225,/images/motherboard/motherboard.jpg,MSI,X570-A PRO,647.46,6,X570,AM4,ATX,4,128
-608dd537905ec60bdc069226,/images/motherboard/motherboard.jpg,ASRock,Fatal1ty X470 Gaming K4,784.31,6,X470,AM4,ATX,4,64
-608dd537905ec60bdc069227,/images/motherboard/motherboard.jpg,ASRock,X470 Master SLI,633.56,6,X470,AM4,ATX,4,64
-608dd537905ec60bdc069228,/images/motherboard/motherboard.jpg,ASRock,Fatal1ty X470 Gaming-ITX/ac,1323.32,6,X470,AM4,Mini ITX,2,32
-608dd537905ec60bdc069229,/images/motherboard/motherboard.jpg,ASRock,B450 Pro4,373.59,6,B450,AM4,ATX,4,64
-608dd537905ec60bdc069230,/images/motherboard/motherboard.jpg,ASRock,B450 Steel Legend,427.05,6,B450,AM4,ATX,4,64
-608dd537905ec60bdc069231,/images/motherboard/motherboard.jpg,ASRock,B450M PRO4,316.35,6,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069232,/images/motherboard/motherboard.jpg,ASRock,B450M Pro4-F,337.59,6,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069233,/images/motherboard/motherboard.jpg,ASRock,B450M Steel Legend,365.76,6,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069234,/images/motherboard/motherboard.jpg,ASRock,Fatal1ty B450 GAMING K4,399.51,6,B450,AM4,ATX,4,64
-608dd537905ec60bdc069235,/images/motherboard/motherboard.jpg,ASRock,Fatal1ty B450 Gaming-ITX/ac,498.96,6,B450,AM4,Mini ITX,2,64
-608dd537905ec60bdc069236,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B450-E GAMING,1000.53,6,B450,AM4,ATX,4,64
-608dd537905ec60bdc069237,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B450-F GAMING II,509.36,6,B450,AM4,ATX,4,128
-608dd537905ec60bdc069238,/images/motherboard/motherboard.jpg,Asus,TUF GAMING B450-PLUS II,459,6,B450,AM4,ATX,4,128
-608dd537905ec60bdc069239,/images/motherboard/motherboard.jpg,Asus,TUF GAMING B450M-PRO S,620.73,6,B450,AM4,Micro ATX,4,128
-608dd537905ec60bdc069240,/images/motherboard/motherboard.jpg,MSI,B450M PRO-VDH MAX,337.41,6,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069241,/images/motherboard/motherboard.jpg,Asus,PRIME B450-PLUS,372.6,7,B450,AM4,ATX,4,64
-608dd537905ec60bdc069242,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B450-F GAMING,493.61,7,B450,AM4,ATX,4,64
-608dd537905ec60bdc069243,/images/motherboard/motherboard.jpg,Asus,TUF B450-PLUS GAMING,465.48,7,B450,AM4,ATX,4,64
-608dd537905ec60bdc069244,/images/motherboard/motherboard.jpg,Asus,TUF B450M-PLUS GAMING,418.46,7,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069245,/images/motherboard/motherboard.jpg,Gigabyte,B450 AORUS ELITE,402.3,7,B450,AM4,ATX,4,64
-608dd537905ec60bdc069246,/images/motherboard/motherboard.jpg,Gigabyte,B450 AORUS ELITE V2,431.87,7,B450,AM4,ATX,4,128
-608dd537905ec60bdc069247,/images/motherboard/motherboard.jpg,Gigabyte,B450 AORUS M,314.78,7,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069248,/images/motherboard/motherboard.jpg,Gigabyte,B450 AORUS PRO,407.39,7,B450,AM4,ATX,4,64
-608dd537905ec60bdc069249,/images/motherboard/motherboard.jpg,Gigabyte,B450 AORUS PRO WIFI (rev. 1.0),932.13,7,B450,AM4,ATX,4,64
-608dd537905ec60bdc069250,/images/motherboard/motherboard.jpg,Gigabyte,B450M DS3H,292.05,7,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069251,/images/motherboard/motherboard.jpg,Gigabyte,B450M DS3H V2,310.46,7,B450,AM4,Micro ATX,4,128
-608dd537905ec60bdc069252,/images/motherboard/motherboard.jpg,MSI,B450M PRO-M2,383.99,7.3,B450,AM4,Micro ATX,2,32
-608dd537905ec60bdc069253,/images/motherboard/motherboard.jpg,MSI,B450M PRO-M2 MAX,306.09,7.3,B450,AM4,Micro ATX,2,32
-608dd537905ec60bdc069254,/images/motherboard/motherboard.jpg,ASRock,B450M-HDV,418.73,8,B450,AM4,Micro ATX,2,32
-608dd537905ec60bdc069255,/images/motherboard/motherboard.jpg,ASRock,B450M-HDV R4.0,251.51,8,B450,AM4,Micro ATX,2,32
-608dd537905ec60bdc069256,/images/motherboard/motherboard.jpg,Asus,PRIME B450M-A,350.91,8,B450,AM4,Micro ATX,4,64
-608dd537905ec60bdc069257,/images/motherboard/motherboard.jpg,Asus,PRIME B450M-K,346.01,8,B450,AM4,Micro ATX,2,32
-608dd537905ec60bdc069258,/images/motherboard/motherboard.jpg,Gigabyte,B450M H,256.5,8,B450,AM4,Micro ATX,2,32
-608dd537905ec60bdc069259,/images/motherboard/motherboard.jpg,ASRock,B365M Phantom Gaming 4,421.61,5,B365,LGA1151,Micro ATX,4,128
-608dd537905ec60bdc069260,/images/motherboard/motherboard.jpg,ASRock,B365M Pro4,373.46,5,B365,LGA1151,Micro ATX,4,64
-608dd537905ec60bdc069261,/images/motherboard/motherboard.jpg,ASRock,B365M-HDV,275.18,5,B365,LGA1151,Micro ATX,2,32
-608dd537905ec60bdc069262,/images/motherboard/motherboard.jpg,Asus,ROG MAXIMUS XI CODE,3430.08,1,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069263,/images/motherboard/motherboard.jpg,Asus,ROG MAXIMUS XI GENE,1569.11,1,Z390,LGA1151,Micro ATX,2,64
-608dd537905ec60bdc069264,/images/motherboard/motherboard.jpg,Asus,TUF Z390-PLUS GAMING (WI-FI),836.51,2,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069265,/images/motherboard/motherboard.jpg,Asus,TUF Z390M-PRO GAMING (WI-FI),1615.5,2,Z390,LGA1151,Micro ATX,4,128
-608dd537905ec60bdc069266,/images/motherboard/motherboard.jpg,Asus,WS Z390 PRO,1782.09,3,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069267,/images/motherboard/motherboard.jpg,Gigabyte,Z390 AORUS PRO,872.78,2,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069268,/images/motherboard/motherboard.jpg,Gigabyte,Z390 D,463.59,4,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069269,/images/motherboard/motherboard.jpg,Gigabyte,Z390 GAMING SLI,991.08,2,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069270,/images/motherboard/motherboard.jpg,Gigabyte,Z390 GAMING X,826.52,3,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069271,/images/motherboard/motherboard.jpg,Gigabyte,Z390 UD,504.09,4,Z390,LGA1151,ATX,4,128
-608dd537905ec60bdc069272,/images/motherboard/motherboard.jpg,Gigabyte,Z390 M GAMING,779.45,2,Z390,LGA1151,Micro ATX,4,128
-608dd537905ec60bdc069273,/images/motherboard/motherboard.jpg,MSI,B365M PRO-VDH,349.88,5,B365,LGA1151,Micro ATX,4,64
-608dd537905ec60bdc069274,/images/motherboard/motherboard.jpg,MSI,B365M-PRO-VH,337.5,5,B365,LGA1151,Micro ATX,2,32
-608dd537905ec60bdc069275,/images/motherboard/motherboard.jpg,MSI,MAG B365M MORTAR,365.85,4,B365,LGA1151,Micro ATX,4,64
-608dd537905ec60bdc069276,/images/motherboard/motherboard.jpg,ASRock,B460M Pro4,424.58,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069277,/images/motherboard/motherboard.jpg,ASRock,B460M Steel Legend,516.51,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069278,/images/motherboard/motherboard.jpg,ASRock,B460M-HDV,372.83,7,B460,LGA1200,Micro ATX,2,64
-608dd537905ec60bdc069279,/images/motherboard/motherboard.jpg,ASRock,B560M PRO4,548.51,7,B560,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069280,/images/motherboard/motherboard.jpg,ASRock,B560M-HDV,422.96,7,B560,LGA1200,Micro ATX,2,64
-608dd537905ec60bdc069281,/images/motherboard/motherboard.jpg,ASRock,H470M Pro4,621.72,7,H470,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069282,/images/motherboard/motherboard.jpg,ASRock,H570M Pro4,544.01,7,H570,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069283,/images/motherboard/motherboard.jpg,Gigabyte,Z490M GAMING X,756.27,7,Z490,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069284,/images/motherboard/motherboard.jpg,MSI,MAG Z590 TORPEDO,1061.73,5,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069285,/images/motherboard/motherboard.jpg,MSI,MEG Z590 ACE,2020.5,1,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069286,/images/motherboard/motherboard.jpg,Asus,PRIME B460M-A,414.09,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069287,/images/motherboard/motherboard.jpg,Asus,PRIME B460M-K,364.59,7,B460,LGA1200,Micro ATX,2,64
-608dd537905ec60bdc069288,/images/motherboard/motherboard.jpg,MSI,MEG Z590I UNIFY,1431.9,3,Z590,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069289,/images/motherboard/motherboard.jpg,Asus,Pro B460M-C/CSM,542.66,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069290,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B460-G GAMING,639.09,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069291,/images/motherboard/motherboard.jpg,MSI,MEG Z490 ACE,1534.46,1,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069292,/images/motherboard/motherboard.jpg,MSI,MEG Z490 UNIFY,1387.76,1,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069293,/images/motherboard/motherboard.jpg,Asus,TUF GAMING B460M-PLUS,499.64,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069294,/images/motherboard/motherboard.jpg,Asus,TUF GAMING B460M-PLUS (WI-FI),534.96,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069295,/images/motherboard/motherboard.jpg,Asus,TUF GAMING B560M-PLUS WIFI,701.55,6,B560,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069296,/images/motherboard/motherboard.jpg,Gigabyte,B460M AORUS PRO,486.09,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069297,/images/motherboard/motherboard.jpg,Gigabyte,B460M D2V,488.21,7,B460,LGA1200,Micro ATX,2,64
-608dd537905ec60bdc069298,/images/motherboard/motherboard.jpg,Gigabyte,B460M D3H,423.09,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069299,/images/motherboard/motherboard.jpg,Gigabyte,B460M DS3H,478.58,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069300,/images/motherboard/motherboard.jpg,Gigabyte,B460M GAMING HD,363.42,7,B460,LGA1200,Micro ATX,2,64
-608dd537905ec60bdc069301,/images/motherboard/motherboard.jpg,Gigabyte,B560M AORUS PRO,670.59,6,B560,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069302,/images/motherboard/motherboard.jpg,Gigabyte,B560M AORUS PRO AX,747.09,6,B560,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069303,/images/motherboard/motherboard.jpg,MSI,MEG Z490I UNIFY,1061.96,3,Z490,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069304,/images/motherboard/motherboard.jpg,MSI,B460M PRO,388.76,7,B460,LGA1200,Micro ATX,2,64
-608dd537905ec60bdc069305,/images/motherboard/motherboard.jpg,MSI,B460M PRO-VDH,433.35,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069306,/images/motherboard/motherboard.jpg,MSI,B460M PRO-VDH WIFI,485.96,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069307,/images/motherboard/motherboard.jpg,MSI,B460M-A PRO,364.19,7,B460,LGA1200,Micro ATX,2,64
-608dd537905ec60bdc069308,/images/motherboard/motherboard.jpg,MSI,B560M PRO,504.95,7,B560,LGA1200,Micro ATX,2,64
-608dd537905ec60bdc069309,/images/motherboard/motherboard.jpg,MSI,MAG B460M BAZOOKA,549.23,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069310,/images/motherboard/motherboard.jpg,MSI,MAG B460M MORTAR,580.5,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069311,/images/motherboard/motherboard.jpg,MSI,MAG B460M MORTAR WIFI,609.26,7,B460,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069312,/images/motherboard/motherboard.jpg,MSI,MAG B560M BAZOOKA,645.03,7,B560,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069313,/images/motherboard/motherboard.jpg,MSI,MAG B560M MORTAR WIFI,838.17,6,B560,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069314,/images/motherboard/motherboard.jpg,MSI,MPG Z490 GAMING CARBON WIFI,1214.96,5,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069315,/images/motherboard/motherboard.jpg,MSI,X299 PRO 10G,1676.3,3,X299,LGA2066,ATX,8,256
-608dd537905ec60bdc069316,/images/motherboard/motherboard.jpg,MSI,B450M-A PRO MAX,271.62,8,B450,AM4,Micro ATX,2,32
-608dd537905ec60bdc069317,/images/motherboard/motherboard.jpg,Gigabyte,A520 AORUS ELITE,393.8,8,A520,AM4,ATX,4,128
-608dd537905ec60bdc069318,/images/motherboard/motherboard.jpg,ASRock,A520M-HDV,281.48,8,A520,AM4,Micro ATX,2,64
-608dd537905ec60bdc069319,/images/motherboard/motherboard.jpg,ASRock,A520M-HVS,293.36,8,A520,AM4,Micro ATX,2,64
-608dd537905ec60bdc069320,/images/motherboard/motherboard.jpg,Asus,PRIME A520M-E,313.16,8,A520,AM4,Micro ATX,2,64
-608dd537905ec60bdc069321,/images/motherboard/motherboard.jpg,Asus,PRIME A520M-K,296.55,8,A520,AM4,Micro ATX,2,64
-608dd537905ec60bdc069322,/images/motherboard/motherboard.jpg,Asus,TUF GAMING A520M-PLUS,364.01,8,A520,AM4,Micro ATX,4,128
-608dd537905ec60bdc069323,/images/motherboard/motherboard.jpg,Gigabyte,A520M AORUS ELITE,432.09,8,A520,AM4,Micro ATX,4,128
-608dd537905ec60bdc069324,/images/motherboard/motherboard.jpg,Gigabyte,A520M H,269.96,8,A520,AM4,Micro ATX,2,64
-608dd537905ec60bdc069325,/images/motherboard/motherboard.jpg,Gigabyte,A520M S2H,265.46,8,A520,AM4,Micro ATX,2,64
-608dd537905ec60bdc069326,/images/motherboard/motherboard.jpg,MSI,A520M PRO,324.23,8,A520,AM4,Micro ATX,2,64
-608dd537905ec60bdc069327,/images/motherboard/motherboard.jpg,MSI,A520M-A PRO,315.09,8,A520,AM4,Micro ATX,2,64
-608dd537905ec60bdc069328,/images/motherboard/motherboard.jpg,MSI,MAG A520M VECTOR WIFI,381.83,8,A520,AM4,Micro ATX,2,64
-608dd537905ec60bdc069329,/images/motherboard/motherboard.jpg,ASRock,A520M-ITX/ac,463.05,8,A520,AM4,Mini ITX,2,64
-608dd537905ec60bdc069330,/images/motherboard/motherboard.jpg,Gigabyte,A520I AC,485.55,8,A520,AM4,Mini ITX,2,64
-608dd537905ec60bdc069331,/images/motherboard/motherboard.jpg,ASRock,B365M-ITX/ac,437.36,5,B365,LGA1151,Mini ITX,2,32
-608dd537905ec60bdc069332,/images/motherboard/motherboard.jpg,ASRock,B460M-ITX/ac,539.42,7,B460,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069333,/images/motherboard/motherboard.jpg,ASRock,B560M-ITX/ac,491.58,7,B560,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069334,/images/motherboard/motherboard.jpg,ASRock,H470M-ITX/ac,772.79,7,H470,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069335,/images/motherboard/motherboard.jpg,ASRock,H570M-ITX/ac,647.51,7,H570,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069336,/images/motherboard/motherboard.jpg,MSI,MPG Z490 GAMING EDGE WIFI,936,5,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069337,/images/motherboard/motherboard.jpg,MSI,MPG Z490 GAMING PLUS,724.05,6,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069338,/images/motherboard/motherboard.jpg,MSI,MPG Z590 GAMING CARBON WIFI,1444.23,3,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069339,/images/motherboard/motherboard.jpg,Asus,PRIME B460I-PLUS,520.88,7,B460,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069340,/images/motherboard/motherboard.jpg,Asus,ROG STRIX B460-I GAMING,706.28,7,B460,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069341,/images/motherboard/motherboard.jpg,Asus,ROG STRIX H470-I GAMING,679.5,7,H470,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069342,/images/motherboard/motherboard.jpg,MSI,MPG Z490M GAMING EDGE WIFI,924.71,5.3,Z490,LGA1200,Micro ATX,4,128
-608dd537905ec60bdc069343,/images/motherboard/motherboard.jpg,MSI,MPG Z590 GAMING EDGE WIFI,1434.6,3,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069344,/images/motherboard/motherboard.jpg,MSI,Z490-A PRO,748.76,5,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069345,/images/motherboard/motherboard.jpg,MSI,MPG Z590 GAMING FORCE,1378.31,3,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069346,/images/motherboard/motherboard.jpg,MSI,Z590 PRO WIFI,895.5,6,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069347,/images/motherboard/motherboard.jpg,NZXT,N7 Z490,1020.56,,Z490,LGA1200,ATX,4,128
-608dd537905ec60bdc069348,/images/motherboard/motherboard.jpg,MSI,Z590-A PRO,805.5,6,Z590,LGA1200,ATX,4,128
-608dd537905ec60bdc069349,/images/motherboard/motherboard.jpg,MSI,MPG B460I GAMING EDGE WIFI,679.91,7,B460,LGA1200,Mini ITX,2,64
-608dd537905ec60bdc069350,/images/motherboard/motherboard.jpg,MSI,X299-A PRO,1423.08,3,X299,LGA2066,ATX,8,256
+608dd537905ec60bdc069000,/images/motherboard/c24006eeef3effdb643769c5edf21d1b.256p.jpg,Asus,ROG Crosshair VIII Dark Hero,2179.76,1,X570,AM4,ATX,4,128
+608dd537905ec60bdc069001,/images/motherboard/c24006eeef3effdb643769c5edf21d1b.256p.jpg,Asus,ROG Crosshair VIII Formula,2556.41,1,X570,AM4,ATX,4,128
+608dd537905ec60bdc069002,/images/motherboard/c24006eeef3effdb643769c5edf21d1b.256p.jpg,Asus,ROG Crosshair VIII Hero,1912.5,1,X570,AM4,ATX,4,128
+608dd537905ec60bdc069003,/images/motherboard/c24006eeef3effdb643769c5edf21d1b.256p.jpg,Asus,ROG Crosshair VIII Hero (WI-FI),1961.51,1,X570,AM4,ATX,4,128
+608dd537905ec60bdc069004,/images/motherboard/61fgOAI2PuL.jpg,Gigabyte,X570 AORUS MASTER,1488.87,1.7,X570,AM4,ATX,4,128
+608dd537905ec60bdc069005,/images/motherboard/7fac2531fd84562ab9ca62b2c32f1f4d.256p.jpg,MSI,MAG X570 TOMAHAWK WIFI,956.21,1.7,X570,AM4,ATX,4,128
+608dd537905ec60bdc069006,/images/motherboard/29c3c9cef2ad68a27259fb7a4f93be16.256p.jpg,ASRock,X570 CREATOR,2194.43,2,X570,AM4,ATX,4,128
+608dd537905ec60bdc069007,/images/motherboard/a3b75c1c43405c9460434fc5f434139d.256p.jpg,Asus,ROG Strix X570-E Gaming,1362.96,2,X570,AM4,ATX,4,128
+608dd537905ec60bdc069008,/images/motherboard/a997f929e59ac43cd8f3624831ad6076.256p.jpg,MSI,MEG X570 ACE,1563.39,2,X570,AM4,ATX,4,128
+608dd537905ec60bdc069009,/images/motherboard/ceb331fef7af4383c3e3c11e0eb889df.256p.jpg,MSI,MEG X570 UNIFY,1315.76,2,X570,AM4,ATX,4,128
+608dd537905ec60bdc069010,/images/motherboard/9599433f6ef2a7256041de15ee3d1be9.256p.jpg,ASRock,X570 Phantom Gaming X,1554.03,2.3,X570,AM4,ATX,4,128
+608dd537905ec60bdc069011,/images/motherboard/a43cfe6b3deca519ea05604568cb0b4b.256p.jpg,ASRock,X570 Taichi,1276.02,2.3,X570,AM4,ATX,4,128
+608dd537905ec60bdc069012,/images/motherboard/a3b75c1c43405c9460434fc5f434139d.256p.jpg,Asus,ROG Strix X570-F Gaming,1048.59,2.7,X570,AM4,ATX,4,128
+608dd537905ec60bdc069013,/images/motherboard/c96321a1e039a1f7fd1bc917c5ae72b7.256p.jpg,Asus,TUF GAMING X570-PLUS,881.73,2.7,X570,AM4,ATX,4,128
+608dd537905ec60bdc069014,/images/motherboard/c96321a1e039a1f7fd1bc917c5ae72b7.256p.jpg,Asus,TUF GAMING X570-PLUS (WI-FI),913.59,2.7,X570,AM4,ATX,4,128
+608dd537905ec60bdc069015,/images/motherboard/2131ac4689d1bfc99721a81de8904a52.256p.jpg,Asus,PRIME X570-P,706.59,3,X570,AM4,ATX,4,128
+608dd537905ec60bdc069016,/images/motherboard/41h6pPmdmPL.jpg,Gigabyte,X570 AORUS PRO,923.99,3,X570,AM4,ATX,4,128
+608dd537905ec60bdc069017,/images/motherboard/98611dd0985f37fc66676d41b2588727.256p.jpg,Gigabyte,X570 AORUS ULTRA,1241.73,3,X570,AM4,ATX,4,128
+608dd537905ec60bdc069018,/images/motherboard/896d25ea1d8ea692bf45a9e527dfb076.256p.jpg,ASRock,X570 PHANTOM GAMING-ITX/TB3,1031.18,3,X570,AM4,Mini ITX,2,64
+608dd537905ec60bdc069019,/images/motherboard/a3b75c1c43405c9460434fc5f434139d.256p.jpg,Asus,ROG Strix X570-I Gaming,1255.5,3,X570,AM4,Mini ITX,2,64
+608dd537905ec60bdc069020,/images/motherboard/bc40b4ffd4af9722d780e04aa9468fe3.256p.jpg,Asus,TUF B450M-PRO GAMING,407.88,3,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069021,/images/motherboard/974f48fb1fd0b2032cb549076173f522.256p.jpg,ASRock,X570 Steel Legend,951.03,3.3,X570,AM4,ATX,4,128
+608dd537905ec60bdc069022,/images/motherboard/e676befe5917bc8a763d340006a082fd.256p.jpg,ASRock,X470 Taichi,1310.4,3.3,X470,AM4,ATX,4,64
+608dd537905ec60bdc069023,/images/motherboard/76e7c8c0e2dc42ca53d84ae41585dd5f.256p.jpg,ASRock,X470 Taichi Ultimate,1633.64,3.3,X470,AM4,ATX,4,64
+608dd537905ec60bdc069024,/images/motherboard/61fgOAI2PuL.jpg,Gigabyte,X570 AORUS ELITE,818.96,3.7,X570,AM4,ATX,4,128
+608dd537905ec60bdc069025,/images/motherboard/61fgOAI2PuL.jpg,Gigabyte,X570 AORUS ELITE WIFI,1102.86,3.7,X570,AM4,ATX,4,128
+608dd537905ec60bdc069026,/images/motherboard/46d2f6f499b5e22e0623c64a7210ccd4.256p.jpg,MSI,X470 GAMING M7 AC,1225.76,3.7,X470,AM4,ATX,4,64
+608dd537905ec60bdc069027,/images/motherboard/2d1b2aac65d64d9f823e33f0680fa5c3.256p.jpg,ASRock,X570 Extreme4,1084.23,4,X570,AM4,ATX,4,128
+608dd537905ec60bdc069028,/images/motherboard/4ac5fcf37af5a71a74472e422afaee80.256p.jpg,Gigabyte,X570 I AORUS PRO WIFI,899.96,4,X570,AM4,Mini ITX,2,64
+608dd537905ec60bdc069029,/images/motherboard/75e744946902a18df556c10f40ccbb35.256p.jpg,ASRock,X570 Pro4,652.46,4.3,X570,AM4,ATX,4,128
+608dd537905ec60bdc069030,/images/motherboard/61-2pWUi57L.jpg,ASRock,X570M Pro4,804.96,4.3,X570,AM4,Micro ATX,4,128
+608dd537905ec60bdc069031,/images/motherboard/4ac5fcf37af5a71a74472e422afaee80.256p.jpg,Gigabyte,X570 GAMING X,688.05,5,X570,AM4,ATX,4,128
+608dd537905ec60bdc069032,/images/motherboard/575459297fc3c5490b6a3878a2bd578f.256p.jpg,Gigabyte,X570 UD,843.84,5,X570,AM4,ATX,4,128
+608dd537905ec60bdc069033,/images/motherboard/a6ae20785466eef236198522ad3a4fa5.256p.jpg,MSI,B450 GAMING PRO CARBON AC,1165.5,5,B450,AM4,ATX,4,64
+608dd537905ec60bdc069034,/images/motherboard/a6ae20785466eef236198522ad3a4fa5.256p.jpg,MSI,B450 GAMING PRO CARBON MAX WIFI,584.55,5,B450,AM4,ATX,4,128
+608dd537905ec60bdc069035,/images/motherboard/8ba566ff15c0bdf7435a68cc0e5152fa.256p.jpg,MSI,B450 TOMAHAWK,355.5,5,B450,AM4,ATX,4,64
+608dd537905ec60bdc069036,/images/motherboard/8ba566ff15c0bdf7435a68cc0e5152fa.256p.jpg,MSI,B450 TOMAHAWK MAX,400.5,5,B450,AM4,ATX,4,64
+608dd537905ec60bdc069037,/images/motherboard/118d595f83da3a4df004e96aeb90b6b1.256p.jpg,MSI,B450 TOMAHAWK MAX II,440.96,5,B450,AM4,ATX,4,128
+608dd537905ec60bdc069038,/images/motherboard/b2720d644220687e658907133bc6154d.256p.jpg,MSI,B450M BAZOOKA MAX WIFI,528.57,5,B450,AM4,Micro ATX,4,128
+608dd537905ec60bdc069039,/images/motherboard/e4d37ed51507e14a982aea0501f1a44c.256p.jpg,MSI,B450M MORTAR,415.67,5,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069040,/images/motherboard/51TSL-pmMOL.jpg,ASRock,B550 PG Velocita,861.71,3.3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069041,/images/motherboard/2321dbf8b4af82da7d9e82b90e3e1e86.256p.jpg,ASRock,B550 Phantom Gaming 4,472.59,5.3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069042,/images/motherboard/51S3r3XOy4L.jpg,ASRock,B550 Phantom Gaming 4/ac,524.7,5.3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069043,/images/motherboard/51jnctILCqL.jpg,ASRock,B550 Phantom Gaming-ITX/ax,888.71,4,B550,AM4,Mini ITX,2,64
+608dd537905ec60bdc069044,/images/motherboard/9c582991edb4ccf7cdaaab81543bf668.256p.jpg,ASRock,B550 Pro4,581.18,5.3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069045,/images/motherboard/51RUjQTRdkL.jpg,ASRock,B550 Steel Legend,785.52,3.3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069046,/images/motherboard/510ObI8mRmL.jpg,ASRock,B550 Taichi,1248.98,2,B550,AM4,ATX,4,128
+608dd537905ec60bdc069047,/images/motherboard/ec80afe70f19afab3d9c70d0a62e4104.256p.jpg,ASRock,B550M Phantom Gaming 4,416.84,5.3,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069048,/images/motherboard/472d12f3f649d3c11155e02f9fd70e22.256p.jpg,ASRock,B550M Pro4,472.32,5.3,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069049,/images/motherboard/e45d552e13e60103e6fa9e4c89345e65.256p.jpg,ASRock,B550M Steel Legend,594.36,4.3,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069050,/images/motherboard/515LtxB77aL.jpg,ASRock,B550M-ITX/ac,581.49,8,B550,AM4,Mini ITX,2,64
+608dd537905ec60bdc069051,/images/motherboard/b78a4d2aa4d50e061211af815e31e3b2.256p.jpg,Asus,PRIME B550-PLUS,607.05,8,B550,AM4,ATX,4,128
+608dd537905ec60bdc069052,/images/motherboard/a608e30c64ccadf8dc8c1d2fcd3be2d7.256p.jpg,Asus,PRIME B550M-A,479.61,8,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069053,/images/motherboard/514Wq5JHWRL.jpg,Asus,PRIME B550M-A (WI-FI),562.05,8,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069054,/images/motherboard/8ce406d6c564d26dad9c5d31717ce8c2.256p.jpg,Asus,PRIME B550M-A/CSM,552.96,8,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069055,/images/motherboard/b763277f0ff72f671b15e8cf62ad7221.256p.jpg,Asus,PRIME B550M-K,450,8,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069056,/images/motherboard/75739b96d1131e6dbeb04e9006553892.256p.jpg,Asus,ROG STRIX B550-A GAMING,706.59,2.7,B550,AM4,ATX,4,128
+608dd537905ec60bdc069057,/images/motherboard/75739b96d1131e6dbeb04e9006553892.256p.jpg,Asus,ROG STRIX B550-E GAMING,981,1.7,B550,AM4,ATX,4,128
+608dd537905ec60bdc069058,/images/motherboard/75739b96d1131e6dbeb04e9006553892.256p.jpg,Asus,ROG STRIX B550-F GAMING,778.23,2.7,B550,AM4,ATX,4,128
+608dd537905ec60bdc069059,/images/motherboard/75739b96d1131e6dbeb04e9006553892.256p.jpg,Asus,ROG STRIX B550-F GAMING (WI-FI),812.66,2.7,B550,AM4,ATX,4,128
+608dd537905ec60bdc069060,/images/motherboard/75739b96d1131e6dbeb04e9006553892.256p.jpg,Asus,ROG STRIX B550-I GAMING,899.55,4,B550,AM4,Mini ITX,2,64
+608dd537905ec60bdc069061,/images/motherboard/c053d6da37d85215460196e9d5b47129.256p.jpg,Asus,TUF GAMING B550-PLUS,621.09,3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069062,/images/motherboard/c053d6da37d85215460196e9d5b47129.256p.jpg,Asus,TUF GAMING B550-PLUS (WI-FI),670.59,3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069063,/images/motherboard/51m8B-gEwML.jpg,Asus,TUF GAMING B550M-PLUS,592.61,3,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069064,/images/motherboard/51m8B-gEwML.jpg,Asus,TUF GAMING B550M-PLUS (WI-FI),665.55,3,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069065,/images/motherboard/92478e7c05b1206120d4c5582388500e.256p.jpg,Gigabyte,B550 AORUS ELITE,662.22,3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069066,/images/motherboard/8885d4ef198d1a3c5d33430a932d5789.256p.jpg,Gigabyte,B550 AORUS ELITE AX,748.67,3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069067,/images/motherboard/8885d4ef198d1a3c5d33430a932d5789.256p.jpg,Gigabyte,B550 AORUS ELITE AX V2,748.67,3.3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069068,/images/motherboard/41196fe18ce134d254b96a4e5cac7fa2.256p.jpg,Gigabyte,B550 AORUS ELITE V2,634.23,3.3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069069,/images/motherboard/cec2d887c119fe9f7ad215aa022938c8.256p.jpg,Gigabyte,B550 AORUS MASTER,1192.46,1,B550,AM4,ATX,4,128
+608dd537905ec60bdc069070,/images/motherboard/c772cded968687080b566c95f2bf4ebc.256p.jpg,Gigabyte,B550 AORUS PRO,809.55,2,B550,AM4,ATX,4,128
+608dd537905ec60bdc069071,/images/motherboard/1009a4848207e1aef6dc810d47ba4b38.256p.jpg,Gigabyte,B550 AORUS PRO AC,814.05,2,B550,AM4,ATX,4,128
+608dd537905ec60bdc069072,/images/motherboard/9e69dc7f3a9c5f7f44040d7e568e12cd.256p.jpg,Gigabyte,B550 AORUS PRO AX,946.76,2,B550,AM4,ATX,4,128
+608dd537905ec60bdc069073,/images/motherboard/51xlxSRmZuL.jpg,Gigabyte,B550 AORUS PRO V2,775.94,2.3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069074,/images/motherboard/ad927ac5699f64e9266ff834207c330f.256p.jpg,Gigabyte,B550 GAMING X,589.05,5.3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069075,/images/motherboard/66e20933210fd30079deced324d28fb5.256p.jpg,Gigabyte,B550 VISION D,1196.96,2,B550,AM4,ATX,4,128
+608dd537905ec60bdc069076,/images/motherboard/51n1nWrHEbL.jpg,Gigabyte,B550 VISION D-P,1445.13,2,B550,AM4,ATX,4,128
+608dd537905ec60bdc069077,/images/motherboard/51n1nWrHEbL.jpg,Gigabyte,B550I AORUS PRO AX,787.01,6,B550,AM4,Mini ITX,2,64
+608dd537905ec60bdc069078,/images/motherboard/55e1dfa874949b0ba8b804d3584d170c.256p.jpg,Gigabyte,B550M AORUS ELITE,449.55,5.7,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069079,/images/motherboard/b22b15a301bbfba8670a17c926e8669f.256p.jpg,Gigabyte,B550M DS3H,375.26,6,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069080,/images/motherboard/d1f6224000a91aaffc09b011516bede0.256p.jpg,Gigabyte,B550M GAMING,559.98,5.7,B550,AM4,Micro ATX,2,64
+608dd537905ec60bdc069081,/images/motherboard/64c03f78e274b935855ccf410fe63be4.256p.jpg,MSI,B550-A PRO,535.5,3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069082,/images/motherboard/cd4ef210d3d8dfca5503e8b301064744.256p.jpg,MSI,B550M PRO-VDH WIFI,522.09,5,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069083,/images/motherboard/61KAc2uql2L.jpg,MSI,MAG B550 TOMAHAWK,706.68,2.3,B550,AM4,ATX,4,128
+608dd537905ec60bdc069084,/images/motherboard/a17c97dadd5b6357253e2b6ac02b3674.256p.jpg,MSI,MAG B550M BAZOOKA,486.09,4.7,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069085,/images/motherboard/23e007cedb830463d4607e84df5e63b4.256p.jpg,MSI,MAG B550M MORTAR,611.33,2.7,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069086,/images/motherboard/b27a06d323dab8239b1ac9b146377542.256p.jpg,ASRock,B365 Phantom Gaming 4,481.01,5,B365,LGA1151,ATX,4,128
+608dd537905ec60bdc069087,/images/motherboard/fe5d9f5248603768fc736ddda80f445c.256p.jpg,ASRock,B365 Pro4,406.58,5,B365,LGA1151,ATX,4,64
+608dd537905ec60bdc069088,/images/motherboard/d2fd4253629b6610ec4cb4a5220e0f54.256p.jpg,ASRock,Z390 Extreme4,1043.73,3,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069089,/images/motherboard/2b02bc5f14c800bc66df1b8364788093.256p.jpg,ASRock,Z390 Phantom Gaming 4,674.37,4,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069090,/images/motherboard/149d9cfc82156a641cab6c9452c8a1f2.256p.jpg,ASRock,Z390 Pro4,482.36,4,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069091,/images/motherboard/33ba1abe454ebfee3c2903bb1fecb58c.256p.jpg,ASRock,Z390 Taichi,1484.19,2,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069092,/images/motherboard/bee3d1c5e595ba1c3b3dcf9852b5f734.256p.jpg,Asus,PRIME B365M-A,328.59,5,B365,LGA1151,Micro ATX,4,64
+608dd537905ec60bdc069093,/images/motherboard/206cc3e030a9ed2228ca1a0f91a96d53.256p.jpg,Asus,PRIME B365M-K,359.55,5,B365,LGA1151,Micro ATX,2,32
+608dd537905ec60bdc069094,/images/motherboard/9d9853909e7f285fe446ec8f29115399.256p.jpg,Asus,TUF B365M-PLUS GAMING,382.59,5,B365,LGA1151,Micro ATX,4,64
+608dd537905ec60bdc069095,/images/motherboard/122e9a153682a887a52d28ea65fda90a.256p.jpg,Asus,PRIME Z390-A,764.96,3,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069096,/images/motherboard/7709bacef3c1dff5fc91ceacff36bbbf.256p.jpg,Asus,PRIME Z390-P,535.59,3,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069097,/images/motherboard/51LlrU15k4L.jpg,Gigabyte,B365 HD3,586.94,5,B365,LGA1151,ATX,4,64
+608dd537905ec60bdc069098,/images/motherboard/7448e0b897e82f3dfa115a5722560657.256p.jpg,Gigabyte,B365 M AORUS ELITE,442.35,4,B365,LGA1151,Micro ATX,4,64
+608dd537905ec60bdc069099,/images/motherboard/5f6d03cb80d665d5aaecd4b6533033dd.256p.jpg,Gigabyte,B365M D2V,396.14,5,B365,LGA1151,Micro ATX,2,32
+608dd537905ec60bdc069100,/images/motherboard/5f6d03cb80d665d5aaecd4b6533033dd.256p.jpg,Gigabyte,B365M DS3H,340.52,5,B365,LGA1151,Micro ATX,4,64
+608dd537905ec60bdc069101,/images/motherboard/3c04344a1b2509d4ac87f067526ea9dd.256p.jpg,Gigabyte,GA-B365M-D3H,370.04,5,B365,LGA1151,Micro ATX,4,64
+608dd537905ec60bdc069102,/images/motherboard/a4f442ed42bf0185f8881f56936da69d.256p.jpg,Gigabyte,GA-B365M-H,309.83,5,B365,LGA1151,Micro ATX,2,32
+608dd537905ec60bdc069103,/images/motherboard/119baf5812908c1b92fd934720593cb2.256p.jpg,Gigabyte,Z390 AORUS ELITE,884.66,2,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069104,/images/motherboard/b44c9eb2fa9abaf62e3e7ce90ec7da3e.256p.jpg,Gigabyte,Z390 AORUS MASTER,1374.26,2,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069105,/images/motherboard/51DZf-KOjZL.jpg,MSI,MPG Z390 GAMING EDGE AC,1368.09,3,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069106,/images/motherboard/f68bd53f6c04fd23f6c3f2a1dfdaa1e2.256p.jpg,MSI,MPG Z390 GAMING PLUS,551.75,4,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069107,/images/motherboard/91d7402ac6c9d16afc48f31c5165cf3d.256p.jpg,MSI,MPG Z390 GAMING PRO CARBON,760.59,3,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069108,/images/motherboard/51XXxxhFdqL.jpg,MSI,Z390-A PRO,528.17,5,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069109,/images/motherboard/c260f3f95ce3c6ef17b2ffcdd4bbca2e.256p.jpg,ASRock,B460 Phantom Gaming 4,574.38,7,B460,LGA1200,ATX,4,128
+608dd537905ec60bdc069110,/images/motherboard/0e4e7daabc4283363b6b351e3f741fbc.256p.jpg,ASRock,B460 Pro4,445.5,7,B460,LGA1200,ATX,4,128
+608dd537905ec60bdc069111,/images/motherboard/0b5178a63b550f621cc01d7b830f367b.256p.jpg,ASRock,B460 Steel Legend,563.18,7,B460,LGA1200,ATX,4,128
+608dd537905ec60bdc069112,/images/motherboard/a6db53db17e0daae333dc2ab77f02b70.256p.jpg,ASRock,B560 Pro4,571.01,7,B560,LGA1200,ATX,4,128
+608dd537905ec60bdc069113,/images/motherboard/2ee3fa1251e7ddd5a51a88a97aa734c1.256p.jpg,ASRock,B560 Steel Legend,625.5,7,B560,LGA1200,ATX,4,128
+608dd537905ec60bdc069114,/images/motherboard/383a970abc71794caed4efbd404b76b8.256p.jpg,ASRock,H470 Phantom Gaming 4,548.64,7,H470,LGA1200,ATX,4,128
+608dd537905ec60bdc069115,/images/motherboard/9348f065839fa43339ce5e23a01b2ee9.256p.jpg,ASRock,H470 Steel Legend,647.06,7,H470,LGA1200,ATX,4,128
+608dd537905ec60bdc069116,/images/motherboard/51ZbEhVy4fL.jpg,ASRock,H570 Phantom Gaming 4,539.55,7,H570,LGA1200,ATX,4,128
+608dd537905ec60bdc069117,/images/motherboard/b1c7f4e0cc117dcffaec598ba4831912.256p.jpg,ASRock,H570 Steel Legend,680.81,7,H570,LGA1200,ATX,4,128
+608dd537905ec60bdc069118,/images/motherboard/c755830f28d0dab51a56165e922cb6d1.256p.jpg,ASRock,Z490 Extreme4,791.55,8,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069119,/images/motherboard/7f9aa3e00a61d93877f1a9a73d0075fb.256p.jpg,ASRock,Z490 PG Velocita,1068.71,6,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069120,/images/motherboard/51zffSxBIIL.jpg,ASRock,Z490 Phantom Gaming 4,538.2,8,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069121,/images/motherboard/d2e193c8904feb90582fbe4dec6991c9.256p.jpg,ASRock,Z490 Phantom Gaming 4/ac,725.22,8,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069122,/images/motherboard/f0e3f73ddbb1fba3927c9afb843563d9.256p.jpg,ASRock,Z490 Phantom Gaming-ITX/TB3,1194.66,7,Z490,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069123,/images/motherboard/24cc66652169bc811f7a8e3cd5a0c5c2.256p.jpg,ASRock,Z490 Pro4,689.85,8,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069124,/images/motherboard/7b46fda1dbdfcf1f806c900ea875714d.256p.jpg,ASRock,Z490 Steel Legend,663.71,8,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069125,/images/motherboard/fdf23a9c904c3c0b6331e130ad06f7a2.256p.jpg,ASRock,Z590 Extreme,964.94,4,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069126,/images/motherboard/ffa59b5e13c0dd4b2dffc217094aa355.256p.jpg,ASRock,Z590 PG Velocita,1377.5,5,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069127,/images/motherboard/c903b7364d370600516f81632584f25f.256p.jpg,ASRock,Z590 PRO4,814.01,7,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069128,/images/motherboard/c155cb72633e218428e6a9c3cea625c9.256p.jpg,ASRock,Z590 Taichi,1988.15,5,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069129,/images/motherboard/0f761cfa8bc9fe6e702e05af80a9a8b2.256p.jpg,Asus,PRIME B460-PLUS,525.74,7,B460,LGA1200,ATX,4,128
+608dd537905ec60bdc069130,/images/motherboard/35be67897dcbdedd08362460e1d091c8.256p.jpg,Asus,PRIME H470-PLUS,672.48,7,H470,LGA1200,ATX,4,128
+608dd537905ec60bdc069131,/images/motherboard/b9229031adab35e17be8da76cb2b8fb3.256p.jpg,Asus,PRIME H570-PLUS,629.55,7,H570,LGA1200,ATX,4,128
+608dd537905ec60bdc069132,/images/motherboard/14dcd444ba6b014710f7967648695a78.256p.jpg,ASRock,Z490 Taichi,1805.4,3,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069133,/images/motherboard/3db97ce07c9a42909760758bb092a3e5.256p.jpg,ASRock,Z490M Pro4,766.53,8,Z490,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069134,/images/motherboard/16fe24308112e494272ce61473afd9fa.256p.jpg,ASRock,Z490M-ITX/ac,1149.08,7,Z490,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069135,/images/motherboard/edd5fd2902288c64a66a17edd2aaeee6.256p.jpg,Asus,PRIME Z490-A,944.96,4,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069136,/images/motherboard/3b490ce2d863a9c02c5022c8651a8d30.256p.jpg,Asus,PRIME Z490-P,711.09,5,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069137,/images/motherboard/cbe1a09a362cb4bf3d0c688e7ae06a70.256p.jpg,Asus,PRIME Z490M-PLUS,835.97,5,Z490,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069138,/images/motherboard/c3f7897ebc2a164979760d8cd40eac68.256p.jpg,Asus,ROG STRIX B460-F GAMING,688.59,7,B460,LGA1200,ATX,4,128
+608dd537905ec60bdc069139,/images/motherboard/51OtYrSHqrL.jpg,Asus,ROG STRIX B460-H GAMING,647.78,7,B460,LGA1200,ATX,4,128
+608dd537905ec60bdc069140,/images/motherboard/6d79c7dfefe021f56fc057d2985c4831.256p.jpg,Asus,ProART Z490-CREATOR 10G,1403.69,4,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069141,/images/motherboard/7e4f7ddd1020e66a1d84343950c2f955.256p.jpg,Asus,ROG MAXIMUS XII APEX,2188.76,1,Z490,LGA1200,ATX,2,64
+608dd537905ec60bdc069142,/images/motherboard/200641bc77489636f9c30d0b09f5c041.256p.jpg,Asus,ROG MAXIMUS XII FORMULA,2038.68,1,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069143,/images/motherboard/c364a2ad0b5ee287c355c84251ec1042.256p.jpg,Asus,ROG MAXIMUS XII HERO (WI-FI),1750.05,1,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069144,/images/motherboard/29c4f0f96e54448d8512879c8a15a4f3.256p.jpg,Asus,TUF GAMING B460-PLUS,499.05,7,B460,LGA1200,ATX,4,128
+608dd537905ec60bdc069145,/images/motherboard/2f132b9fdce575ff6d80697a0b5ac5ef.256p.jpg,Asus,TUF GAMING B460-PRO (WI-FI),623.12,7,B460,LGA1200,ATX,4,128
+608dd537905ec60bdc069146,/images/motherboard/41Ok3d0A34L.jpg,Asus,TUF GAMING H470-PRO (WI-FI),813.42,7,H470,LGA1200,ATX,4,128
+608dd537905ec60bdc069147,/images/motherboard/cb4e876cae7731cf99bec692e4722f08.256p.jpg,Asus,ROG STRIX Z490-A GAMING,1106.51,3.7,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069148,/images/motherboard/cb4e876cae7731cf99bec692e4722f08.256p.jpg,Asus,ROG STRIX Z490-E GAMING,1341.27,3,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069149,/images/motherboard/51JQsb7x9tL.jpg,Asus,PRIME Z590-A,1124.55,6,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069150,/images/motherboard/51JxiF4ixIL.jpg,Asus,PRIME Z590M-PLUS,796.59,5,Z590,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069151,/images/motherboard/53e3454a23096f704407a61d75703f70.256p.jpg,Gigabyte,B460 HD3,467.28,7,B460,LGA1200,ATX,4,128
+608dd537905ec60bdc069152,/images/motherboard/0e7d8da2d88a98fd6b3e9ef04d71e7b6.256p.jpg,Asus,ROG STRIX Z490-F GAMING,1120.28,3.7,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069153,/images/motherboard/8354f74f99d9bdd33f7f915f695db40f.256p.jpg,Asus,ROG STRIX Z490-G GAMING,994.59,4,Z490,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069154,/images/motherboard/4bdf3bec9672a60f4bc48622d9d88e60.256p.jpg,Asus,ROG STRIX Z490-G GAMING (WI-FI),972,4,Z490,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069155,/images/motherboard/283a04abf8f2df0c378f9569e99f4310.256p.jpg,Asus,ROG STRIX Z490-H GAMING,1039.59,3.7,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069156,/images/motherboard/283a04abf8f2df0c378f9569e99f4310.256p.jpg,Asus,ROG STRIX Z490-I GAMING,1237.01,4.3,Z490,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069157,/images/motherboard/13685876a95c5df302d4860e478a2297.256p.jpg,Asus,TUF GAMING Z490-PLUS,901.8,4,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069158,/images/motherboard/a74655304314feef2a2f8ac2e8d9dd35.256p.jpg,Asus,TUF GAMING Z490-PLUS (WI-FI),976.05,4,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069159,/images/motherboard/3f9d9810e5da7dccec1e35cc3f83bdfb.256p.jpg,Gigabyte,Z490 AORUS ELITE,2114.6,3,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069160,/images/motherboard/6382da9b28009771892408034c177d0b.256p.jpg,Gigabyte,Z490 AORUS ELITE AC,1061.51,3,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069161,/images/motherboard/b1b4357e61e7760e4500f293e19b86c2.256p.jpg,Asus,ROG MAXIMUS XIII HERO,2110.5,1,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069162,/images/motherboard/283a04abf8f2df0c378f9569e99f4310.256p.jpg,Asus,ROG STRIX Z590-E GAMING WIFI,1574.55,2,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069163,/images/motherboard/eab5fc15cc9e87e6fd34515796ab8bd0.256p.jpg,Asus,ROG STRIX Z590-I GAMING WIFI,1617.75,3,Z590,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069164,/images/motherboard/79cf41ff5ecacbe0e1003201d8c32fa0.256p.jpg,Asus,TUF GAMING Z590-PLUS,1118.34,4,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069165,/images/motherboard/79cf41ff5ecacbe0e1003201d8c32fa0.256p.jpg,Asus,TUF Gaming Z590-PLUS WIFI,1044.09,4,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069166,/images/motherboard/c5c915c9fa480ce1af0d6036e9058c05.256p.jpg,Gigabyte,Z590 AORUS ELITE,1064.34,5,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069167,/images/motherboard/3b15aecb9e732104d74a171096c8c286.256p.jpg,Gigabyte,Z590 AORUS ELITE AX,1210.28,5,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069168,/images/motherboard/dc3885f711fcf1a1bb4fe3a92a4d31ca.256p.jpg,Gigabyte,Z590 AORUS MASTER,1997.96,2,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069169,/images/motherboard/96053e69a5efa51f2e859b46b48518c5.256p.jpg,Gigabyte,Z590 AORUS PRO AX,1509.08,4,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069170,/images/motherboard/61qpBkpvpCL.jpg,MSI,MAG B460 TOMAHAWK,678.11,7,B460,LGA1200,ATX,4,128
+608dd537905ec60bdc069171,/images/motherboard/52345c60e73997237d8d1235bc652e86.256p.jpg,MSI,MAG B460 TORPEDO,482.4,7,B460,LGA1200,ATX,4,128
+608dd537905ec60bdc069172,/images/motherboard/c62f5ea5afd9d8e116f389af3e7fab63.256p.jpg,MSI,MAG B560 TOMAHAWK WIFI,850.5,6,B560,LGA1200,ATX,4,128
+608dd537905ec60bdc069173,/images/motherboard/42e6220705d2333ebdc7fd0f2569d269.256p.jpg,MSI,MAG B560 TORPEDO,864.72,7,B560,LGA1200,ATX,4,128
+608dd537905ec60bdc069174,/images/motherboard/587172a118c4eb46ada8aae826355cd3.256p.jpg,Gigabyte,Z490 AORUS MASTER,1648.58,1,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069175,/images/motherboard/b007391b85dd4c48aae3d0cd21458138.256p.jpg,Gigabyte,Z590 AORUS ULTRA,1601.96,3,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069176,/images/motherboard/56ea14d099601a45d21ca8ec9b0fe62a.256p.jpg,Gigabyte,Z590 GAMING X,886.01,6,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069177,/images/motherboard/3718be5ef70c16f5dfb16cf28596ab9e.256p.jpg,Gigabyte,Z490 AORUS PRO AX,1178.96,4,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069178,/images/motherboard/94681a92c6fd144abcf99ad8b65b25db.256p.jpg,Gigabyte,Z490 AORUS ULTRA,1597.28,3,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069179,/images/motherboard/d194f5096bf0c5c5abe41aff46406a4e.256p.jpg,Gigabyte,Z590 UD AC,796.73,6,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069180,/images/motherboard/1ac2bdc36c3baa970b5eb5713d992b2a.256p.jpg,Gigabyte,Z490 AORUS ULTRA G2,1348.47,2.7,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069181,/images/motherboard/f3bb9d2f44dab8f0cf391b6afc4590ef.256p.jpg,Gigabyte,Z490 GAMING X,904.28,4,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069182,/images/motherboard/b786180ce0187fec555ee7a00a413343.256p.jpg,Gigabyte,Z490 UD,637.34,6.3,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069183,/images/motherboard/8c5542652068cd628b91edcff90853c1.256p.jpg,Gigabyte,Z490 VISION G,1004.58,4,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069184,/images/motherboard/7bcba10be67cafc5a4686ec15319461a.256p.jpg,Gigabyte,Z590 VISION D,1484.78,3,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069185,/images/motherboard/77ba48f9d73f9e4f2e0e975ccd525c0c.256p.jpg,Gigabyte,Z590 VISION G,1151.96,3,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069186,/images/motherboard/c26651c4cf95f9c71f949a874cfaf605.256p.jpg,Gigabyte,Z590I AORUS ULTRA,1232.96,4,Z590,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069187,/images/motherboard/e75e4ef82336c8f4dea8836ccc8ed480.256p.jpg,Gigabyte,Z590I VISION D,1408.28,3,Z590,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069188,/images/motherboard/4af41d22c160814fa0c2e22a1a1e7209.256p.jpg,MSI,MAG Z590 TOMAHAWK WIFI,1028.16,4,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069189,/images/motherboard/7f4db9758ea4151fd11d84cfdb49d240.256p.jpg,Gigabyte,Z490M,645.26,8,Z490,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069190,/images/motherboard/2d3321ebaf0a61ce6676991c8d5015f3.256p.jpg,ASRock,Fatal1ty X299 Professional Gaming i9,2087.55,2,X299,LGA2066,ATX,8,128
+608dd537905ec60bdc069191,/images/motherboard/073f3af8a8e6bd1d75751e61570fab1c.256p.jpg,ASRock,X299 Extreme4,1239.84,2,X299,LGA2066,ATX,8,128
+608dd537905ec60bdc069192,/images/motherboard/51EiFonNTQL.jpg,ASRock,X299 Taichi CLX,1786.46,2,X299,LGA2066,ATX,8,256
+608dd537905ec60bdc069193,/images/motherboard/698ae0efc8dad5188386b9b267e6ae57.256p.jpg,Asus,PRIME X299-DELUXE,3163.46,3,X299,LGA2066,ATX,8,128
+608dd537905ec60bdc069194,/images/motherboard/05e4d171e3021a1300913b21c96c3e89.256p.jpg,Asus,Prime X299-Deluxe II,2242.35,3,X299,LGA2066,ATX,8,128
+608dd537905ec60bdc069195,/images/motherboard/a67d9e72507536144912d372e3e2f6b5.256p.jpg,Asus,ROG Strix X299-E Gaming II,1826.51,3,X299,LGA2066,ATX,8,256
+608dd537905ec60bdc069196,/images/motherboard/277a827c762eda2f29c68f170b10df56.256p.jpg,Asus,TUF X299 MARK 1,1457.37,3,X299,LGA2066,ATX,8,128
+608dd537905ec60bdc069197,/images/motherboard/61SEXwTQPVL.jpg,Asus,WS X299 PRO,2245.5,3,X299,LGA2066,ATX,8,128
+608dd537905ec60bdc069198,/images/motherboard/7d03a1e2772588758bc72734998d1333.256p.jpg,EVGA,X299 MICRO ATX 2,1452.96,2,X299,LGA2066,Micro ATX,4,64
+608dd537905ec60bdc069199,/images/motherboard/a6b9249c83c04df0834707d2a4704087.256p.jpg,Gigabyte,X299 UD4 Pro,1079.51,4,X299,LGA2066,ATX,8,128
+608dd537905ec60bdc069200,/images/motherboard/7428d4317f24ec778ac2d39541f1ea5b.256p.jpg,MSI,X299 PRO,1210.5,3,X299,LGA2066,ATX,8,256
+608dd537905ec60bdc069201,/images/motherboard/8e37f27d79fb02cde718cc440e739dc0.256p.jpg,ASRock,TRX40 Creator,1956.87,3.7,TRX40,sTRX4,ATX,8,256
+608dd537905ec60bdc069202,/images/motherboard/55792b8af053369509e5935274fdc84c.256p.jpg,ASRock,TRX40 TAICHI,2179.98,3,TRX40,sTRX4,ATX,8,256
+608dd537905ec60bdc069203,/images/motherboard/356144e709c99afdbdfb0da0c798bfa4.256p.jpg,Asus,Prime TRX40-Pro,2159.55,4.3,TRX40,sTRX4,ATX,8,256
+608dd537905ec60bdc069204,/images/motherboard/b5d10d9cd3ac30f25c528a96aa3575ba.256p.jpg,Asus,ROG Strix TRX40-E Gaming,2196.18,1.7,TRX40,sTRX4,ATX,8,256
+608dd537905ec60bdc069205,/images/motherboard/6b7d2df2238964998e19f70e2b287f16.256p.jpg,Asus,ROG STRIX TRX40-XE GAMING,2485.49,1.7,TRX40,sTRX4,ATX,8,256
+608dd537905ec60bdc069206,/images/motherboard/3fdab0f54051652849999e3501e1bd0e.256p.jpg,Gigabyte,TRX40 AORUS PRO WIFI,1857.38,3,TRX40,sTRX4,ATX,8,256
+608dd537905ec60bdc069207,/images/motherboard/61be9ef61b6aeaf408a5f69be0b29262.256p.jpg,MSI,TRX40 PRO 10G,2278.76,3,TRX40,sTRX4,ATX,8,256
+608dd537905ec60bdc069208,/images/motherboard/2844c750b1de91629131682de142ad05.256p.jpg,MSI,TRX40 PRO WIFI,1781.64,3,TRX40,sTRX4,ATX,8,256
+608dd537905ec60bdc069209,/images/motherboard/23e007cedb830463d4607e84df5e63b4.256p.jpg,MSI,MAG B550M MORTAR WIFI,702.86,2.7,B550,AM4,Micro ATX,4,128
+608dd537905ec60bdc069210,/images/motherboard/cab701421ba984a3d3e69e6781624d1d.256p.jpg,MSI,MPG B550 GAMING CARBON WIFI,859.23,2,B550,AM4,ATX,4,128
+608dd537905ec60bdc069211,/images/motherboard/cab701421ba984a3d3e69e6781624d1d.256p.jpg,MSI,MPG B550 GAMING PLUS,589.59,2.7,B550,AM4,ATX,4,128
+608dd537905ec60bdc069212,/images/motherboard/754662e556e5f5d4e45650e97e70fa94.256p.jpg,MSI,B450M MORTAR MAX,402.98,5,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069213,/images/motherboard/00d01d92abc6b855882834ca3a480d98.256p.jpg,MSI,B450M MORTAR TITANIUM,443.25,5,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069214,/images/motherboard/78e8a65a1c3b8c775d4326e3f3707c24.256p.jpg,MSI,X470 GAMING PLUS,562.05,5.3,X470,AM4,ATX,4,64
+608dd537905ec60bdc069215,/images/motherboard/67c9fcef981a962757caaf4c26082dc0.256p.jpg,MSI,X470 GAMING PLUS MAX,449.73,5.3,X470,AM4,ATX,4,64
+608dd537905ec60bdc069216,/images/motherboard/f8ee0cc9ff0462299e65707677d6fd26.256p.jpg,MSI,B450 Gaming Plus,521.55,5.3,B450,AM4,ATX,4,64
+608dd537905ec60bdc069217,/images/motherboard/f8ee0cc9ff0462299e65707677d6fd26.256p.jpg,MSI,B450 Gaming Plus MAX,384.75,5.3,B450,AM4,ATX,4,64
+608dd537905ec60bdc069218,/images/motherboard/72b7822298b15a3a4aca43122bc97c6f.256p.jpg,MSI,B450-A PRO,517.05,5.3,B450,AM4,ATX,4,64
+608dd537905ec60bdc069219,/images/motherboard/72b7822298b15a3a4aca43122bc97c6f.256p.jpg,MSI,B450-A PRO MAX,341.55,5.3,B450,AM4,ATX,4,64
+608dd537905ec60bdc069220,/images/motherboard/67ff516e368b73b0f97dc52a22218056.256p.jpg,MSI,B450I GAMING PLUS AC,619.56,5.3,B450,AM4,Mini ITX,2,64
+608dd537905ec60bdc069221,/images/motherboard/51XBECtWSZL.jpg,MSI,B450I GAMING PLUS MAX WIFI,555.03,5.3,B450,AM4,Mini ITX,2,64
+608dd537905ec60bdc069222,/images/motherboard/b87a02aff9c829a85f7b69afcee965ac.256p.jpg,MSI,B450M GAMING PLUS,363.87,5.3,B450,AM4,Micro ATX,2,32
+608dd537905ec60bdc069223,/images/motherboard/68b40827111b02c13d0ca63b0bd87b60.256p.jpg,MSI,MPG X570 GAMING EDGE WIFI,805.5,5.7,X570,AM4,ATX,4,128
+608dd537905ec60bdc069224,/images/motherboard/68b40827111b02c13d0ca63b0bd87b60.256p.jpg,MSI,MPG X570 GAMING PLUS,692.55,6,X570,AM4,ATX,4,128
+608dd537905ec60bdc069225,/images/motherboard/c5f7ee28c940f48c5076de03dc4f4a3e.256p.jpg,MSI,X570-A PRO,647.46,6,X570,AM4,ATX,4,128
+608dd537905ec60bdc069226,/images/motherboard/4d3f257e7a9dc497dbf242951781e0cc.256p.jpg,ASRock,Fatal1ty X470 Gaming K4,784.31,6,X470,AM4,ATX,4,64
+608dd537905ec60bdc069227,/images/motherboard/ef3bb3a555853be572250ab38362e1fd.256p.jpg,ASRock,X470 Master SLI,633.56,6,X470,AM4,ATX,4,64
+608dd537905ec60bdc069228,/images/motherboard/b9c0d7468cf651f2551a9b88e9867871.256p.jpg,ASRock,Fatal1ty X470 Gaming-ITX/ac,1323.32,6,X470,AM4,Mini ITX,2,32
+608dd537905ec60bdc069229,/images/motherboard/6af31fac978e4ad06f77903b4422f47d.256p.jpg,ASRock,B450 Pro4,373.59,6,B450,AM4,ATX,4,64
+608dd537905ec60bdc069230,/images/motherboard/51ZFaAVMRfL.jpg,ASRock,B450 Steel Legend,427.05,6,B450,AM4,ATX,4,64
+608dd537905ec60bdc069231,/images/motherboard/8f8baff091bfd5ef531c7ddb1a602ca4.256p.jpg,ASRock,B450M PRO4,316.35,6,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069232,/images/motherboard/4f1f39b57058fb142da06a72b4a6942b.256p.jpg,ASRock,B450M Pro4-F,337.59,6,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069233,/images/motherboard/f800207bd6c5444921c2267c0479b821.256p.jpg,ASRock,B450M Steel Legend,365.76,6,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069234,/images/motherboard/dbfb02d6b58c68e437bd56d7426600eb.256p.jpg,ASRock,Fatal1ty B450 GAMING K4,399.51,6,B450,AM4,ATX,4,64
+608dd537905ec60bdc069235,/images/motherboard/7f9f592447b8f0ca453780f12ee90143.256p.jpg,ASRock,Fatal1ty B450 Gaming-ITX/ac,498.96,6,B450,AM4,Mini ITX,2,64
+608dd537905ec60bdc069236,/images/motherboard/584a5f1af581d01cbe14fed6164c03c3.256p.jpg,Asus,ROG STRIX B450-E GAMING,1000.53,6,B450,AM4,ATX,4,64
+608dd537905ec60bdc069237,/images/motherboard/584a5f1af581d01cbe14fed6164c03c3.256p.jpg,Asus,ROG STRIX B450-F GAMING II,509.36,6,B450,AM4,ATX,4,128
+608dd537905ec60bdc069238,/images/motherboard/aebabc14761abc7b8d7c75e47871290d.256p.jpg,Asus,TUF GAMING B450-PLUS II,459,6,B450,AM4,ATX,4,128
+608dd537905ec60bdc069239,/images/motherboard/41JI2lPIFiL.jpg,Asus,TUF GAMING B450M-PRO S,620.73,6,B450,AM4,Micro ATX,4,128
+608dd537905ec60bdc069240,/images/motherboard/3f03c851fd04586ac9d00d4a153d4980.256p.jpg,MSI,B450M PRO-VDH MAX,337.41,6,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069241,/images/motherboard/2d6aec01983abcfd48c2d450cc27ce1b.256p.jpg,Asus,PRIME B450-PLUS,372.6,7,B450,AM4,ATX,4,64
+608dd537905ec60bdc069242,/images/motherboard/584a5f1af581d01cbe14fed6164c03c3.256p.jpg,Asus,ROG STRIX B450-F GAMING,493.61,7,B450,AM4,ATX,4,64
+608dd537905ec60bdc069243,/images/motherboard/668bf1bbaa0fa3547782eb126a0f37d8.256p.jpg,Asus,TUF B450-PLUS GAMING,465.48,7,B450,AM4,ATX,4,64
+608dd537905ec60bdc069244,/images/motherboard/62dfa5a99f75d0bae639163baac74e0e.256p.jpg,Asus,TUF B450M-PLUS GAMING,418.46,7,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069245,/images/motherboard/57bebf1d8a60ecd2f578b999810ac8d3.256p.jpg,Gigabyte,B450 AORUS ELITE,402.3,7,B450,AM4,ATX,4,64
+608dd537905ec60bdc069246,/images/motherboard/57bebf1d8a60ecd2f578b999810ac8d3.256p.jpg,Gigabyte,B450 AORUS ELITE V2,431.87,7,B450,AM4,ATX,4,128
+608dd537905ec60bdc069247,/images/motherboard/57bebf1d8a60ecd2f578b999810ac8d3.256p.jpg,Gigabyte,B450 AORUS M,314.78,7,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069248,/images/motherboard/510LQKVvODL.jpg,Gigabyte,B450 AORUS PRO,407.39,7,B450,AM4,ATX,4,64
+608dd537905ec60bdc069249,/images/motherboard/510LQKVvODL.jpg,Gigabyte,B450 AORUS PRO WIFI (rev. 1.0),932.13,7,B450,AM4,ATX,4,64
+608dd537905ec60bdc069250,/images/motherboard/176028811e50cad67b57ed0e604229c9.256p.jpg,Gigabyte,B450M DS3H,292.05,7,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069251,/images/motherboard/176028811e50cad67b57ed0e604229c9.256p.jpg,Gigabyte,B450M DS3H V2,310.46,7,B450,AM4,Micro ATX,4,128
+608dd537905ec60bdc069252,/images/motherboard/ef675852c52dc65806e9e2edf192436c.256p.jpg,MSI,B450M PRO-M2,383.99,7.3,B450,AM4,Micro ATX,2,32
+608dd537905ec60bdc069253,/images/motherboard/ef675852c52dc65806e9e2edf192436c.256p.jpg,MSI,B450M PRO-M2 MAX,306.09,7.3,B450,AM4,Micro ATX,2,32
+608dd537905ec60bdc069254,/images/motherboard/ea1aa3c419cdea887fec5eb103d601a2.256p.jpg,ASRock,B450M-HDV,418.73,8,B450,AM4,Micro ATX,2,32
+608dd537905ec60bdc069255,/images/motherboard/2b2897ac0de148a2935c3277573131b3.256p.jpg,ASRock,B450M-HDV R4.0,251.51,8,B450,AM4,Micro ATX,2,32
+608dd537905ec60bdc069256,/images/motherboard/e65206672e3e1d7c4187555f9f06860c.256p.jpg,Asus,PRIME B450M-A,350.91,8,B450,AM4,Micro ATX,4,64
+608dd537905ec60bdc069257,/images/motherboard/0f761cfa8bc9fe6e702e05af80a9a8b2.256p.jpg,Asus,PRIME B450M-K,346.01,8,B450,AM4,Micro ATX,2,32
+608dd537905ec60bdc069258,/images/motherboard/20019a23d24541e596a3d8f9400b4350.256p.jpg,Gigabyte,B450M H,256.5,8,B450,AM4,Micro ATX,2,32
+608dd537905ec60bdc069259,/images/motherboard/3d0183f7146432b70384e9235129adee.256p.jpg,ASRock,B365M Phantom Gaming 4,421.61,5,B365,LGA1151,Micro ATX,4,128
+608dd537905ec60bdc069260,/images/motherboard/3d0183f7146432b70384e9235129adee.256p.jpg,ASRock,B365M Pro4,373.46,5,B365,LGA1151,Micro ATX,4,64
+608dd537905ec60bdc069261,/images/motherboard/b6196d5b8b72eb6bfb4d42ccd24d8b25.256p.jpg,ASRock,B365M-HDV,275.18,5,B365,LGA1151,Micro ATX,2,32
+608dd537905ec60bdc069262,/images/motherboard/518IdPFU2GL.jpg,Asus,ROG MAXIMUS XI CODE,3430.08,1,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069263,/images/motherboard/5bc58051b0a87e7008291a8e56a45f5d.256p.jpg,Asus,ROG MAXIMUS XI GENE,1569.11,1,Z390,LGA1151,Micro ATX,2,64
+608dd537905ec60bdc069264,/images/motherboard/4837fe3b0fe844e85052ae32c6d034fb.256p.jpg,Asus,TUF Z390-PLUS GAMING (WI-FI),836.51,2,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069265,/images/motherboard/6b36f42a6e68062814367c42e68779ed.256p.jpg,Asus,TUF Z390M-PRO GAMING (WI-FI),1615.5,2,Z390,LGA1151,Micro ATX,4,128
+608dd537905ec60bdc069266,/images/motherboard/245d0460e2df6619897a8144856b201e.256p.jpg,Asus,WS Z390 PRO,1782.09,3,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069267,/images/motherboard/2a39a11ee414d3a73b9a830970a0c331.256p.jpg,Gigabyte,Z390 AORUS PRO,872.78,2,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069268,/images/motherboard/17077892b63c485210cac4f2924128c3.256p.jpg,Gigabyte,Z390 D,463.59,4,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069269,/images/motherboard/bcad2b23ca009b941a18993f676a2244.256p.jpg,Gigabyte,Z390 GAMING SLI,991.08,2,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069270,/images/motherboard/82bfdb7958549efbe0b912c0e07be8a7.256p.jpg,Gigabyte,Z390 GAMING X,826.52,3,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069271,/images/motherboard/22573d2c099a90eb53acfd285b0fbed1.256p.jpg,Gigabyte,Z390 UD,504.09,4,Z390,LGA1151,ATX,4,128
+608dd537905ec60bdc069272,/images/motherboard/034f9f9389157bc9a92c84f5ff532d80.256p.jpg,Gigabyte,Z390 M GAMING,779.45,2,Z390,LGA1151,Micro ATX,4,128
+608dd537905ec60bdc069273,/images/motherboard/7ae7ab75a2ca388f3987cd86267e1dae.256p.jpg,MSI,B365M PRO-VDH,349.88,5,B365,LGA1151,Micro ATX,4,64
+608dd537905ec60bdc069274,/images/motherboard/d99f5c787c137193d68e3c6786f278c6.256p.jpg,MSI,B365M-PRO-VH,337.5,5,B365,LGA1151,Micro ATX,2,32
+608dd537905ec60bdc069275,/images/motherboard/cacd3c30e0be8ffc5866d534ca23e9dd.256p.jpg,MSI,MAG B365M MORTAR,365.85,4,B365,LGA1151,Micro ATX,4,64
+608dd537905ec60bdc069276,/images/motherboard/edcc1e5a839a1e5dcbd02b39fbc6a193.256p.jpg,ASRock,B460M Pro4,424.58,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069277,/images/motherboard/51gkeP754NL.jpg,ASRock,B460M Steel Legend,516.51,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069278,/images/motherboard/51ZmqirNGmL.jpg,ASRock,B460M-HDV,372.83,7,B460,LGA1200,Micro ATX,2,64
+608dd537905ec60bdc069279,/images/motherboard/d133ebca1d420765f0246e6ea6f96b50.256p.jpg,ASRock,B560M PRO4,548.51,7,B560,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069280,/images/motherboard/f3fdad4280ba96b11df88c92a4696ab5.256p.jpg,ASRock,B560M-HDV,422.96,7,B560,LGA1200,Micro ATX,2,64
+608dd537905ec60bdc069281,/images/motherboard/8b7a94902331cf33f34efb07bdf41e62.256p.jpg,ASRock,H470M Pro4,621.72,7,H470,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069282,/images/motherboard/bf77e10db3a61408cb32784d2522b076.256p.jpg,ASRock,H570M Pro4,544.01,7,H570,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069283,/images/motherboard/aa9d897000e8766dd54718cffc099b61.256p.jpg,Gigabyte,Z490M GAMING X,756.27,7,Z490,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069284,/images/motherboard/e3dc5dea7509a2dde2c7864cb25e68f0.256p.jpg,MSI,MAG Z590 TORPEDO,1061.73,5,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069285,/images/motherboard/a0b8f9027025b14f038c9b1e6f3f6b20.256p.jpg,MSI,MEG Z590 ACE,2020.5,1,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069286,/images/motherboard/58bcd7502bb4695bb93e01f686bec082.256p.jpg,Asus,PRIME B460M-A,414.09,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069287,/images/motherboard/23d8f4dd3b953b1dcc86841972621020.256p.jpg,Asus,PRIME B460M-K,364.59,7,B460,LGA1200,Micro ATX,2,64
+608dd537905ec60bdc069288,/images/motherboard/9d4667a9947754e1451e3832ee031490.256p.jpg,MSI,MEG Z590I UNIFY,1431.9,3,Z590,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069289,/images/motherboard/53343f58edf63b5c340094218c05463b.256p.jpg,Asus,Pro B460M-C/CSM,542.66,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069290,/images/motherboard/a86077f71dc7d6ae8a5447e8941cafdf.256p.jpg,Asus,ROG STRIX B460-G GAMING,639.09,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069291,/images/motherboard/a22733cc8b0dca99ebe441e3579c8c59.256p.jpg,MSI,MEG Z490 ACE,1534.46,1,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069292,/images/motherboard/53c70fcbb989c7288620bd1220284d18.256p.jpg,MSI,MEG Z490 UNIFY,1387.76,1,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069293,/images/motherboard/c867cb0289ba91a78151393c3d4cd7da.256p.jpg,Asus,TUF GAMING B460M-PLUS,499.64,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069294,/images/motherboard/c053d6da37d85215460196e9d5b47129.256p.jpg,Asus,TUF GAMING B460M-PLUS (WI-FI),534.96,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069295,/images/motherboard/11d96e04d37c62b6ebbad5a426d447ef.256p.jpg,Asus,TUF GAMING B560M-PLUS WIFI,701.55,6,B560,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069296,/images/motherboard/7d9891563c14929a7ff8ae0cc98b59f7.256p.jpg,Gigabyte,B460M AORUS PRO,486.09,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069297,/images/motherboard/f61bff2ab1f35d014c47ada649a0a8ec.256p.jpg,Gigabyte,B460M D2V,488.21,7,B460,LGA1200,Micro ATX,2,64
+608dd537905ec60bdc069298,/images/motherboard/601a7bd7e7c03a1b0c4008a623d02cd6.256p.jpg,Gigabyte,B460M D3H,423.09,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069299,/images/motherboard/601a7bd7e7c03a1b0c4008a623d02cd6.256p.jpg,Gigabyte,B460M DS3H,478.58,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069300,/images/motherboard/affab5405247cf1d2354dc3aab29a6f8.256p.jpg,Gigabyte,B460M GAMING HD,363.42,7,B460,LGA1200,Micro ATX,2,64
+608dd537905ec60bdc069301,/images/motherboard/a722ba89b0ed73fa31dc610bac8b33e0.256p.jpg,Gigabyte,B560M AORUS PRO,670.59,6,B560,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069302,/images/motherboard/2cb77dc8f050d38c6bb010512c4121a6.256p.jpg,Gigabyte,B560M AORUS PRO AX,747.09,6,B560,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069303,/images/motherboard/2aba8a9a8ab9f0685f137318489fccf6.256p.jpg,MSI,MEG Z490I UNIFY,1061.96,3,Z490,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069304,/images/motherboard/5db7322e98bf8c2a60a11fe257625c9e.256p.jpg,MSI,B460M PRO,388.76,7,B460,LGA1200,Micro ATX,2,64
+608dd537905ec60bdc069305,/images/motherboard/64c03f78e274b935855ccf410fe63be4.256p.jpg,MSI,B460M PRO-VDH,433.35,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069306,/images/motherboard/64c03f78e274b935855ccf410fe63be4.256p.jpg,MSI,B460M PRO-VDH WIFI,485.96,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069307,/images/motherboard/64c03f78e274b935855ccf410fe63be4.256p.jpg,MSI,B460M-A PRO,364.19,7,B460,LGA1200,Micro ATX,2,64
+608dd537905ec60bdc069308,/images/motherboard/b99c6c20a2166aa46fa7717028c02c8a.256p.jpg,MSI,B560M PRO,504.95,7,B560,LGA1200,Micro ATX,2,64
+608dd537905ec60bdc069309,/images/motherboard/b870ed70394b28ab24741391fe4bbcfc.256p.jpg,MSI,MAG B460M BAZOOKA,549.23,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069310,/images/motherboard/c4b6cd80946b9c6c8f2b1c74a1e097d4.256p.jpg,MSI,MAG B460M MORTAR,580.5,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069311,/images/motherboard/61KAc2uql2L.jpg,MSI,MAG B460M MORTAR WIFI,609.26,7,B460,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069312,/images/motherboard/e415933146712f429d3a8c88fd8f75dc.256p.jpg,MSI,MAG B560M BAZOOKA,645.03,7,B560,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069313,/images/motherboard/7fac2531fd84562ab9ca62b2c32f1f4d.256p.jpg,MSI,MAG B560M MORTAR WIFI,838.17,6,B560,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069314,/images/motherboard/515217b4cc007c0a98c7f3ed5b302621.256p.jpg,MSI,MPG Z490 GAMING CARBON WIFI,1214.96,5,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069315,/images/motherboard/496c92fa1bc4d762f7d615b79e238f97.256p.jpg,MSI,X299 PRO 10G,1676.3,3,X299,LGA2066,ATX,8,256
+608dd537905ec60bdc069316,/images/motherboard/51x7MO-k2sL.jpg,MSI,B450M-A PRO MAX,271.62,8,B450,AM4,Micro ATX,2,32
+608dd537905ec60bdc069317,/images/motherboard/839a5fda2c4347cb0a2134e0ffe8be3c.256p.jpg,Gigabyte,A520 AORUS ELITE,393.8,8,A520,AM4,ATX,4,128
+608dd537905ec60bdc069318,/images/motherboard/44867ec7814048eb5afc863cc9bc1de3.256p.jpg,ASRock,A520M-HDV,281.48,8,A520,AM4,Micro ATX,2,64
+608dd537905ec60bdc069319,/images/motherboard/a7e207172698e41a90780c8441399304.256p.jpg,ASRock,A520M-HVS,293.36,8,A520,AM4,Micro ATX,2,64
+608dd537905ec60bdc069320,/images/motherboard/058c2ed4146c9edbacf2a651788a5b57.256p.jpg,Asus,PRIME A520M-E,313.16,8,A520,AM4,Micro ATX,2,64
+608dd537905ec60bdc069321,/images/motherboard/744eea778bfa75c0307acf77a631c98a.256p.jpg,Asus,PRIME A520M-K,296.55,8,A520,AM4,Micro ATX,2,64
+608dd537905ec60bdc069322,/images/motherboard/f6fa8a983122641ec914fd3c662fdff6.256p.jpg,Asus,TUF GAMING A520M-PLUS,364.01,8,A520,AM4,Micro ATX,4,128
+608dd537905ec60bdc069323,/images/motherboard/c161caf12ae0211db60b753078e17fb6.256p.jpg,Gigabyte,A520M AORUS ELITE,432.09,8,A520,AM4,Micro ATX,4,128
+608dd537905ec60bdc069324,/images/motherboard/e71b5294833ca62f51ef6281548f8dc3.256p.jpg,Gigabyte,A520M H,269.96,8,A520,AM4,Micro ATX,2,64
+608dd537905ec60bdc069325,/images/motherboard/63b64f6b10bbfb2c406fdbf40bde777d.256p.jpg,Gigabyte,A520M S2H,265.46,8,A520,AM4,Micro ATX,2,64
+608dd537905ec60bdc069326,/images/motherboard/bebf7f3753bcd742a851a0928e10d3f5.256p.jpg,MSI,A520M PRO,324.23,8,A520,AM4,Micro ATX,2,64
+608dd537905ec60bdc069327,/images/motherboard/f210cab1260cc8cd402ee007cc382029.256p.jpg,MSI,A520M-A PRO,315.09,8,A520,AM4,Micro ATX,2,64
+608dd537905ec60bdc069328,/images/motherboard/6647eaeb97c02c237750dacfd05fd8d1.256p.jpg,MSI,MAG A520M VECTOR WIFI,381.83,8,A520,AM4,Micro ATX,2,64
+608dd537905ec60bdc069329,/images/motherboard/333c07026b775245b30842da88699979.256p.jpg,ASRock,A520M-ITX/ac,463.05,8,A520,AM4,Mini ITX,2,64
+608dd537905ec60bdc069330,/images/motherboard/87329029966463ec6eac31fad52fae85.256p.jpg,Gigabyte,A520I AC,485.55,8,A520,AM4,Mini ITX,2,64
+608dd537905ec60bdc069331,/images/motherboard/480b5668b5705e5592abc709da5a4580.256p.jpg,ASRock,B365M-ITX/ac,437.36,5,B365,LGA1151,Mini ITX,2,32
+608dd537905ec60bdc069332,/images/motherboard/51yTp75anzL.jpg,ASRock,B460M-ITX/ac,539.42,7,B460,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069333,/images/motherboard/793660677d4733671b31e654a3480395.256p.jpg,ASRock,B560M-ITX/ac,491.58,7,B560,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069334,/images/motherboard/51jo5pBGcNL.jpg,ASRock,H470M-ITX/ac,772.79,7,H470,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069335,/images/motherboard/3fae37f7a08636c4a4c203a47ef30bf3.256p.jpg,ASRock,H570M-ITX/ac,647.51,7,H570,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069336,/images/motherboard/515217b4cc007c0a98c7f3ed5b302621.256p.jpg,MSI,MPG Z490 GAMING EDGE WIFI,936,5,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069337,/images/motherboard/515217b4cc007c0a98c7f3ed5b302621.256p.jpg,MSI,MPG Z490 GAMING PLUS,724.05,6,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069338,/images/motherboard/1d0a5cbc317e65088720563bf4261345.256p.jpg,MSI,MPG Z590 GAMING CARBON WIFI,1444.23,3,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069339,/images/motherboard/58bcd7502bb4695bb93e01f686bec082.256p.jpg,Asus,PRIME B460I-PLUS,520.88,7,B460,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069340,/images/motherboard/75739b96d1131e6dbeb04e9006553892.256p.jpg,Asus,ROG STRIX B460-I GAMING,706.28,7,B460,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069341,/images/motherboard/f7e5456ed8ccc8ba884b60359c28c94a.256p.jpg,Asus,ROG STRIX H470-I GAMING,679.5,7,H470,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069342,/images/motherboard/6c4ebeab8f7f2c3fedfcf0fee448a3a6.256p.jpg,MSI,MPG Z490M GAMING EDGE WIFI,924.71,5.3,Z490,LGA1200,Micro ATX,4,128
+608dd537905ec60bdc069343,/images/motherboard/7d154252a6076bf1d471f115fac9529b.256p.jpg,MSI,MPG Z590 GAMING EDGE WIFI,1434.6,3,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069344,/images/motherboard/51XXxxhFdqL.jpg,MSI,Z490-A PRO,748.76,5,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069345,/images/motherboard/5242ce48db07728c3e99ee5d821d4e3e.256p.jpg,MSI,MPG Z590 GAMING FORCE,1378.31,3,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069346,/images/motherboard/51XXxxhFdqL.jpg,MSI,Z590 PRO WIFI,895.5,6,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069347,/images/motherboard/b78c8ffae8014b09e863e546ca36370e.256p.jpg,NZXT,N7 Z490,1020.56,,Z490,LGA1200,ATX,4,128
+608dd537905ec60bdc069348,/images/motherboard/51XXxxhFdqL.jpg,MSI,Z590-A PRO,805.5,6,Z590,LGA1200,ATX,4,128
+608dd537905ec60bdc069349,/images/motherboard/c337c83e2b71abeda699f98589616872.256p.jpg,MSI,MPG B460I GAMING EDGE WIFI,679.91,7,B460,LGA1200,Mini ITX,2,64
+608dd537905ec60bdc069350,/images/motherboard/5088a72ca1427be201c14f7fb9255019.256p.jpg,MSI,X299-A PRO,1423.08,3,X299,LGA2066,ATX,8,256

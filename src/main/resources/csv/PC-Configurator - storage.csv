@@ -1,435 +1,435 @@
 _id,image,brand,name,price,capacityGb,tier,type,formFactor,connectionInterface
-608dd615905ec60bdc06a302,/images/storage/storage.jpg,ADATA,Falcon,281.14,256,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a303,/images/storage/storage.jpg,ADATA,Falcon,383.43,512,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a304,/images/storage/storage.jpg,ADATA,Falcon,727.36,1000,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a305,/images/storage/storage.jpg,ADATA,SU630,255.76,480,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a306,/images/storage/storage.jpg,ADATA,SU630,449.77,960,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a307,/images/storage/storage.jpg,ADATA,SU800,990.31,2000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a308,/images/storage/storage.jpg,ADATA,SU800,211.48,256,5,SSD,M.2-2280,M.2 (B+M)
-608dd615905ec60bdc06a309,/images/storage/storage.jpg,ADATA,SU800,313.13,512,5,SSD,M.2-2280,M.2 (B+M)
-608dd615905ec60bdc06a310,/images/storage/storage.jpg,ADATA,SU800,518.25,1000,5,SSD,M.2-2280,M.2 (B+M)
-608dd615905ec60bdc06a311,/images/storage/storage.jpg,ADATA,Swordfish,300.30,500,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a312,/images/storage/storage.jpg,ADATA,Swordfish,495.45,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a313,/images/storage/storage.jpg,ADATA,Swordfish,925.29,2000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a314,/images/storage/storage.jpg,ADATA,Ultimate SU650,263.40,480,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a315,/images/storage/storage.jpg,ADATA,Ultimate SU650,468.60,960,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a316,/images/storage/storage.jpg,ADATA,Ultimate SU750,165.12,256,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a317,/images/storage/storage.jpg,ADATA,Ultimate SU750,250.20,512,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a318,/images/storage/storage.jpg,ADATA,Ultimate SU750,463.65,1000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a319,/images/storage/storage.jpg,ADATA,XPG GAMMIX S11,2064.52,960,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a320,/images/storage/storage.jpg,ADATA,XPG GAMMIX S11 Pro,215.12,256,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a321,/images/storage/storage.jpg,ADATA,XPG GAMMIX S11 Pro,349.85,512,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a322,/images/storage/storage.jpg,ADATA,XPG GAMMIX S11 Pro,596.23,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a323,/images/storage/storage.jpg,ADATA,XPG GAMMIX S11 Pro,991.45,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a324,/images/storage/storage.jpg,ADATA,XPG GAMMIX S5,187.87,256,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a325,/images/storage/storage.jpg,ADATA,XPG GAMMIX S5,291.25,512,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a326,/images/storage/storage.jpg,ADATA,XPG GAMMIX S5,531.94,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a327,/images/storage/storage.jpg,ADATA,XPG GAMMIX S50,987.44,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a328,/images/storage/storage.jpg,ADATA,XPG GAMMIX S50,1879.74,2000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a329,/images/storage/storage.jpg,ADATA,XPG GAMMIX S50 Lite,602.15,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a330,/images/storage/storage.jpg,ADATA,XPG GAMMIX S50 Lite,1059.88,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a331,/images/storage/storage.jpg,ADATA,XPG GAMMIX S70,867.41,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a332,/images/storage/storage.jpg,ADATA,XPG GAMMIX S70,1756.25,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a333,/images/storage/storage.jpg,ADATA,XPG SPECTRIX S40G RGB,204.70,256,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a334,/images/storage/storage.jpg,ADATA,XPG SPECTRIX S40G RGB,301.85,512,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a335,/images/storage/storage.jpg,ADATA,XPG SPECTRIX S40G RGB,586.22,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a336,/images/storage/storage.jpg,ADATA,XPG SPECTRIX S40G RGB,973.47,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a337,/images/storage/storage.jpg,ADATA,XPG SX6000,336.11,256,5,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a338,/images/storage/storage.jpg,ADATA,XPG SX6000,592.05,512,5,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a339,/images/storage/storage.jpg,ADATA,XPG SX6000 Pro,204.07,256,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a340,/images/storage/storage.jpg,ADATA,XPG SX6000 Pro,294.25,512,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a341,/images/storage/storage.jpg,ADATA,XPG SX6000 Pro,495.50,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a342,/images/storage/storage.jpg,ADATA,XPG SX8100,347.80,512,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a343,/images/storage/storage.jpg,ADATA,XPG SX8100,516.11,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a344,/images/storage/storage.jpg,ADATA,XPG SX8100,1651.33,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a345,/images/storage/storage.jpg,ADATA,XPG SX8200 Pro,221.54,256,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a346,/images/storage/storage.jpg,ADATA,XPG SX8200 Pro,313.68,512,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a347,/images/storage/storage.jpg,ADATA,XPG SX8200 Pro,564.29,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a348,/images/storage/storage.jpg,ADATA,XPG SX8200 Pro,1000.55,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a349,/images/storage/storage.jpg,Apacer,AS2280Q4,629.45,500,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a350,/images/storage/storage.jpg,Apacer,AS2280Q4,1378.20,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a351,/images/storage/storage.jpg,Corsair,Force MP500,1123.62,480,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a352,/images/storage/storage.jpg,Corsair,MP400,528.44,1000,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a353,/images/storage/storage.jpg,Corsair,MP400,1081.81,2000,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a354,/images/storage/storage.jpg,Corsair,MP400,2475.11,4000,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a355,/images/storage/storage.jpg,Corsair,MP400,5628.30,8000,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a356,/images/storage/storage.jpg,Corsair,MP510,296.11,480,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a357,/images/storage/storage.jpg,Corsair,MP510,581.95,960,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a358,/images/storage/storage.jpg,Corsair,MP510,1212.17,1920,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a359,/images/storage/storage.jpg,Corsair,MP510,3225.95,4000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a360,/images/storage/storage.jpg,Corsair,MP600 Core,654.65,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a361,/images/storage/storage.jpg,Corsair,MP600 Core,1247.29,2000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a362,/images/storage/storage.jpg,Corsair,MP600 Core,2747.52,4000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a363,/images/storage/storage.jpg,Corsair,MP600 Force Series Gen4,445.81,500,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a364,/images/storage/storage.jpg,Corsair,MP600 Force Series Gen4,750.52,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a365,/images/storage/storage.jpg,Corsair,MP600 Force Series Gen4,1473.93,2000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a366,/images/storage/storage.jpg,Corsair,MP600 Pro,886.80,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a367,/images/storage/storage.jpg,Corsair,MP600 Pro,1769.95,2000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a368,/images/storage/storage.jpg,Crucial,BX500,221.99,480,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a369,/images/storage/storage.jpg,Crucial,BX500,350.35,1000,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a370,/images/storage/storage.jpg,Crucial,BX500,545.77,960,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a371,/images/storage/storage.jpg,Crucial,BX500,798.25,2000,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a372,/images/storage/storage.jpg,Crucial,M500 M.2,1831.42,480,5,SSD,M.2-2280,M.2 (B+M)
-608dd615905ec60bdc06a373,/images/storage/storage.jpg,Crucial,MX500,258.90,500,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a374,/images/storage/storage.jpg,Crucial,MX500,455.09,1000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a375,/images/storage/storage.jpg,Crucial,MX500,939.48,2000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a376,/images/storage/storage.jpg,Crucial,P1,222.95,500,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a377,/images/storage/storage.jpg,Crucial,P1,390.85,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a378,/images/storage/storage.jpg,Crucial,P1,909.45,2000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a379,/images/storage/storage.jpg,Crucial,P2,250.98,500,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a380,/images/storage/storage.jpg,Crucial,P2,440.62,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a381,/images/storage/storage.jpg,Crucial,P2,968.74,2000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a382,/images/storage/storage.jpg,Crucial,P5,335.47,500,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a383,/images/storage/storage.jpg,Crucial,P5,519.11,1000,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a384,/images/storage/storage.jpg,Crucial,P5,1238.97,2000,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a385,/images/storage/storage.jpg,Gigabyte,AORUS Gen4,509.69,500,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a386,/images/storage/storage.jpg,Gigabyte,AORUS Gen4,795.80,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a387,/images/storage/storage.jpg,Gigabyte,AORUS NVMe Gen4,1469.60,2000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a388,/images/storage/storage.jpg,Gigabyte,UD PRO,181.86,256,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a389,/images/storage/storage.jpg,Gigabyte,UD PRO,358.95,512,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a390,/images/storage/storage.jpg,HP,EX920,646.78,1000,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a391,/images/storage/storage.jpg,Intel,545s,399.76,256,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a392,/images/storage/storage.jpg,Intel,545s,651.47,512,5,SSD,M.2-2280,M.2 (B+M)
-608dd615905ec60bdc06a393,/images/storage/storage.jpg,Intel,660p,283.92,512,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a394,/images/storage/storage.jpg,Intel,660p,928.34,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a395,/images/storage/storage.jpg,Intel,660p,950.90,2000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a396,/images/storage/storage.jpg,Intel,665p,523.11,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a397,/images/storage/storage.jpg,Intel,665p,1230.68,2000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a398,/images/storage/storage.jpg,Intel,760p Series,684.59,256,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a399,/images/storage/storage.jpg,Intel,760p Series,862.00,512,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a400,/images/storage/storage.jpg,Intel,760p Series,6479.20,2000,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a401,/images/storage/storage.jpg,Kingston,A2000,247.70,500,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a402,/images/storage/storage.jpg,Kingston,A2000,486.35,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a403,/images/storage/storage.jpg,Kingston,A400,221.99,480,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a404,/images/storage/storage.jpg,Kingston,A400,401.99,960,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a405,/images/storage/storage.jpg,Kingston,A400,809.85,1920,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a406,/images/storage/storage.jpg,Kingston,HyperX FURY RGB,1049.50,480,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a407,/images/storage/storage.jpg,Kingston,KC2000,634.91,500,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a408,/images/storage/storage.jpg,Kingston,KC2000,918.51,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a409,/images/storage/storage.jpg,Kingston,KC2500,295.30,500,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a410,/images/storage/storage.jpg,Kingston,KC2500,522.75,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a411,/images/storage/storage.jpg,Kingston,KC2500,1113.34,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a412,/images/storage/storage.jpg,Kingston,KC600,211.26,256,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a413,/images/storage/storage.jpg,Kingston,KC600,332.06,512,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a414,/images/storage/storage.jpg,Kingston,Q500,343.93,480,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a415,/images/storage/storage.jpg,Kingston,Q500,665.71,960,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a416,/images/storage/storage.jpg,Kingston,UV500,1255.80,1920,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a417,/images/storage/storage.jpg,Kingston,UV500,1633.45,960,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a418,/images/storage/storage.jpg,Kingston,UV500,360.36,480,6,SSD,M.2-2280,M.2 (B+M)
-608dd615905ec60bdc06a419,/images/storage/storage.jpg,Patriot,Burst,254.53,480,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a420,/images/storage/storage.jpg,Patriot,Burst,438.39,960,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a421,/images/storage/storage.jpg,Patriot,P300,165.57,256,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a422,/images/storage/storage.jpg,Patriot,P300,274.59,512,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a423,/images/storage/storage.jpg,Patriot,P300,477.52,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a424,/images/storage/storage.jpg,Patriot,P300,1118.80,2000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a425,/images/storage/storage.jpg,Patriot,Viper Gaming VP4100,868.60,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a426,/images/storage/storage.jpg,Patriot,Viper Gaming VP4100,1574.25,2000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a427,/images/storage/storage.jpg,Patriot,VPN100,233.32,256,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a428,/images/storage/storage.jpg,Patriot,VPN100,334.38,512,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a429,/images/storage/storage.jpg,Patriot,VPN100,597.64,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a430,/images/storage/storage.jpg,Patriot,VPN100,1205.70,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a431,/images/storage/storage.jpg,Plextor,M9Pe,323.05,256,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a432,/images/storage/storage.jpg,Plextor,M9Pe,553.87,512,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a433,/images/storage/storage.jpg,Plextor,M9Pe,1030.39,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a434,/images/storage/storage.jpg,PNY,CS2130,305.99,500,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a435,/images/storage/storage.jpg,PNY,CS2130,509.69,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a436,/images/storage/storage.jpg,PNY,CS2130,1031.53,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a437,/images/storage/storage.jpg,PNY,CS900,247.66,500,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a438,/images/storage/storage.jpg,PNY,CS900,254.35,480,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a439,/images/storage/storage.jpg,PNY,CS900,432.61,960,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a440,/images/storage/storage.jpg,PNY,CS900,632.18,1000,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a441,/images/storage/storage.jpg,PNY,XLR8 CS3030,336.88,500,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a442,/images/storage/storage.jpg,PNY,XLR8 CS3030,566.61,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a443,/images/storage/storage.jpg,PNY,XLR8 CS3030,1100.55,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a444,/images/storage/storage.jpg,Samsung,850 Pro,864.50,256,4,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a445,/images/storage/storage.jpg,Samsung,860 Evo,504.37,1000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a446,/images/storage/storage.jpg,Samsung,860 Evo,2514.47,4000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a447,/images/storage/storage.jpg,Samsung,860 Evo,282.05,500,5,SSD,M.2-2280,M.2 (B+M)
-608dd615905ec60bdc06a448,/images/storage/storage.jpg,Samsung,860 Evo,1036.72,2000,5,SSD,M.2-2280,M.2 (B+M)
-608dd615905ec60bdc06a449,/images/storage/storage.jpg,Samsung,860 Pro,377.74,256,4,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a450,/images/storage/storage.jpg,Samsung,860 Pro,504.55,512,4,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a451,/images/storage/storage.jpg,Samsung,860 Pro,878.10,1000,4,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a452,/images/storage/storage.jpg,Samsung,860 Pro,1710.35,2000,4,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a453,/images/storage/storage.jpg,Samsung,860 Pro,3298.70,4000,4,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a454,/images/storage/storage.jpg,Samsung,860 QVO,491.63,1000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a455,/images/storage/storage.jpg,Samsung,860 QVO,1362.32,2000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a456,/images/storage/storage.jpg,Samsung,870 Evo,295.30,500,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a457,/images/storage/storage.jpg,Samsung,870 Evo,509.55,1000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a458,/images/storage/storage.jpg,Samsung,870 Evo,948.54,2000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a459,/images/storage/storage.jpg,Samsung,870 Evo,1813.04,4000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a460,/images/storage/storage.jpg,Samsung,870 QVO,3148.55,8000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a461,/images/storage/storage.jpg,Samsung,970 Evo,359.54,500,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a462,/images/storage/storage.jpg,Samsung,970 Evo,596.14,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a463,/images/storage/storage.jpg,Samsung,970 Evo,2727.22,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a464,/images/storage/storage.jpg,Samsung,970 Evo Plus,368.32,500,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a465,/images/storage/storage.jpg,Samsung,970 Evo Plus,682.45,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a466,/images/storage/storage.jpg,Samsung,970 EVO Plus,1360.54,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a467,/images/storage/storage.jpg,Samsung,970 Pro,629.67,512,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a468,/images/storage/storage.jpg,Samsung,970 Pro,1046.45,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a469,/images/storage/storage.jpg,Samsung,980 Pro,559.65,500,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a470,/images/storage/storage.jpg,Samsung,980 Pro,877.65,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a471,/images/storage/storage.jpg,Samsung,Spinpoint F1 EG,659.48,1000,8,5400RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a472,/images/storage/storage.jpg,Samsung,Spinpoint F1 RAID,964.60,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a473,/images/storage/storage.jpg,Samsung,Spinpoint F2 EG,363.55,1000,8,5400RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a474,/images/storage/storage.jpg,Samsung,Spinpoint F3,564.20,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a475,/images/storage/storage.jpg,Samsung,Spinpoint F3 EG,586.31,1000,8,5400RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a476,/images/storage/storage.jpg,Samsung,Spinpoint F3R,674.08,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a477,/images/storage/storage.jpg,Samsung,Spinpoint M8,264.45,1000,8,5400RPM,"2.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a478,/images/storage/storage.jpg,SanDisk,Extreme Pro,4545.45,960,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a479,/images/storage/storage.jpg,SanDisk,EXTREME PRO,341.39,500,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a480,/images/storage/storage.jpg,SanDisk,EXTREME PRO,545.95,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a481,/images/storage/storage.jpg,SanDisk,SSD PLUS,231.73,480,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a482,/images/storage/storage.jpg,SanDisk,SSD PLUS,400.35,1000,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a483,/images/storage/storage.jpg,SanDisk,SSD Plus,727.95,2000,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a484,/images/storage/storage.jpg,SanDisk,Ultra 3D,263.45,500,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a485,/images/storage/storage.jpg,SanDisk,Ultra 3D,447.77,1000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a486,/images/storage/storage.jpg,SanDisk,Ultra 3D,909.55,2000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a487,/images/storage/storage.jpg,SanDisk,Ultra 3D,1706.20,4000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a488,/images/storage/storage.jpg,SanDisk,Ultra II,818.95,480,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a489,/images/storage/storage.jpg,SanDisk,Ultra II,873.33,960,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a490,/images/storage/storage.jpg,Seagate,BarraCuda,168.35,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a491,/images/storage/storage.jpg,Seagate,Barracuda,282.33,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a492,/images/storage/storage.jpg,Seagate,Barracuda,643.10,1500,8,7200RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a493,/images/storage/storage.jpg,Seagate,Barracuda,728.00,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a494,/images/storage/storage.jpg,Seagate,BarraCuda,395.35,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a495,/images/storage/storage.jpg,Seagate,Barracuda,568.30,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a496,/images/storage/storage.jpg,Seagate,BarraCuda,618.12,5000,8,5400RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a497,/images/storage/storage.jpg,Seagate,BarraCuda 510,319.64,500,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a498,/images/storage/storage.jpg,Seagate,BarraCuda 510,573.25,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a499,/images/storage/storage.jpg,Seagate,Barracuda Compute,368.05,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a500,/images/storage/storage.jpg,Seagate,Barracuda Compute,428.84,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a501,/images/storage/storage.jpg,Seagate,Barracuda Compute,672.95,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a502,/images/storage/storage.jpg,Seagate,BarraCuda Compute,720.90,8000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a503,/images/storage/storage.jpg,Seagate,Barracuda ES,855.17,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a504,/images/storage/storage.jpg,Seagate,BarraCuda Pro,1107.65,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a505,/images/storage/storage.jpg,Seagate,BarraCuda Pro,1137.50,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a506,/images/storage/storage.jpg,Seagate,BarraCuda Pro,2133.27,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a507,/images/storage/storage.jpg,Seagate,BarraCuda Pro,2206.75,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a508,/images/storage/storage.jpg,Seagate,BarraCuda Pro Compute,254.48,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a509,/images/storage/storage.jpg,Seagate,BarraCuda Pro Compute,1960.19,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a510,/images/storage/storage.jpg,Seagate,Barracuda XT,828.10,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a511,/images/storage/storage.jpg,Seagate,Constellation CS,768.95,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a512,/images/storage/storage.jpg,Seagate,Constellation CS,1278.55,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a513,/images/storage/storage.jpg,Seagate,Constellation CS,1360.45,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a514,/images/storage/storage.jpg,Seagate,Constellation CS ISE,1178.45,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a515,/images/storage/storage.jpg,Seagate,Constellation ES,444.26,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a516,/images/storage/storage.jpg,Seagate,Constellation ES,859.95,2000,8,7200RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a517,/images/storage/storage.jpg,Seagate,Constellation ES.2,363.55,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a518,/images/storage/storage.jpg,Seagate,Constellation ES.2,796.02,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a519,/images/storage/storage.jpg,Seagate,Constellation ES.3,592.36,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a520,/images/storage/storage.jpg,Seagate,Constellation ES.3,628.72,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a521,/images/storage/storage.jpg,Seagate,Constellation ES.3,968.24,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a522,/images/storage/storage.jpg,Seagate,Constellation.2,382.20,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a523,/images/storage/storage.jpg,Seagate,Enterprise,1683.45,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a524,/images/storage/storage.jpg,Seagate,Enterprise Capacity,705.20,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a525,/images/storage/storage.jpg,Seagate,Enterprise Capacity,782.10,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a526,/images/storage/storage.jpg,Seagate,Enterprise Capacity,786.65,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a527,/images/storage/storage.jpg,Seagate,Enterprise Capacity,955.45,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a528,/images/storage/storage.jpg,Seagate,Enterprise Capacity,1132.31,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a529,/images/storage/storage.jpg,Seagate,Enterprise Capacity,1160.02,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a530,/images/storage/storage.jpg,Seagate,Enterprise NAS,1683.27,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a531,/images/storage/storage.jpg,Seagate,Exos 7E8,506.82,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a532,/images/storage/storage.jpg,Seagate,Exos 7E8,866.23,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a533,/images/storage/storage.jpg,Seagate,EXOS Enterprise,490.90,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a534,/images/storage/storage.jpg,Seagate,EXOS Enterprise,554.92,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a535,/images/storage/storage.jpg,Seagate,EXOS Enterprise,720.67,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a536,/images/storage/storage.jpg,Seagate,EXOS Enterprise,807.58,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a537,/images/storage/storage.jpg,Seagate,EXOS Enterprise,1259.67,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a538,/images/storage/storage.jpg,Seagate,EXOS Enterprise,1301.25,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a539,/images/storage/storage.jpg,Seagate,EXOS Enterprise,1416.46,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a540,/images/storage/storage.jpg,Seagate,EXOS Enterprise X18,1667.30,18000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a541,/images/storage/storage.jpg,Seagate,Exos X14,1569.11,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a542,/images/storage/storage.jpg,Seagate,Exos X14,1602.01,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a543,/images/storage/storage.jpg,Seagate,Exos X16,1019.11,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a544,/images/storage/storage.jpg,Seagate,Exos X16,1140.23,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a545,/images/storage/storage.jpg,Seagate,Exos X16,1619.75,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a546,/images/storage/storage.jpg,Seagate,Exos X16,1962.60,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a547,/images/storage/storage.jpg,Seagate,FireCuda 510,427.65,500,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a548,/images/storage/storage.jpg,Seagate,FireCuda 520,400.35,500,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a549,/images/storage/storage.jpg,Seagate,FireCuda 520,776.09,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a550,/images/storage/storage.jpg,Seagate,FireCuda 520,1437.75,2000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a551,/images/storage/storage.jpg,Seagate,IronWolf,2275.00,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a552,/images/storage/storage.jpg,Seagate,IronWolf,760.94,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a553,/images/storage/storage.jpg,Seagate,IronWolf NAS,574.39,480,4,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a554,/images/storage/storage.jpg,Seagate,IronWolf NAS,1865.45,1920,4,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a555,/images/storage/storage.jpg,Seagate,IronWolf NAS,1941.39,960,4,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a556,/images/storage/storage.jpg,Seagate,IronWolf NAS,5128.21,3840,4,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a557,/images/storage/storage.jpg,Seagate,IronWolf NAS,977.52,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a558,/images/storage/storage.jpg,Seagate,IronWolf NAS,1228.59,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a559,/images/storage/storage.jpg,Seagate,IronWolf NAS,1310.40,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a560,/images/storage/storage.jpg,Seagate,IronWolf NAS,1391.85,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a561,/images/storage/storage.jpg,Seagate,IronWolf NAS,1820.00,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a562,/images/storage/storage.jpg,Seagate,IronWolf NAS,2192.65,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a563,/images/storage/storage.jpg,Seagate,IronWolf Pro,577.85,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a564,/images/storage/storage.jpg,Seagate,IronWolf Pro,809.90,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a565,/images/storage/storage.jpg,Seagate,IronWolf Pro,886.80,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a566,/images/storage/storage.jpg,Seagate,IronWolf Pro,1109.70,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a567,/images/storage/storage.jpg,Seagate,IronWolf Pro,1198.65,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a568,/images/storage/storage.jpg,Seagate,IronWolf Pro,1573.62,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a569,/images/storage/storage.jpg,Seagate,IronWolf Pro,1756.25,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a570,/images/storage/storage.jpg,Seagate,IronWolf Pro,2055.92,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a571,/images/storage/storage.jpg,Seagate,IronWolf Pro,2397.80,18000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a572,/images/storage/storage.jpg,Seagate,Momentus LP,493.04,1000,8,5400RPM,"2.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a573,/images/storage/storage.jpg,Seagate,Momentus SpinPoint,841.52,2000,8,5400RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a574,/images/storage/storage.jpg,Seagate,SkyHawk,2304.17,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a575,/images/storage/storage.jpg,Seagate,Skyhawk AI,937.03,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a576,/images/storage/storage.jpg,Seagate,SkyHawk AI,1280.92,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a577,/images/storage/storage.jpg,Seagate,SkyHawk AI,1351.30,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a578,/images/storage/storage.jpg,Seagate,SkyHawk AI,1692.55,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a579,/images/storage/storage.jpg,Seagate,SkyHawk AI,1860.86,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a580,/images/storage/storage.jpg,Seagate,SkyHawk Surveillance,1724.22,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a581,/images/storage/storage.jpg,Seagate,SkyHawk Surveillance,2502.27,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a582,/images/storage/storage.jpg,Seagate,SkyHawk Surveillance,665.16,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a583,/images/storage/storage.jpg,Seagate,ST1000LM035,197.11,1000,8,5400RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a584,/images/storage/storage.jpg,Seagate,ST1000NX0313,759.35,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a585,/images/storage/storage.jpg,Seagate,ST1000NX0353,2347.80,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a586,/images/storage/storage.jpg,Seagate,ST2000NM0024,1099.05,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a587,/images/storage/storage.jpg,Seagate,ST2000NM0034,1000.77,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a588,/images/storage/storage.jpg,Seagate,ST2000NM0044,1226.68,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a589,/images/storage/storage.jpg,Seagate,ST2000NX0253,1210.07,2000,8,7200RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a590,/images/storage/storage.jpg,Seagate,ST2000NX0303,1498.54,2000,8,7200RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a591,/images/storage/storage.jpg,Seagate,ST4000LM016,1274.00,4000,8,5400RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a592,/images/storage/storage.jpg,Seagate,ST5000NM0024,1774.27,5000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a593,/images/storage/storage.jpg,Seagate,ST6000NM0024,1100.74,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a594,/images/storage/storage.jpg,Seagate,Surveillance HDD,1820.00,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a595,/images/storage/storage.jpg,Seagate,Surveillance HDD,546.00,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a596,/images/storage/storage.jpg,Seagate,Surveillance HDD,701.97,1000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a597,/images/storage/storage.jpg,Seagate,Surveillance HDD,750.66,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a598,/images/storage/storage.jpg,Seagate,Surveillance HDD,1274.00,5000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a599,/images/storage/storage.jpg,Seagate,SV35 Series,910.00,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a600,/images/storage/storage.jpg,Seagate,SV35.5,910.00,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a601,/images/storage/storage.jpg,Silicon,Power A55,274.73,512,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a602,/images/storage/storage.jpg,Silicon,Power A55,437.07,1000,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a603,/images/storage/storage.jpg,Silicon,Power A55,175.13,256,6,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a604,/images/storage/storage.jpg,Silicon,Power A60,217.90,256,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a605,/images/storage/storage.jpg,Silicon,Power A60,308.54,512,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a606,/images/storage/storage.jpg,Silicon,Power A60,499.36,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a607,/images/storage/storage.jpg,Silicon,Power A80,226.18,256,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a608,/images/storage/storage.jpg,Silicon,Power A80,332.51,512,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a609,/images/storage/storage.jpg,Silicon,Power A80,1270.63,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a610,/images/storage/storage.jpg,Silicon,Power UD70,304.85,500,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a611,/images/storage/storage.jpg,Silicon,Power UD70,658.89,1000,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a612,/images/storage/storage.jpg,Silicon,Power UD70,1306.99,2000,3,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a613,/images/storage/storage.jpg,Silicon,Power US70,812.13,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a614,/images/storage/storage.jpg,Silicon,Power US70,1556.10,2000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a615,/images/storage/storage.jpg,Transcend,110S,187.87,256,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a616,/images/storage/storage.jpg,Transcend,110S,312.04,512,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a617,/images/storage/storage.jpg,Transcend,110S,507.23,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a618,/images/storage/storage.jpg,Transcend,220S,229.87,256,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a619,/images/storage/storage.jpg,Transcend,220S,363.91,512,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a620,/images/storage/storage.jpg,Transcend,220S,668.40,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a621,/images/storage/storage.jpg,Transcend,220S,1159.80,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a622,/images/storage/storage.jpg,Transcend,SSD370,589.95,256,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a623,/images/storage/storage.jpg,Transcend,SSD370,960.82,512,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a624,/images/storage/storage.jpg,Western Digital,AV-25,286.42,1000,8,5400RPM,"2.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a625,/images/storage/storage.jpg,Western Digital,AV-GP,222.72,1000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a626,/images/storage/storage.jpg,Western Digital,AV-GP,272.77,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a627,/images/storage/storage.jpg,Western Digital,AV-GP,445.90,1500,8,5400RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a628,/images/storage/storage.jpg,Western Digital,AV-GP,642.92,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a629,/images/storage/storage.jpg,Western Digital,AV-GP,808.94,3000,8,5400RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a630,/images/storage/storage.jpg,Western Digital,Black,303.62,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a631,/images/storage/storage.jpg,Western Digital,Black,821.78,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a632,/images/storage/storage.jpg,Western Digital,Black,1089.32,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a633,/images/storage/storage.jpg,Western Digital,Black,1255.89,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a634,/images/storage/storage.jpg,Western Digital,Black,1452.45,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a635,/images/storage/storage.jpg,Western Digital,Black,1951.95,5000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a636,/images/storage/storage.jpg,Western Digital,BLACK SERIES,367.82,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a637,/images/storage/storage.jpg,Western Digital,BLACK SERIES,545.77,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a638,/images/storage/storage.jpg,Western Digital,BLACK SERIES,1283.10,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a639,/images/storage/storage.jpg,Western Digital,BLACK SERIES,1496.95,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a640,/images/storage/storage.jpg,Western Digital,Black SN850,527.57,500,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a641,/images/storage/storage.jpg,Western Digital,Black SN850,936.80,1000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a642,/images/storage/storage.jpg,Western Digital,Black SN850,1724.40,2000,1,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a643,/images/storage/storage.jpg,Western Digital,Blue,250.20,500,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a644,/images/storage/storage.jpg,Western Digital,Blue,1876.06,4000,5,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a645,/images/storage/storage.jpg,Western Digital,Blue,399.95,1000,5,SSD,M.2-2280,M.2 (B+M)
-608dd615905ec60bdc06a646,/images/storage/storage.jpg,Western Digital,Blue,909.95,2000,5,SSD,M.2-2280,M.2 (B+M)
-608dd615905ec60bdc06a647,/images/storage/storage.jpg,Western Digital,Blue,379.42,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a648,/images/storage/storage.jpg,Western Digital,Blue,504.78,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a649,/images/storage/storage.jpg,Western Digital,Blue Mobile,213.80,1000,8,5400RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a650,/images/storage/storage.jpg,Western Digital,Blue Mobile,304.94,2000,8,5400RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a651,/images/storage/storage.jpg,Western Digital,Blue SN550,265.95,500,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a652,/images/storage/storage.jpg,Western Digital,Blue SN550,400.40,1000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a653,/images/storage/storage.jpg,Western Digital,Blue SN550,928.15,2000,4,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a654,/images/storage/storage.jpg,Western Digital,Caviar Black,655.20,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a655,/images/storage/storage.jpg,Western Digital,Caviar Black,898.67,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a656,/images/storage/storage.jpg,Western Digital,Caviar Black,1134.91,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a657,/images/storage/storage.jpg,Western Digital,Caviar Blue,161.02,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a658,/images/storage/storage.jpg,Western Digital,Caviar Green,188.10,1000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a659,/images/storage/storage.jpg,Western Digital,Caviar Green,568.75,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a660,/images/storage/storage.jpg,Western Digital,Caviar Green,659.48,1500,8,5400RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a661,/images/storage/storage.jpg,Western Digital,Caviar Green,765.54,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a662,/images/storage/storage.jpg,Western Digital,Caviar Green,846.30,2500,8,5400RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a663,/images/storage/storage.jpg,Western Digital,Gold,345.03,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a664,/images/storage/storage.jpg,Western Digital,Gold,500.45,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a665,/images/storage/storage.jpg,Western Digital,Gold,697.79,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a666,/images/storage/storage.jpg,Western Digital,Gold,841.30,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a667,/images/storage/storage.jpg,Western Digital,Gold,973.25,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a668,/images/storage/storage.jpg,Western Digital,Gold,1146.69,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a669,/images/storage/storage.jpg,Western Digital,Gold,1432.80,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a670,/images/storage/storage.jpg,Western Digital,Gold,1646.24,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a671,/images/storage/storage.jpg,Western Digital,Gold,1965.15,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a672,/images/storage/storage.jpg,Western Digital,Gold,2115.52,18000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a673,/images/storage/storage.jpg,Western Digital,Green,413.23,1000,7,SSD,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a674,/images/storage/storage.jpg,Western Digital,Green,250.20,480,7,SSD,M.2-2280,M.2 (B+M)
-608dd615905ec60bdc06a675,/images/storage/storage.jpg,Western Digital,Green,984.89,1500,8,5400RPM,"2.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a676,/images/storage/storage.jpg,Western Digital,Green,1178.45,2000,8,5400RPM,"2.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a677,/images/storage/storage.jpg,Western Digital,Green,2396.35,5000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a678,/images/storage/storage.jpg,Western Digital,HGST DC HC530,1302.21,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a679,/images/storage/storage.jpg,Western Digital,Purple,899.63,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a680,/images/storage/storage.jpg,Western Digital,Purple,1265.54,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a681,/images/storage/storage.jpg,Western Digital,Purple,1595.55,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a682,/images/storage/storage.jpg,Western Digital,Purple,1794.20,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a683,/images/storage/storage.jpg,Western Digital,Purple,199.24,1000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a684,/images/storage/storage.jpg,Western Digital,Purple,294.75,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a685,/images/storage/storage.jpg,Western Digital,Purple,377.74,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a686,/images/storage/storage.jpg,Western Digital,Purple,420.65,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a687,/images/storage/storage.jpg,Western Digital,Purple,753.03,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a688,/images/storage/storage.jpg,Western Digital,Purple NV,1501.27,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a689,/images/storage/storage.jpg,Western Digital,Re,655.20,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a690,/images/storage/storage.jpg,Western Digital,RE,1002.73,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a691,/images/storage/storage.jpg,Western Digital,RE,1091.77,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a692,/images/storage/storage.jpg,Western Digital,RE,1360.45,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a693,/images/storage/storage.jpg,Western Digital,RE,2224.95,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a694,/images/storage/storage.jpg,Western Digital,RE4,681.09,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a695,/images/storage/storage.jpg,Western Digital,RE4,750.52,2000,8,7200RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a696,/images/storage/storage.jpg,Western Digital,Red,276.87,1000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a697,/images/storage/storage.jpg,Western Digital,Red,307.76,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a698,/images/storage/storage.jpg,Western Digital,Red,377.20,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a699,/images/storage/storage.jpg,Western Digital,Red,430.84,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a700,/images/storage/storage.jpg,Western Digital,Red,696.10,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a701,/images/storage/storage.jpg,Western Digital,Red,928.20,8000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a702,/images/storage/storage.jpg,Western Digital,Red,1269.45,10000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a703,/images/storage/storage.jpg,Western Digital,Red,1574.25,12000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a704,/images/storage/storage.jpg,Western Digital,Red,1774.27,5000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a705,/images/storage/storage.jpg,Western Digital,Red,1815.45,14000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a706,/images/storage/storage.jpg,Western Digital,Red (Retail Kit),745.97,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a707,/images/storage/storage.jpg,Western Digital,Red Pro,431.43,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a708,/images/storage/storage.jpg,Western Digital,Red Pro,557.69,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a709,/images/storage/storage.jpg,Western Digital,Red Pro,887.98,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a710,/images/storage/storage.jpg,Western Digital,Red Pro,1150.92,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a711,/images/storage/storage.jpg,Western Digital,Red Pro,1466.24,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a712,/images/storage/storage.jpg,Western Digital,Red Pro,1753.75,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a713,/images/storage/storage.jpg,Western Digital,Red Pro,1774.27,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a714,/images/storage/storage.jpg,Western Digital,Red Pro,1937.62,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a715,/images/storage/storage.jpg,Western Digital,Red Pro,2126.17,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a716,/images/storage/storage.jpg,Western Digital,Red Pro,2387.61,18000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a717,/images/storage/storage.jpg,Western Digital,Scorpio Blue,555.60,1000,8,5400RPM,"2.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a718,/images/storage/storage.jpg,Western Digital,Se,1132.95,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a719,/images/storage/storage.jpg,Western Digital,SN750,300.16,500,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a720,/images/storage/storage.jpg,Western Digital,SN750,586.50,1000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a721,/images/storage/storage.jpg,Western Digital,SN750,1410.50,2000,2,NVMe,M.2-2280,M.2 (M)
-608dd615905ec60bdc06a722,/images/storage/storage.jpg,Western Digital,Ultrastar,968.29,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a723,/images/storage/storage.jpg,Western Digital,Ultrastar DC HC520,1183.18,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a724,/images/storage/storage.jpg,Western Digital,WD Black,1724.45,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a725,/images/storage/storage.jpg,Western Digital,WD Blue,406.09,1000,8,5400RPM,"2.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a726,/images/storage/storage.jpg,Western Digital,WD Green,354.90,1000,8,5400RPM,"3.5""",SATA 3 Gb/s
-608dd615905ec60bdc06a727,/images/storage/storage.jpg,Western Digital,WD Green,673.40,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a728,/images/storage/storage.jpg,Western Digital,WD Purple,414.00,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a729,/images/storage/storage.jpg,Western Digital,WD Purple,808.94,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a730,/images/storage/storage.jpg,Western Digital,WD Purple,864.27,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a731,/images/storage/storage.jpg,Western Digital,WD SE,1087.31,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a732,/images/storage/storage.jpg,Western Digital,WD SE,1134.91,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a733,/images/storage/storage.jpg,Western Digital,WD SE,1769.95,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a734,/images/storage/storage.jpg,Western Digital,WD3001FAEX,1011.65,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
-608dd615905ec60bdc06a735,/images/storage/storage.jpg,Western Digital,WDBSLA0040HNC-NRSN,1729.64,4000,8,7200RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a302,/images/storage/41pBUwwHQ8L.jpg,ADATA,Falcon,281.14,256,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a303,/images/storage/41pBUwwHQ8L.jpg,ADATA,Falcon,383.43,512,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a304,/images/storage/41pBUwwHQ8L.jpg,ADATA,Falcon,727.36,1000,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a305,/images/storage/eb2766bf443b4123cb7cf75e65002a7b.256p.jpg,ADATA,SU630,255.76,480,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a306,/images/storage/eb2766bf443b4123cb7cf75e65002a7b.256p.jpg,ADATA,SU630,449.77,960,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a307,/images/storage/41mtVZ81OPL.jpg,ADATA,SU800,990.31,2000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a308,/images/storage/41mtVZ81OPL.jpg,ADATA,SU800,211.48,256,5,SSD,M.2-2280,M.2 (B+M)
+608dd615905ec60bdc06a309,/images/storage/41mtVZ81OPL.jpg,ADATA,SU800,313.13,512,5,SSD,M.2-2280,M.2 (B+M)
+608dd615905ec60bdc06a310,/images/storage/41mtVZ81OPL.jpg,ADATA,SU800,518.25,1000,5,SSD,M.2-2280,M.2 (B+M)
+608dd615905ec60bdc06a311,/images/storage/415M4Seg7pL.jpg,ADATA,Swordfish,300.30,500,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a312,/images/storage/415M4Seg7pL.jpg,ADATA,Swordfish,495.45,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a313,/images/storage/415M4Seg7pL.jpg,ADATA,Swordfish,925.29,2000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a314,/images/storage/41EIV5d47WL.jpg,ADATA,Ultimate SU650,263.40,480,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a315,/images/storage/41EIV5d47WL.jpg,ADATA,Ultimate SU650,468.60,960,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a316,/images/storage/07e2485d72c691d475dc6906f34ad1e0.256p.jpg,ADATA,Ultimate SU750,165.12,256,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a317,/images/storage/07e2485d72c691d475dc6906f34ad1e0.256p.jpg,ADATA,Ultimate SU750,250.20,512,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a318,/images/storage/07e2485d72c691d475dc6906f34ad1e0.256p.jpg,ADATA,Ultimate SU750,463.65,1000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a319,/images/storage/41876Rv5-XL.jpg,ADATA,XPG GAMMIX S11,2064.52,960,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a320,/images/storage/31m-HD-qlsL.jpg,ADATA,XPG GAMMIX S11 Pro,215.12,256,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a321,/images/storage/31m-HD-qlsL.jpg,ADATA,XPG GAMMIX S11 Pro,349.85,512,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a322,/images/storage/31m-HD-qlsL.jpg,ADATA,XPG GAMMIX S11 Pro,596.23,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a323,/images/storage/31m-HD-qlsL.jpg,ADATA,XPG GAMMIX S11 Pro,991.45,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a324,/images/storage/d09eec8c3a6cc5ca7e2138570c44cb17.256p.jpg,ADATA,XPG GAMMIX S5,187.87,256,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a325,/images/storage/d09eec8c3a6cc5ca7e2138570c44cb17.256p.jpg,ADATA,XPG GAMMIX S5,291.25,512,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a326,/images/storage/d09eec8c3a6cc5ca7e2138570c44cb17.256p.jpg,ADATA,XPG GAMMIX S5,531.94,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a327,/images/storage/98916d132241ce64f4cc30f52a70bbfe.256p.jpg,ADATA,XPG GAMMIX S50,987.44,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a328,/images/storage/98916d132241ce64f4cc30f52a70bbfe.256p.jpg,ADATA,XPG GAMMIX S50,1879.74,2000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a329,/images/storage/61959e3ff7f2591e8f040dbe7e49c1a9.256p.jpg,ADATA,XPG GAMMIX S50 Lite,602.15,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a330,/images/storage/61959e3ff7f2591e8f040dbe7e49c1a9.256p.jpg,ADATA,XPG GAMMIX S50 Lite,1059.88,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a331,/images/storage/bb2a09c19d1cc0a12553e5a3b894217b.256p.jpg,ADATA,XPG GAMMIX S70,867.41,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a332,/images/storage/bb2a09c19d1cc0a12553e5a3b894217b.256p.jpg,ADATA,XPG GAMMIX S70,1756.25,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a333,/images/storage/43e8d7f948dad74e351811c42037cf0f.256p.jpg,ADATA,XPG SPECTRIX S40G RGB,204.70,256,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a334,/images/storage/43e8d7f948dad74e351811c42037cf0f.256p.jpg,ADATA,XPG SPECTRIX S40G RGB,301.85,512,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a335,/images/storage/43e8d7f948dad74e351811c42037cf0f.256p.jpg,ADATA,XPG SPECTRIX S40G RGB,586.22,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a336,/images/storage/43e8d7f948dad74e351811c42037cf0f.256p.jpg,ADATA,XPG SPECTRIX S40G RGB,973.47,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a337,/images/storage/51hLBzXrZ1L.jpg,ADATA,XPG SX6000,336.11,256,5,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a338,/images/storage/51hLBzXrZ1L.jpg,ADATA,XPG SX6000,592.05,512,5,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a339,/images/storage/25470327ce59a792cf646717748a0605.256p.jpg,ADATA,XPG SX6000 Pro,204.07,256,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a340,/images/storage/25470327ce59a792cf646717748a0605.256p.jpg,ADATA,XPG SX6000 Pro,294.25,512,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a341,/images/storage/25470327ce59a792cf646717748a0605.256p.jpg,ADATA,XPG SX6000 Pro,495.50,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a342,/images/storage/41XOcKZDBhL.jpg,ADATA,XPG SX8100,347.80,512,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a343,/images/storage/41XOcKZDBhL.jpg,ADATA,XPG SX8100,516.11,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a344,/images/storage/41XOcKZDBhL.jpg,ADATA,XPG SX8100,1651.33,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a345,/images/storage/41VdVrM7PXL.jpg,ADATA,XPG SX8200 Pro,221.54,256,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a346,/images/storage/41VdVrM7PXL.jpg,ADATA,XPG SX8200 Pro,313.68,512,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a347,/images/storage/41VdVrM7PXL.jpg,ADATA,XPG SX8200 Pro,564.29,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a348,/images/storage/41VdVrM7PXL.jpg,ADATA,XPG SX8200 Pro,1000.55,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a349,/images/storage/03f08a8d847342d8847df90f63742f6a.256p.jpg,Apacer,AS2280Q4,629.45,500,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a350,/images/storage/03f08a8d847342d8847df90f63742f6a.256p.jpg,Apacer,AS2280Q4,1378.20,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a351,/images/storage/461d0b9bcb4b94867ec046385e105570.256p.jpg,Corsair,Force MP500,1123.62,480,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a352,/images/storage/ff845613cc0803168356a8450932e542.256p.jpg,Corsair,MP400,528.44,1000,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a353,/images/storage/ff845613cc0803168356a8450932e542.256p.jpg,Corsair,MP400,1081.81,2000,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a354,/images/storage/ff845613cc0803168356a8450932e542.256p.jpg,Corsair,MP400,2475.11,4000,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a355,/images/storage/ff845613cc0803168356a8450932e542.256p.jpg,Corsair,MP400,5628.30,8000,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a356,/images/storage/2abe37e4834b92b2c7b924f06e5a4a69.256p.jpg,Corsair,MP510,296.11,480,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a357,/images/storage/2abe37e4834b92b2c7b924f06e5a4a69.256p.jpg,Corsair,MP510,581.95,960,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a358,/images/storage/2abe37e4834b92b2c7b924f06e5a4a69.256p.jpg,Corsair,MP510,1212.17,1920,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a359,/images/storage/2abe37e4834b92b2c7b924f06e5a4a69.256p.jpg,Corsair,MP510,3225.95,4000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a360,/images/storage/4dfe9f402d344d460b4917dc638087d7.256p.jpg,Corsair,MP600 Core,654.65,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a361,/images/storage/4dfe9f402d344d460b4917dc638087d7.256p.jpg,Corsair,MP600 Core,1247.29,2000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a362,/images/storage/4dfe9f402d344d460b4917dc638087d7.256p.jpg,Corsair,MP600 Core,2747.52,4000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a363,/images/storage/41nhEz%2BUa%2BL.jpg,Corsair,MP600 Force Series Gen4,445.81,500,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a364,/images/storage/41nhEz%2BUa%2BL.jpg,Corsair,MP600 Force Series Gen4,750.52,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a365,/images/storage/41nhEz%2BUa%2BL.jpg,Corsair,MP600 Force Series Gen4,1473.93,2000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a366,/images/storage/0f92e5491db1cf71dc84aedec200ab4a.256p.jpg,Corsair,MP600 Pro,886.80,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a367,/images/storage/0f92e5491db1cf71dc84aedec200ab4a.256p.jpg,Corsair,MP600 Pro,1769.95,2000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a368,/images/storage/a5c0d1d69051ff1b7676ae93f7752c03.256p.jpg,Crucial,BX500,221.99,480,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a369,/images/storage/a5c0d1d69051ff1b7676ae93f7752c03.256p.jpg,Crucial,BX500,350.35,1000,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a370,/images/storage/a5c0d1d69051ff1b7676ae93f7752c03.256p.jpg,Crucial,BX500,545.77,960,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a371,/images/storage/a5c0d1d69051ff1b7676ae93f7752c03.256p.jpg,Crucial,BX500,798.25,2000,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a372,/images/storage/41c0FLjIPyL.jpg,Crucial,M500 M.2,1831.42,480,5,SSD,M.2-2280,M.2 (B+M)
+608dd615905ec60bdc06a373,/images/storage/d7f3021a9a05e15649c88a9734ed49a7.256p.jpg,Crucial,MX500,258.90,500,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a374,/images/storage/d7f3021a9a05e15649c88a9734ed49a7.256p.jpg,Crucial,MX500,455.09,1000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a375,/images/storage/d7f3021a9a05e15649c88a9734ed49a7.256p.jpg,Crucial,MX500,939.48,2000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a376,/images/storage/48b1e1eed361bc76beedeb4c227d7630.256p.jpg,Crucial,P1,222.95,500,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a377,/images/storage/48b1e1eed361bc76beedeb4c227d7630.256p.jpg,Crucial,P1,390.85,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a378,/images/storage/48b1e1eed361bc76beedeb4c227d7630.256p.jpg,Crucial,P1,909.45,2000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a379,/images/storage/ce4fd57ee655bf400a82aa84f6ec7ac5.256p.jpg,Crucial,P2,250.98,500,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a380,/images/storage/ce4fd57ee655bf400a82aa84f6ec7ac5.256p.jpg,Crucial,P2,440.62,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a381,/images/storage/ce4fd57ee655bf400a82aa84f6ec7ac5.256p.jpg,Crucial,P2,968.74,2000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a382,/images/storage/e46c5aa8f074885dd4e90806b2725969.256p.jpg,Crucial,P5,335.47,500,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a383,/images/storage/e46c5aa8f074885dd4e90806b2725969.256p.jpg,Crucial,P5,519.11,1000,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a384,/images/storage/e46c5aa8f074885dd4e90806b2725969.256p.jpg,Crucial,P5,1238.97,2000,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a385,/images/storage/b027f3fe6eebed7fcf692e9cb36990c9.256p.jpg,Gigabyte,AORUS Gen4,509.69,500,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a386,/images/storage/b027f3fe6eebed7fcf692e9cb36990c9.256p.jpg,Gigabyte,AORUS Gen4,795.80,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a387,/images/storage/f1d04ddc119681f7d307604553a03d9e.256p.jpg,Gigabyte,AORUS NVMe Gen4,1469.60,2000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a388,/images/storage/9611fb7aee58e84e62e3b4b6380898a9.256p.jpg,Gigabyte,UD PRO,181.86,256,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a389,/images/storage/9611fb7aee58e84e62e3b4b6380898a9.256p.jpg,Gigabyte,UD PRO,358.95,512,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a390,/images/storage/412xMIhiltL.jpg,HP,EX920,646.78,1000,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a391,/images/storage/020644175beb4cfd7d01a1ad15353a48.256p.jpg,Intel,545s,399.76,256,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a392,/images/storage/020644175beb4cfd7d01a1ad15353a48.256p.jpg,Intel,545s,651.47,512,5,SSD,M.2-2280,M.2 (B+M)
+608dd615905ec60bdc06a393,/images/storage/af52e1f50edc53aed35cfd2bbdaac387.256p.jpg,Intel,660p,283.92,512,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a394,/images/storage/af52e1f50edc53aed35cfd2bbdaac387.256p.jpg,Intel,660p,928.34,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a395,/images/storage/af52e1f50edc53aed35cfd2bbdaac387.256p.jpg,Intel,660p,950.90,2000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a396,/images/storage/e1dc570a5375a1c13baa309fb514d913.256p.jpg,Intel,665p,523.11,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a397,/images/storage/e1dc570a5375a1c13baa309fb514d913.256p.jpg,Intel,665p,1230.68,2000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a398,/images/storage/41HkznbB8iL.jpg,Intel,760p Series,684.59,256,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a399,/images/storage/41HkznbB8iL.jpg,Intel,760p Series,862.00,512,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a400,/images/storage/41HkznbB8iL.jpg,Intel,760p Series,6479.20,2000,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a401,/images/storage/d2597c6af85efa2da718727f545317eb.256p.jpg,Kingston,A2000,247.70,500,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a402,/images/storage/d2597c6af85efa2da718727f545317eb.256p.jpg,Kingston,A2000,486.35,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a403,/images/storage/e534915d54e9502c65b9667d03879648.256p.jpg,Kingston,A400,221.99,480,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a404,/images/storage/e534915d54e9502c65b9667d03879648.256p.jpg,Kingston,A400,401.99,960,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a405,/images/storage/e534915d54e9502c65b9667d03879648.256p.jpg,Kingston,A400,809.85,1920,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a406,/images/storage/565886a5f9af675106d11c36cf894d54.256p.jpg,Kingston,HyperX FURY RGB,1049.50,480,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a407,/images/storage/820a5fc34269d4a88c72b95251b60308.256p.jpg,Kingston,KC2000,634.91,500,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a408,/images/storage/820a5fc34269d4a88c72b95251b60308.256p.jpg,Kingston,KC2000,918.51,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a409,/images/storage/ed1833a9b97c823be379e874df2e4e8c.256p.jpg,Kingston,KC2500,295.30,500,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a410,/images/storage/ed1833a9b97c823be379e874df2e4e8c.256p.jpg,Kingston,KC2500,522.75,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a411,/images/storage/ed1833a9b97c823be379e874df2e4e8c.256p.jpg,Kingston,KC2500,1113.34,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a412,/images/storage/2d941d002eeba10430595867b07350ad.256p.jpg,Kingston,KC600,211.26,256,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a413,/images/storage/2d941d002eeba10430595867b07350ad.256p.jpg,Kingston,KC600,332.06,512,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a414,/images/storage/0bb1e78188534ae3e1aed2e93193f459.256p.jpg,Kingston,Q500,343.93,480,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a415,/images/storage/0bb1e78188534ae3e1aed2e93193f459.256p.jpg,Kingston,Q500,665.71,960,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a416,/images/storage/41C%2Bt9VxEXL.jpg,Kingston,UV500,1255.80,1920,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a417,/images/storage/41C%2Bt9VxEXL.jpg,Kingston,UV500,1633.45,960,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a418,/images/storage/41C%2Bt9VxEXL.jpg,Kingston,UV500,360.36,480,6,SSD,M.2-2280,M.2 (B+M)
+608dd615905ec60bdc06a419,/images/storage/41QcSJmPbZL.jpg,Patriot,Burst,254.53,480,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a420,/images/storage/41QcSJmPbZL.jpg,Patriot,Burst,438.39,960,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a421,/images/storage/90d72ac1538a12cfeae6721cfd580e5b.256p.jpg,Patriot,P300,165.57,256,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a422,/images/storage/90d72ac1538a12cfeae6721cfd580e5b.256p.jpg,Patriot,P300,274.59,512,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a423,/images/storage/90d72ac1538a12cfeae6721cfd580e5b.256p.jpg,Patriot,P300,477.52,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a424,/images/storage/90d72ac1538a12cfeae6721cfd580e5b.256p.jpg,Patriot,P300,1118.80,2000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a425,/images/storage/df2a9414e4aec43c938df3a37b8f78b0.256p.jpg,Patriot,Viper Gaming VP4100,868.60,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a426,/images/storage/df2a9414e4aec43c938df3a37b8f78b0.256p.jpg,Patriot,Viper Gaming VP4100,1574.25,2000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a427,/images/storage/e0cb65cd2d53bdf3a8313e6b74bfa471.256p.jpg,Patriot,VPN100,233.32,256,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a428,/images/storage/e0cb65cd2d53bdf3a8313e6b74bfa471.256p.jpg,Patriot,VPN100,334.38,512,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a429,/images/storage/e0cb65cd2d53bdf3a8313e6b74bfa471.256p.jpg,Patriot,VPN100,597.64,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a430,/images/storage/e0cb65cd2d53bdf3a8313e6b74bfa471.256p.jpg,Patriot,VPN100,1205.70,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a431,/images/storage/1bf9487a6b9f5a26eb87d2a1cf01f31d.256p.jpg,Plextor,M9Pe,323.05,256,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a432,/images/storage/1bf9487a6b9f5a26eb87d2a1cf01f31d.256p.jpg,Plextor,M9Pe,553.87,512,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a433,/images/storage/1bf9487a6b9f5a26eb87d2a1cf01f31d.256p.jpg,Plextor,M9Pe,1030.39,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a434,/images/storage/90346f63f185db867fe9f5a2ed9433d9.256p.jpg,PNY,CS2130,305.99,500,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a435,/images/storage/90346f63f185db867fe9f5a2ed9433d9.256p.jpg,PNY,CS2130,509.69,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a436,/images/storage/90346f63f185db867fe9f5a2ed9433d9.256p.jpg,PNY,CS2130,1031.53,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a437,/images/storage/22ea6e8e1e23003940eea1ff8f5ada53.256p.jpg,PNY,CS900,247.66,500,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a438,/images/storage/22ea6e8e1e23003940eea1ff8f5ada53.256p.jpg,PNY,CS900,254.35,480,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a439,/images/storage/22ea6e8e1e23003940eea1ff8f5ada53.256p.jpg,PNY,CS900,432.61,960,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a440,/images/storage/22ea6e8e1e23003940eea1ff8f5ada53.256p.jpg,PNY,CS900,632.18,1000,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a441,/images/storage/15d2c3b90ecc55fc1070057654853079.256p.jpg,PNY,XLR8 CS3030,336.88,500,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a442,/images/storage/15d2c3b90ecc55fc1070057654853079.256p.jpg,PNY,XLR8 CS3030,566.61,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a443,/images/storage/15d2c3b90ecc55fc1070057654853079.256p.jpg,PNY,XLR8 CS3030,1100.55,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a444,/images/storage/b56c88e83d3d4d02f21dec1fc8666557.256p.jpg,Samsung,850 Pro,864.50,256,4,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a445,/images/storage/5fc69d1da1365260e3ea53691a58b397.256p.jpg,Samsung,860 Evo,504.37,1000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a446,/images/storage/5fc69d1da1365260e3ea53691a58b397.256p.jpg,Samsung,860 Evo,2514.47,4000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a447,/images/storage/5fc69d1da1365260e3ea53691a58b397.256p.jpg,Samsung,860 Evo,282.05,500,5,SSD,M.2-2280,M.2 (B+M)
+608dd615905ec60bdc06a448,/images/storage/5fc69d1da1365260e3ea53691a58b397.256p.jpg,Samsung,860 Evo,1036.72,2000,5,SSD,M.2-2280,M.2 (B+M)
+608dd615905ec60bdc06a449,/images/storage/41DspXqJajL.jpg,Samsung,860 Pro,377.74,256,4,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a450,/images/storage/41DspXqJajL.jpg,Samsung,860 Pro,504.55,512,4,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a451,/images/storage/41DspXqJajL.jpg,Samsung,860 Pro,878.10,1000,4,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a452,/images/storage/41DspXqJajL.jpg,Samsung,860 Pro,1710.35,2000,4,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a453,/images/storage/41DspXqJajL.jpg,Samsung,860 Pro,3298.70,4000,4,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a454,/images/storage/31naAKlnBZL.jpg,Samsung,860 QVO,491.63,1000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a455,/images/storage/31naAKlnBZL.jpg,Samsung,860 QVO,1362.32,2000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a456,/images/storage/2c576ecaedba7428ac231ac4f1e12a4d.256p.jpg,Samsung,870 Evo,295.30,500,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a457,/images/storage/2c576ecaedba7428ac231ac4f1e12a4d.256p.jpg,Samsung,870 Evo,509.55,1000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a458,/images/storage/2c576ecaedba7428ac231ac4f1e12a4d.256p.jpg,Samsung,870 Evo,948.54,2000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a459,/images/storage/2c576ecaedba7428ac231ac4f1e12a4d.256p.jpg,Samsung,870 Evo,1813.04,4000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a460,/images/storage/29b838814626cac9b060a2d2c0a293cd.256p.jpg,Samsung,870 QVO,3148.55,8000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a461,/images/storage/09a31f32abb3daaf5ed9b849bd60e675.256p.jpg,Samsung,970 Evo,359.54,500,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a462,/images/storage/09a31f32abb3daaf5ed9b849bd60e675.256p.jpg,Samsung,970 Evo,596.14,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a463,/images/storage/09a31f32abb3daaf5ed9b849bd60e675.256p.jpg,Samsung,970 Evo,2727.22,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a464,/images/storage/25a1bf52562913032cce0b7a71b9e323.256p.jpg,Samsung,970 Evo Plus,368.32,500,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a465,/images/storage/25a1bf52562913032cce0b7a71b9e323.256p.jpg,Samsung,970 Evo Plus,682.45,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a466,/images/storage/25a1bf52562913032cce0b7a71b9e323.256p.jpg,Samsung,970 EVO Plus,1360.54,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a467,/images/storage/f5fbcbb3afcdfe42608154abf2f9de71.256p.jpg,Samsung,970 Pro,629.67,512,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a468,/images/storage/f5fbcbb3afcdfe42608154abf2f9de71.256p.jpg,Samsung,970 Pro,1046.45,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a469,/images/storage/31bfYG-nSGL.jpg,Samsung,980 Pro,559.65,500,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a470,/images/storage/31bfYG-nSGL.jpg,Samsung,980 Pro,877.65,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a471,/images/storage/no-image.png,Samsung,Spinpoint F1 EG,659.48,1000,8,5400RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a472,/images/storage/no-image.png,Samsung,Spinpoint F1 RAID,964.60,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a473,/images/storage/no-image.png,Samsung,Spinpoint F2 EG,363.55,1000,8,5400RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a474,/images/storage/no-image.png,Samsung,Spinpoint F3,564.20,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a475,/images/storage/no-image.png,Samsung,Spinpoint F3 EG,586.31,1000,8,5400RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a476,/images/storage/51WqisGtzTL.jpg,Samsung,Spinpoint F3R,674.08,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a477,/images/storage/no-image.png,Samsung,Spinpoint M8,264.45,1000,8,5400RPM,"2.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a478,/images/storage/41B53OcxAIL.jpg,SanDisk,Extreme Pro,4545.45,960,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a479,/images/storage/41B53OcxAIL.jpg,SanDisk,EXTREME PRO,341.39,500,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a480,/images/storage/41B53OcxAIL.jpg,SanDisk,EXTREME PRO,545.95,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a481,/images/storage/41fXbhS5GhL.jpg,SanDisk,SSD PLUS,231.73,480,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a482,/images/storage/41fXbhS5GhL.jpg,SanDisk,SSD PLUS,400.35,1000,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a483,/images/storage/41fXbhS5GhL.jpg,SanDisk,SSD Plus,727.95,2000,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a484,/images/storage/67d3ef08fc9d9c82619cc701ccc9c459.256p.jpg,SanDisk,Ultra 3D,263.45,500,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a485,/images/storage/67d3ef08fc9d9c82619cc701ccc9c459.256p.jpg,SanDisk,Ultra 3D,447.77,1000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a486,/images/storage/67d3ef08fc9d9c82619cc701ccc9c459.256p.jpg,SanDisk,Ultra 3D,909.55,2000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a487,/images/storage/67d3ef08fc9d9c82619cc701ccc9c459.256p.jpg,SanDisk,Ultra 3D,1706.20,4000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a488,/images/storage/41CDjYR5QxL.jpg,SanDisk,Ultra II,818.95,480,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a489,/images/storage/41CDjYR5QxL.jpg,SanDisk,Ultra II,873.33,960,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a490,/images/storage/41OGhq85B2L.jpg,Seagate,BarraCuda,168.35,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a491,/images/storage/41OGhq85B2L.jpg,Seagate,Barracuda,282.33,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a492,/images/storage/41OGhq85B2L.jpg,Seagate,Barracuda,643.10,1500,8,7200RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a493,/images/storage/41OGhq85B2L.jpg,Seagate,Barracuda,728.00,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a494,/images/storage/41OGhq85B2L.jpg,Seagate,BarraCuda,395.35,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a495,/images/storage/41OGhq85B2L.jpg,Seagate,Barracuda,568.30,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a496,/images/storage/41OGhq85B2L.jpg,Seagate,BarraCuda,618.12,5000,8,5400RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a497,/images/storage/807f972fa748821c508dcc9f1086c654.256p.jpg,Seagate,BarraCuda 510,319.64,500,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a498,/images/storage/807f972fa748821c508dcc9f1086c654.256p.jpg,Seagate,BarraCuda 510,573.25,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a499,/images/storage/b84463f4265f4f07e8f1f9ed5199ecb4.256p.jpg,Seagate,Barracuda Compute,368.05,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a500,/images/storage/b84463f4265f4f07e8f1f9ed5199ecb4.256p.jpg,Seagate,Barracuda Compute,428.84,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a501,/images/storage/b84463f4265f4f07e8f1f9ed5199ecb4.256p.jpg,Seagate,Barracuda Compute,672.95,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a502,/images/storage/b84463f4265f4f07e8f1f9ed5199ecb4.256p.jpg,Seagate,BarraCuda Compute,720.90,8000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a503,/images/storage/51C474EK%2BkL.jpg,Seagate,Barracuda ES,855.17,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a504,/images/storage/51OzJBXf8RL.jpg,Seagate,BarraCuda Pro,1107.65,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a505,/images/storage/51OzJBXf8RL.jpg,Seagate,BarraCuda Pro,1137.50,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a506,/images/storage/51OzJBXf8RL.jpg,Seagate,BarraCuda Pro,2133.27,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a507,/images/storage/51OzJBXf8RL.jpg,Seagate,BarraCuda Pro,2206.75,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a508,/images/storage/caf78ca0627e8fb6ef01a079bf990197.256p.jpg,Seagate,BarraCuda Pro Compute,254.48,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a509,/images/storage/caf78ca0627e8fb6ef01a079bf990197.256p.jpg,Seagate,BarraCuda Pro Compute,1960.19,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a510,/images/storage/51KnQwRZCXL.jpg,Seagate,Barracuda XT,828.10,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a511,/images/storage/41%2Bi9Dxj2YL.jpg,Seagate,Constellation CS,768.95,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a512,/images/storage/41%2Bi9Dxj2YL.jpg,Seagate,Constellation CS,1278.55,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a513,/images/storage/41%2Bi9Dxj2YL.jpg,Seagate,Constellation CS,1360.45,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a514,/images/storage/5162SxVdtBL.jpg,Seagate,Constellation CS ISE,1178.45,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a515,/images/storage/41dhZHFpbuL.jpg,Seagate,Constellation ES,444.26,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a516,/images/storage/41dhZHFpbuL.jpg,Seagate,Constellation ES,859.95,2000,8,7200RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a517,/images/storage/31RIr%2BzbvjL.jpg,Seagate,Constellation ES.2,363.55,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a518,/images/storage/31RIr%2BzbvjL.jpg,Seagate,Constellation ES.2,796.02,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a519,/images/storage/41HuXrU7ZPL.jpg,Seagate,Constellation ES.3,592.36,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a520,/images/storage/41HuXrU7ZPL.jpg,Seagate,Constellation ES.3,628.72,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a521,/images/storage/41HuXrU7ZPL.jpg,Seagate,Constellation ES.3,968.24,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a522,/images/storage/2195nce6VhL.jpg,Seagate,Constellation.2,382.20,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a523,/images/storage/41ojUaIN5FL.jpg,Seagate,Enterprise,1683.45,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a524,/images/storage/0fadfdaea140d8a2530ac577ce65cb80.256p.jpg,Seagate,Enterprise Capacity,705.20,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a525,/images/storage/0fadfdaea140d8a2530ac577ce65cb80.256p.jpg,Seagate,Enterprise Capacity,782.10,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a526,/images/storage/0fadfdaea140d8a2530ac577ce65cb80.256p.jpg,Seagate,Enterprise Capacity,786.65,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a527,/images/storage/0fadfdaea140d8a2530ac577ce65cb80.256p.jpg,Seagate,Enterprise Capacity,955.45,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a528,/images/storage/0fadfdaea140d8a2530ac577ce65cb80.256p.jpg,Seagate,Enterprise Capacity,1132.31,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a529,/images/storage/0fadfdaea140d8a2530ac577ce65cb80.256p.jpg,Seagate,Enterprise Capacity,1160.02,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a530,/images/storage/522ae2cd7bd2dc96b8fef35d250af682.256p.jpg,Seagate,Enterprise NAS,1683.27,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a531,/images/storage/41h2nxtc42L.jpg,Seagate,Exos 7E8,506.82,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a532,/images/storage/41h2nxtc42L.jpg,Seagate,Exos 7E8,866.23,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a533,/images/storage/4db7e4213a1464d5f451cb8613135cb8.256p.jpg,Seagate,EXOS Enterprise,490.90,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a534,/images/storage/4db7e4213a1464d5f451cb8613135cb8.256p.jpg,Seagate,EXOS Enterprise,554.92,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a535,/images/storage/4db7e4213a1464d5f451cb8613135cb8.256p.jpg,Seagate,EXOS Enterprise,720.67,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a536,/images/storage/4db7e4213a1464d5f451cb8613135cb8.256p.jpg,Seagate,EXOS Enterprise,807.58,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a537,/images/storage/4db7e4213a1464d5f451cb8613135cb8.256p.jpg,Seagate,EXOS Enterprise,1259.67,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a538,/images/storage/4db7e4213a1464d5f451cb8613135cb8.256p.jpg,Seagate,EXOS Enterprise,1301.25,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a539,/images/storage/4db7e4213a1464d5f451cb8613135cb8.256p.jpg,Seagate,EXOS Enterprise,1416.46,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a540,/images/storage/0c3a3cafcf64edf04ee4b379dafa46ee.256p.jpg,Seagate,EXOS Enterprise X18,1667.30,18000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a541,/images/storage/6c803d5be91e00884d9c8946f0e37c8a.256p.jpg,Seagate,Exos X14,1569.11,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a542,/images/storage/6c803d5be91e00884d9c8946f0e37c8a.256p.jpg,Seagate,Exos X14,1602.01,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a543,/images/storage/f1e854263d8bce651e105a14d2611a19.256p.jpg,Seagate,Exos X16,1019.11,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a544,/images/storage/f1e854263d8bce651e105a14d2611a19.256p.jpg,Seagate,Exos X16,1140.23,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a545,/images/storage/f1e854263d8bce651e105a14d2611a19.256p.jpg,Seagate,Exos X16,1619.75,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a546,/images/storage/f1e854263d8bce651e105a14d2611a19.256p.jpg,Seagate,Exos X16,1962.60,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a547,/images/storage/7fbe1751561aa9ad4a829b409a664d68.256p.jpg,Seagate,FireCuda 510,427.65,500,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a548,/images/storage/ae442220752f591d8094167483255ddb.256p.jpg,Seagate,FireCuda 520,400.35,500,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a549,/images/storage/ae442220752f591d8094167483255ddb.256p.jpg,Seagate,FireCuda 520,776.09,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a550,/images/storage/ae442220752f591d8094167483255ddb.256p.jpg,Seagate,FireCuda 520,1437.75,2000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a551,/images/storage/51gZrzP7D4L.jpg,Seagate,IronWolf,2275.00,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a552,/images/storage/51gZrzP7D4L.jpg,Seagate,IronWolf,760.94,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a553,/images/storage/41dT5zWJ3wL.jpg,Seagate,IronWolf NAS,574.39,480,4,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a554,/images/storage/41dT5zWJ3wL.jpg,Seagate,IronWolf NAS,1865.45,1920,4,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a555,/images/storage/41dT5zWJ3wL.jpg,Seagate,IronWolf NAS,1941.39,960,4,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a556,/images/storage/41dT5zWJ3wL.jpg,Seagate,IronWolf NAS,5128.21,3840,4,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a557,/images/storage/41dT5zWJ3wL.jpg,Seagate,IronWolf NAS,977.52,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a558,/images/storage/41dT5zWJ3wL.jpg,Seagate,IronWolf NAS,1228.59,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a559,/images/storage/41dT5zWJ3wL.jpg,Seagate,IronWolf NAS,1310.40,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a560,/images/storage/41dT5zWJ3wL.jpg,Seagate,IronWolf NAS,1391.85,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a561,/images/storage/41dT5zWJ3wL.jpg,Seagate,IronWolf NAS,1820.00,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a562,/images/storage/41dT5zWJ3wL.jpg,Seagate,IronWolf NAS,2192.65,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a563,/images/storage/d8f1bd38c10e9c0072026f4679a09d92.256p.jpg,Seagate,IronWolf Pro,577.85,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a564,/images/storage/d8f1bd38c10e9c0072026f4679a09d92.256p.jpg,Seagate,IronWolf Pro,809.90,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a565,/images/storage/d8f1bd38c10e9c0072026f4679a09d92.256p.jpg,Seagate,IronWolf Pro,886.80,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a566,/images/storage/d8f1bd38c10e9c0072026f4679a09d92.256p.jpg,Seagate,IronWolf Pro,1109.70,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a567,/images/storage/d8f1bd38c10e9c0072026f4679a09d92.256p.jpg,Seagate,IronWolf Pro,1198.65,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a568,/images/storage/d8f1bd38c10e9c0072026f4679a09d92.256p.jpg,Seagate,IronWolf Pro,1573.62,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a569,/images/storage/d8f1bd38c10e9c0072026f4679a09d92.256p.jpg,Seagate,IronWolf Pro,1756.25,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a570,/images/storage/d8f1bd38c10e9c0072026f4679a09d92.256p.jpg,Seagate,IronWolf Pro,2055.92,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a571,/images/storage/d8f1bd38c10e9c0072026f4679a09d92.256p.jpg,Seagate,IronWolf Pro,2397.80,18000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a572,/images/storage/0070a75ac369592fb07935ca1956ab1b.256p.jpg,Seagate,Momentus LP,493.04,1000,8,5400RPM,"2.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a573,/images/storage/d8862a1451cc8a1211043243a8842036.256p.jpg,Seagate,Momentus SpinPoint,841.52,2000,8,5400RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a574,/images/storage/41C-mRkJdCL.jpg,Seagate,SkyHawk,2304.17,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a575,/images/storage/8388a2dd2515e2ca62dc041c95d2ae2a.256p.jpg,Seagate,Skyhawk AI,937.03,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a576,/images/storage/8388a2dd2515e2ca62dc041c95d2ae2a.256p.jpg,Seagate,SkyHawk AI,1280.92,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a577,/images/storage/8388a2dd2515e2ca62dc041c95d2ae2a.256p.jpg,Seagate,SkyHawk AI,1351.30,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a578,/images/storage/8388a2dd2515e2ca62dc041c95d2ae2a.256p.jpg,Seagate,SkyHawk AI,1692.55,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a579,/images/storage/8388a2dd2515e2ca62dc041c95d2ae2a.256p.jpg,Seagate,SkyHawk AI,1860.86,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a580,/images/storage/41YeZiOHP1L.jpg,Seagate,SkyHawk Surveillance,1724.22,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a581,/images/storage/41YeZiOHP1L.jpg,Seagate,SkyHawk Surveillance,2502.27,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a582,/images/storage/41YeZiOHP1L.jpg,Seagate,SkyHawk Surveillance,665.16,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a583,/images/storage/9887b63c7eb90d2342b18f5a4c8fe901.256p.jpg,Seagate,ST1000LM035,197.11,1000,8,5400RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a584,/images/storage/41E2UFxTsrL.jpg,Seagate,ST1000NX0313,759.35,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a585,/images/storage/b8ba3952ed9df555306002cba7f8fcc1.256p.jpg,Seagate,ST1000NX0353,2347.80,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a586,/images/storage/5d16aeceb01dde8850f5ef459901e6f4.256p.jpg,Seagate,ST2000NM0024,1099.05,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a587,/images/storage/41u3jILYlTL.jpg,Seagate,ST2000NM0034,1000.77,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a588,/images/storage/51g6Gge2soL.jpg,Seagate,ST2000NM0044,1226.68,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a589,/images/storage/51Yt3gs2a1L.jpg,Seagate,ST2000NX0253,1210.07,2000,8,7200RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a590,/images/storage/51Rgp2SNJyL.jpg,Seagate,ST2000NX0303,1498.54,2000,8,7200RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a591,/images/storage/bac783ed03b717b7426cb3d3ccefb3d3.256p.jpg,Seagate,ST4000LM016,1274.00,4000,8,5400RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a592,/images/storage/41pw8MWMn-L.jpg,Seagate,ST5000NM0024,1774.27,5000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a593,/images/storage/7373d77a5d7b02a0e39cf13fd542b1b6.256p.jpg,Seagate,ST6000NM0024,1100.74,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a594,/images/storage/34bc14397597ba5761022af2ee05cd12.256p.jpg,Seagate,Surveillance HDD,1820.00,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a595,/images/storage/34bc14397597ba5761022af2ee05cd12.256p.jpg,Seagate,Surveillance HDD,546.00,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a596,/images/storage/34bc14397597ba5761022af2ee05cd12.256p.jpg,Seagate,Surveillance HDD,701.97,1000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a597,/images/storage/34bc14397597ba5761022af2ee05cd12.256p.jpg,Seagate,Surveillance HDD,750.66,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a598,/images/storage/34bc14397597ba5761022af2ee05cd12.256p.jpg,Seagate,Surveillance HDD,1274.00,5000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a599,/images/storage/41nQm4nXlOL.jpg,Seagate,SV35 Series,910.00,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a600,/images/storage/51sVwMutCXL.jpg,Seagate,SV35.5,910.00,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a601,/images/storage/cd4a9af50b9d28d4cbe61ee0ad665685.256p.jpg,Silicon,Power A55,274.73,512,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a602,/images/storage/cd4a9af50b9d28d4cbe61ee0ad665685.256p.jpg,Silicon,Power A55,437.07,1000,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a603,/images/storage/cd4a9af50b9d28d4cbe61ee0ad665685.256p.jpg,Silicon,Power A55,175.13,256,6,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a604,/images/storage/no-image.png,Silicon,Power A60,217.90,256,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a605,/images/storage/no-image.png,Silicon,Power A60,308.54,512,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a606,/images/storage/no-image.png,Silicon,Power A60,499.36,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a607,/images/storage/c7de1212bd34018b77cd9b402f4fd2e1.256p.jpg,Silicon,Power A80,226.18,256,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a608,/images/storage/c7de1212bd34018b77cd9b402f4fd2e1.256p.jpg,Silicon,Power A80,332.51,512,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a609,/images/storage/c7de1212bd34018b77cd9b402f4fd2e1.256p.jpg,Silicon,Power A80,1270.63,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a610,/images/storage/9b0b5e5004f2d5d0bd1bac34083a1076.256p.jpg,Silicon,Power UD70,304.85,500,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a611,/images/storage/9b0b5e5004f2d5d0bd1bac34083a1076.256p.jpg,Silicon,Power UD70,658.89,1000,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a612,/images/storage/9b0b5e5004f2d5d0bd1bac34083a1076.256p.jpg,Silicon,Power UD70,1306.99,2000,3,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a613,/images/storage/ca3b048896ac8c03e0b12692c1708e20.256p.jpg,Silicon,Power US70,812.13,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a614,/images/storage/ca3b048896ac8c03e0b12692c1708e20.256p.jpg,Silicon,Power US70,1556.10,2000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a615,/images/storage/f44afec3e50e865eb5ff597bfbc51656.256p.jpg,Transcend,110S,187.87,256,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a616,/images/storage/f44afec3e50e865eb5ff597bfbc51656.256p.jpg,Transcend,110S,312.04,512,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a617,/images/storage/f44afec3e50e865eb5ff597bfbc51656.256p.jpg,Transcend,110S,507.23,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a618,/images/storage/8ae7c65fa54636898bfb57bd3bcd5b01.256p.jpg,Transcend,220S,229.87,256,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a619,/images/storage/8ae7c65fa54636898bfb57bd3bcd5b01.256p.jpg,Transcend,220S,363.91,512,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a620,/images/storage/8ae7c65fa54636898bfb57bd3bcd5b01.256p.jpg,Transcend,220S,668.40,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a621,/images/storage/8ae7c65fa54636898bfb57bd3bcd5b01.256p.jpg,Transcend,220S,1159.80,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a622,/images/storage/41Ukb%2B3C7HL.jpg,Transcend,SSD370,589.95,256,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a623,/images/storage/41Ukb%2B3C7HL.jpg,Transcend,SSD370,960.82,512,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a624,/images/storage/c463b680ba3f638dd00dc7916feef929.med.256p.jpg,Western Digital,AV-25,286.42,1000,8,5400RPM,"2.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a625,/images/storage/51yl2DEVzkL.jpg,Western Digital,AV-GP,222.72,1000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a626,/images/storage/51yl2DEVzkL.jpg,Western Digital,AV-GP,272.77,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a627,/images/storage/51yl2DEVzkL.jpg,Western Digital,AV-GP,445.90,1500,8,5400RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a628,/images/storage/51yl2DEVzkL.jpg,Western Digital,AV-GP,642.92,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a629,/images/storage/51yl2DEVzkL.jpg,Western Digital,AV-GP,808.94,3000,8,5400RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a630,/images/storage/824cccd96f9bb0f84bb4efb829dab6b9.256p.jpg,Western Digital,Black,303.62,1000,8,7200RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a631,/images/storage/824cccd96f9bb0f84bb4efb829dab6b9.256p.jpg,Western Digital,Black,821.78,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a632,/images/storage/824cccd96f9bb0f84bb4efb829dab6b9.256p.jpg,Western Digital,Black,1089.32,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a633,/images/storage/824cccd96f9bb0f84bb4efb829dab6b9.256p.jpg,Western Digital,Black,1255.89,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a634,/images/storage/824cccd96f9bb0f84bb4efb829dab6b9.256p.jpg,Western Digital,Black,1452.45,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a635,/images/storage/824cccd96f9bb0f84bb4efb829dab6b9.256p.jpg,Western Digital,Black,1951.95,5000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a636,/images/storage/51rEwa5ePdL.jpg,Western Digital,BLACK SERIES,367.82,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a637,/images/storage/51rEwa5ePdL.jpg,Western Digital,BLACK SERIES,545.77,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a638,/images/storage/51rEwa5ePdL.jpg,Western Digital,BLACK SERIES,1283.10,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a639,/images/storage/51rEwa5ePdL.jpg,Western Digital,BLACK SERIES,1496.95,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a640,/images/storage/67ae19fe7847cb5bf67f4448e717e831.256p.jpg,Western Digital,Black SN850,527.57,500,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a641,/images/storage/67ae19fe7847cb5bf67f4448e717e831.256p.jpg,Western Digital,Black SN850,936.80,1000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a642,/images/storage/67ae19fe7847cb5bf67f4448e717e831.256p.jpg,Western Digital,Black SN850,1724.40,2000,1,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a643,/images/storage/61f2120808b1d3da31584fe6bb602f38.256p.jpg,Western Digital,Blue,250.20,500,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a644,/images/storage/61f2120808b1d3da31584fe6bb602f38.256p.jpg,Western Digital,Blue,1876.06,4000,5,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a645,/images/storage/61f2120808b1d3da31584fe6bb602f38.256p.jpg,Western Digital,Blue,399.95,1000,5,SSD,M.2-2280,M.2 (B+M)
+608dd615905ec60bdc06a646,/images/storage/61f2120808b1d3da31584fe6bb602f38.256p.jpg,Western Digital,Blue,909.95,2000,5,SSD,M.2-2280,M.2 (B+M)
+608dd615905ec60bdc06a647,/images/storage/61f2120808b1d3da31584fe6bb602f38.256p.jpg,Western Digital,Blue,379.42,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a648,/images/storage/61f2120808b1d3da31584fe6bb602f38.256p.jpg,Western Digital,Blue,504.78,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a649,/images/storage/66625cc6b093c60b19461833c2cf97db.256p.jpg,Western Digital,Blue Mobile,213.80,1000,8,5400RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a650,/images/storage/66625cc6b093c60b19461833c2cf97db.256p.jpg,Western Digital,Blue Mobile,304.94,2000,8,5400RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a651,/images/storage/013a85e95fb77410caa6f0fc19590f1e.256p.jpg,Western Digital,Blue SN550,265.95,500,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a652,/images/storage/013a85e95fb77410caa6f0fc19590f1e.256p.jpg,Western Digital,Blue SN550,400.40,1000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a653,/images/storage/013a85e95fb77410caa6f0fc19590f1e.256p.jpg,Western Digital,Blue SN550,928.15,2000,4,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a654,/images/storage/51C2pvR9TML.jpg,Western Digital,Caviar Black,655.20,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a655,/images/storage/51C2pvR9TML.jpg,Western Digital,Caviar Black,898.67,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a656,/images/storage/51C2pvR9TML.jpg,Western Digital,Caviar Black,1134.91,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a657,/images/storage/no-image.png,Western Digital,Caviar Blue,161.02,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a658,/images/storage/51K73iEh5cL.jpg,Western Digital,Caviar Green,188.10,1000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a659,/images/storage/51K73iEh5cL.jpg,Western Digital,Caviar Green,568.75,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a660,/images/storage/51K73iEh5cL.jpg,Western Digital,Caviar Green,659.48,1500,8,5400RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a661,/images/storage/51K73iEh5cL.jpg,Western Digital,Caviar Green,765.54,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a662,/images/storage/51K73iEh5cL.jpg,Western Digital,Caviar Green,846.30,2500,8,5400RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a663,/images/storage/515uuf-5s6L.jpg,Western Digital,Gold,345.03,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a664,/images/storage/515uuf-5s6L.jpg,Western Digital,Gold,500.45,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a665,/images/storage/515uuf-5s6L.jpg,Western Digital,Gold,697.79,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a666,/images/storage/515uuf-5s6L.jpg,Western Digital,Gold,841.30,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a667,/images/storage/515uuf-5s6L.jpg,Western Digital,Gold,973.25,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a668,/images/storage/515uuf-5s6L.jpg,Western Digital,Gold,1146.69,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a669,/images/storage/515uuf-5s6L.jpg,Western Digital,Gold,1432.80,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a670,/images/storage/515uuf-5s6L.jpg,Western Digital,Gold,1646.24,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a671,/images/storage/515uuf-5s6L.jpg,Western Digital,Gold,1965.15,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a672,/images/storage/515uuf-5s6L.jpg,Western Digital,Gold,2115.52,18000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a673,/images/storage/03aec0223026bc9c8af00075ccfbf0d8.256p.jpg,Western Digital,Green,413.23,1000,7,SSD,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a674,/images/storage/03aec0223026bc9c8af00075ccfbf0d8.256p.jpg,Western Digital,Green,250.20,480,7,SSD,M.2-2280,M.2 (B+M)
+608dd615905ec60bdc06a675,/images/storage/03aec0223026bc9c8af00075ccfbf0d8.256p.jpg,Western Digital,Green,984.89,1500,8,5400RPM,"2.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a676,/images/storage/03aec0223026bc9c8af00075ccfbf0d8.256p.jpg,Western Digital,Green,1178.45,2000,8,5400RPM,"2.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a677,/images/storage/03aec0223026bc9c8af00075ccfbf0d8.256p.jpg,Western Digital,Green,2396.35,5000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a678,/images/storage/511gYokEOPL.jpg,Western Digital,HGST DC HC530,1302.21,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a679,/images/storage/cfabe01479f56375121f7131c8265b31.256p.jpg,Western Digital,Purple,899.63,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a680,/images/storage/cfabe01479f56375121f7131c8265b31.256p.jpg,Western Digital,Purple,1265.54,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a681,/images/storage/cfabe01479f56375121f7131c8265b31.256p.jpg,Western Digital,Purple,1595.55,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a682,/images/storage/cfabe01479f56375121f7131c8265b31.256p.jpg,Western Digital,Purple,1794.20,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a683,/images/storage/cfabe01479f56375121f7131c8265b31.256p.jpg,Western Digital,Purple,199.24,1000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a684,/images/storage/cfabe01479f56375121f7131c8265b31.256p.jpg,Western Digital,Purple,294.75,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a685,/images/storage/cfabe01479f56375121f7131c8265b31.256p.jpg,Western Digital,Purple,377.74,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a686,/images/storage/cfabe01479f56375121f7131c8265b31.256p.jpg,Western Digital,Purple,420.65,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a687,/images/storage/cfabe01479f56375121f7131c8265b31.256p.jpg,Western Digital,Purple,753.03,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a688,/images/storage/51pUPztrOML.jpg,Western Digital,Purple NV,1501.27,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a689,/images/storage/95904c1c82fab5a1f2a05e64ec000c75.256p.jpg,Western Digital,Re,655.20,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a690,/images/storage/95904c1c82fab5a1f2a05e64ec000c75.256p.jpg,Western Digital,RE,1002.73,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a691,/images/storage/95904c1c82fab5a1f2a05e64ec000c75.256p.jpg,Western Digital,RE,1091.77,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a692,/images/storage/95904c1c82fab5a1f2a05e64ec000c75.256p.jpg,Western Digital,RE,1360.45,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a693,/images/storage/95904c1c82fab5a1f2a05e64ec000c75.256p.jpg,Western Digital,RE,2224.95,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a694,/images/storage/51-i2SpPpzL.jpg,Western Digital,RE4,681.09,1000,8,7200RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a695,/images/storage/51-i2SpPpzL.jpg,Western Digital,RE4,750.52,2000,8,7200RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a696,/images/storage/51qWnj9SIgL.jpg,Western Digital,Red,276.87,1000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a697,/images/storage/51qWnj9SIgL.jpg,Western Digital,Red,307.76,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a698,/images/storage/51qWnj9SIgL.jpg,Western Digital,Red,377.20,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a699,/images/storage/51qWnj9SIgL.jpg,Western Digital,Red,430.84,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a700,/images/storage/51qWnj9SIgL.jpg,Western Digital,Red,696.10,6000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a701,/images/storage/51qWnj9SIgL.jpg,Western Digital,Red,928.20,8000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a702,/images/storage/51qWnj9SIgL.jpg,Western Digital,Red,1269.45,10000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a703,/images/storage/51qWnj9SIgL.jpg,Western Digital,Red,1574.25,12000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a704,/images/storage/51qWnj9SIgL.jpg,Western Digital,Red,1774.27,5000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a705,/images/storage/51qWnj9SIgL.jpg,Western Digital,Red,1815.45,14000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a706,/images/storage/4baa9075e2d025563eaa781723d6e0fc.256p.jpg,Western Digital,Red (Retail Kit),745.97,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a707,/images/storage/41JkpDIcQwL.jpg,Western Digital,Red Pro,431.43,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a708,/images/storage/41JkpDIcQwL.jpg,Western Digital,Red Pro,557.69,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a709,/images/storage/41JkpDIcQwL.jpg,Western Digital,Red Pro,887.98,6000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a710,/images/storage/41JkpDIcQwL.jpg,Western Digital,Red Pro,1150.92,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a711,/images/storage/41JkpDIcQwL.jpg,Western Digital,Red Pro,1466.24,10000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a712,/images/storage/41JkpDIcQwL.jpg,Western Digital,Red Pro,1753.75,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a713,/images/storage/41JkpDIcQwL.jpg,Western Digital,Red Pro,1774.27,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a714,/images/storage/41JkpDIcQwL.jpg,Western Digital,Red Pro,1937.62,14000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a715,/images/storage/41JkpDIcQwL.jpg,Western Digital,Red Pro,2126.17,16000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a716,/images/storage/41JkpDIcQwL.jpg,Western Digital,Red Pro,2387.61,18000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a717,/images/storage/41sl7iFZiaL.jpg,Western Digital,Scorpio Blue,555.60,1000,8,5400RPM,"2.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a718,/images/storage/51l4GSgTuuL.jpg,Western Digital,Se,1132.95,1000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a719,/images/storage/1b8dfbf3066b1887a595ab45940a47d7.256p.jpg,Western Digital,SN750,300.16,500,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a720,/images/storage/1b8dfbf3066b1887a595ab45940a47d7.256p.jpg,Western Digital,SN750,586.50,1000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a721,/images/storage/1b8dfbf3066b1887a595ab45940a47d7.256p.jpg,Western Digital,SN750,1410.50,2000,2,NVMe,M.2-2280,M.2 (M)
+608dd615905ec60bdc06a722,/images/storage/acf45f90dc37e0042c39b7b8609298fd.256p.jpg,Western Digital,Ultrastar,968.29,8000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a723,/images/storage/59c886cead11a2fd7455ca2e84168c00.256p.jpg,Western Digital,Ultrastar DC HC520,1183.18,12000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a724,/images/storage/51tQAlAPT%2BL.jpg,Western Digital,WD Black,1724.45,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a725,/images/storage/a3b09866e3716566572bf9a13792cc85.256p.jpg,Western Digital,WD Blue,406.09,1000,8,5400RPM,"2.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a726,/images/storage/7f944f42d7f4136019e60e3403306cfa.256p.jpg,Western Digital,WD Green,354.90,1000,8,5400RPM,"3.5""",SATA 3 Gb/s
+608dd615905ec60bdc06a727,/images/storage/7f944f42d7f4136019e60e3403306cfa.256p.jpg,Western Digital,WD Green,673.40,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a728,/images/storage/23dc21c246287d6acb3b9fb59e7eaa4f.256p.jpg,Western Digital,WD Purple,414.00,2000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a729,/images/storage/23dc21c246287d6acb3b9fb59e7eaa4f.256p.jpg,Western Digital,WD Purple,808.94,3000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a730,/images/storage/23dc21c246287d6acb3b9fb59e7eaa4f.256p.jpg,Western Digital,WD Purple,864.27,4000,8,5400RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a731,/images/storage/41CofmCo4kL.jpg,Western Digital,WD SE,1087.31,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a732,/images/storage/41CofmCo4kL.jpg,Western Digital,WD SE,1134.91,2000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a733,/images/storage/41CofmCo4kL.jpg,Western Digital,WD SE,1769.95,4000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a734,/images/storage/41msdJJUwIL.jpg,Western Digital,WD3001FAEX,1011.65,3000,8,7200RPM,"3.5""",SATA 6 Gb/s
+608dd615905ec60bdc06a735,/images/storage/225bba3ed9ff3b9ecc1f956e43ca3835.256p.jpg,Western Digital,WDBSLA0040HNC-NRSN,1729.64,4000,8,7200RPM,"3.5""",SATA 3 Gb/s

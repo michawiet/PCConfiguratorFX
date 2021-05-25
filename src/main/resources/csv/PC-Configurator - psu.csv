@@ -1,194 +1,194 @@
 _id,image,brand,name,price,tier,formFactor,efficiencyRating,wattage,modular
-608dd5a7905ec60bdc06a070,/images/psu/psu.jpg,Asus,ROG Strix,474.79,0.7,ATX,80+ Gold,550,Full
-608dd5a7905ec60bdc06a071,/images/psu/psu.jpg,Asus,ROG STRIX G,1325.37,0.7,ATX,80+ Gold,1000,Full
-608dd5a7905ec60bdc06a072,/images/psu/psu.jpg,Asus,ROG STRIX G,886.80,0.7,ATX,80+ Gold,850,Full
-608dd5a7905ec60bdc06a073,/images/psu/psu.jpg,be quiet!,Dark Power 12,1611.56,1.3,ATX,80+ Titanium,1000,Full
-608dd5a7905ec60bdc06a074,/images/psu/psu.jpg,be quiet!,Dark Power 12,1186.87,1.3,ATX,80+ Titanium,850,Full
-608dd5a7905ec60bdc06a075,/images/psu/psu.jpg,be quiet!,Dark Power 12,906.31,1.3,ATX,80+ Titanium,750,Full
-608dd5a7905ec60bdc06a076,/images/psu/psu.jpg,be quiet!,Dark Power Pro 11,1364.77,0.7,ATX,80+ Platinum,850,Semi
-608dd5a7905ec60bdc06a077,/images/psu/psu.jpg,be quiet!,Dark Power Pro 11,950.95,0.7,ATX,80+ Platinum,750,Semi
-608dd5a7905ec60bdc06a078,/images/psu/psu.jpg,be quiet!,Dark Power Pro 11,796.20,0.7,ATX,80+ Platinum,650,Semi
-608dd5a7905ec60bdc06a079,/images/psu/psu.jpg,be quiet!,Dark Power Pro 11,684.73,0.7,ATX,80+ Platinum,550,Semi
-608dd5a7905ec60bdc06a080,/images/psu/psu.jpg,be quiet!,Dark Power Pro 12,1951.95,0.7,ATX,80+ Titanium,1200,Full
-608dd5a7905ec60bdc06a081,/images/psu/psu.jpg,be quiet!,Dark Power Pro 12,1853.85,0.7,ATX,80+ Titanium,1500,Full
-608dd5a7905ec60bdc06a082,/images/psu/psu.jpg,be quiet!,POWER 2,327.10,4,SFX,80+ Bronze,400,No
-608dd5a7905ec60bdc06a083,/images/psu/psu.jpg,be quiet!,POWER 2,256.57,4,SFX,80+ Bronze,300,No
-608dd5a7905ec60bdc06a084,/images/psu/psu.jpg,be quiet!,Power Zone,541.45,3,ATX,80+ Bronze,650,Full
-608dd5a7905ec60bdc06a085,/images/psu/psu.jpg,be quiet!,Pure Power 10,207.43,2,ATX,80+ Silver,500,No
-608dd5a7905ec60bdc06a086,/images/psu/psu.jpg,be quiet!,Pure Power 10 CM,368.19,2,ATX,80+ Silver,400,Semi
-608dd5a7905ec60bdc06a087,/images/psu/psu.jpg,be quiet!,Pure Power 10 CM,444.94,2,ATX,80+ Silver,700,Semi
-608dd5a7905ec60bdc06a088,/images/psu/psu.jpg,be quiet!,Pure Power 11,208.85,4,ATX,80+ Bronze,300,No
-608dd5a7905ec60bdc06a089,/images/psu/psu.jpg,be quiet!,Pure Power 11,245.25,2,ATX,80+ Gold,400,No
-608dd5a7905ec60bdc06a090,/images/psu/psu.jpg,be quiet!,Pure Power 11,422.70,2,ATX,80+ Gold,700,No
-608dd5a7905ec60bdc06a091,/images/psu/psu.jpg,be quiet!,Pure Power 11,217.95,2,ATX,80+ Bronze,350,No
-608dd5a7905ec60bdc06a092,/images/psu/psu.jpg,be quiet!,Pure Power 11 CM,391.03,2,ATX,80+ Gold,600,Semi
-608dd5a7905ec60bdc06a093,/images/psu/psu.jpg,be quiet!,Pure Power 11 CM,490.72,2,ATX,80+ Gold,700,Semi
-608dd5a7905ec60bdc06a094,/images/psu/psu.jpg,be quiet!,Pure Power 11 CM,331.70,2,ATX,80+ Gold,500,Semi
-608dd5a7905ec60bdc06a095,/images/psu/psu.jpg,be quiet!,Pure Power 11 CM,295.66,2,ATX,80+ Gold,400,Semi
-608dd5a7905ec60bdc06a096,/images/psu/psu.jpg,be quiet!,SFX L Power,554.60,2,SFX,80+ Gold,600,Full
-608dd5a7905ec60bdc06a097,/images/psu/psu.jpg,be quiet!,SFX L Power,472.70,2,SFX,80+ Gold,500,Full
-608dd5a7905ec60bdc06a098,/images/psu/psu.jpg,be quiet!,Straight Power 11,568.07,0.7,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a099,/images/psu/psu.jpg,be quiet!,Straight Power 11,490.95,0.7,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a100,/images/psu/psu.jpg,be quiet!,Straight Power 11,686.37,0.7,ATX,80+ Gold,850,Full
-608dd5a7905ec60bdc06a101,/images/psu/psu.jpg,be quiet!,Straight Power 11,461.37,0.7,ATX,80+ Gold,550,Full
-608dd5a7905ec60bdc06a102,/images/psu/psu.jpg,be quiet!,Straight Power 11,866.05,0.7,ATX,80+ Gold,1000,Full
-608dd5a7905ec60bdc06a103,/images/psu/psu.jpg,be quiet!,Straight Power 11,391.76,0.7,ATX,80+ Gold,450,Full
-608dd5a7905ec60bdc06a104,/images/psu/psu.jpg,be quiet!,System Power 9,190.42,3,ATX,80+ Bronze,400,No
-608dd5a7905ec60bdc06a105,/images/psu/psu.jpg,be quiet!,System Power 9,272.55,3,ATX,80+ Bronze,600,No
-608dd5a7905ec60bdc06a106,/images/psu/psu.jpg,be quiet!,System Power 9,228.64,3,ATX,80+ Bronze,500,No
-608dd5a7905ec60bdc06a107,/images/psu/psu.jpg,be quiet!,System Power 9,310.40,3,ATX,80+ Bronze,700,No
-608dd5a7905ec60bdc06a108,/images/psu/psu.jpg,be quiet!,System Power 9 CM,367.41,3,ATX,80+ Bronze,700,Semi
-608dd5a7905ec60bdc06a109,/images/psu/psu.jpg,be quiet!,System Power 9 CM,284.15,3,ATX,80+ Bronze,500,Semi
-608dd5a7905ec60bdc06a110,/images/psu/psu.jpg,BitFenix,Formula Gold,363.55,0.7,ATX,80+ Gold,650,No
-608dd5a7905ec60bdc06a111,/images/psu/psu.jpg,BitFenix,Formula Gold,476.20,0.7,ATX,80+ Gold,750,No
-608dd5a7905ec60bdc06a112,/images/psu/psu.jpg,BitFenix,Formula Gold,340.80,1.3,ATX,80+ Gold,550,No
-608dd5a7905ec60bdc06a113,/images/psu/psu.jpg,BitFenix,Formula Gold,333.92,1.3,ATX,80+ Gold,450,No
-608dd5a7905ec60bdc06a114,/images/psu/psu.jpg,BitFenix,Whisper M,431.80,0.8,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a115,/images/psu/psu.jpg,BitFenix,Whisper M,541.45,0.8,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a116,/images/psu/psu.jpg,BitFenix,Whisper M,386.30,1.3,ATX,80+ Gold,450,Full
-608dd5a7905ec60bdc06a117,/images/psu/psu.jpg,BitFenix,Whisper M,409.05,1.3,ATX,80+ Gold,550,Full
-608dd5a7905ec60bdc06a118,/images/psu/psu.jpg,BitFenix,Whisper M,636.55,0.8,ATX,80+ Gold,850,Full
-608dd5a7905ec60bdc06a119,/images/psu/psu.jpg,Cooler Master,MWE Bronze,286.20,2.3,ATX,80+ Bronze,450,No
-608dd5a7905ec60bdc06a120,/images/psu/psu.jpg,Cooler Master,MWE Bronze V2,374.69,2.3,ATX,80+ Bronze,650,No
-608dd5a7905ec60bdc06a121,/images/psu/psu.jpg,Cooler Master,MWE Bronze V2,242.92,2.3,ATX,80+ Bronze,550,No
-608dd5a7905ec60bdc06a122,/images/psu/psu.jpg,Cooler Master,MWE Bronze V2,427.65,2.3,ATX,80+ Bronze,750,No
-608dd5a7905ec60bdc06a123,/images/psu/psu.jpg,Cooler Master,MWE Bronze V2,230.41,2.3,ATX,80+ Bronze,450,No
-608dd5a7905ec60bdc06a124,/images/psu/psu.jpg,Cooler Master,MWE Bronze V2,300.03,2.3,ATX,80+ Bronze,700,No
-608dd5a7905ec60bdc06a125,/images/psu/psu.jpg,Cooler Master,MWE Bronze V2,231.78,2.3,ATX,80+ Bronze,500,No
-608dd5a7905ec60bdc06a126,/images/psu/psu.jpg,Cooler Master,MWE Bronze V2,245.43,2.3,ATX,80+ Bronze,600,No
-608dd5a7905ec60bdc06a127,/images/psu/psu.jpg,Cooler Master,MWE White V2 230V,173.67,2.3,ATX,80+,400,No
-608dd5a7905ec60bdc06a128,/images/psu/psu.jpg,Cooler Master,MWE White V2 230V,398.13,2.3,ATX,80+,650,No
-608dd5a7905ec60bdc06a129,/images/psu/psu.jpg,Cooler Master,V SFX Gold,755.03,1,SFX,80+ Gold,850,Full
-608dd5a7905ec60bdc06a130,/images/psu/psu.jpg,Cooler Master,V SFX Gold,679.72,1,SFX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a131,/images/psu/psu.jpg,Cooler Master,V SFX Gold,617.57,1,SFX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a132,/images/psu/psu.jpg,Cooler Master,VSM,1160.25,1,ATX,80+ Gold,750,Semi
-608dd5a7905ec60bdc06a133,/images/psu/psu.jpg,Corsair,AXi,2347.39,0.8,ATX,80+ Titanium,1600,Full
-608dd5a7905ec60bdc06a134,/images/psu/psu.jpg,Corsair,CV,201.52,4,ATX,80+ Bronze,450,No
-608dd5a7905ec60bdc06a135,/images/psu/psu.jpg,Corsair,HX Platinum,977.80,0.8,ATX,80+ Platinum,1000,Full
-608dd5a7905ec60bdc06a136,/images/psu/psu.jpg,Corsair,HX Platinum,832.20,0.8,ATX,80+ Platinum,850,Full
-608dd5a7905ec60bdc06a137,/images/psu/psu.jpg,Corsair,HX Platinum,735.28,0.8,ATX,80+ Platinum,750,Full
-608dd5a7905ec60bdc06a138,/images/psu/psu.jpg,Corsair,HXi,1319.00,0.8,ATX,80+ Platinum,1200,Full
-608dd5a7905ec60bdc06a139,/images/psu/psu.jpg,Corsair,HXi,1301.03,0.8,ATX,80+ Platinum,1000,Full
-608dd5a7905ec60bdc06a140,/images/psu/psu.jpg,Corsair,HXi,974.93,0.8,ATX,80+ Platinum,850,Full
-608dd5a7905ec60bdc06a141,/images/psu/psu.jpg,Corsair,HXi,788.97,0.8,ATX,80+ Platinum,750,Full
-608dd5a7905ec60bdc06a142,/images/psu/psu.jpg,Corsair,RM (2019),522.80,0.7,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a143,/images/psu/psu.jpg,Corsair,RM (2019),598.28,0.7,ATX,80+ Gold,850,Full
-608dd5a7905ec60bdc06a144,/images/psu/psu.jpg,Corsair,RM (2019),454.55,0.7,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a145,/images/psu/psu.jpg,Corsair,RMi,757.07,0.8,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a146,/images/psu/psu.jpg,Corsair,RMi,662.89,0.8,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a147,/images/psu/psu.jpg,Corsair,RMx (2018),654.75,0.8,ATX,80+ Gold,850,Full
-608dd5a7905ec60bdc06a148,/images/psu/psu.jpg,Corsair,RMx (2018),584.27,0.8,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a149,/images/psu/psu.jpg,Corsair,RMx (2018),495.95,0.8,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a150,/images/psu/psu.jpg,Corsair,RMx (2018),386.30,0.8,ATX,80+ Gold,550,Full
-608dd5a7905ec60bdc06a151,/images/psu/psu.jpg,Corsair,SF,743.42,1.3,SFX,80+ Platinum,750,Full
-608dd5a7905ec60bdc06a152,/images/psu/psu.jpg,Corsair,SF,627.45,1.3,SFX,80+ Platinum,600,Full
-608dd5a7905ec60bdc06a153,/images/psu/psu.jpg,Corsair,SF,418.69,1.3,SFX,80+ Gold,450,Full
-608dd5a7905ec60bdc06a154,/images/psu/psu.jpg,Corsair,TXM Gold,358.27,1,ATX,80+ Gold,550,Semi
-608dd5a7905ec60bdc06a155,/images/psu/psu.jpg,EVGA,B3,272.95,2,ATX,80+ Bronze,450,Full
-608dd5a7905ec60bdc06a156,/images/psu/psu.jpg,EVGA,B3,873.60,2,ATX,80+ Bronze,750,Full
-608dd5a7905ec60bdc06a157,/images/psu/psu.jpg,EVGA,BQ,302.07,3,ATX,80+ Bronze,600,Semi
-608dd5a7905ec60bdc06a158,/images/psu/psu.jpg,EVGA,BQ,414.14,3,ATX,80+ Bronze,750,Semi
-608dd5a7905ec60bdc06a159,/images/psu/psu.jpg,EVGA,BQ,250.34,3,ATX,80+ Bronze,500,Semi
-608dd5a7905ec60bdc06a160,/images/psu/psu.jpg,EVGA,BQ,474.79,3,ATX,80+ Bronze,850,Semi
-608dd5a7905ec60bdc06a161,/images/psu/psu.jpg,EVGA,BQ,370.60,3,ATX,80+ Bronze,650,Semi
-608dd5a7905ec60bdc06a162,/images/psu/psu.jpg,EVGA,BR,254.16,3.3,ATX,80+ Bronze,500,No
-608dd5a7905ec60bdc06a163,/images/psu/psu.jpg,EVGA,BR,186.28,3.3,ATX,80+ Bronze,450,No
-608dd5a7905ec60bdc06a164,/images/psu/psu.jpg,EVGA,BR,250.75,3.3,ATX,80+ Bronze,600,No
-608dd5a7905ec60bdc06a165,/images/psu/psu.jpg,EVGA,BR,304.40,3.3,ATX,80+ Bronze,700,No
-608dd5a7905ec60bdc06a166,/images/psu/psu.jpg,EVGA,BT,227.45,4,ATX,80+ Bronze,450,No
-608dd5a7905ec60bdc06a167,/images/psu/psu.jpg,EVGA,G3,527.53,1.3,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a168,/images/psu/psu.jpg,EVGA,G3,509.28,1.3,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a169,/images/psu/psu.jpg,EVGA,G5,552.83,2,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a170,/images/psu/psu.jpg,EVGA,G5,697.92,2,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a171,/images/psu/psu.jpg,EVGA,G5,814.45,2,ATX,80+ Gold,1000,Full
-608dd5a7905ec60bdc06a172,/images/psu/psu.jpg,EVGA,G5,773.59,2,ATX,80+ Gold,850,Full
-608dd5a7905ec60bdc06a173,/images/psu/psu.jpg,EVGA,GD (2019),318.59,2,ATX,80+ Gold,600,No
-608dd5a7905ec60bdc06a174,/images/psu/psu.jpg,EVGA,GD (2019),400.40,2,ATX,80+ Gold,700,No
-608dd5a7905ec60bdc06a175,/images/psu/psu.jpg,EVGA,GD (2019),268.54,2,ATX,80+ Gold,500,No
-608dd5a7905ec60bdc06a176,/images/psu/psu.jpg,EVGA,P2,2043.45,1,ATX,80+ Platinum,850,Full
-608dd5a7905ec60bdc06a177,/images/psu/psu.jpg,EVGA,P2,1346.80,1,ATX,80+ Platinum,750,Full
-608dd5a7905ec60bdc06a178,/images/psu/psu.jpg,EVGA,P2,1560.65,1,ATX,80+ Platinum,650,Full
-608dd5a7905ec60bdc06a179,/images/psu/psu.jpg,Fractal Design,Ion SFX-L,549.41,1,SFX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a180,/images/psu/psu.jpg,Fractal Design,Ion SFX-L,467.01,1,SFX,80+ Gold,500,Full
-608dd5a7905ec60bdc06a181,/images/psu/psu.jpg,Fractal Design,Ion+,576.80,0.7,ATX,80+ Platinum,760,Full
-608dd5a7905ec60bdc06a182,/images/psu/psu.jpg,Fractal Design,Ion+,486.35,0.7,ATX,80+ Platinum,560,Full
-608dd5a7905ec60bdc06a183,/images/psu/psu.jpg,Fractal Design,Ion+,643.92,0.7,ATX,80+ Platinum,860,Full
-608dd5a7905ec60bdc06a184,/images/psu/psu.jpg,Fractal Design,Ion+,531.85,0.7,ATX,80+ Platinum,660,Full
-608dd5a7905ec60bdc06a185,/images/psu/psu.jpg,Fractal Design,Tesla R2,496.72,3,ATX,80+ Gold,650,No
-608dd5a7905ec60bdc06a186,/images/psu/psu.jpg,Gigabyte,AORUS P GM,525.21,1.7,ATX,80+ Gold,850,Full
-608dd5a7905ec60bdc06a187,/images/psu/psu.jpg,Gigabyte,AORUS P GM,472.93,1.7,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a188,/images/psu/psu.jpg,Gigabyte,P-B,185.87,3,ATX,80+ Bronze,450,No
-608dd5a7905ec60bdc06a189,/images/psu/psu.jpg,Gigabyte,P-B,245.43,3,ATX,80+ Bronze,650,No
-608dd5a7905ec60bdc06a190,/images/psu/psu.jpg,Gigabyte,P-B,195.74,3,ATX,80+ Bronze,550,No
-608dd5a7905ec60bdc06a191,/images/psu/psu.jpg,Phanteks,AMP,628.72,0.7,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a192,/images/psu/psu.jpg,Phanteks,AMP,569.30,0.7,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a193,/images/psu/psu.jpg,Phanteks,AMP,409.05,0.7,ATX,80+ Gold,550,Full
-608dd5a7905ec60bdc06a194,/images/psu/psu.jpg,SeaSonic,Core GC,363.55,2,ATX,80+ Gold,650,No
-608dd5a7905ec60bdc06a195,/images/psu/psu.jpg,SeaSonic,CORE GM,383.97,2,ATX,80+ Gold,650,Semi
-608dd5a7905ec60bdc06a196,/images/psu/psu.jpg,SeaSonic,CORE GM,310.77,2,ATX,80+ Gold,500,Semi
-608dd5a7905ec60bdc06a197,/images/psu/psu.jpg,SeaSonic,FOCUS,554.19,0.7,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a198,/images/psu/psu.jpg,SeaSonic,FOCUS,452.22,0.7,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a199,/images/psu/psu.jpg,SeaSonic,FOCUS,361.95,0.7,ATX,80+ Gold,550,Full
-608dd5a7905ec60bdc06a200,/images/psu/psu.jpg,SeaSonic,FOCUS,842.93,0.7,ATX,80+ Gold,850,Full
-608dd5a7905ec60bdc06a201,/images/psu/psu.jpg,SeaSonic,FOCUS Gold,561.29,0.7,ATX,80+ Gold,650,Semi
-608dd5a7905ec60bdc06a202,/images/psu/psu.jpg,SeaSonic,FOCUS Gold,522.29,0.7,ATX,80+ Gold,750,Semi
-608dd5a7905ec60bdc06a203,/images/psu/psu.jpg,SeaSonic,FOCUS Gold,457.78,0.7,ATX,80+ Gold,450,Semi
-608dd5a7905ec60bdc06a204,/images/psu/psu.jpg,SeaSonic,FOCUS Plus Gold,532.53,0.7,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a205,/images/psu/psu.jpg,SeaSonic,FOCUS Plus Gold,632.31,0.7,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a206,/images/psu/psu.jpg,SeaSonic,FOCUS Plus Gold,458.55,0.7,ATX,80+ Gold,550,Full
-608dd5a7905ec60bdc06a207,/images/psu/psu.jpg,SeaSonic,FOCUS Plus Platinum,547.77,0.8,ATX,80+ Platinum,650,Full
-608dd5a7905ec60bdc06a208,/images/psu/psu.jpg,SeaSonic,FOCUS Plus Platinum,561.29,0.8,ATX,80+ Platinum,550,Full
-608dd5a7905ec60bdc06a209,/images/psu/psu.jpg,SeaSonic,FOCUS PX,1159.07,0.8,ATX,80+ Platinum,850,Full
-608dd5a7905ec60bdc06a210,/images/psu/psu.jpg,SeaSonic,FOCUS SGX,807.03,1,SFX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a211,/images/psu/psu.jpg,SeaSonic,FOCUS SGX,475.75,1,SFX,80+ Gold,500,Full
-608dd5a7905ec60bdc06a212,/images/psu/psu.jpg,SeaSonic,FOCUS SGX,528.57,1,SFX,80+ Gold,450,Full
-608dd5a7905ec60bdc06a213,/images/psu/psu.jpg,SeaSonic,PRIME,1064.20,0.7,ATX,80+ Gold,850,Full
-608dd5a7905ec60bdc06a214,/images/psu/psu.jpg,SeaSonic,PRIME,869.96,0.7,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a215,/images/psu/psu.jpg,SeaSonic,PRIME,636.55,0.7,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a216,/images/psu/psu.jpg,SeaSonic,PRIME Fanless,703.16,0.8,ATX,80+ Platinum,450,Full
-608dd5a7905ec60bdc06a217,/images/psu/psu.jpg,SeaSonic,PRIME Gold,1395.80,0.7,ATX,80+ Gold,1200,Full
-608dd5a7905ec60bdc06a218,/images/psu/psu.jpg,SeaSonic,PRIME Gold,945.40,0.7,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a219,/images/psu/psu.jpg,SeaSonic,PRIME PX,1833.42,0.8,ATX,80+ Platinum,850,Full
-608dd5a7905ec60bdc06a220,/images/psu/psu.jpg,SeaSonic,PRIME PX,893.57,0.8,ATX,80+ Platinum,750,Full
-608dd5a7905ec60bdc06a221,/images/psu/psu.jpg,SeaSonic,PRIME Titanium,1128.13,0.8,ATX,80+ Titanium,600,Full
-608dd5a7905ec60bdc06a222,/images/psu/psu.jpg,SeaSonic,PRIME TX,1043.72,0.8,ATX,80+ Titanium,750,Full
-608dd5a7905ec60bdc06a223,/images/psu/psu.jpg,SeaSonic,PRIME TX,792.16,0.8,ATX,80+ Titanium,650,Full
-608dd5a7905ec60bdc06a224,/images/psu/psu.jpg,SeaSonic,PRIME Ultra Platinum,573.16,0.8,ATX,80+ Platinum,550,Full
-608dd5a7905ec60bdc06a225,/images/psu/psu.jpg,SeaSonic,PRIME Ultra Titanium,1043.72,0.8,ATX,80+ Titanium,750,Full
-608dd5a7905ec60bdc06a226,/images/psu/psu.jpg,SeaSonic,PRIME Ultra Titanium,907.22,0.8,ATX,80+ Titanium,650,Full
-608dd5a7905ec60bdc06a227,/images/psu/psu.jpg,SeaSonic,S12III,299.80,4.3,ATX,80+ Bronze,650,No
-608dd5a7905ec60bdc06a228,/images/psu/psu.jpg,SeaSonic,S12III,223.04,4.3,ATX,80+ Bronze,500,No
-608dd5a7905ec60bdc06a229,/images/psu/psu.jpg,SeaSonic,S12III,227.59,4.3,ATX,80+ Bronze,550,No
-608dd5a7905ec60bdc06a230,/images/psu/psu.jpg,SilentiumPC,Supremo FM2,440.90,1.3,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a231,/images/psu/psu.jpg,SilentiumPC,Supremo FM2,418.10,1.3,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a232,/images/psu/psu.jpg,SilentiumPC,Supremo L2,386.25,3,ATX,80+ Gold,650,No
-608dd5a7905ec60bdc06a233,/images/psu/psu.jpg,SilentiumPC,Supremo L2 V2,327.10,3,ATX,80+ Gold,550,No
-608dd5a7905ec60bdc06a234,/images/psu/psu.jpg,SilentiumPC,Vero L2,332.56,4.3,ATX,80+ Bronze,500,No
-608dd5a7905ec60bdc06a235,/images/psu/psu.jpg,Silverstone,Essential,413.55,2,ATX,80+ Gold,650,No
-608dd5a7905ec60bdc06a236,/images/psu/psu.jpg,Silverstone,Essential,370.32,2,ATX,80+ Bronze,750,No
-608dd5a7905ec60bdc06a237,/images/psu/psu.jpg,Silverstone,Nightjar,777.64,1,SFX,80+ Platinum,450,Full
-608dd5a7905ec60bdc06a238,/images/psu/psu.jpg,Silverstone,SFX,1007.32,0.7,SFX,80+ Titanium,800,Full
-608dd5a7905ec60bdc06a239,/images/psu/psu.jpg,Silverstone,SFX,546.09,1,SFX,80+ Gold,500,Full
-608dd5a7905ec60bdc06a240,/images/psu/psu.jpg,Silverstone,SFX,811.67,0.8,SFX,80+ Platinum,700,Full
-608dd5a7905ec60bdc06a241,/images/psu/psu.jpg,Silverstone,SFX,397.35,2,SFX,80+ Bronze,450,No
-608dd5a7905ec60bdc06a242,/images/psu/psu.jpg,Silverstone,Strider,1619.30,1,ATX,80+ Gold,1500,Full
-608dd5a7905ec60bdc06a243,/images/psu/psu.jpg,Silverstone,Strider Platinum,1136.14,1.3,ATX,80+ Platinum,1000,Full
-608dd5a7905ec60bdc06a244,/images/psu/psu.jpg,Silverstone,Strider Platinum S,1210.25,1.3,ATX,80+ Platinum,1200,Full
-608dd5a7905ec60bdc06a245,/images/psu/psu.jpg,Silverstone,Strider Platinum S,984.57,1.3,ATX,80+ Platinum,1000,Full
-608dd5a7905ec60bdc06a246,/images/psu/psu.jpg,Silverstone,Strider Titanium,1416.82,4,ATX,80+ Titanium,1100,Full
-608dd5a7905ec60bdc06a247,/images/psu/psu.jpg,Silverstone,SX-G,682.23,2,SFX,80+ Gold,700,Full
-608dd5a7905ec60bdc06a248,/images/psu/psu.jpg,Silverstone,SX-LPT,939.07,4,SFX,80+ Platinum,1000,Full
-608dd5a7905ec60bdc06a249,/images/psu/psu.jpg,Silverstone,SX-PT,814.22,2,SFX,80+ Platinum,750,Full
-608dd5a7905ec60bdc06a250,/images/psu/psu.jpg,Silverstone,SX500-G,612.57,2,SFX,80+ Gold,500,Full
-608dd5a7905ec60bdc06a251,/images/psu/psu.jpg,Silverstone,SX700-PT,800.30,2,SFX,80+ Platinum,700,Full
-608dd5a7905ec60bdc06a252,/images/psu/psu.jpg,Super Flower,Leadex III Gold,800.30,0.8,ATX,80+ Gold,850,Full
-608dd5a7905ec60bdc06a253,/images/psu/psu.jpg,Super Flower,Leadex III Gold,596.23,0.8,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a254,/images/psu/psu.jpg,Super Flower,Leadex III Gold,491.13,0.8,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a255,/images/psu/psu.jpg,Super Flower,Leadex III Gold,440.80,0.8,ATX,80+ Gold,550,Full
-608dd5a7905ec60bdc06a256,/images/psu/psu.jpg,Thermaltake,German,277.78,4,ATX,80+,630,No
-608dd5a7905ec60bdc06a257,/images/psu/psu.jpg,Thermaltake,Toughpower Grand RGB,778.00,0.8,ATX,80+ Gold,750,Full
-608dd5a7905ec60bdc06a258,/images/psu/psu.jpg,Thermaltake,Toughpower Grand RGB,633.18,0.8,ATX,80+ Gold,650,Full
-608dd5a7905ec60bdc06a259,/images/psu/psu.jpg,Thermaltake,Toughpower GX1,461.60,0.8,ATX,80+ Gold,500,No
-608dd5a7905ec60bdc06a260,/images/psu/psu.jpg,Thermaltake,TOUGHPOWER PF1 ARGB,1769.72,1,ATX,80+ Platinum,1200,Full
-608dd5a7905ec60bdc06a261,/images/psu/psu.jpg,Thermaltake,TOUGHPOWER PF1 ARGB,1902.36,1,ATX,80+ Platinum,1050,Full
-608dd5a7905ec60bdc06a262,/images/psu/psu.jpg,Thermaltake,Toughpower SFX,861.82,3.3,SFX,80+ Gold,600,Full
+608dd5a7905ec60bdc06a070,/images/psu/8d735e637dc69c251928233604bb53ea.256p.jpg,Asus,ROG Strix,474.79,0.7,ATX,80+ Gold,550,Full
+608dd5a7905ec60bdc06a071,/images/psu/ba0bd7d40ad595da619ba29bdcf2e521.256p.jpg,Asus,ROG STRIX G,1325.37,0.7,ATX,80+ Gold,1000,Full
+608dd5a7905ec60bdc06a072,/images/psu/ba0bd7d40ad595da619ba29bdcf2e521.256p.jpg,Asus,ROG STRIX G,886.80,0.7,ATX,80+ Gold,850,Full
+608dd5a7905ec60bdc06a073,/images/psu/0dbe2767c8cdae695c3d2bd4d039d18e.256p.jpg,be quiet!,Dark Power 12,1611.56,1.3,ATX,80+ Titanium,1000,Full
+608dd5a7905ec60bdc06a074,/images/psu/0dbe2767c8cdae695c3d2bd4d039d18e.256p.jpg,be quiet!,Dark Power 12,1186.87,1.3,ATX,80+ Titanium,850,Full
+608dd5a7905ec60bdc06a075,/images/psu/0dbe2767c8cdae695c3d2bd4d039d18e.256p.jpg,be quiet!,Dark Power 12,906.31,1.3,ATX,80+ Titanium,750,Full
+608dd5a7905ec60bdc06a076,/images/psu/510w8kXjWkL.jpg,be quiet!,Dark Power Pro 11,1364.77,0.7,ATX,80+ Platinum,850,Semi
+608dd5a7905ec60bdc06a077,/images/psu/510w8kXjWkL.jpg,be quiet!,Dark Power Pro 11,950.95,0.7,ATX,80+ Platinum,750,Semi
+608dd5a7905ec60bdc06a078,/images/psu/510w8kXjWkL.jpg,be quiet!,Dark Power Pro 11,796.20,0.7,ATX,80+ Platinum,650,Semi
+608dd5a7905ec60bdc06a079,/images/psu/510w8kXjWkL.jpg,be quiet!,Dark Power Pro 11,684.73,0.7,ATX,80+ Platinum,550,Semi
+608dd5a7905ec60bdc06a080,/images/psu/510w8kXjWkL.jpg,be quiet!,Dark Power Pro 12,1951.95,0.7,ATX,80+ Titanium,1200,Full
+608dd5a7905ec60bdc06a081,/images/psu/510w8kXjWkL.jpg,be quiet!,Dark Power Pro 12,1853.85,0.7,ATX,80+ Titanium,1500,Full
+608dd5a7905ec60bdc06a082,/images/psu/099fe7a5b199900d3ba049f0cd55dd23.256p.jpg,be quiet!,POWER 2,327.10,4,SFX,80+ Bronze,400,No
+608dd5a7905ec60bdc06a083,/images/psu/099fe7a5b199900d3ba049f0cd55dd23.256p.jpg,be quiet!,POWER 2,256.57,4,SFX,80+ Bronze,300,No
+608dd5a7905ec60bdc06a084,/images/psu/31SAmd9b5WL.jpg,be quiet!,Power Zone,541.45,3,ATX,80+ Bronze,650,Full
+608dd5a7905ec60bdc06a085,/images/psu/367ba9c38e8e0c7d462926970cde316a.256p.jpg,be quiet!,Pure Power 10,207.43,2,ATX,80+ Silver,500,No
+608dd5a7905ec60bdc06a086,/images/psu/af3b36b1a3192c881b69c9e3fd3d1109.256p.jpg,be quiet!,Pure Power 10 CM,368.19,2,ATX,80+ Silver,400,Semi
+608dd5a7905ec60bdc06a087,/images/psu/af3b36b1a3192c881b69c9e3fd3d1109.256p.jpg,be quiet!,Pure Power 10 CM,444.94,2,ATX,80+ Silver,700,Semi
+608dd5a7905ec60bdc06a088,/images/psu/1d24170e1b2e6577bb1f14e73fe0dbde.256p.jpg,be quiet!,Pure Power 11,208.85,4,ATX,80+ Bronze,300,No
+608dd5a7905ec60bdc06a089,/images/psu/1d24170e1b2e6577bb1f14e73fe0dbde.256p.jpg,be quiet!,Pure Power 11,245.25,2,ATX,80+ Gold,400,No
+608dd5a7905ec60bdc06a090,/images/psu/1d24170e1b2e6577bb1f14e73fe0dbde.256p.jpg,be quiet!,Pure Power 11,422.70,2,ATX,80+ Gold,700,No
+608dd5a7905ec60bdc06a091,/images/psu/1d24170e1b2e6577bb1f14e73fe0dbde.256p.jpg,be quiet!,Pure Power 11,217.95,2,ATX,80+ Bronze,350,No
+608dd5a7905ec60bdc06a092,/images/psu/aac938ea8ee6cfd1b619f9cdece563dd.256p.jpg,be quiet!,Pure Power 11 CM,391.03,2,ATX,80+ Gold,600,Semi
+608dd5a7905ec60bdc06a093,/images/psu/aac938ea8ee6cfd1b619f9cdece563dd.256p.jpg,be quiet!,Pure Power 11 CM,490.72,2,ATX,80+ Gold,700,Semi
+608dd5a7905ec60bdc06a094,/images/psu/aac938ea8ee6cfd1b619f9cdece563dd.256p.jpg,be quiet!,Pure Power 11 CM,331.70,2,ATX,80+ Gold,500,Semi
+608dd5a7905ec60bdc06a095,/images/psu/aac938ea8ee6cfd1b619f9cdece563dd.256p.jpg,be quiet!,Pure Power 11 CM,295.66,2,ATX,80+ Gold,400,Semi
+608dd5a7905ec60bdc06a096,/images/psu/933b1005478f139d7caf504efce06dad.256p.jpg,be quiet!,SFX L Power,554.60,2,SFX,80+ Gold,600,Full
+608dd5a7905ec60bdc06a097,/images/psu/933b1005478f139d7caf504efce06dad.256p.jpg,be quiet!,SFX L Power,472.70,2,SFX,80+ Gold,500,Full
+608dd5a7905ec60bdc06a098,/images/psu/no-image.png,be quiet!,Straight Power 11,568.07,0.7,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a099,/images/psu/no-image.png,be quiet!,Straight Power 11,490.95,0.7,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a100,/images/psu/no-image.png,be quiet!,Straight Power 11,686.37,0.7,ATX,80+ Gold,850,Full
+608dd5a7905ec60bdc06a101,/images/psu/no-image.png,be quiet!,Straight Power 11,461.37,0.7,ATX,80+ Gold,550,Full
+608dd5a7905ec60bdc06a102,/images/psu/no-image.png,be quiet!,Straight Power 11,866.05,0.7,ATX,80+ Gold,1000,Full
+608dd5a7905ec60bdc06a103,/images/psu/no-image.png,be quiet!,Straight Power 11,391.76,0.7,ATX,80+ Gold,450,Full
+608dd5a7905ec60bdc06a104,/images/psu/7649110de6794d36c672cbe849689cad.256p.jpg,be quiet!,System Power 9,190.42,3,ATX,80+ Bronze,400,No
+608dd5a7905ec60bdc06a105,/images/psu/7649110de6794d36c672cbe849689cad.256p.jpg,be quiet!,System Power 9,272.55,3,ATX,80+ Bronze,600,No
+608dd5a7905ec60bdc06a106,/images/psu/7649110de6794d36c672cbe849689cad.256p.jpg,be quiet!,System Power 9,228.64,3,ATX,80+ Bronze,500,No
+608dd5a7905ec60bdc06a107,/images/psu/7649110de6794d36c672cbe849689cad.256p.jpg,be quiet!,System Power 9,310.40,3,ATX,80+ Bronze,700,No
+608dd5a7905ec60bdc06a108,/images/psu/6bdaac89a1675f66238a17335eb22cd6.256p.jpg,be quiet!,System Power 9 CM,367.41,3,ATX,80+ Bronze,700,Semi
+608dd5a7905ec60bdc06a109,/images/psu/6bdaac89a1675f66238a17335eb22cd6.256p.jpg,be quiet!,System Power 9 CM,284.15,3,ATX,80+ Bronze,500,Semi
+608dd5a7905ec60bdc06a110,/images/psu/979ead80d55ec2cdef446e738ccd9805.256p.jpg,BitFenix,Formula Gold,363.55,0.7,ATX,80+ Gold,650,No
+608dd5a7905ec60bdc06a111,/images/psu/979ead80d55ec2cdef446e738ccd9805.256p.jpg,BitFenix,Formula Gold,476.20,0.7,ATX,80+ Gold,750,No
+608dd5a7905ec60bdc06a112,/images/psu/979ead80d55ec2cdef446e738ccd9805.256p.jpg,BitFenix,Formula Gold,340.80,1.3,ATX,80+ Gold,550,No
+608dd5a7905ec60bdc06a113,/images/psu/979ead80d55ec2cdef446e738ccd9805.256p.jpg,BitFenix,Formula Gold,333.92,1.3,ATX,80+ Gold,450,No
+608dd5a7905ec60bdc06a114,/images/psu/b39e86115644d4d2cdbf99faadea4779.256p.jpg,BitFenix,Whisper M,431.80,0.8,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a115,/images/psu/b39e86115644d4d2cdbf99faadea4779.256p.jpg,BitFenix,Whisper M,541.45,0.8,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a116,/images/psu/b39e86115644d4d2cdbf99faadea4779.256p.jpg,BitFenix,Whisper M,386.30,1.3,ATX,80+ Gold,450,Full
+608dd5a7905ec60bdc06a117,/images/psu/b39e86115644d4d2cdbf99faadea4779.256p.jpg,BitFenix,Whisper M,409.05,1.3,ATX,80+ Gold,550,Full
+608dd5a7905ec60bdc06a118,/images/psu/b39e86115644d4d2cdbf99faadea4779.256p.jpg,BitFenix,Whisper M,636.55,0.8,ATX,80+ Gold,850,Full
+608dd5a7905ec60bdc06a119,/images/psu/02a69b2e464345c1eaf7d8bb9bc5f36d.256p.jpg,Cooler Master,MWE Bronze,286.20,2.3,ATX,80+ Bronze,450,No
+608dd5a7905ec60bdc06a120,/images/psu/7ce0f65e246d927064e84084928ba920.256p.jpg,Cooler Master,MWE Bronze V2,374.69,2.3,ATX,80+ Bronze,650,No
+608dd5a7905ec60bdc06a121,/images/psu/7ce0f65e246d927064e84084928ba920.256p.jpg,Cooler Master,MWE Bronze V2,242.92,2.3,ATX,80+ Bronze,550,No
+608dd5a7905ec60bdc06a122,/images/psu/7ce0f65e246d927064e84084928ba920.256p.jpg,Cooler Master,MWE Bronze V2,427.65,2.3,ATX,80+ Bronze,750,No
+608dd5a7905ec60bdc06a123,/images/psu/7ce0f65e246d927064e84084928ba920.256p.jpg,Cooler Master,MWE Bronze V2,230.41,2.3,ATX,80+ Bronze,450,No
+608dd5a7905ec60bdc06a124,/images/psu/7ce0f65e246d927064e84084928ba920.256p.jpg,Cooler Master,MWE Bronze V2,300.03,2.3,ATX,80+ Bronze,700,No
+608dd5a7905ec60bdc06a125,/images/psu/7ce0f65e246d927064e84084928ba920.256p.jpg,Cooler Master,MWE Bronze V2,231.78,2.3,ATX,80+ Bronze,500,No
+608dd5a7905ec60bdc06a126,/images/psu/7ce0f65e246d927064e84084928ba920.256p.jpg,Cooler Master,MWE Bronze V2,245.43,2.3,ATX,80+ Bronze,600,No
+608dd5a7905ec60bdc06a127,/images/psu/no-image.png,Cooler Master,MWE White V2 230V,173.67,2.3,ATX,80+,400,No
+608dd5a7905ec60bdc06a128,/images/psu/no-image.png,Cooler Master,MWE White V2 230V,398.13,2.3,ATX,80+,650,No
+608dd5a7905ec60bdc06a129,/images/psu/cf7a8ae258b039ec78859d56cb2a9564.256p.jpg,Cooler Master,V SFX Gold,755.03,1,SFX,80+ Gold,850,Full
+608dd5a7905ec60bdc06a130,/images/psu/cf7a8ae258b039ec78859d56cb2a9564.256p.jpg,Cooler Master,V SFX Gold,679.72,1,SFX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a131,/images/psu/cf7a8ae258b039ec78859d56cb2a9564.256p.jpg,Cooler Master,V SFX Gold,617.57,1,SFX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a132,/images/psu/519prUc1%2BdL.jpg,Cooler Master,VSM,1160.25,1,ATX,80+ Gold,750,Semi
+608dd5a7905ec60bdc06a133,/images/psu/51VK63TIPDL.jpg,Corsair,AXi,2347.39,0.8,ATX,80+ Titanium,1600,Full
+608dd5a7905ec60bdc06a134,/images/psu/41T-pTGdHgL.jpg,Corsair,CV,201.52,4,ATX,80+ Bronze,450,No
+608dd5a7905ec60bdc06a135,/images/psu/51Q4YH4Qx4L.jpg,Corsair,HX Platinum,977.80,0.8,ATX,80+ Platinum,1000,Full
+608dd5a7905ec60bdc06a136,/images/psu/51Q4YH4Qx4L.jpg,Corsair,HX Platinum,832.20,0.8,ATX,80+ Platinum,850,Full
+608dd5a7905ec60bdc06a137,/images/psu/51Q4YH4Qx4L.jpg,Corsair,HX Platinum,735.28,0.8,ATX,80+ Platinum,750,Full
+608dd5a7905ec60bdc06a138,/images/psu/17c0298b366edf62d9a00f5a61e1917c.256p.jpg,Corsair,HXi,1319.00,0.8,ATX,80+ Platinum,1200,Full
+608dd5a7905ec60bdc06a139,/images/psu/17c0298b366edf62d9a00f5a61e1917c.256p.jpg,Corsair,HXi,1301.03,0.8,ATX,80+ Platinum,1000,Full
+608dd5a7905ec60bdc06a140,/images/psu/17c0298b366edf62d9a00f5a61e1917c.256p.jpg,Corsair,HXi,974.93,0.8,ATX,80+ Platinum,850,Full
+608dd5a7905ec60bdc06a141,/images/psu/17c0298b366edf62d9a00f5a61e1917c.256p.jpg,Corsair,HXi,788.97,0.8,ATX,80+ Platinum,750,Full
+608dd5a7905ec60bdc06a142,/images/psu/41dZYwtss4L.jpg,Corsair,RM (2019),522.80,0.7,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a143,/images/psu/41dZYwtss4L.jpg,Corsair,RM (2019),598.28,0.7,ATX,80+ Gold,850,Full
+608dd5a7905ec60bdc06a144,/images/psu/41dZYwtss4L.jpg,Corsair,RM (2019),454.55,0.7,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a145,/images/psu/51T9HKd0PaL.jpg,Corsair,RMi,757.07,0.8,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a146,/images/psu/51T9HKd0PaL.jpg,Corsair,RMi,662.89,0.8,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a147,/images/psu/51fI4QEwJHL.jpg,Corsair,RMx (2018),654.75,0.8,ATX,80+ Gold,850,Full
+608dd5a7905ec60bdc06a148,/images/psu/51fI4QEwJHL.jpg,Corsair,RMx (2018),584.27,0.8,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a149,/images/psu/51fI4QEwJHL.jpg,Corsair,RMx (2018),495.95,0.8,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a150,/images/psu/51fI4QEwJHL.jpg,Corsair,RMx (2018),386.30,0.8,ATX,80+ Gold,550,Full
+608dd5a7905ec60bdc06a151,/images/psu/41eWwG7IGhL.jpg,Corsair,SF,743.42,1.3,SFX,80+ Platinum,750,Full
+608dd5a7905ec60bdc06a152,/images/psu/41eWwG7IGhL.jpg,Corsair,SF,627.45,1.3,SFX,80+ Platinum,600,Full
+608dd5a7905ec60bdc06a153,/images/psu/41eWwG7IGhL.jpg,Corsair,SF,418.69,1.3,SFX,80+ Gold,450,Full
+608dd5a7905ec60bdc06a154,/images/psu/41h7U%2BvhJUL.jpg,Corsair,TXM Gold,358.27,1,ATX,80+ Gold,550,Semi
+608dd5a7905ec60bdc06a155,/images/psu/51Y5VWBe6AL.jpg,EVGA,B3,272.95,2,ATX,80+ Bronze,450,Full
+608dd5a7905ec60bdc06a156,/images/psu/51Y5VWBe6AL.jpg,EVGA,B3,873.60,2,ATX,80+ Bronze,750,Full
+608dd5a7905ec60bdc06a157,/images/psu/51GfcLl%2B1WL.jpg,EVGA,BQ,302.07,3,ATX,80+ Bronze,600,Semi
+608dd5a7905ec60bdc06a158,/images/psu/51GfcLl%2B1WL.jpg,EVGA,BQ,414.14,3,ATX,80+ Bronze,750,Semi
+608dd5a7905ec60bdc06a159,/images/psu/51GfcLl%2B1WL.jpg,EVGA,BQ,250.34,3,ATX,80+ Bronze,500,Semi
+608dd5a7905ec60bdc06a160,/images/psu/51GfcLl%2B1WL.jpg,EVGA,BQ,474.79,3,ATX,80+ Bronze,850,Semi
+608dd5a7905ec60bdc06a161,/images/psu/51GfcLl%2B1WL.jpg,EVGA,BQ,370.60,3,ATX,80+ Bronze,650,Semi
+608dd5a7905ec60bdc06a162,/images/psu/cb871f8cf187922a16a18e53f17366ff.256p.jpg,EVGA,BR,254.16,3.3,ATX,80+ Bronze,500,No
+608dd5a7905ec60bdc06a163,/images/psu/cb871f8cf187922a16a18e53f17366ff.256p.jpg,EVGA,BR,186.28,3.3,ATX,80+ Bronze,450,No
+608dd5a7905ec60bdc06a164,/images/psu/cb871f8cf187922a16a18e53f17366ff.256p.jpg,EVGA,BR,250.75,3.3,ATX,80+ Bronze,600,No
+608dd5a7905ec60bdc06a165,/images/psu/cb871f8cf187922a16a18e53f17366ff.256p.jpg,EVGA,BR,304.40,3.3,ATX,80+ Bronze,700,No
+608dd5a7905ec60bdc06a166,/images/psu/dfb60bd6f9e14aedba817157006d87cf.256p.jpg,EVGA,BT,227.45,4,ATX,80+ Bronze,450,No
+608dd5a7905ec60bdc06a167,/images/psu/ea6579129aa2c76b3d1c399ab9b7b0a0.256p.jpg,EVGA,G3,527.53,1.3,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a168,/images/psu/ea6579129aa2c76b3d1c399ab9b7b0a0.256p.jpg,EVGA,G3,509.28,1.3,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a169,/images/psu/98b08be44e35e5cea8bae15a35027e3e.256p.jpg,EVGA,G5,552.83,2,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a170,/images/psu/98b08be44e35e5cea8bae15a35027e3e.256p.jpg,EVGA,G5,697.92,2,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a171,/images/psu/98b08be44e35e5cea8bae15a35027e3e.256p.jpg,EVGA,G5,814.45,2,ATX,80+ Gold,1000,Full
+608dd5a7905ec60bdc06a172,/images/psu/98b08be44e35e5cea8bae15a35027e3e.256p.jpg,EVGA,G5,773.59,2,ATX,80+ Gold,850,Full
+608dd5a7905ec60bdc06a173,/images/psu/no-image.png,EVGA,GD (2019),318.59,2,ATX,80+ Gold,600,No
+608dd5a7905ec60bdc06a174,/images/psu/no-image.png,EVGA,GD (2019),400.40,2,ATX,80+ Gold,700,No
+608dd5a7905ec60bdc06a175,/images/psu/no-image.png,EVGA,GD (2019),268.54,2,ATX,80+ Gold,500,No
+608dd5a7905ec60bdc06a176,/images/psu/1a91d573afc204e9d77582972ef1c677.256p.jpg,EVGA,P2,2043.45,1,ATX,80+ Platinum,850,Full
+608dd5a7905ec60bdc06a177,/images/psu/1a91d573afc204e9d77582972ef1c677.256p.jpg,EVGA,P2,1346.80,1,ATX,80+ Platinum,750,Full
+608dd5a7905ec60bdc06a178,/images/psu/1a91d573afc204e9d77582972ef1c677.256p.jpg,EVGA,P2,1560.65,1,ATX,80+ Platinum,650,Full
+608dd5a7905ec60bdc06a179,/images/psu/41d4XSLwWML.jpg,Fractal Design,Ion SFX-L,549.41,1,SFX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a180,/images/psu/41d4XSLwWML.jpg,Fractal Design,Ion SFX-L,467.01,1,SFX,80+ Gold,500,Full
+608dd5a7905ec60bdc06a181,/images/psu/c2a8cbfae3cc72e34af4e829d2d77e32.256p.jpg,Fractal Design,Ion+,576.80,0.7,ATX,80+ Platinum,760,Full
+608dd5a7905ec60bdc06a182,/images/psu/c2a8cbfae3cc72e34af4e829d2d77e32.256p.jpg,Fractal Design,Ion+,486.35,0.7,ATX,80+ Platinum,560,Full
+608dd5a7905ec60bdc06a183,/images/psu/c2a8cbfae3cc72e34af4e829d2d77e32.256p.jpg,Fractal Design,Ion+,643.92,0.7,ATX,80+ Platinum,860,Full
+608dd5a7905ec60bdc06a184,/images/psu/c2a8cbfae3cc72e34af4e829d2d77e32.256p.jpg,Fractal Design,Ion+,531.85,0.7,ATX,80+ Platinum,660,Full
+608dd5a7905ec60bdc06a185,/images/psu/15d04ca8c8bdd7339458dd75cc0b7d54.med.256p.jpg,Fractal Design,Tesla R2,496.72,3,ATX,80+ Gold,650,No
+608dd5a7905ec60bdc06a186,/images/psu/6fb5684f6e407aee4ed7563e40562a20.256p.jpg,Gigabyte,AORUS P GM,525.21,1.7,ATX,80+ Gold,850,Full
+608dd5a7905ec60bdc06a187,/images/psu/6fb5684f6e407aee4ed7563e40562a20.256p.jpg,Gigabyte,AORUS P GM,472.93,1.7,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a188,/images/psu/6d692d61cacaf4ed7ea59fb308754ecd.256p.jpg,Gigabyte,P-B,185.87,3,ATX,80+ Bronze,450,No
+608dd5a7905ec60bdc06a189,/images/psu/6d692d61cacaf4ed7ea59fb308754ecd.256p.jpg,Gigabyte,P-B,245.43,3,ATX,80+ Bronze,650,No
+608dd5a7905ec60bdc06a190,/images/psu/6d692d61cacaf4ed7ea59fb308754ecd.256p.jpg,Gigabyte,P-B,195.74,3,ATX,80+ Bronze,550,No
+608dd5a7905ec60bdc06a191,/images/psu/cfee730bf98810ab82afed241e306420.256p.jpg,Phanteks,AMP,628.72,0.7,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a192,/images/psu/cfee730bf98810ab82afed241e306420.256p.jpg,Phanteks,AMP,569.30,0.7,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a193,/images/psu/cfee730bf98810ab82afed241e306420.256p.jpg,Phanteks,AMP,409.05,0.7,ATX,80+ Gold,550,Full
+608dd5a7905ec60bdc06a194,/images/psu/b95f70942887be6e60372bd500baafa4.256p.jpg,SeaSonic,Core GC,363.55,2,ATX,80+ Gold,650,No
+608dd5a7905ec60bdc06a195,/images/psu/fd4e1a34e00f65eb1877fe1b05bc430d.256p.jpg,SeaSonic,CORE GM,383.97,2,ATX,80+ Gold,650,Semi
+608dd5a7905ec60bdc06a196,/images/psu/fd4e1a34e00f65eb1877fe1b05bc430d.256p.jpg,SeaSonic,CORE GM,310.77,2,ATX,80+ Gold,500,Semi
+608dd5a7905ec60bdc06a197,/images/psu/41NFg0i1ZFL.jpg,SeaSonic,FOCUS,554.19,0.7,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a198,/images/psu/41NFg0i1ZFL.jpg,SeaSonic,FOCUS,452.22,0.7,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a199,/images/psu/41NFg0i1ZFL.jpg,SeaSonic,FOCUS,361.95,0.7,ATX,80+ Gold,550,Full
+608dd5a7905ec60bdc06a200,/images/psu/41NFg0i1ZFL.jpg,SeaSonic,FOCUS,842.93,0.7,ATX,80+ Gold,850,Full
+608dd5a7905ec60bdc06a201,/images/psu/41xRMMWp6oL.jpg,SeaSonic,FOCUS Gold,561.29,0.7,ATX,80+ Gold,650,Semi
+608dd5a7905ec60bdc06a202,/images/psu/41xRMMWp6oL.jpg,SeaSonic,FOCUS Gold,522.29,0.7,ATX,80+ Gold,750,Semi
+608dd5a7905ec60bdc06a203,/images/psu/41xRMMWp6oL.jpg,SeaSonic,FOCUS Gold,457.78,0.7,ATX,80+ Gold,450,Semi
+608dd5a7905ec60bdc06a204,/images/psu/51wOlkt6EAL.jpg,SeaSonic,FOCUS Plus Gold,532.53,0.7,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a205,/images/psu/51wOlkt6EAL.jpg,SeaSonic,FOCUS Plus Gold,632.31,0.7,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a206,/images/psu/51wOlkt6EAL.jpg,SeaSonic,FOCUS Plus Gold,458.55,0.7,ATX,80+ Gold,550,Full
+608dd5a7905ec60bdc06a207,/images/psu/fef7512dace78a5d11d0fea87eb8a7d6.256p.jpg,SeaSonic,FOCUS Plus Platinum,547.77,0.8,ATX,80+ Platinum,650,Full
+608dd5a7905ec60bdc06a208,/images/psu/fef7512dace78a5d11d0fea87eb8a7d6.256p.jpg,SeaSonic,FOCUS Plus Platinum,561.29,0.8,ATX,80+ Platinum,550,Full
+608dd5a7905ec60bdc06a209,/images/psu/a39289b41b92d2d387a165aca1af3c9d.256p.jpg,SeaSonic,FOCUS PX,1159.07,0.8,ATX,80+ Platinum,850,Full
+608dd5a7905ec60bdc06a210,/images/psu/c0b33b4e09e590f6a5c58a4c0b0cfa5a.256p.jpg,SeaSonic,FOCUS SGX,807.03,1,SFX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a211,/images/psu/c0b33b4e09e590f6a5c58a4c0b0cfa5a.256p.jpg,SeaSonic,FOCUS SGX,475.75,1,SFX,80+ Gold,500,Full
+608dd5a7905ec60bdc06a212,/images/psu/c0b33b4e09e590f6a5c58a4c0b0cfa5a.256p.jpg,SeaSonic,FOCUS SGX,528.57,1,SFX,80+ Gold,450,Full
+608dd5a7905ec60bdc06a213,/images/psu/41i84xz1sEL.jpg,SeaSonic,PRIME,1064.20,0.7,ATX,80+ Gold,850,Full
+608dd5a7905ec60bdc06a214,/images/psu/41i84xz1sEL.jpg,SeaSonic,PRIME,869.96,0.7,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a215,/images/psu/41i84xz1sEL.jpg,SeaSonic,PRIME,636.55,0.7,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a216,/images/psu/41Xrjo2MJhL.jpg,SeaSonic,PRIME Fanless,703.16,0.8,ATX,80+ Platinum,450,Full
+608dd5a7905ec60bdc06a217,/images/psu/512adbdd4fbb20e05b76b5456327949d.256p.jpg,SeaSonic,PRIME Gold,1395.80,0.7,ATX,80+ Gold,1200,Full
+608dd5a7905ec60bdc06a218,/images/psu/512adbdd4fbb20e05b76b5456327949d.256p.jpg,SeaSonic,PRIME Gold,945.40,0.7,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a219,/images/psu/a18c8314f3ee6d3248b6622ce8bbc0a5.256p.jpg,SeaSonic,PRIME PX,1833.42,0.8,ATX,80+ Platinum,850,Full
+608dd5a7905ec60bdc06a220,/images/psu/a18c8314f3ee6d3248b6622ce8bbc0a5.256p.jpg,SeaSonic,PRIME PX,893.57,0.8,ATX,80+ Platinum,750,Full
+608dd5a7905ec60bdc06a221,/images/psu/511CYk5KOnL.jpg,SeaSonic,PRIME Titanium,1128.13,0.8,ATX,80+ Titanium,600,Full
+608dd5a7905ec60bdc06a222,/images/psu/41vEn3gwADL.jpg,SeaSonic,PRIME TX,1043.72,0.8,ATX,80+ Titanium,750,Full
+608dd5a7905ec60bdc06a223,/images/psu/41vEn3gwADL.jpg,SeaSonic,PRIME TX,792.16,0.8,ATX,80+ Titanium,650,Full
+608dd5a7905ec60bdc06a224,/images/psu/0a9d167129077d4e0ee1725d99a26ebf.256p.jpg,SeaSonic,PRIME Ultra Platinum,573.16,0.8,ATX,80+ Platinum,550,Full
+608dd5a7905ec60bdc06a225,/images/psu/517nN1wmoKL.jpg,SeaSonic,PRIME Ultra Titanium,1043.72,0.8,ATX,80+ Titanium,750,Full
+608dd5a7905ec60bdc06a226,/images/psu/517nN1wmoKL.jpg,SeaSonic,PRIME Ultra Titanium,907.22,0.8,ATX,80+ Titanium,650,Full
+608dd5a7905ec60bdc06a227,/images/psu/51cgCHErMNL.jpg,SeaSonic,S12III,299.80,4.3,ATX,80+ Bronze,650,No
+608dd5a7905ec60bdc06a228,/images/psu/51cgCHErMNL.jpg,SeaSonic,S12III,223.04,4.3,ATX,80+ Bronze,500,No
+608dd5a7905ec60bdc06a229,/images/psu/51cgCHErMNL.jpg,SeaSonic,S12III,227.59,4.3,ATX,80+ Bronze,550,No
+608dd5a7905ec60bdc06a230,/images/psu/41V7H1Rq8yL.jpg,SilentiumPC,Supremo FM2,440.90,1.3,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a231,/images/psu/41V7H1Rq8yL.jpg,SilentiumPC,Supremo FM2,418.10,1.3,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a232,/images/psu/41cqiNe04hL.jpg,SilentiumPC,Supremo L2,386.25,3,ATX,80+ Gold,650,No
+608dd5a7905ec60bdc06a233,/images/psu/41XJpH1yvDL.jpg,SilentiumPC,Supremo L2 V2,327.10,3,ATX,80+ Gold,550,No
+608dd5a7905ec60bdc06a234,/images/psu/e11c497b722d90e33fa42bd1a320efba.256p.jpg,SilentiumPC,Vero L2,332.56,4.3,ATX,80+ Bronze,500,No
+608dd5a7905ec60bdc06a235,/images/psu/511OoR096DL.jpg,Silverstone,Essential,413.55,2,ATX,80+ Gold,650,No
+608dd5a7905ec60bdc06a236,/images/psu/511OoR096DL.jpg,Silverstone,Essential,370.32,2,ATX,80+ Bronze,750,No
+608dd5a7905ec60bdc06a237,/images/psu/41lvqJLmb4L.jpg,Silverstone,Nightjar,777.64,1,SFX,80+ Platinum,450,Full
+608dd5a7905ec60bdc06a238,/images/psu/f283635f3bbaae560363f75523ba0f76.256p.jpg,Silverstone,SFX,1007.32,0.7,SFX,80+ Titanium,800,Full
+608dd5a7905ec60bdc06a239,/images/psu/f283635f3bbaae560363f75523ba0f76.256p.jpg,Silverstone,SFX,546.09,1,SFX,80+ Gold,500,Full
+608dd5a7905ec60bdc06a240,/images/psu/f283635f3bbaae560363f75523ba0f76.256p.jpg,Silverstone,SFX,811.67,0.8,SFX,80+ Platinum,700,Full
+608dd5a7905ec60bdc06a241,/images/psu/f283635f3bbaae560363f75523ba0f76.256p.jpg,Silverstone,SFX,397.35,2,SFX,80+ Bronze,450,No
+608dd5a7905ec60bdc06a242,/images/psu/no-image.png,Silverstone,Strider,1619.30,1,ATX,80+ Gold,1500,Full
+608dd5a7905ec60bdc06a243,/images/psu/988bcf7f327f782d7ec2fc8d3982f0a2.256p.jpg,Silverstone,Strider Platinum,1136.14,1.3,ATX,80+ Platinum,1000,Full
+608dd5a7905ec60bdc06a244,/images/psu/69d82e84ffacd47701de53b292f980dc.256p.jpg,Silverstone,Strider Platinum S,1210.25,1.3,ATX,80+ Platinum,1200,Full
+608dd5a7905ec60bdc06a245,/images/psu/69d82e84ffacd47701de53b292f980dc.256p.jpg,Silverstone,Strider Platinum S,984.57,1.3,ATX,80+ Platinum,1000,Full
+608dd5a7905ec60bdc06a246,/images/psu/51cSN53J%2BSL.jpg,Silverstone,Strider Titanium,1416.82,4,ATX,80+ Titanium,1100,Full
+608dd5a7905ec60bdc06a247,/images/psu/dae466078494c93df86edd455e9094e8.256p.jpg,Silverstone,SX-G,682.23,2,SFX,80+ Gold,700,Full
+608dd5a7905ec60bdc06a248,/images/psu/7eb5273ec88fa51b14edb4ccaf0f9119.256p.jpg,Silverstone,SX-LPT,939.07,4,SFX,80+ Platinum,1000,Full
+608dd5a7905ec60bdc06a249,/images/psu/41suN4vTHcL.jpg,Silverstone,SX-PT,814.22,2,SFX,80+ Platinum,750,Full
+608dd5a7905ec60bdc06a250,/images/psu/c011e909a23ae134119f5be65fe97630.256p.jpg,Silverstone,SX500-G,612.57,2,SFX,80+ Gold,500,Full
+608dd5a7905ec60bdc06a251,/images/psu/41J1oMG4sWL.jpg,Silverstone,SX700-PT,800.30,2,SFX,80+ Platinum,700,Full
+608dd5a7905ec60bdc06a252,/images/psu/dc5a142b939486f0278ddb6a92ebb532.256p.jpg,Super Flower,Leadex III Gold,800.30,0.8,ATX,80+ Gold,850,Full
+608dd5a7905ec60bdc06a253,/images/psu/dc5a142b939486f0278ddb6a92ebb532.256p.jpg,Super Flower,Leadex III Gold,596.23,0.8,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a254,/images/psu/dc5a142b939486f0278ddb6a92ebb532.256p.jpg,Super Flower,Leadex III Gold,491.13,0.8,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a255,/images/psu/dc5a142b939486f0278ddb6a92ebb532.256p.jpg,Super Flower,Leadex III Gold,440.80,0.8,ATX,80+ Gold,550,Full
+608dd5a7905ec60bdc06a256,/images/psu/51Og8vGzWmL.jpg,Thermaltake,German,277.78,4,ATX,80+,630,No
+608dd5a7905ec60bdc06a257,/images/psu/83e4371175c6091bde1dd3e6dc1e48ce.256p.jpg,Thermaltake,Toughpower Grand RGB,778.00,0.8,ATX,80+ Gold,750,Full
+608dd5a7905ec60bdc06a258,/images/psu/83e4371175c6091bde1dd3e6dc1e48ce.256p.jpg,Thermaltake,Toughpower Grand RGB,633.18,0.8,ATX,80+ Gold,650,Full
+608dd5a7905ec60bdc06a259,/images/psu/70a437db1d16d38340f8ab4094860550.256p.jpg,Thermaltake,Toughpower GX1,461.60,0.8,ATX,80+ Gold,500,No
+608dd5a7905ec60bdc06a260,/images/psu/51LSqGGi-HL.jpg,Thermaltake,TOUGHPOWER PF1 ARGB,1769.72,1,ATX,80+ Platinum,1200,Full
+608dd5a7905ec60bdc06a261,/images/psu/51LSqGGi-HL.jpg,Thermaltake,TOUGHPOWER PF1 ARGB,1902.36,1,ATX,80+ Platinum,1050,Full
+608dd5a7905ec60bdc06a262,/images/psu/51er5e%2B1oGL.jpg,Thermaltake,Toughpower SFX,861.82,3.3,SFX,80+ Gold,600,Full
