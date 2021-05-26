@@ -119,15 +119,14 @@ public abstract class Product {
     public ImageView getImageView() {
         if(this.imageView == null) {
             try {
-                var image = new Image(getClass().getResource(this.image).toString());
-                this.imageView = new ImageView(image);
-                this.imageView.setSmooth(true);
-                this.imageView.setPreserveRatio(true);
-                this.imageView.setFitWidth(64);
-                this.imageView.setFitHeight(64);
+                this.imageView = new ImageView(getClass().getResource(this.image).toString());
             } catch (Exception e) {
-                System.out.println(image);
+                this.imageView = new ImageView(getClass().getResource("/images/icons/no-image.png").toString());
             }
+            this.imageView.setSmooth(true);
+            this.imageView.setPreserveRatio(true);
+            this.imageView.setFitWidth(64);
+            this.imageView.setFitHeight(64);
         }
 
         return this.imageView;
