@@ -1,11 +1,7 @@
 package scenes;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Gpu;
-import helpers.CheckBoxRoot;
-import helpers.ComboBoxRangeValueController;
-import helpers.DatabaseDataGetter;
-import helpers.JsonDataGetter;
+import helpers.*;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
@@ -17,6 +13,7 @@ import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
 import java.io.IOException;
+import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -45,10 +42,10 @@ public class GpuSceneController extends ComponentScene<Gpu> {
     private TextField boostClockUpperTextField;
 
     @FXML
-    private TextField lengthPerformanceLowerTextField;
+    private TextField lengthLowerTextField;
 
     @FXML
-    private TextField lengthPerformanceUpperTextField;
+    private TextField lengthUpperTextField;
 
     @FXML
     private ComboBox<Integer> tdpMinComboBox;
@@ -57,10 +54,10 @@ public class GpuSceneController extends ComponentScene<Gpu> {
     private ComboBox<Integer> tdpMaxComboBox;
 
     @FXML
-    private TextField recommendedPsuWattsLowerTextField;
+    private ComboBox<Integer> psuMinComboBox;
 
     @FXML
-    private TextField recommendedPsuWattsUpperTextField;
+    private ComboBox<Integer> psuMaxComboBox;
 
     @FXML
     private TextField performanceLowerTextField;
@@ -70,6 +67,7 @@ public class GpuSceneController extends ComponentScene<Gpu> {
 
     private ComboBoxRangeValueController memoryController;
     private ComboBoxRangeValueController tdpController;
+    private ComboBoxRangeValueController psuController;
 
     @FXML
     void applyFilters(ActionEvent event) {
@@ -79,8 +77,25 @@ public class GpuSceneController extends ComponentScene<Gpu> {
                 (o.getMemoryGb() <= memoryMaxComboBox.getValue());
         Predicate<Gpu> tdp = (o) -> (o.getTdpW() >= tdpMinComboBox.getValue()) &&
                 (o.getTdpW() <= tdpMaxComboBox.getValue());
+        Predicate<Gpu> psu = (o) -> (o.getRecommendedPsuWatts() >= psuMinComboBox.getValue()) &&
+                (o.getRecommendedPsuWatts() <= psuMaxComboBox.getValue());
 
-        this.filteredList.setPredicate(brand.and(chipset).and(tdp).and(memory));
+        Predicate<Gpu> price = (o) -> (o.getPrice() >= getDoubleFromRegionalString(priceLowerTextField.getText())
+                && o.getPrice() <= getDoubleFromRegionalString(priceUpperTextField.getText()));
+
+        Predicate<Gpu> core = (o) -> (o.getCoreClockMhz() >= getDoubleFromRegionalString(coreClockLowerTextField.getText())) &&
+                (o.getCoreClockMhz() <= getDoubleFromRegionalString(coreClockUpperTextField.getText()));
+
+        Predicate<Gpu> boost = (o) -> (o.getBoostClockMhz() >= getDoubleFromRegionalString(boostClockLowerTextField.getText())) &&
+                (o.getBoostClockMhz() <= getDoubleFromRegionalString(boostClockUpperTextField.getText()));
+
+        Predicate<Gpu> length = (o) -> (o.getLengthMillimeters() >= getDoubleFromRegionalString(lengthLowerTextField.getText())) &&
+                (o.getLengthMillimeters() <= getDoubleFromRegionalString(lengthUpperTextField.getText()));
+
+        Predicate<Gpu> performance = (o) -> (o.getPerformance() >= getDoubleFromRegionalString(performanceLowerTextField.getText())) &&
+                (o.getPerformance() <= getDoubleFromRegionalString(performanceUpperTextField.getText()));
+
+        this.filteredList.setPredicate(brand.and(chipset).and(tdp).and(memory).and(price).and(psu).and(core).and(boost).and(length).and(performance));
     }
 
     @FXML
@@ -94,11 +109,6 @@ public class GpuSceneController extends ComponentScene<Gpu> {
     }
 
     @FXML
-    void resetFilters(ActionEvent event) {
-
-    }
-
-    @FXML
     void tdpMaxComboBoxUpdate(ActionEvent event) {
         tdpController.maxComboBoxUpdated();
     }
@@ -106,6 +116,16 @@ public class GpuSceneController extends ComponentScene<Gpu> {
     @FXML
     void tdpMinComboBoxUpdate(ActionEvent event) {
         tdpController.minComboBoxUpdated();
+    }
+
+    @FXML
+    void psuMinComboBoxUpdate(ActionEvent event) {
+        psuController.minComboBoxUpdated();
+    }
+
+    @FXML
+    void psuMaxComboBoxUpdate(ActionEvent event) {
+        psuController.maxComboBoxUpdated();
     }
 
     @Override
@@ -134,8 +154,63 @@ public class GpuSceneController extends ComponentScene<Gpu> {
         //initialize the TextFields filters
         memoryController = new ComboBoxRangeValueController(getDistinctMemoryCapacity(), memoryMinComboBox, memoryMaxComboBox);
         tdpController = new ComboBoxRangeValueController(getDistinctTdp(), tdpMinComboBox, tdpMaxComboBox);
+        psuController = new ComboBoxRangeValueController(getDistinctPsu(), psuMinComboBox, psuMaxComboBox);
+
+        initPriceTextFields();
+
+        var stats = getCoreClockStats();
+
+        this.coreClockLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.coreClockLowerTextField.setText(String.format("%d", stats.getMin()));
+
+        this.coreClockUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.coreClockUpperTextField.setText(String.format("%d", stats.getMax()));
+
+        stats = getBoostClockStats();
+
+        this.boostClockLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.boostClockLowerTextField.setText(String.format("%d", stats.getMin()));
+
+        this.boostClockUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.boostClockUpperTextField.setText(String.format("%d", stats.getMax()));
+
+        stats = getLengthStats();
+
+        this.lengthLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.lengthLowerTextField.setText(String.format("%d", stats.getMin()));
+
+        this.lengthUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.lengthUpperTextField.setText(String.format("%d", stats.getMax()));
+
+        stats = getPerformanceStats();
+
+        this.performanceLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.performanceLowerTextField.setText(String.format("%d", stats.getMin()));
+
+        this.performanceUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.performanceUpperTextField.setText(String.format("%d", stats.getMax()));
 
         this.addTableViewListener();
+    }
+
+    private IntSummaryStatistics getCoreClockStats() {
+        return this.productList.stream().map(Gpu::getCoreClockMhz).mapToInt(Integer::intValue).summaryStatistics();
+    }
+
+    private IntSummaryStatistics getBoostClockStats() {
+        return this.productList.stream().map(Gpu::getBoostClockMhz).mapToInt(Integer::intValue).summaryStatistics();
+    }
+
+    private IntSummaryStatistics getLengthStats() {
+        return this.productList.stream().map(Gpu::getLengthMillimeters).mapToInt(Integer::intValue).summaryStatistics();
+    }
+
+    private List<Integer> getDistinctPsu() {
+        return this.productList.stream().map(Gpu::getRecommendedPsuWatts).sorted().distinct().collect(Collectors.toList());
+    }
+
+    private IntSummaryStatistics getPerformanceStats() {
+        return this.productList.stream().map(Gpu::getPerformance).mapToInt(Integer::intValue).summaryStatistics();
     }
 
     private List<Integer> getDistinctTdp() {

@@ -1,10 +1,9 @@
 package scenes;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Cooler;
 import helpers.CheckBoxRoot;
 import helpers.ComboBoxRangeValueController;
-import helpers.DatabaseDataGetter;
+import helpers.DecimalTextFormatter;
 import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
@@ -17,6 +16,7 @@ import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
 import java.io.IOException;
+import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -72,15 +72,19 @@ public class CoolerSceneController extends ComponentScene<Cooler> {
 
         //initialize the TextFields filters
         this.tierController = new ComboBoxRangeValueController(this.getDistinctTiers(), this.tierMinComboBox, this.tierMaxComboBox);
+        
+        this.initPriceTextFields();
+
+        var stats = getNoiseStats();
+
+        this.noiseLevelLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.noiseLevelLowerTextField.setText(String.format("%.1f", stats.getMin()));
+
+        this.noiseLevelUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.noiseLevelUpperTextField.setText(String.format("%.1f", stats.getMax()));
 
         this.addTableViewListener();
     }
-
-    //@FXML
-    //void addAction(ActionEvent event) throws IOException {
-    //    Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("SelectedPartsSummaryController.fxml"));
-    //    //Main.getPrimaryScene().setRoot(root);
-    //}
 
     @FXML
     void applyFilters(ActionEvent event) {
@@ -90,12 +94,12 @@ public class CoolerSceneController extends ComponentScene<Cooler> {
         Predicate<Cooler> tier = (o) -> (o.getTier() >= tierMinComboBox.getValue()) &&
                 (o.getTier() <= tierMaxComboBox.getValue());
 
-        this.filteredList.setPredicate(brand.and(type).and(purpose).and(tier));
-    }
+        Predicate<Cooler> price = (o) -> (o.getPrice() >= getDoubleFromRegionalString(priceLowerTextField.getText())
+                && o.getPrice() <= getDoubleFromRegionalString(priceUpperTextField.getText()));
+        Predicate<Cooler> noise = (o) -> (o.getNoiseLevelDb() >= getDoubleFromRegionalString(noiseLevelLowerTextField.getText())
+                && o.getNoiseLevelDb() <= getDoubleFromRegionalString(noiseLevelUpperTextField.getText()));
 
-    @FXML
-    void resetFilters(ActionEvent event) {
-
+        this.filteredList.setPredicate(brand.and(type).and(purpose).and(tier).and(price).and(noise));
     }
 
     @FXML
@@ -108,6 +112,10 @@ public class CoolerSceneController extends ComponentScene<Cooler> {
         this.tierController.minComboBoxUpdated();
     }
 
+    private DoubleSummaryStatistics getNoiseStats() {
+        return this.productList.stream().map(Cooler::getNoiseLevelDb).mapToDouble(Float::doubleValue).summaryStatistics();
+    }
+    
     private List<String> getDistinctPurpose() {
         return this.productList.stream().map(Cooler::isForWorkstation).distinct().collect(Collectors.toList());
     }

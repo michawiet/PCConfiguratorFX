@@ -1,11 +1,10 @@
 package scenes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import components.Motherboard;
 import components.Psu;
-import helpers.CheckBoxRoot;
-import helpers.ComboBoxRangeValueController;
-import helpers.DatabaseDataGetter;
-import helpers.JsonDataGetter;
+import components.Ram;
+import helpers.*;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
@@ -17,6 +16,7 @@ import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
 import java.io.IOException;
+import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -55,12 +55,13 @@ public class PsuSceneController extends ComponentScene<Psu> {
         Predicate<Psu> wattage = (o) -> (o.getWattage() >= wattageMinComboBox.getValue()) &&
                 (o.getWattage() <= wattageMaxComboBox.getValue());
 
-        this.filteredList.setPredicate(brand.and(formFactor).and(efficiency).and(modularity).and(wattage));
-    }
+        Predicate<Psu> price = (o) -> (o.getPrice() >= getDoubleFromRegionalString(priceLowerTextField.getText())
+                && o.getPrice() <= getDoubleFromRegionalString(priceUpperTextField.getText()));
 
-    @FXML
-    void resetFilters(ActionEvent event) {
+        Predicate<Psu> tier = (o) -> (o.getTier() >= getDoubleFromRegionalString(tierLowerTextField.getText()).floatValue()
+                && o.getTier() <= getDoubleFromRegionalString(tierUpperTextField.getText()).floatValue());
 
+        this.filteredList.setPredicate(brand.and(formFactor).and(efficiency).and(modularity).and(wattage).and(price).and(tier));
     }
 
     @FXML
@@ -107,7 +108,19 @@ public class PsuSceneController extends ComponentScene<Psu> {
         //initialize the TextFields filters
         wattageController = new ComboBoxRangeValueController(getDistinctWattage(), wattageMinComboBox, wattageMaxComboBox);
 
+        initPriceTextFields();
+
+        var stats = getTierStats();
+        this.tierLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.tierLowerTextField.setText(String.format("%.2f", stats.getMin()));
+        this.tierUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.tierUpperTextField.setText(String.format("%.2f", stats.getMax()));
+
         this.addTableViewListener();
+    }
+
+    private DoubleSummaryStatistics getTierStats() {
+        return this.productList.stream().map(Psu::getTier).mapToDouble(Float::doubleValue).summaryStatistics();
     }
 
     private List<Integer> getDistinctWattage() {

@@ -1,11 +1,10 @@
 package scenes;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import components.Cpu;
+import components.Motherboard;
 import components.Storage;
-import helpers.CheckBoxRoot;
-import helpers.ComboBoxRangeValueController;
-import helpers.DatabaseDataGetter;
-import helpers.JsonDataGetter;
+import helpers.*;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
@@ -17,6 +16,8 @@ import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
 import java.io.IOException;
+import java.util.DoubleSummaryStatistics;
+import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -63,12 +64,10 @@ public class StorageSceneController extends ComponentScene<Storage> {
         Predicate<Storage> tier = (o) -> (o.getTier() >= tierMinComboBox.getValue()) &&
                 (o.getTier() <= tierMaxComboBox.getValue());
 
-        this.filteredList.setPredicate(brand.and(type).and(formFactor).and(connectionInterface).and(tier));
-    }
+        Predicate<Storage> price = (o) -> (o.getPrice() >= getDoubleFromRegionalString(priceLowerTextField.getText())
+                && o.getPrice() <= getDoubleFromRegionalString(priceUpperTextField.getText()));
 
-    @FXML
-    private void resetFilters(ActionEvent event) {
-
+        this.filteredList.setPredicate(brand.and(type).and(formFactor).and(connectionInterface).and(tier).and(price));
     }
 
     @FXML
@@ -115,7 +114,21 @@ public class StorageSceneController extends ComponentScene<Storage> {
         //initialize the TextFields filters
         tierController = new ComboBoxRangeValueController(this.getDistinctTier(), tierMinComboBox, tierMaxComboBox);
 
+        var stats = getCapacityStats();
+
+        this.capacityLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.capacityLowerTextField.setText(String.format("%d", stats.getMin()));
+
+        this.capacityUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.capacityUpperTextField.setText(String.format("%d", stats.getMax()));
+
+        initPriceTextFields();
+
         this.addTableViewListener();
+    }
+
+    private IntSummaryStatistics getCapacityStats() {
+        return this.productList.stream().map(Storage::getCapacityGb).mapToInt(Integer::intValue).summaryStatistics();
     }
 
     private List<Integer> getDistinctTier() {

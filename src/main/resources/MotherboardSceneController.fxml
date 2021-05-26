@@ -118,13 +118,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField editable="false" fx:id="priceLowerTextField" promptText="From" />
+                                    <TextField fx:id="priceLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField editable="false" fx:id="priceUpperTextField" promptText="To" />
+                                    <TextField fx:id="priceUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -151,27 +151,27 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <ComboBox fx:id="tierMinComboBox" onAction="#tierMinComboBoxUpdate" prefWidth="150.0" promptText="From">
+                                    <TextField fx:id="tierMinTextField" prefWidth="150.0" promptText="From">
                                        <tooltip>
                                           <Tooltip maxWidth="400.0" wrapText="true" text="Empty Tooltip">
                                              <font>
                                                 <Font size="16.0" />
                                              </font>
                                           </Tooltip>
-                                       </tooltip></ComboBox>
+                                       </tooltip></TextField>
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <ComboBox fx:id="tierMaxComboBox" layoutX="10.0" layoutY="10.0" onAction="#tierMaxComboBoxUpdate" prefWidth="150.0" promptText="To">
+                                    <TextField fx:id="tierMaxTextField" layoutX="10.0" layoutY="10.0" prefWidth="150.0" promptText="To">
                                        <tooltip>
                                           <Tooltip maxWidth="400.0" wrapText="true" text="Empty Tooltip">
                                              <font>
                                                 <Font size="16.0" />
                                              </font>
                                           </Tooltip>
-                                       </tooltip></ComboBox>
+                                       </tooltip></TextField>
                                  </children>
                                  <opaqueInsets>
                                     <Insets />

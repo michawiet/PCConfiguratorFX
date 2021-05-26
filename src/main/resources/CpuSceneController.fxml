@@ -116,13 +116,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField editable="false" fx:id="priceLowerTextField" promptText="From" />
+                                    <TextField fx:id="priceLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField editable="false" fx:id="priceUpperTextField" promptText="To" />
+                                    <TextField fx:id="priceUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -272,13 +272,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField editable="false" fx:id="stPerformanceLowerTextField" promptText="From" />
+                                    <TextField fx:id="stPerformanceLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField editable="false" fx:id="stPerformanceUpperTextField" promptText="To" />
+                                    <TextField fx:id="stPerformanceUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -304,13 +304,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField editable="false" fx:id="mtPerformanceLowerTextField" promptText="From" />
+                                    <TextField fx:id="mtPerformanceLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField editable="false" fx:id="mtPerformanceUpperTextField" promptText="To" />
+                                    <TextField fx:id="mtPerformanceUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -336,13 +336,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField editable="false" fx:id="coreClockLowerTextField" promptText="From" />
+                                    <TextField fx:id="coreClockLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField editable="false" fx:id="coreClockUpperTextField" promptText="To" />
+                                    <TextField fx:id="coreClockUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />
@@ -368,13 +368,13 @@
                               </Label>
                               <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
                                  <children>
-                                    <TextField editable="false" fx:id="boostClockLowerTextField" promptText="From" />
+                                    <TextField fx:id="boostClockLowerTextField" promptText="From" />
                                     <Label disable="true" text="-">
                                        <font>
                                           <Font size="16.0" />
                                        </font>
                                     </Label>
-                                    <TextField editable="false" fx:id="boostClockUpperTextField" promptText="To" />
+                                    <TextField fx:id="boostClockUpperTextField" promptText="To" />
                                  </children>
                                  <opaqueInsets>
                                     <Insets />

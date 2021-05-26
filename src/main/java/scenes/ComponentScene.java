@@ -1,6 +1,7 @@
 package scenes;
 
 import components.Product;
+import helpers.DecimalTextFormatter;
 import helpers.SceneHubSingleton;
 import javafx.collections.transformation.FilteredList;
 import javafx.event.ActionEvent;
@@ -8,10 +9,16 @@ import javafx.fxml.FXML;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.DoubleSummaryStatistics;
+import java.util.List;
 import java.util.stream.Collectors;
 
 public abstract class ComponentScene<T extends Product> {
+
+    protected static Double getDoubleFromRegionalString(String val) {
+        return Double.valueOf(val.replace(",","."));
+    }
 
     //TODO: move here the methods and fields commonly used in scenes
     protected List<T> productList;
@@ -19,7 +26,6 @@ public abstract class ComponentScene<T extends Product> {
 
     Scene scene;
 
-    //FXML
     @FXML
     protected Button addButton;
 
@@ -44,6 +50,16 @@ public abstract class ComponentScene<T extends Product> {
     @FXML
     public abstract void initialize();
 
+    protected void initPriceTextFields() {
+        var stats = getPriceStatistics();
+
+        this.priceLowerTextField.setTextFormatter(new DecimalTextFormatter(2, 2));
+        this.priceUpperTextField.setTextFormatter(new DecimalTextFormatter(2, 2));
+
+        this.priceLowerTextField.setText(String.format("%.2f", stats.getMin()));
+        this.priceUpperTextField.setText(String.format("%.2f", stats.getMax()));
+    }
+
     protected void addTableViewListener() {
         tableView.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
             addButton.setDisable(newSelection != null ? false : true);
@@ -54,6 +70,11 @@ public abstract class ComponentScene<T extends Product> {
     protected void addAction(ActionEvent event) {
         Product product = (Product) tableView.getSelectionModel().getSelectedItem();
         SceneHubSingleton.getInstance().addSelectedProductAndSwitch(product);
+    }
+
+    @FXML
+    void resetFilters(ActionEvent event) {
+        this.filteredList.setPredicate(o -> true);
     }
 
     protected List<String> getDistinctBrands() {

@@ -135,7 +135,7 @@ public class SelectedPartsSummaryController {
 
         //series and data initialization
         for (var e : ProductType.values()) {
-            if (!(e.equals(ProductType.Unknown) || e.equals(ProductType.Case))) {
+            if (!(e.equals(ProductType.Unknown))) {
                 var list = FXCollections.observableList(new ArrayList<XYChart.Data<Number, String>>());
                 for(var type : WorkloadType.values()) {
                     list.add(new XYChart.Data<>(0, type.toString()));

@@ -1,10 +1,9 @@
 package scenes;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Ram;
 import helpers.CheckBoxRoot;
 import helpers.ComboBoxRangeValueController;
-import helpers.DatabaseDataGetter;
+import helpers.DecimalTextFormatter;
 import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
@@ -16,6 +15,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
 import java.io.IOException;
+import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -70,12 +70,13 @@ public class RamSceneController extends ComponentScene<Ram> {
         Predicate<Ram> cas = (o) -> (o.getCasLatency() >= casMinComboBox.getValue()) &&
                 (o.getCasLatency() <= casMaxComboBox.getValue());
 
-        this.filteredList.setPredicate(brand.and(speed).and(count).and(capacity).and(cas));
-    }
+        Predicate<Ram> price = (o) -> (o.getPrice() >= getDoubleFromRegionalString(priceLowerTextField.getText())
+                && o.getPrice() <= getDoubleFromRegionalString(priceUpperTextField.getText()));
 
-    @FXML
-    void resetFilters(ActionEvent event) {
+        Predicate<Ram> fw = (o) -> (o.getFirstWordLatencyNs() >= getDoubleFromRegionalString(firstWordLatencyLowerTextField.getText())
+                && o.getFirstWordLatencyNs() <= getDoubleFromRegionalString(firstWordLatencyUpperTextField.getText()));
 
+        this.filteredList.setPredicate(brand.and(speed).and(count).and(capacity).and(cas).and(price).and(fw));
     }
 
     @FXML
@@ -142,8 +143,19 @@ public class RamSceneController extends ComponentScene<Ram> {
         modulesCapacityController = new ComboBoxRangeValueController(getDistinctModuleCapacity(), modulesCapacityMinComboBox, modulesCapacityMaxComboBox);
         casLatencyController = new ComboBoxRangeValueController(getDistinctCasLatency(), casMinComboBox, casMaxComboBox);
         //initialize the TextFields filters
+        initPriceTextFields();
+
+        var stats = getFwLatency();
+        this.firstWordLatencyLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.firstWordLatencyLowerTextField.setText(String.format("%.2f", stats.getMin()));
+        this.firstWordLatencyUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.firstWordLatencyUpperTextField.setText(String.format("%.2f", stats.getMax()));
 
         this.addTableViewListener();
+    }
+
+    private DoubleSummaryStatistics getFwLatency() {
+        return this.productList.stream().map(Ram::getFirstWordLatencyNs).mapToDouble(Float::doubleValue).summaryStatistics();
     }
 
     private List<Integer> getDistinctSpeed() {

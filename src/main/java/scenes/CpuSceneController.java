@@ -3,6 +3,7 @@ package scenes;
 import components.Cpu;
 import helpers.CheckBoxRoot;
 import helpers.ComboBoxRangeValueController;
+import helpers.DecimalTextFormatter;
 import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
@@ -109,6 +110,40 @@ public class CpuSceneController extends ComponentScene<Cpu> {
         this.coresController = new ComboBoxRangeValueController(this.getDistinctCoreCount(), coreCountMinComboBox, coreCountMaxComboBox);
         this.tdpController = new ComboBoxRangeValueController(this.getDistinctTdp(), tdpMinComboBox, tdpMaxComboBox);
 
+        this.initPriceTextFields();
+
+        var stats = getStPerformanceStatistics();
+
+        this.stPerformanceLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.stPerformanceLowerTextField.setText(stats.getMin() + "");
+
+        this.stPerformanceUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.stPerformanceUpperTextField.setText(stats.getMax() + "");
+
+        stats = getMtPerformanceStatistics();
+
+        this.mtPerformanceLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.mtPerformanceLowerTextField.setText(stats.getMin() + "");
+
+        this.mtPerformanceUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.mtPerformanceUpperTextField.setText(stats.getMax() + "");
+
+        var fStats = getCoreClockStatistics();
+
+        this.coreClockLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.coreClockLowerTextField.setText(String.format("%.2f", fStats.getMin()));
+
+        this.coreClockUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.coreClockUpperTextField.setText(String.format("%.2f", fStats.getMax()));
+
+        fStats = getBoostClockStatistics();
+
+        this.boostClockLowerTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.boostClockLowerTextField.setText(String.format("%.2f", fStats.getMin()));
+
+        this.boostClockUpperTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        this.boostClockUpperTextField.setText(String.format("%.2f", fStats.getMax()));
+
         this.addTableViewListener();
     }
 
@@ -126,12 +161,19 @@ public class CpuSceneController extends ComponentScene<Cpu> {
         Predicate<Cpu> tdp = (cpu) -> (cpu.getTdp() >= tdpMinComboBox.getValue()) &&
                 (cpu.getTdp() <= tdpMaxComboBox.getValue());
 
-        this.filteredList.setPredicate(brand.and(socket).and(smt).and(igpu).and(coreCount).and(tdp));
-    }
+        Predicate<Cpu> price = (cpu) -> (cpu.getPrice() >= getDoubleFromRegionalString(priceLowerTextField.getText())
+                && cpu.getPrice() <= getDoubleFromRegionalString(priceUpperTextField.getText()));
 
-    @FXML
-    void resetFilters(ActionEvent event) {
-        //reset predicates
+        Predicate<Cpu> st = (cpu) -> (cpu.getStPerformance() >= Integer.valueOf(stPerformanceLowerTextField.getText())
+                && cpu.getPrice() <= Integer.valueOf(stPerformanceUpperTextField.getText()));
+        Predicate<Cpu> mt = (cpu) -> (cpu.getMtPerformance() >= Integer.valueOf(mtPerformanceLowerTextField.getText())
+                && cpu.getPrice() <= Integer.valueOf(mtPerformanceUpperTextField.getText()));
+        Predicate<Cpu> core = (cpu) -> (cpu.getCoreClock() >= getDoubleFromRegionalString(coreClockLowerTextField.getText())
+                && cpu.getCoreClock() <= getDoubleFromRegionalString(coreClockUpperTextField.getText()));
+        Predicate<Cpu> boost = (cpu) -> (cpu.getBoostClock() >= getDoubleFromRegionalString(boostClockLowerTextField.getText())
+                && cpu.getBoostClock() <= getDoubleFromRegionalString(boostClockUpperTextField.getText()));
+
+        this.filteredList.setPredicate(brand.and(socket).and(smt).and(igpu).and(coreCount).and(tdp).and(price).and(st).and(mt).and(core).and(boost));
     }
 
     @FXML

@@ -1,10 +1,9 @@
 package scenes;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import components.Motherboard;
 import helpers.CheckBoxRoot;
 import helpers.ComboBoxRangeValueController;
-import helpers.DatabaseDataGetter;
+import helpers.DecimalTextFormatter;
 import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
@@ -12,10 +11,12 @@ import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.TextField;
 import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
 import java.io.IOException;
+import java.util.DoubleSummaryStatistics;
 import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
@@ -32,10 +33,10 @@ public class MotherboardSceneController extends ComponentScene<Motherboard> {
     private TreeView<String> formFactorTreeView;
 
     @FXML
-    private ComboBox<Integer> tierMinComboBox;
+    private TextField tierMinTextField;
 
     @FXML
-    private ComboBox<Integer> tierMaxComboBox;
+    private TextField tierMaxTextField;
 
     @FXML
     private ComboBox<Integer> slotsMinComboBox;
@@ -49,9 +50,9 @@ public class MotherboardSceneController extends ComponentScene<Motherboard> {
     @FXML
     private ComboBox<Integer> memoryMaxComboBox;
 
-    ComboBoxRangeValueController tierController;
     ComboBoxRangeValueController slotsController;
     ComboBoxRangeValueController memoryMaxController;
+    ComboBoxRangeValueController tierController;
 
     @FXML
     void applyFilters(ActionEvent event) {
@@ -64,12 +65,13 @@ public class MotherboardSceneController extends ComponentScene<Motherboard> {
         Predicate<Motherboard> slots = (o) -> (o.getMemorySlots() >= slotsMinComboBox.getValue()) &&
                 (o.getMemorySlots() <= slotsMaxComboBox.getValue());
 
-        this.filteredList.setPredicate(brand.and(chipset).and(socket).and(formFactor).and(memory).and(slots));
-    }
+        Predicate<Motherboard> price = (o) -> (o.getPrice() >= getDoubleFromRegionalString(priceLowerTextField.getText())
+                && o.getPrice() <= getDoubleFromRegionalString(priceUpperTextField.getText()));
 
-    @FXML
-    void resetFilters(ActionEvent event) {
+        Predicate<Motherboard> tier = (o) -> (o.getTier() >= getDoubleFromRegionalString(tierMinTextField.getText())
+                && o.getTier() <= getDoubleFromRegionalString(tierMaxTextField.getText()));
 
+        this.filteredList.setPredicate(brand.and(chipset).and(socket).and(formFactor).and(memory).and(slots).and(price).and(tier));
     }
 
     @FXML
@@ -90,16 +92,6 @@ public class MotherboardSceneController extends ComponentScene<Motherboard> {
     @FXML
     void slotsMinComboBoxUpdate(ActionEvent event) {
         slotsController.minComboBoxUpdated();
-    }
-
-    @FXML
-    void tierMaxComboBoxUpdate(ActionEvent event) {
-
-    }
-
-    @FXML
-    void tierMinComboBoxUpdate(ActionEvent event) {
-
     }
 
     @Override
@@ -134,9 +126,17 @@ public class MotherboardSceneController extends ComponentScene<Motherboard> {
         this.formFactorTreeView.setRoot(formFactorRoot.getRoot());
 
         //initialize the TextFields filters
-        //tierController = new ComboBoxRangeValueController(getDistinctTier(), tierMinComboBox, tierMaxComboBox);
         slotsController = new ComboBoxRangeValueController(getDistinctSlots(), slotsMinComboBox, slotsMaxComboBox);
         memoryMaxController = new ComboBoxRangeValueController(getDistinctMemory(), memoryMinComboBox, memoryMaxComboBox);
+
+        initPriceTextFields();
+
+        var stats = getTierStats();
+        tierMinTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        tierMinTextField.setText(String.format("%.2f", stats.getMin()));
+
+        tierMaxTextField.setTextFormatter(new DecimalTextFormatter(0, 2));
+        tierMaxTextField.setText(String.format("%.2f", stats.getMax()));
 
         this.addTableViewListener();
     }
@@ -149,8 +149,8 @@ public class MotherboardSceneController extends ComponentScene<Motherboard> {
         return this.productList.stream().map(Motherboard::getMemorySlots).sorted().distinct().collect(Collectors.toList());
     }
 
-    private List<Float> getDistinctTier() {
-        return this.productList.stream().map(Motherboard::getTier).sorted().distinct().collect(Collectors.toList());
+    private DoubleSummaryStatistics getTierStats() {
+        return this.productList.stream().map(Motherboard::getTier).mapToDouble(Float::doubleValue).summaryStatistics();
     }
 
     private List<String> getDistinctFormFactors() {

@@ -1,6 +1,7 @@
 package scenes;
 
 import components.Case;
+import components.Motherboard;
 import helpers.CheckBoxRoot;
 import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
@@ -38,12 +39,10 @@ public class CaseSceneController extends ComponentScene<Case> {
         Predicate<Case> type = (o) -> getSelectedValues(typeTreeView).contains(o.getType());
         Predicate<Case> window = (o) -> getSelectedValues(sidePanelWindowTreeView).contains(o.getSidePanelWindow());
 
-        this.filteredList.setPredicate(brand.and(type).and(standard).and(mbSize).and(window));
-    }
+        Predicate<Case> price = (o) -> (o.getPrice() >= getDoubleFromRegionalString(priceLowerTextField.getText())
+                && o.getPrice() <= getDoubleFromRegionalString(priceUpperTextField.getText()));
 
-    @FXML
-    void resetFilters(ActionEvent event) {
-
+        this.filteredList.setPredicate(brand.and(type).and(standard).and(mbSize).and(window).and(price));
     }
 
     @Override
@@ -81,6 +80,7 @@ public class CaseSceneController extends ComponentScene<Case> {
         this.sidePanelWindowTreeView.setCellFactory(CheckBoxTreeCell.forTreeView());
         this.sidePanelWindowTreeView.setRoot(sidePanelWindowRoot.getRoot());
         //initialize the TextFields filters
+        initPriceTextFields();
 
         this.addTableViewListener();
     }
