@@ -1,5 +1,4 @@
 plugins {
-    id 'java'
     id 'application'
     id 'org.openjfx.javafxplugin' version '0.0.9'
 }
@@ -9,10 +8,16 @@ javafx {
     modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.web' ]
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
-mainClassName = 'scenes.Main'
+mainClassName = 'Main'
 //apply plugin: 'idea'
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
 
 repositories {
     mavenCentral()
@@ -25,8 +30,6 @@ dependencies {
     implementation 'com.fasterxml.jackson.core:jackson-core:2.12.3'
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.3'
-    //bootstrapfx
-    implementation 'org.kordamp.bootstrapfx:bootstrapfx-core:0.4.0'
 }
 
 apply plugin : 'java'
