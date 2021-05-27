@@ -10,7 +10,7 @@ import scenes.SelectedPartsSummaryController;
 
 public class Main extends Application {
 
-    public static void main(String[] args) throws JsonProcessingException {
+    public static void main(String[] args) {
         launch(args);
     }
 
