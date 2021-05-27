@@ -4,12 +4,12 @@ plugins {
 }
 
 javafx {
-    version = "15.0.1"
+    version = "16"
     modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.web' ]
 }
 
 mainClassName = 'Main'
-//apply plugin: 'idea'
+
 jar {
     manifest {
         attributes 'Main-Class': 'Launcher'
