@@ -1,7 +1,6 @@
 package scenes;
 
 import components.Case;
-import components.Motherboard;
 import helpers.CheckBoxRoot;
 import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;

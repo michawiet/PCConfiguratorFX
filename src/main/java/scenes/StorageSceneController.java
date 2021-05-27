@@ -1,10 +1,10 @@
 package scenes;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import components.Cpu;
-import components.Motherboard;
 import components.Storage;
-import helpers.*;
+import helpers.CheckBoxRoot;
+import helpers.ComboBoxRangeValueController;
+import helpers.DecimalTextFormatter;
+import helpers.JsonDataGetter;
 import javafx.collections.FXCollections;
 import javafx.collections.transformation.FilteredList;
 import javafx.collections.transformation.SortedList;
@@ -16,7 +16,6 @@ import javafx.scene.control.TreeView;
 import javafx.scene.control.cell.CheckBoxTreeCell;
 
 import java.io.IOException;
-import java.util.DoubleSummaryStatistics;
 import java.util.IntSummaryStatistics;
 import java.util.List;
 import java.util.function.Predicate;

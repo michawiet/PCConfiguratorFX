@@ -18,9 +18,7 @@ import javafx.scene.image.ImageView;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.EnumMap;
-import java.util.stream.Collectors;
 
 public class SelectedPartsSummaryController {
 
