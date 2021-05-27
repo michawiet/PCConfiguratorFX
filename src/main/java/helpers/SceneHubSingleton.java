@@ -2,6 +2,7 @@ package helpers;
 
 import components.Product;
 import javafx.scene.Parent;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import scenes.BasicSceneController;
 import scenes.SelectedPartsSummaryController;
@@ -42,6 +43,11 @@ public class SceneHubSingleton {
         return this;
     }
 
+    public SceneHubSingleton setIcon(String iconPath) {
+        this.primaryStage.getIcons().setAll(new Image(getClass().getResource(iconPath).toString()));
+        return this;
+    }
+
     public SceneHubSingleton setBasicSceneController(BasicSceneController basicSceneController) {
         this.basicSceneController = basicSceneController;
         return this;
@@ -57,6 +63,7 @@ public class SceneHubSingleton {
         try {
             basicSceneController.switchToScene(selectedPartsSummaryRoot);
             this.setTitle(SelectedPartsSummaryController.getTitle());
+            this.setIcon("/images/icons/main_program.png");
         } catch (NullPointerException e) {
             System.err.println("selectedPartsSummaryRoot was most likely not set");
         }

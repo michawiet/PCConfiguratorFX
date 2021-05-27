@@ -103,12 +103,6 @@ public class SelectedPartsSummaryController {
     @FXML
     private StackedBarChart<Number, String> performanceChart;
 
-    @FXML
-    private CategoryAxis yPerformanceAxis;
-
-    @FXML
-    private NumberAxis xPerformanceAxis;
-
     private EnumMap<ProductType, XYChart.Series<Number, String>> productTypeSeriesMap = new EnumMap<>(ProductType.class);
     //Performance data used for performanceChart (StackedBarChart)
     private EnumMap<ProductType, ObservableList<XYChart.Data<Number, String>>> performanceData = new EnumMap<>(ProductType.class);
@@ -191,56 +185,64 @@ public class SelectedPartsSummaryController {
     private void loadCaseSelectionScene(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("CaseSceneController.fxml"));
         SceneHubSingleton.getInstance().switchToScene(root)
-                .setTitle("Case selection");
+                .setTitle("Case selection")
+                .setIcon("/images/case/placeholder.png");
     }
 
     @FXML
     private void loadCoolerSelectionScene(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("CoolerSceneController.fxml"));
         SceneHubSingleton.getInstance().switchToScene(root)
-                .setTitle("CPU Cooler selection");
+                .setTitle("CPU Cooler selection")
+                .setIcon("/images/cooler/placeholder.png");
     }
 
     @FXML
     private void loadCpuSelectionScene(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("CpuSceneController.fxml"));
         SceneHubSingleton.getInstance().switchToScene(root)
-                .setTitle("Processor (CPU) selection");
+                .setTitle("Processor (CPU) selection")
+                .setIcon("/images/cpu/placeholder.png");
     }
 
     @FXML
     private void loadGpuSelectionScene(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("GpuSceneController.fxml"));
         SceneHubSingleton.getInstance().switchToScene(root)
-                .setTitle("Video Card (GPU) selection");
+                .setTitle("Video Card (GPU) selection")
+                .setIcon("/images/gpu/placeholder.png");;
     }
 
     @FXML
     private void loadMotherboardSelectionScene(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("MotherboardSceneController.fxml"));
         SceneHubSingleton.getInstance().switchToScene(root)
-                .setTitle("Motherboard selection");
+                .setTitle("Motherboard selection")
+                .setIcon("/images/motherboard/placeholder.png");;
     }
 
     @FXML
     private void loadPsuSelectionScene(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("PsuSceneController.fxml"));
         SceneHubSingleton.getInstance().switchToScene(root)
-                .setTitle("Power Supply (PSU) selection");
+                .setTitle("Power Supply (PSU) selection")
+                .setIcon("/images/psu/placeholder.png");
     }
 
     @FXML
     private void loadRamSelectionScene(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("RamSceneController.fxml"));
         SceneHubSingleton.getInstance().switchToScene(root)
-                .setTitle("Memory (RAM) selection");
+                .setTitle("Memory (RAM) selection")
+                .setIcon("/images/ram/placeholder.png");
     }
 
     @FXML
     private void loadStorageSelectionScene(ActionEvent event) throws IOException {
         Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("StorageSceneController.fxml"));
         SceneHubSingleton.getInstance().switchToScene(root)
-                .setTitle("Storage (SSD/HDD) selection");
+                .setTitle("Storage (SSD/HDD) selection")
+                .setIcon("/images/storage/placeholder.png");
     }
 
     public void addSelectedProduct(Product product) {

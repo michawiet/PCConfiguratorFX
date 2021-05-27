@@ -1,5 +1,3 @@
-package scenes;
-
 import com.fasterxml.jackson.core.JsonProcessingException;
 import helpers.SceneHubSingleton;
 import javafx.application.Application;
@@ -8,6 +6,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
+import scenes.SelectedPartsSummaryController;
 
 public class Main extends Application {
 
@@ -24,7 +23,7 @@ public class Main extends Application {
         primaryStage.show();
         primaryStage.setResizable(false);
 
-        primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/images/icons/main_program.png")));
+        primaryStage.getIcons().setAll(new Image(getClass().getResourceAsStream("/images/icons/main_program.png")));
         SceneHubSingleton.getInstance().setPrimaryStage(primaryStage)
             .setTitle(SelectedPartsSummaryController.getTitle());
     }
