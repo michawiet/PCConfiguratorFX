@@ -49,7 +49,7 @@ public class BasicSceneController {
     }
 
     public void howToAction(ActionEvent actionEvent) throws IOException {
-        loadHelpController("/help/help.html", "How to use");
+        loadHelpController("/help/how_to_use.html", "How to use");
     }
 
     public void faqAction(ActionEvent actionEvent) throws IOException {
