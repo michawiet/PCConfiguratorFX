@@ -165,15 +165,25 @@ public class CpuSceneController extends ComponentScene<Cpu> {
                 && cpu.getPrice() <= getDoubleFromRegionalString(priceUpperTextField.getText()));
 
         Predicate<Cpu> st = (cpu) -> (cpu.getStPerformance() >= Integer.valueOf(stPerformanceLowerTextField.getText())
-                && cpu.getPrice() <= Integer.valueOf(stPerformanceUpperTextField.getText()));
+                && cpu.getStPerformance() <= Integer.valueOf(stPerformanceUpperTextField.getText()));
         Predicate<Cpu> mt = (cpu) -> (cpu.getMtPerformance() >= Integer.valueOf(mtPerformanceLowerTextField.getText())
-                && cpu.getPrice() <= Integer.valueOf(mtPerformanceUpperTextField.getText()));
-        Predicate<Cpu> core = (cpu) -> (cpu.getCoreClock() >= getDoubleFromRegionalString(coreClockLowerTextField.getText())
-                && cpu.getCoreClock() <= getDoubleFromRegionalString(coreClockUpperTextField.getText()));
-        Predicate<Cpu> boost = (cpu) -> (cpu.getBoostClock() >= getDoubleFromRegionalString(boostClockLowerTextField.getText())
-                && cpu.getBoostClock() <= getDoubleFromRegionalString(boostClockUpperTextField.getText()));
+                && cpu.getMtPerformance() <= Integer.valueOf(mtPerformanceUpperTextField.getText()));
+        Predicate<Cpu> core = (cpu) -> (cpu.getCoreClock() >= getFloatFromRegionalString(coreClockLowerTextField.getText())
+                && cpu.getCoreClock() <= getFloatFromRegionalString(coreClockUpperTextField.getText()));
+        Predicate<Cpu> boost = (cpu) -> (cpu.getBoostClock() >= getFloatFromRegionalString(boostClockLowerTextField.getText())
+                && cpu.getBoostClock() <= getFloatFromRegionalString(boostClockUpperTextField.getText()));
 
-        this.filteredList.setPredicate(brand.and(socket).and(smt).and(igpu).and(coreCount).and(tdp).and(price).and(st).and(mt).and(core).and(boost));
+        this.filteredList.setPredicate(brand
+                .and(socket)
+                .and(smt)
+                .and(igpu)
+                .and(coreCount)
+                .and(tdp)
+                .and(price)
+                .and(st)
+                .and(mt)
+                .and(core)
+                .and(boost));
     }
 
     @FXML

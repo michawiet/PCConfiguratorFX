@@ -20,6 +20,10 @@ public abstract class ComponentScene<T extends Product> {
         return Double.valueOf(val.replace(",","."));
     }
 
+    protected static Float getFloatFromRegionalString(String val) {
+        return Float.valueOf(val.replace(",","."));
+    }
+
     //TODO: move here the methods and fields commonly used in scenes
     protected List<T> productList;
     protected FilteredList<T> filteredList;
